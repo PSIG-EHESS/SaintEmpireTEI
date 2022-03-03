@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">STIFTSADEL</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="stiftsadel">
+        <form>
+          <orth xml:lang="deu">Stiftsadel</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">noblesse chapitrable</quote>
+          <quote type="variante">noblesse d’Église</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Dans chaque <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/stift">Stift</ref></emph>, le <ref target="http://saintempire.hypotheses.org/publications/glossaire/domkapitel">chapitre</ref> (cathédral ou canonial) qui élit le prince ecclésiastique édicte des règles pour réserver à une certaine catégorie de noblesse les places de chanoines, attribuées par cooptation. Ces règles évoluent et gagnent en sévérité au cours des 16 et 17 siècles. Elles ne prescrivent pas seulement de prouver ses quartiers de noblesse (jusqu’à 32), mais aussi la qualité de cette noblesse (<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiate</ref> ou pas, chevaleresque ou comtale, etc.). Elles varient selon les chapitres, si bien que la « noblesse chapitrable », l’ensemble de ceux qui peuvent satisfaire aux critères d’admission, diffère d’un chapitre à l’autre. Toutefois, de grands ensembles se dégagent qui se retrouvent dans un nombre croissant de chapitres : la noblesse chapitrable médiate de Westphalie (chapitres de Münster, Osnabrück, Paderborn) ; la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft">chevalerie immédiate d’Empire</ref> catholique (chapitres de Mayence, Trèves, Wurtzbourg, Bamberg, Spire, Worms…) ; les comtes d’Empire catholiques (à Cologne et Strasbourg) ; la noblesse chapitrable autrichienne (Brixen, Trente, Passau…).Les règles d’admission des chapitres engendrent des effets sociaux : refus des mésalliances pour préserver les quartiers, fermeture de la vieille noblesse, domination d’une oligarchie nobiliaire parfois très spécialisée sur les <ref target="http://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum">principautés ecclésiastiques</ref> ; en revanche, la présence de protestants dans les quartiers de noblesse n’est jamais rédhibitoire. Au tournant du 18 siècle, une certaine fusion s’opère, en particulier par des mariages, entre les élites de ces différents groupes si bien qu’à la fin de l’Empire la « noblesse chapitrable » (des Schönborn aux Fürstenberg, en passant par les Metternich ou les Spaur) est fortement connectée et de plus en plus centrée sur Vienne.Quelques rares chapitres (en particulier dans les abbayes immédiates de Souabe) ne sont pas nobiliaires, mais peuplés d’une élite roturière ou anoblie.</def>
+          <note xml:lang="fra">« Noblesse chapitrable » a l’inconvénient d’être obscur en français. Mais toute autre traduction (comme « noblesse d’Église » qui suggère plutôt une noblesse créée par les hautes charges ecclésiastiques) n’a pas la précision de cette expression qui est présente dans les textes en français de l’époque moderne et désigne bien (par le « able ») la potentialité du groupe social tout entier et non seulement les chanoines proprement dits.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

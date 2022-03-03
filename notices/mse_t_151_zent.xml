@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">ZENT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="zent">
+        <form>
+          <orth xml:lang="deu">Zent</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">haute justice</quote>
+          <quote type="variante">pénal</quote>
+          <quote type="variante">criminel</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme Zent (jusqu’au 17e siècle et parfois au-delà, on trouve également l’orthographe Cent) désigne d’abord, au haut Moyen Âge et au Moyen Âge tardif un tribunal rural dans le sud et l’ouest du Saint-Empire (Rhénanie, Palatinat, Hesse, Franconie…). Le nom vient probablement de centena, un district administratif au sein du royaume franc, composé d’une « centaine » (de villages ou de personnes) ; cette déduction ne fait cependant pas l’unanimité dans la recherche actuelle. Selon certaines sources, la première tâche de la centena médiévale consistait à poursuivre des criminels. Un lien entre la Cent médiévale et la Zent moderne ne peut pas être exclu, mais n’a pas été établi pour l’instant. À l’époque moderne, la Zent se réfère indubitablement à la <ref target="https://saintempire.hypotheses.org/publications/glossaire/hochgerichtsbarkeit">haute justice</ref>, en désignant à la fois le tribunal lui-même (Zentgericht), mais aussi le jour où il siège (dans le sens de Gerichtstag) et le district qui forme le ressort du tribunal (Zentbezirk). Ses compétences ne se limitent pas à la justice pénale, bien que celle-ci domine ses activités. Celui qui est en possession de la haute justice dans la zone circonscrite par la Zent, c’est-à-dire le justicier, est appelée Zentherr ou Zentgraf.</def>
+          <note xml:lang="fra">On pourrait être enclin à traduire littéralement « centaine ». Cela n’a cependant pas de sens, ce terme n’ayant en français aucun lien avec le domaine judiciaire. Il faut donc s’accommoder avec ses équivalents fonctionnels que sont « haute justice » (quand il s’agit du substantif seul) ou les adjectifs « criminel » ou « pénal » quand il s’agit d’un mot composé. Attention à ne pas confondre avec la Cent qui, encore à l’époque moderne, par exemple dans l’électorat de Mayence, forme un district administratif qu’il convient de traduire par « bailliage », ni avec le Zehnt (la dîme).</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

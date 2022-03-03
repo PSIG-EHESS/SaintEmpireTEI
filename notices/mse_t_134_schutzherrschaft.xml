@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">SCHUTZHERRSCHAFT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="schutzherrschaft">
+        <form>
+          <orth xml:lang="deu">Schutzherrschaft</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">protectorat</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme <emph>Schutzherrschaft</emph> – et celui de <emph>Schutzherr</emph> (« protecteur ») – se réfère d’abord à la coexistence entre pouvoirs laïcs et pouvoirs ecclésiastiques (<emph>geistliche Fürstentümer</emph>) au sein du Saint-Empire. L’exercice de toute violence étant interdite aux dignitaires de l’Église (<emph>ecclesia non sitit sanguinem</emph> – « l’Église ne verse pas de sang »), ceux-ci avaient besoin d’autres membres de l’Empire, non liés à une fonction religieuse, pour se protéger contre des attaques armées, mettant en cause leur pouvoir temporel. Par analogie avec la protection qu’exerçait, au Moyen Âge, le roi germanique sur le pape, de nombreux princes laïcs devinrent alors, sous la forme d’un fief impérial, protecteurs des territoires ecclésiastiques, notamment des plus petits et vulnérables (abbayes, <ref target="https://saintempire.hypotheses.org/publications/glossaire/stift"><emph>Stifte</emph></ref>, évêchés…). Cette qualité était souvent conjuguée à d’autres droits, comme celui de la <ref target="https://saintempire.hypotheses.org/publications/glossaire/vogtei"><emph>Vogtei</emph></ref>.Initialement construit sur le principe féodal (<emph>Lehnswesen</emph>) d’un échange entre, d’une part, la protection, et d’autre part, des subsides et du salut, le principe du « protectorat » se vide, au cours de l’époque moderne, de plus en plus de sa substance, en servant aux 17e et 18e siècles surtout aux ambitions des « protecteurs » qui, en se fondant sur les droits anciens qui leur ont été confiés, réclament souvent la <ref target="https://saintempire.hypotheses.org/publications/glossaire/landeshoheit">supériorité territoriale</ref> (<emph>Landeshoheit</emph>) sur les terres de leurs protégés, s’ils ne les médiatisent pas tout simplement. En outre, comme chaque droit, le protectorat rentrait dans les nombreuses tractations entre princes qui les achètent ou échangent au gré de leurs ardeurs politiques. Par exemple, celui sur l’abbaye impériale de Quedlinburg, depuis le 15e siècle en possession de la dynastie des Wettin, princes-électeurs de Saxe, est vendu en 1697 au Brandebourg qui occupe le territoire du <emph>Stift</emph> un an plus tard et le sécularise en 1802.Le terme <emph>Schutzherrschaft</emph> s’applique également aux villes qui étaient placées sous la protection de leur fondateur princier et aux juifs dont la protection, contre des compensations souvent importantes, notamment financières, était entre les mains de l’Empereur et de certains princes.</def>
+          <note xml:lang="fra">Bien que le terme « protectorat » soit généralement associé aux pratiques de la domination coloniale, il convient également à la situation dans le Saint-Empire où les puissances exerçant un tel pouvoir et les droits qui lui sont afférents font généralement passer leurs intérêts avant ceux des personnes ou entités politiques qu’ils sont censés de « protéger ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

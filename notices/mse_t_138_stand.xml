@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">STAND</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+        </respStmt>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="stand">
+        <form>
+          <orth xml:lang="deu">Stand</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">état|ordre</quote>
+          <quote type="variante">corps</quote>
+          <quote type="variante">qualité</quote>
+          <quote type="variante">condition</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">l’état (<emph>Stand</emph>) est sans doute l’un des termes les plus essentiels dans lesquels se nomme l’organisation politique et juridique de la société allemande moderne. Le <emph>Stand</emph> organise juridiquement et politiquement des groupes au sein de la société politique moderne, qui sont dotés de prérogatives, ou de privilèges : ils forment des corps et à ce titre sont dotés de la capacité d’agir collectivement. Sur ce radical se greffent toutes les déclinaisons  particulières : on parle certes des « trois états », mais l’usage du terme se décline aussi dans toute la série de dichotomies par laquelle on pense l’organisation sociale et politique. On oppose ainsi <ref target="https://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum">états ecclésiastiques</ref> (<emph>geistliche Stände</emph>) et états laïcs (<emph>weltliche Stände</emph>), <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref> (<emph>Reichsstände</emph>) et <ref target="https://saintempire.hypotheses.org/publications/glossaire/landtag">états du pays</ref> (<emph>Landstände</emph>), et l’on oppose ordinairement le maître* (<emph>Herr</emph>) et ses états (<emph>Stände</emph>) qui lui doivent aide, conseil et assistance.Comme souvent dans la langue allemande, le terme désigne à la fois les institutions de représentation de ces états, diètes ou assemblées, et les représentants qui ont « voix et siège » dans ces instances de représentation collective : l’expression les « états de l’Empire » (<emph>die Stände des Reichs</emph>) peut ainsi désigner les personnes qui sont des états d’Empire (<emph>Reichsstände</emph>), ou la <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref> elle-même (<emph>Reichstag</emph>). <emph>Stände</emph> permet dans ce cas de désigner comme une entité et comme un corps la multitude de ceux qui forment <ref target="https://saintempire.hypotheses.org/publications/glossaire/kaiser-kaiserlich-reichs-reichisch">le <emph>Reich</emph> face au <emph>Kaiser</emph></ref>.En tant que tels, les états sont dans une position d’intermédiaire entre l’autorité suprême (<emph>Herr</emph> ou le <emph>Kaiser</emph> et leur gouvernement) et les simples sujets (<emph>Untertanen</emph>). Par conséquent, une même personne peut être tantôt un état (<emph>Stand</emph>) de l’Empire face à l’Empereur, et son symétrique, c’est-à-dire maître (<ref target="https://saintempire.hypotheses.org/publications/glossaire/herr"><emph>Herr</emph></ref>) face à ses propres états dans son pays (<emph>Landstände</emph>).2/ L’emploi du terme « état » est rendu difficile en raison de sa fréquente confusion, en français actuel, avec celui d’État (<emph>Staat</emph>).3/ Selon les contextes, l’usage sera de traduire tantôt par « état » (une assemblée d’états) tantôt par « ordre » (la société d’ordres) ; mais dans d’autres contextes encore, on privilégiera « qualité » (<emph>Standesperson</emph>, personne de qualité) ou « condition » – personne de condition.Rachel Renault</def>
+          <note xml:lang="fra">1/ Ont été exclus de cette notice les sens non juridiques de <emph>Stand</emph> qui, à l’identique du français « état » désigne aussi toutes les formes ordinaires de condition – bon et mauvais état, état de santé, etc.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

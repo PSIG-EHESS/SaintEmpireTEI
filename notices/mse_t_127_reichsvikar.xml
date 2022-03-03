@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSVIKAR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Juliette Guilbaud</name>
+        </respStmt>
+        <author>Juliette Guilbaud</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsvikar">
+        <form>
+          <orth xml:lang="deu">Reichsvikar</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">vicaire d’Empire</quote>
+          <quote type="variante">vicaire de l’Empire</quote>
+          <quote type="variante">vicaire impérial</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Les vicaires d’Empire existent dès le Moyen Âge, où ils incarnent encore plusieurs réalités juridiques :La Bulle d’Or instituait deux vicaires d’Empire perpétuels : le comte palatin du Rhin pour les pays rhénans, souabes et franconiens (soit les futurs <ref target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">Cercles d’Empire</ref> correspondants, à quelques exceptions territoriales près) ; et le duc de Saxe pour les pays de droit saxon (futurs cercles de Basse et Haute-Saxe). Néanmoins, en vertu de l’union personnelle des deux Palatinats, rhénan et bavarois, entre les mains des Wittelsbach jusqu’en 1294, le vicariat d’Empire (<emph>Reichsvikariat</emph>, <emph>Reichsverweserschaft</emph>) attribué au Palatin rhénan (branche aînée des Wittelsbach) fut durablement contesté par le duc de Bavière (branche cadette). Cette querelle connut une étape décisive en 1623 quand, après que l’électeur palatin Frédéric V fut <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsacht">mis au ban de l’Empire</ref> (<emph>Reichsacht</emph>), le vicariat du Palatin fut transféré à la lignée bavaroise, restant ainsi une pomme de discorde entre l’électeur palatin et le duc de Bavière jusqu’au 18 siècle (exercice du vicariat en alternance entre le Palatin et le Bavarois à partir de 1748/1752, avant la réunion des possessions Wittelsbach en 1777).Outre ces deux vicariats d’Empire, il en existait pour l’époque moderne un troisième, dit <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsitalien">per Italiam</ref></emph>, revendiqué par le duc de Savoie à partir de 1582 (Diète d’Augsbourg). Bien que la Savoie parvînt à faire inscrire ce vicariat d’Empire « pour toute l’Italie » dans la capitulation électorale de 1657-1658, les compétences de celui-ci demeurèrent floues durant toute la période. Le duc de Savoie y gagna surtout un titre honorifique, fondateur de sa préséance revendiquée sur les autres princes italiens.</def>
+          <note xml:lang="fra">Pour des questions d’élégance, on préférera parler de vicaire d’Empire pour telle région (plutôt que de telle région). Si on peut à l’occasion, pour éviter une énième répétition, parler de « vicaire impérial », on évitera à tout prix de désigner le vicaire d’Empire pour l’Italie par le raccourci « vicaire savoyard » : en français, cette expression renvoie en effet immanquablement à <emph>La Profession de foi du vicaire savoyard</emph> (J.‑J. Rousseau, Émile ou De l’éducation, livre IV), qui est sans rapport aucun avec le <emph>Reichsvikar per Italiam</emph>.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

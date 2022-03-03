@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSTAG</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichstag">
+        <form>
+          <orth xml:lang="deu">Reichstag</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Diète d’Empire</quote>
+          <quote type="variante">assemblée d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">La Diète d’Empire est la rencontre des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref> avec l’Empereur. Ancienne, mais formalisée en 1495 (<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsreform">Réforme de l’Empire</ref>), la Diète est d’abord épisodiquement réunie dans diverses <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes d’Empire</ref> (Augsbourg, Worms, Spire…) puis en 1663 devient permanente, à Ratisbonne. Elle est alors composée uniquement de représentants des états et du <ref target="http://saintempire.hypotheses.org/publications/glossaire/kaiserliche-kommission">commissaire</ref> principal de l’Empereur alors que les Diètes du 16 et du premier 17 siècle étaient encore marquées par la présence de l’Empereur et de nombreux <ref target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst">princes-électeurs</ref> et <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref>. La Diète s’ouvre sur une « proposition » de l’Empereur. Elle se clôt par un <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsabschied">recès d’Empire</ref>. Elle seule peut décider de la levée d’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern">impôts d’Empire</ref>. Mais la procédure ne cesse d’être plus formalisée et complexe (voir <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsschluss">décision d’Empire</ref> et <ref target="http://saintempire.hypotheses.org/publications/glossaire/diktatur">dictée publique</ref>), l’écrit occupe une place grandissante.Le rôle de la Diète fait constamment l’objet de controverses ; l’Empereur et les électeurs affirment la prééminence de leur réunion sur la Diète, tandis que les princes souhaitent une égalité de tous les états dans la discussion des affaires de l’Empire. La structure hiérarchique est toutefois maintenue : le collège (ou la curie) des électeurs et le collège des princes discutent d’abord (procédure de la relation et co-relation), puis demandent l’avis du collège des villes d’Empire*, dont l’égalité avec les deux autres, admise en 1648, n’est réalisée ni dans le cérémoniel, ni dans les faits. Dans chaque collège, le vote aussi est hiérarchique : chacun opine selon son rang (objet d’infinies chicanes) et le président a le dernier mot. La notion même de majorité est contestée et le refus de s’y plier constitue une procédure admise : la <emph>p</emph>rotestatio. En matière confessionnelle, le rejet du principe de majorité au bénéfice de celui de <ref target="http://saintempire.hypotheses.org/publications/glossaire/paritat">parité</ref> est institutionnalisé en 1648 par la procédure d’<emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/itio-in-partes">itio in partes</ref></emph>.La Diète demeure pourtant une institution fondamentale, sorte d’incarnation de l’Empire, et les principales d’entre elles sont des dates majeures de l’histoire moderne allemande : Worms en 1495 (Réforme de l’Empire), Augsbourg en 1530 (<ref target="http://saintempire.hypotheses.org/publications/glossaire/konfession">confession</ref> d’Augsbourg) et 1555 (<ref target="http://saintempire.hypotheses.org/publications/glossaire/augsburger-religionsfrieden">paix d’Augsbourg</ref>), Ratisbonne en 1654, etc.</def>
+          <note xml:lang="fra">Le terme Diète a la même étymologie (<emph>dies</emph>) que le mot Tag (jour). La difficulté est de distinguer la Diète d’Empire de tous les autres <emph>Tage</emph>, à l’échelle de l’Empire (<emph>Deputationstag</emph>), des Cercles (<emph>Kreistag</emph>), des territoires (<emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/landtag">Landtag</ref></emph>) etc. D’où l’ajout « d’Empire » et la convention réservant la majuscule à la Diète d’Empire et la minuscule aux autres diètes. Les contemporains emploient aussi « assemblée d’Empire » (<emph>Reichsversammlung</emph>) pour la Diète, mais ce terme est ambigu car il s’applique également à toutes les autres assemblées d’Empire, comme les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsdeputation">diètes de députation</ref>.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

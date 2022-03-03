@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSAFTERLEHEN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsafterlehen">
+        <form>
+          <orth xml:lang="deu">Reichsafterlehen</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">arrière-fief d’Empire</quote>
+          <quote type="variante">arrière-fief impérial</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Un arrière-fief d’Empire est un fief qui, à l’origine, relevait immédiatement de l’Empereur. Dans la majorité des cas, un fief d’Empire devient arrière-fief par changement de suzerain, l’Empereur conférant son fief à un prince, lequel devient suzerain du vassal originel : la relation féodale est alors à trois étages. Mais il arrive aussi que le fief devienne « arrière-fief » par changement de suzerain, ou par changement de qualité du suzerain : c’est par exemple le cas des arrières-fiefs de Bohême des Maisons Schwarzburg, Schönburg et Reuss, passés de l’Empereur en tant que tel à l’Empereur en tant que roi de Bohême, la relation féodale demeurant à deux étages. Un arrière-fief d’Empire ne doit pas être confondu cependant avec un simple fief médiat. L’origine impériale du fief continue à valoir comme présomption d’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiateté</ref> et à faire prouver la possible détention de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">supériorité territoriale</ref>. Cf. également <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichslehen">fief d’Empire</ref> et <ref target="http://saintempire.hypotheses.org/publications/glossaire/lehnswesen">système féodal</ref>.</def>
+          <note xml:lang="fra">La traduction par « arrière-fiefs impériaux » est possible mais prête davantage à confusion, car on pourrait entendre qu’il s’agit de fiefs de l’Empereur.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

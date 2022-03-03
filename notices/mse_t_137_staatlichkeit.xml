@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">STAATLICHKEIT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="staatlichkeit">
+        <form>
+          <orth xml:lang="deu">Staatlichkeit</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">étaticité</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Cette notion non issue des sources mais forgée par les historiens, part d’un constat : dans le cas du Saint-Empire, le concept de la souveraineté tel qu’il a été développé par J. Bodin dans <emph>Les six livres de la République</emph> (1576) ne s’applique ni à l’ensemble impérial ni aux différents composants qui le forment. Notamment quand il est question des <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoires</ref>, il est ainsi difficile de parler d’« États » comme on le fait plus facilement pour les grandes monarchies modernes européennes que sont la France ou l’Angleterre. En même temps, les grandes principautés de l’Empire (le Brandebourg, la Saxe, la Bavière, le Hanovre, les pays héréditaires des Habsbourg en Autriche, etc.) développent elles aussi de multiples formes et remplissent des fonctions que l’on peut considérer, depuis le 17 siècle, comme « étatiques » (administrations centrales, impôts, armées, diplomaties…) mais qui ne sont cependant pas réunies sous le chapeau d’une souveraineté véritable et complète ni exercées par un seul organisme politique qu’on pourrait appeler de plein droit « État ».Car les <ref target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden">traités de Westphalie</ref> concèdent, d’une part, aux <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref> une plus grande indépendance et liberté et parlent même, dans leur traduction française, de « souveraineté » pour désigner la <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/landeshoheit">Landeshoheit</ref></emph> ou supériorité territoriale des territoires, sans pour autant délier ces derniers de leur appartenance à un ensemble vassalique toujours placé sous l’autorité suprême de l’Empereur. Certains <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref>, pour remédier à cette situation peu satisfaisante en terme de gloire et de magnificence, recourent à des couronnes extérieures (les Wettins sont ainsi élus rois de Pologne en 1697 et en 1733, les Hohenzollern se couronnent eux mêmes rois en Prusse en 1701, et les Welfes de la maison de Hanovre deviennent rois d’Angleterre à partir de 1714), en formant ainsi des composite monarchies (J.H. Elliot) et en développant une « étaticité composée » (D. Langewiesche). Cela ne les empêche pourtant pas d’être confrontés – comme d’autres, plus petits et moins puissants – dans leurs contrées traditionnelles aux multiples formes d’un pouvoir revendiqué par plusieurs instances et débouchant sur des supériorités territoriales « partielles », « limitées », « corporatives » ou « subordonnées » qui complètent le système d’une « puissance d’État à deux niveaux » (W. Reinhard) par une nombre quasi infini de situations locales mettant constamment en cause toute idée d’une souveraineté immédiate et entière, à quelque niveau que ce soit.Le terme d’« étaticité » reflète donc ces innombrables exemples d’une souveraineté partagée (chose impossible selon la définition de Bodin) qui évoluèrent vers des formes étatiques incomplètes et pourtant valables en tant qu’acteurs sur la scène politique. Bref : il tente de désigner, notamment dans le contexte du Saint-Empire moderne, tout ce qui ressemble à un État, sans pour autant en être un.</def>
+          <note xml:lang="fra"><emph>Staatlichkeit</emph> est une version substantivée (désignée par le suffixe –<emph>keit</emph>) de <emph>staatlich</emph> (adjectif dérivé de <emph>Staat</emph>, État, formé à l’aide du suffixe –<emph>lich</emph> = ayant les caractéristiques de…) – composition rendue facilement possible par la morphologie des mots allemands mais impossible en langue française. Il faut donc recourir à un néologisme, en agrégeant « état » avec le suffixe -ité qui désigne également une qualité ou une propriété et qui exprime donc la même idée de quelque chose qui ressemble à quelque chose sans pour autant l’être entièrement.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

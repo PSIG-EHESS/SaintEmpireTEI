@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSLEHEN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichslehen">
+        <form>
+          <orth xml:lang="deu">Reichslehen</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">fief d’Empire</quote>
+          <quote type="variante">fief de l’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Un fief d’Empire est un fief qui relève <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiatement</ref> de l’Empire et de l’Empereur, lequel en est donc le suzerain. On distingue entre les « grands fiefs » dont l’investiture est conférée par l’Empereur en personne et les « moindres fiefs », dont l’investiture peut être conférée par l’un de ses <ref target="http://saintempire.hypotheses.org/publications/glossaire/kaiserliche-kommission">commissaires</ref>. L’investiture a lieu à chaque changement de suzerain et de vassal. À la détention d’un fief d’Empire est attaché l’exercice de <ref target="http://saintempire.hypotheses.org/publications/glossaire/regalien">prérogatives régaliennes</ref>, parmi lesquelles la <ref target="http://saintempire.hypotheses.org/publications/glossaire/landeshoheit">supériorité territoriale</ref>. Mais, si elle constitue la forme féodale de l’immédiateté d’Empire, elle ne confère pas la qualité d’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">état d’Empire</ref>. Un fief d’Empire peut enfin être immédiat, quand l’Empereur en est le suzerain direct, ou médiat : on parle alors d’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsafterlehen">arrière-fief d’Empire</ref>.La procédure d’investiture par l’Empereur est un élément important du système féodal, lui-même demeuré au cœur de la constitution de l’Empire et le lien personnel fondé sur la féodalité reste un vecteur important du fonctionnement politique et social jusqu’à la fin de l’Empire. Longtemps considérée comme une survivance désuète et mal appropriée à son époque, les historiens ont tendu récemment à réévaluer la portée de l’investiture des fiefs d’Empire dans le système institutionnel et social impérial, en lien avec l’attention accrue portée aux formes de la communication symbolique d’une part, et avec la réévaluation de la portée du <ref target="http://saintempire.hypotheses.org/publications/glossaire/lehnswesen">système féodal </ref>d’autre part.</def>
+          <note xml:lang="fra">La traduction par « fiefs impériaux » est possible mais prête davantage à confusion, car on pourrait entendre qu’il s’agit de fiefs de l’Empereur.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

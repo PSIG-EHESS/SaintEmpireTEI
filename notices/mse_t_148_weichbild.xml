@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">WEICHBILD</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="weichbild">
+        <form>
+          <orth xml:lang="deu">Weichbild</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">ban|banlieue</quote>
+          <quote type="variante">silhouette</quote>
+          <quote type="variante">bailliage</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">le terme désigne plus globalement la vue et l’apparence d’une ville, parfois aussi d’un ensemble de bâtiments ou d’une seule construction. De cette première signification découle une deuxième qui, se référant au droit municipal de Magdebourg, très influent dans la partie orientale du Saint-Empire et au-delà (Pologne, Prusse orientale, Slovaquie…), signale le district situé devant les murs de la ville, mais soumis à sa juridiction. Les limites de cet espace furent marquées par des bornes ou des croix (<emph>Weichbildsteine</emph>, <emph>Weichbildkreuze</emph>) dont certaines existent encore aujourd’hui (par exemple à Leipzig ou à Dresde). C’est dans cette acception juridique que se situe également l’explication étymologique de la notion qui viendrait du terme latin <emph>vicus</emph> pour « cité » (que l’on retrouve encore aujourd’hui dans des noms de ville se terminant par -wik ou -weig, comme Braunschweig, Brunswick) et du mot bil-idi qui, en ancien allemand, veut dire « droit » (comme dans l’expression <emph>recht und billig</emph>, « juste et équitable »). À Brunswick, justement, les quartiers intérieurs de la ville, anciennes cités aux droits réduits (<emph>Minderstädte</emph>, villes de marché) réunies plus tard pour former la ville actuelle, s’appellent également <emph>Weichbilde</emph>. Enfin, en Silésie, avant l’occupation prussienne du territoire en 1740, les divisions administratives des différentes principautés portaient également ce nom. Il s’agissait à la fois de circonscriptions judiciaires, fiscales et militaires, liées généralement à une ville. Leurs états (<emph>Stände</emph>) se réunissaient dans une diète territoriale appelée <emph>Weichbildttag</emph>.</def>
+          <note xml:lang="fra">Le terme « ban » ayant en français à peu près la même signification que Weichbild en allemand, il devrait convenir à la plupart des traductions. S’il s’agit du Weichbild dans un sens plus spatial, on peut également recourir au mot « banlieue » qui désigne à la fois le territoire qui entoure une ville et la juridiction urbaine qui s’y exerce. Quand on parle uniquement de la vue d’une ville, on peut utiliser le mot « silhouette ». Dans le cas de la Silésie, enfin, la traduction « bailliage » semble la plus appropriée.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

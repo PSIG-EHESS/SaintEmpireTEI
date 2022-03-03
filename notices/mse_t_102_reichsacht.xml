@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSACHT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Sébastien Schick</name>
+        </respStmt>
+        <author>Sébastien Schick</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsacht">
+        <form>
+          <orth xml:lang="deu">Reichsacht</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">mise au ban de l’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Décision juridique et instrument exécutif du Saint-Empire par lequel l’Empereur, ou depuis la <ref target="http://saintempire.hypotheses.org/publications/glossaire/carolina">Constitutio Criminalis Carolina</ref> de 1532 l’un des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsgerichte">tribunaux d’Empire</ref> en son nom, fait d’un membre de l’Empire (individu, territoire, communauté) un ennemi public, et l’exclut ainsi des règles habituelles du système juridique du Saint-Empire. Celui qui est mis au ban ne dispose alors plus des droits qui sont habituellement reconnus à chacun : la <ref target="http://saintempire.hypotheses.org/publications/glossaire/ewiger-landfrieden">Paix publique perpétuelle</ref> (<emph>Ewiger Landfrieden</emph>) peut alors être rompue contre lui, il peut être pourchassé par tout un chacun, ses biens doivent être confisqués, et le soutenir devient également un crime. En ce sens, la mise au ban représente bien une sorte d’état d’exception. Elle pouvait par ailleurs être suivie d’une <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsexekution">exécution d’Empire</ref>, c’est-à-dire de l’intervention militaire concrète d’un ou plusieurs <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoires</ref> contre la personne ou le groupe mis au ban.Les causes les plus fréquentes de mise au ban sont le crime de lèse majesté ou la rupture de la Paix publique perpétuelle (<emph>Landfriedensbruch</emph>). Au rang des exemples célèbres, on peut néanmoins citer la mise au ban de Luther, en 1521, ou celle de l’électeur palatin Frédéric V en 1618.Si depuis le début du 16 siècle la mise au ban était donc le résultat d’une procédure juridique que l’Empereur se devait d’ouvrir auprès de l’un des deux tribunaux d’Empire, la <ref target="http://saintempire.hypotheses.org/publications/glossaire/wahlkapitulation">capitulation électorale</ref> de 1711 changea cependant la donne : un droit de véto fut alors accordé à la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref> dans le cas de la mise au ban de territoires. Si l’Empereur refusa de ratifier ce point, il fut dorénavant contraint dans son utilisation de la mise au ban, les territoriaux considérant dès lors qu’ils détenaient un droit de regard sur la décision : ainsi la Diète réagit-elle négativement à l’annonce de l’ouverture d’une procédure de mise au ban contre Frédéric II suite à son agression contre la Saxe à la fin de l’année 1756. S’il dut donc subir une guerre d’Empire, il ne fut jamais mis au ban.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">SOLLICITATUR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="sollicitatur">
+        <form>
+          <orth xml:lang="deu">Sollicitatur</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">procédure de sollicitation</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Les deux tribunaux d’Empire, la <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichkammergericht">Chambre de justice impériale</ref> et le <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichshofrat">Conseil impérial aulique</ref>, avaient à l’époque moderne – et ont longtemps conservé dans l’historiographie – une réputation de lenteur confinant à l’impuissance. Ils agissent pourtant souvent très vite, par des mandements bloquant les innovations et figeant les conflits. En revanche, par la suite, les méandres de la procédure ne viennent pas seulement de la volonté (des parties et des juges) de faire perdurer des prétentions contradictoires sans remettre en cause les fragiles équilibres internes au Saint-Empire, mais également des déficits en personnel et en financement de ces deux tribunaux, et des querelles qui en paralysent le bon fonctionnement. Il faut donc choisir quels procès laisser dormir, et quels procès relancer, et la volonté exprimée par les parties joue dans cette sélection un rôle important. C’est le sens de la procédure de sollicitation : l’une des parties demande que le procès soit repris.Habituelle et encadrée à la Chambre de justice impériale, plus informelle au Conseil impérial aulique, la procédure de sollicitation concourt à la souplesse de processus judiciaires qui s’accommodent donc parfois très bien de leur suspension. Mais elle participe également d’une situation souvent dysfonctionnelle où, pour obtenir justice, les plaignants cherchent des relations privilégiées avec les juges. La procédure de sollicitation se situe donc entre le formel et l’informel, voire entre le légal et l’illégal, et compte au nombre des pratiques qui purent nourrir à l’endroit des juges des tribunaux impériaux des accusations de favoritisme ou de corruption.</def>
+          <note xml:lang="fra">Le terme français de « sollicitation » est bien plus usité et polysémique que <emph>Sollicitatur</emph> en allemand. C’est pourquoi « procédure de sollicitation » semble préférable. L’expression plus explicite de « procédure de relance » paraît en revanche se situer sur un autre registre, uniquement fonctionnel, qui ne convient pas ici.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

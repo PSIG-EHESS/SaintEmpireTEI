@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSEXEKUTION</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Sébastien Schick</name>
+        </respStmt>
+        <author>Sébastien Schick</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsexekution">
+        <form>
+          <orth xml:lang="deu">Reichsexekution</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">exécution d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Si le terme proposé est peu usuel en français, c’est qu’il renvoie à une réalité tout à fait spécifique du fonctionnement juridique et politique de l’Empire. Il désigne en effet l’acte par lequel on impose l’application des décisions prises par les deux <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsgerichte">tribunaux d’Empire</ref>, le Conseil impérial aulique et la Chambre de justice Impériale. Cette exécution concerne également la garantie de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/ewiger-landfrieden">Paix publique perpétuelle</ref> qui est, quant à elle, indépendante de toute décision de justice. Dans ce cas, on désigne alors ainsi l’ensemble des opérations militaires ayant pour but de punir le fauteur de troubles et de rétablir la Paix publique perpétuelle. La <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsacht">mise au ban de l’Empire</ref> demande donc, elle aussi, une exécution.Son existence remonte aux grandes réformes impériales (cf. <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsreform">Réforme de l’Empire</ref>) de 1495, année qui vit la naissance de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht">Chambre de justice Impériale</ref> et de la législation sur la Paix publique perpétuelle. Se posa alors en effet la question de la manière dont cette paix pouvait être garantie et maintenue. Plusieurs ordonnances – on les appelle les ordonnances sur l’Exécution d’Empire (<emph>Reichsexekutionsordnungen</emph>) – tentèrent de fixer la procédure à suivre. Celle de 1512 confia la tâche aux <ref target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">Cercles</ref> d’Empire qui ne la remplirent en fait véritablement qu’à partir de la grande ordonnance de 1555. Ce célèbre <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsabschied">recès d’Empire</ref> qui servira de base juridique à l’exécution d’Empire au cours des siècles suivants, faisait explicitement le lien entre la question du maintien de la paix et celle plus générale de l’exécution des décisions de justice.Si les Cercles étaient bien responsables des exécutions d’Empire – ce qui est somme toute fort logique dès lors qu’il s’agit là de l’échelon étatique où s’organisait l’armée impériale –, ceux-ci pouvaient faire appel, en cas de nécessité, aux Cercles voisins, et finalement même à la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref> qui pouvait aller jusqu’à voter la guerre d’Empire. Toutefois, la question de l’exécution des décisions de justices resta problématique jusqu’à la fin de l’Empire, notamment dans les affaires confessionnelles ou dans celles impliquant les territoires les plus importants.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

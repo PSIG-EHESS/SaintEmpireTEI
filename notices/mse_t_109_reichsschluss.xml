@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSSCHLUSS</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsschluss">
+        <form>
+          <orth xml:lang="deu">Reichsschluss</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">décision d’Empire</quote>
+          <quote type="variante">règlement d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme renvoie avant tout aux procédures gouvernant la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref> après 1663, lorsqu’elle est devenue perpétuelle et siège sans fin à Ratisbonne. Les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsabschied">recès d’Empire</ref> disparaissent alors fort logiquement, puisqu’un recès marque à l’origine la fin de la Diète. La Diète ne reste pas pour autant sans produire de décisions, dans ses différents corps tout d’abord (par exemple au sein du Corpus évangélique, voir <ref target="http://saintempire.hypotheses.org/publications/glossaire/paritat">parité</ref> et <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/itio-in-partes">itio in partes</ref></emph>), mais aussi en commun. Les projets soumis à ses délibérations, via la <ref target="http://saintempire.hypotheses.org/publications/glossaire/diktatur">dictée publique</ref> mayençaise, sont d’abord discutés dans chacun des collèges ou curies de la Diète. Ensuite a lieu le processus d’harmonisation entre ces collèges, d’abord entre les <ref target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst">princes-électeurs</ref> et les princes, puis entre ces deux collèges et celui des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes</ref> : c’est la relation et corrélation (<emph>Relation und Korrelation</emph>). Lorsque le projet de décision fait l’accord de tous et ne ressortit pas de la procédure d’<emph>itio in partes</emph> réservée aux questions relevant du confessionnel, il devient un avis d’Empire (<emph>Reichsgutachten</emph>). À ce stade, une mesure qui est parvenue à recueillir un tel consensus a toutes les chances d’être appliquée ensuite par de nombreux <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiats</ref> dans leur propre <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoire</ref>, favorisant ainsi (à l’instar des délibérations au sein des <ref target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">Cercles d’Empire</ref>) une harmonisation informelle des législations et des réglementations dans l’Empire. Toutefois, un avis d’Empire ne devient une décision formelle, engageant théoriquement tous les membres de l’Empire, que si, après avoir été transmis à la cour impériale par le <ref target="http://saintempire.hypotheses.org/publications/glossaire/kaiserliche-kommission">commissaire</ref> de l’Empereur à la Diète, il reçoit l’approbation de l’Empereur. Le texte devient alors un <emph>Reichsschluss</emph>, une décision d’Empire.</def>
+          <note xml:lang="fra">Des mots comme « avis » et « décision » peuvent sembler trop informels pour désigner une procédure « législative ». Mais, d’une part, le caractère aléatoire de l’application ne fait pas vraiment de ces décisions des lois. D’autre part, l’emploi de termes plus usités en français comme « règlement » risque d’établir un parallélisme trompeur avec un système bien différent.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

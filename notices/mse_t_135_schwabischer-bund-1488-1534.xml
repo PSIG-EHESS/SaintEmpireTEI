@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">SCHWÄBISCHER BUND (1488-1534)</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Jean-Dominique Delle Luche</name>
+        </respStmt>
+        <author>Jean-Dominique Delle Luche</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="schwabischer-bund-1488-1534">
+        <form>
+          <orth xml:lang="deu">Schwäbischer Bund (1488-1534)</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">ligue de Souabe</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">la ligue de Souabe est créée en 1488 à l’initiative de l’empereur Frédéric III dans le cadre de sa paix publique destinée à sécuriser le statu quo territorial en Haute-Allemagne. Il s’agit en effet de rassembler les états immédiats du pays de Souabe et de faire pièce à l’expansionnisme des ducs de Bavière, particulièrement après la médiatisation de la ville libre de Ratisbonne ; néanmoins elle s’avère essentielle dans la stratégie des Habsbourg contre les cantons confédérés, à l’occasion notamment de la guerre de Souabe (1499-1500). Rassemblant princes ecclésiastiques et laïcs de la petite et grande aristocratie ainsi que villes libres et d’Empire, la ligue de Souabe contribue au maintien de la paix publique en chassant le duc Ulrich de Wurtemberg de ses terres (1519) et en organisant la répression des guerres nobiliaires (faide d’Absberg, 1523-1524) et des soulèvements des Paysans entre Rhin et Main en 1525. La ligue de Souabe se distingue par sa continuité – l’union signée au départ pour huit ans est renouvelée à quatre reprises – mais également par une forte institutionnalisation avec deux capitaines et 18 conseillers élus de manière paritaire, puis 3 et 21 en 1500. Le vote majoritaire était pratiqué lors des rassemblements réguliers de courte durée, et une communication intense était établie entre les états membres, leurs représentants et les capitaines.Les nouveaux équilibres dans le Sud de l’Allemagne – opposition croissante des princes (et notamment des Wittelsbach) à Charles Quint, recherche de solutions aux querelles confessionnelles et élaboration de nouvelles alliances princières – mènent au non renouvellement en 1534 d’une union qui, malgré ses actions militaires éclatantes, avait dès les années 1490 cessé de rassembler la quasi-totalité des états immédiats de Souabe.</def>
+          <note xml:lang="fra">la ligue de Souabe ne doit pas être confondue avec la « ligue des villes de Souabe » ou « ligue urbaine de Souabe » (Schwäbischer Städtebund, 1376-1389), et pas davantage avec le <ref target="https://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">cercle impérial</ref> de Souabe, dont l’importance croît une fois la ligue dissoute.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSKIRCHE</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichskirche">
+        <form>
+          <orth xml:lang="deu">Reichskirche</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Église d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Héritière du régime ecclésiastique mis en place dès l’époque carolingienne afin de consolider le pouvoir impérial, l’Église d’Empire réunit à l’époque moderne l’ensemble des dignitaires de l’Église romaine catholique dans l’Empire, à savoir les princes à la tête des <ref target="http://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum">principautés ecclésiastiques</ref> et les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichspralat">prélats d’Empire</ref>. Ses membres sont donc soumis à une double loyauté : d’une part à celle du pape en tant que chef de l’Église romaine, et d’autre part à celle de l’Empereur dont ils sont tous vassaux. Après de longues querelles, le concordat de Vienne en 1448 stabilise ce dualisme et le transcrit dans la répartition concrète des procédures d’investiture et des présentations aux prébendes (« mois papaux »).Pour le pouvoir impérial, cette double appartenance comporte un avantage indéniable : alors que ses vassaux laïcs ont souvent vite réussi à transformer leurs fiefs en possessions héréditaires – certes, à chaque changement de monarque comme à chaque succession de vassal, l’investiture féodale doit être renouvelée, mais il est extrêmement rare qu’un fief soit retiré par l’Empereur  – chez les évêques, abbés et autres représentants ecclésiastiques la question de l’hérédité ne se pose pas, de sorte qu’à chaque fois qu’un dignitaire meurt, le fief est réattribué. Suite à la querelle des Investitures, l’emprise impériale sur l’installation des nouveaux dignitaires ecclésiastiques fut cependant sérieusement réduite, de sorte que les évêques réussissent par la suite à s’assurer eux-mêmes de certains droits et à préparer ainsi la naissance d’un pouvoir territorial propre dans les principautés ecclésiastiques. Celles-ci restent cependant souvent étroitement liées au pouvoir impérial, puisque les évêques et archevêques y sont élus par des chanoines issus de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/stiftsadel">noblesse chapitrale</ref> et donc de groupes d’acteurs particulièrement fidèles à l’Empereur.Les évêques et autres dignitaires des Églises territoriales protestantes apparues après la Réforme ne font évidemment pas partie de l’Église d’Empire mais sont généralement soumis à l’autorité du prince territorial. Des rares exceptions existent pourtant, notamment les quelques <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/stift">Stifte</ref></emph> devenus luthériens tout en gardant leur qualité de principautés immédiates et donc leur appartenance, de jure, à l’Église d’Empire.</def>
+          <note xml:lang="fra">Même si la recherche historique ne s’est toujours pas mise d’accord pour savoir si les intentions initiales des Empereurs du Moyen Âge étaient de créer une Église à part pour l’Empire, force est de constater que les liens avec Rome n’ont jamais été totalement coupés. L’Église d’Empire continue donc de faire partie de l’Église catholique universelle, ce qui rend préférable d’éviter la traduction « Église de l’Empire ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

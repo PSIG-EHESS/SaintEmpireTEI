@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSABSCHIED</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Sébastien Schick</name>
+        </respStmt>
+        <author>Sébastien Schick</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsabschied">
+        <form>
+          <orth xml:lang="deu">Reichsabschied</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">recès d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Appelé également <emph>Reichsrezess</emph>, il s’agit de la publication de l’ensemble des décisions prises en accord entre l’Empereur et les <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoires</ref> au cours d’une <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref>. La publication du document mettait alors fin à la rencontre, ce qui explique son nom : <emph>Abschied</emph> signifie en effet littéralement adieu, tandis que <emph>R</emph>ezess vient du latin <emph>recessus</emph> qui désigne le fait de se retirer. Le recès d’Empire est donc le résultat final de l’ensemble d’un processus mettant en jeu le fonctionnement de l’Empire tout entier : si une entente est trouvée entre deux des trois collèges qui composent la diète, et que l’Empereur donne lui aussi son accord, un décret de ratification donne à cette décision force de loi, elle devient donc loi d’Empire (<emph>Reichsgesetz</emph>). À la fin de la Diète, celle-ci se sépare alors en publiant le recès qui contient lui-même l’ensemble de ces lois d’Empire alors ratifiées.Au cours de l’époque moderne, on compte une quarantaine de ces documents dont le dernier, le <emph>Jüngster Reichsabschied</emph> (recès ultime) de 1653/54, eut pour conséquence principale de donner au <ref target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden">traité de Westphalie</ref> force de loi d’Empire. Le principe même de la Diète permanente, dont l’histoire débute en 1663, entraîna cependant par définition même la fin des recès d’Empire, dès lors qu’elle ne se sépara jamais. Ses décisions prirent alors toutes la forme de <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsschluss">décisions d’Empire</ref> indépendantes qui étaient alors rendues publiques sous la forme de décrets impériaux. La Diète de Ratisbonne de 1613 se sépara quant à elle sans avoir pu se mettre d’accord sur un recès d’Empire, ce qui représente cependant une exception.L’ensemble de ces textes juridiques (recès d’Empire, décisions d’Empire) formèrent ainsi petit à petit une sorte de loi fondamentale de l’Empire, ce qui explique qu’elles donnèrent lieu, surtout au 18 siècle, à des publications complètes comme la <emph>Neue und Vollständigere Sammlung der Reichs-Abschiede</emph> de 1754. Leur contenu reflète la grande diversité des thèmes nécessitant l’entente entre les différents États territoriaux et l’Empereur : on y retrouve en effet le règlement de questions juridiques, monétaires, confessionnelles, ou touchant à la guerre et à la paix.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

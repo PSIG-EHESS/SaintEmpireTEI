@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TÜRKENSTEUER</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="turkensteuer">
+        <form>
+          <orth xml:lang="deu">Türkensteuer</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">impôt turc</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Les impôts dits « turcs » sont des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern">impôts d’Empire</ref> consentis par la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète</ref> pour mener les guerres d’Empire contre les Turcs, du 16 au 18 siècles. Les figures de l’ennemi et du danger turcs, construites aux différents niveaux de pouvoir de l’espace impérial et communiquées à tous les groupes sociaux, ont servi de vecteur pour légitimer des prélèvements considérables. Malgré de nombreuses difficultés à parvenir à des chiffres fiables, les historiens estiment qu’on lève dans les années 1570 environ 1,7 million de florins par an, dont 600 000 dans le Saint Empire et qu’entre 1556 et 1607, l’Empire dépense 30,8 millions de florins pour les guerres turques.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

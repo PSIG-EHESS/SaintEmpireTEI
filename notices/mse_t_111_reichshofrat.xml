@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSHOFRAT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichshofrat">
+        <form>
+          <orth xml:lang="deu">Reichshofrat</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Conseil impérial aulique</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Après que la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète</ref> de Worms en 1495 avait décidé la création d’un tribunal émanant de l’Empire (la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht">Chambre de justice impériale</ref>), l’Empereur instaura en 1498 son propre tribunal, possédant la même compétence – et traitant en outre exclusivement les causes ayant trait aux prérogatives de l’empereur (titres, féodalité) ainsi que celles concernant l’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsitalien">Italie impériale</ref>. Les juridictions impériales, connaissant toutes deux des conflits entre <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiats</ref>, illustrent donc le complexe dualisme entre l’Empire et son monarque électif, si bien que, pour la même cause, les différentes parties initient parfois des procès devant l’une et l’autre instance. Contrairement à son homologue, le Conseil impérial aulique est intégralement nommé par l’Empereur et siège dans sa ville de résidence, le plus souvent Vienne. Malgré les revendications des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref> protestants, le Conseil impérial aulique n’est pas soumis au principe de <ref target="http://saintempire.hypotheses.org/publications/glossaire/paritat">parité</ref>, même si l’Empereur y nomme quelques juges protestants. Fortement lié au monarque, le Conseil exerce également une fonction importante dans le gouvernement de ses propres territoires.Réputé plus rapide et plus efficace que la Chambre de justice Impériale, le Conseil impérial aulique a déployé une grande activité tout au long de l’époque moderne. Saisi en priorité par la clientèle impériale au sens large (en particulier les petits états d’Empire, c’est-à-dire la majorité d’entre eux), il illustre le maintien, voire l’accroissement après 1648 du poids de l’Empereur dans au moins une partie de l’Allemagne. Comme la Chambre de justice Impériale, il légitime et diligente des <ref target="http://saintempire.hypotheses.org/publications/glossaire/kaiserliche-kommission">commissions</ref> qui dénouent nombre de conflits, d’endettements des immédiats etc. et, par ses <ref target="http://saintempire.hypotheses.org/publications/glossaire/mandatsprozess">mandements</ref>, peut intervenir avec rapidité et vigueur pour le maintien du statu quo juridique et politique entre les états d’Empire. C’est également à travers lui que perdure la signification limitée, mais réelle, de l’Empire dans la partie de l’Italie dite « impériale ».</def>
+          <note xml:lang="fra">« Conseil d’Empire » devrait s’imposer (voir <ref target="http://saintempire.hypotheses.org/publications/glossaire/kaiser-kaiserlich-reichs-reichisch">Kaiser- kaiserlich, Reichs- reichisch</ref>) ; mais si l’institution concerne tout l’Empire, elle est bien, par son origine et sa localisation, une institution de l’Empereur – « impérial », dans son ambiguïté, convient donc ici tout à fait.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

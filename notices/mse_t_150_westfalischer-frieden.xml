@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">WESTFÄLISCHER FRIEDEN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="westfalischer-frieden">
+        <form>
+          <orth xml:lang="deu">Westfälischer Frieden</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">paix de Westphalie</quote>
+          <quote type="variante">traités de Westphalie</quote>
+          <quote type="variante">paix d’Osnabrück</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Les traités de Westphalie, signés en 1648, terminent la guerre de Trente Ans et forment une étape majeure de la diplomatie européenne. Ils sanctionnent entre autres la souveraineté de la Confédération helvétique et des Provinces-Unies, séparées du Saint-Empire. Ils confèrent à la France et à la Suède, garantes de la paix, une possibilité durable de s’immiscer dans les affaires impériales. Mais ils contribuent également à régler de nombreux problèmes institutionnels et confessionnels dans l’Empire. Ils garantissent par exemple aux <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiats</ref> le droit d’entretenir une armée, ou d’avoir leur propre diplomatie. Ils établissent en outre, définitivement, la répartition des confessions par la clause de « l’<ref target="http://saintempire.hypotheses.org/publications-2/glossaire/normaljahr">année normative</ref> », en reconnaissant le <ref target="http://saintempire.hypotheses.org/publications-2/glossaire/geistlicher-vorbehalt">réservat ecclésiastique</ref>, en attribuant le statut de troisième confession légale au calvinisme, et en élargissant le principe de <ref target="http://saintempire.hypotheses.org/publications/glossaire/paritat">parité</ref> entre les camps protestant et catholique – principe désormais institutionnalisé au sein de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref>. Un grand nombre des clauses de la paix restaient toutefois à préciser : ce fut l’objet de la Diète de 1653-1654 qui déçut les ambitions des <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref> et réaffirma la structure hiérarchique de l’Empire. Nombreux furent toutefois les membres de l’Empire à considérer que la paix restait en partie incomplète : si la Diète devint « perpétuelle » en 1663, c’est pour marquer que le chantier ouvert en Westphalie n’était pas refermé. Il n’en reste pas moins que la mention de la Paix de Westphalie, jusqu’en 1806 au moins, reste étonnamment omniprésente dans les sources les plus diverses et dans toute la profondeur de la société. Fêtée et commémorée autant que le souvenir des horreurs de la guerre, la Paix de Westphalie marque véritablement le dernier siècle et demi d’existence du Saint-Empire.</def>
+          <note xml:lang="fra">S’il semble préférable de parler, dans le contexte intérieur de l’Empire, de Paix de Westphalie plutôt que des Traités de Westphalie, c’est d’une part parce qu’un seul des deux traités (celui d’Osnabrück) concerne véritablement le règlement des affaires intérieures de l’Empire, et d’autre part car les dispositions auxquelles on se réfère comme « Paix de Westphalie » furent en fait élaborées sur plusieurs années (comprenant le règlement de l’occupation suédoise, puis le « recès ultime » de 1654) ainsi qu’au travers d’une infinité de compromis locaux. Les textes des contemporains, ainsi que des historiens, se réfèrent souvent plus étroitement aux « IPO » (<emph>Instrumenta Pacis Osnabrugensis</emph>) ou au traité d’Osnabrück. Largement répandue, en particulier pour désigner la césure chronologique de 1648, l’expression de « Paix de Westphalie », par sa légère imprécision même, semble la plus commode pour désigner cet ensemble de normes à la forte postérité.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

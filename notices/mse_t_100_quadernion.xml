@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">QUADERNION</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="quadernion">
+        <form>
+          <orth xml:lang="deu">Quadernion</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">quadernion</quote>
+          <quote type="variante">aigle historiée</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le quadernion est une aigle bicéphale, présentée de face, les ailes éployées et couvertes de blasons ou personnages représentant les <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsstand">membres immédiats</ref> de l’Empire. Il s’agit tout à la fois d’une image, d’un symbole et d’une liste. Le modèle iconographique, apparu au 15 siècle, connaît une certaine popularité jusqu’à la fin du 16 siècle. Des <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsinsignen-reichskleinodien">insignes et joyaux d’Empire</ref>, comme la couronne ou le crucifix, lui sont souvent associés. La valeur symbolique de l’aigle historiée réside dans sa capacité à représenter l’Empire, c’est-à-dire à faire résider la dignité impériale dans la communauté des membres éminents du Saint-Empire, au moment où la <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsreform">Réforme de l’Empire</ref> précise et institutionnalise les spécificités de cette monarchie élective qui est aussi une oligarchie hiérarchique. Le quadernion est par conséquent un symbole impérial plus favorable à l’ensemble des immédiats (et plus proche de la réalité de la Diète) qu’une autre image fréquente, celle de la <emph>majestas</emph> réunissant, siégeant en demi-cercle, l’empereur et les princes-électeurs dans l’appareil de leur dignité. Parce qu’il inclut les immédiats dans le corps de l’Empire, le symbole de l’aigle historiée est donc aussi une liste où doit être énuméré et identifié chacun d’entre eux.L’image contraint la liste pour parfaire le symbole : la symétrie des deux ailes et leurs dimensions imposent en effet à la liste une logique binaire qui contraint à l’organiser en séquences rythmiques et en hiérarchies mises en miroir ; on pourrait dire que celles-ci obligent à des retranchements et des adjonctions par rapport à la « liste réelle » des immédiats si la notion même de liste réelle avait un sens. Or, les imprécisions de la <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsmatrikel">Matricule</ref>, les fluctuations des invitations aux <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichstag">Diètes</ref> et surtout le jeu des prétentions et des prérogatives contestées montrent que ce n’est pas le cas. Si bien que la puissance symbolique du quadernion s’établit également sur ce point : il ne peut dire le compte exact des immédiats d’Empire car celui-ci est un des objets de la perpétuelle négociation de lui-même qu’était le système impérial, et il en offre l’image idéalisée, celle de l’unité de l’Empire, une image efficace en cela qu’elle alimente cette négociation sans fin. siècle, ou bien, en codicologie, un mode d’assemblage des cahiers de feuillets. Quant à la traduction « aigle historiée », elle est proposée davantage comme périphrase permettant d’éviter les répétitions que comme véritable alternative.</def>
+          <note xml:lang="fra">On évitera d’adopter le mot français « quaternion » qui désigne les premiers nombres hypercomplexes modélisés au 19</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

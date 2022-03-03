@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSUNMITTELBAR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Sébastien Schick</name>
+        </respStmt>
+        <author>Sébastien Schick</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsunmittelbar">
+        <form>
+          <orth xml:lang="deu">reichsunmittelbar</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">immédiat d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Qualité détenue par ceux – individus ou collectivités – qui, dans l’Empire, ne relèvent d’aucun autre seigneur ou pouvoir que de l’Empereur lui-même. Les immédiats sont alors vassaux de l’Empereur, et n’ont à répondre de leurs actes que devant lui. L’ensemble des personnes ou collectifs ayant voix et siège à la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète</ref> étaient immédiats (c’est le cas, donc, de l’ensemble des <ref target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst">princes-électeurs</ref>, des <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref> ou des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes libres</ref>), mais cette immédiateté, si elle est une condition nécessaire de la <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">Reichsstandschaft </ref></emph>(qualité d’état d’Empire), n’est pourtant pas une condition suffisante comme le prouvent les cas des<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft"> chevaliers d’Empire</ref>*, de certains monastères (principalement féminins), et des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsdorf">villages d’Empire</ref>, immédiats eux aussi, mais qui n’ont pas droit de cité à la Diète.Si l’immédiateté est bien un privilège, elle nous rappelle a contrario que tous les membres de l’Empire se trouvaient dans un lien de vassalité avec l’Empereur – même les plus puissants, et même à la fin du 18e siècle. Ainsi, l’Empire tout entier peut être considéré comme un groupement hiérarchisé d’individus (<emph>Personenverband</emph>) dès lors que les immédiats sont tous vassaux de l’Empereur, et que les médiats – que l’on appelle aussi <emph>landsässig</emph> – sont eux-mêmes reliés par un lien de vassalité à un seigneur, qu’il soit lui-même médiat ou immédiat.L’immédiateté de certains <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoires</ref> fut parfois remise en cause, surtout pour les plus petits d’entre eux que des voisins plus puissants voulaient soumettre. Le fait de siéger à l’assemblée des <ref target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">Cercles</ref> et de payer certains <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern">impôts d’Empire</ref> pouvaient alors être l’indice et le symbole de l’immédiateté. Certains territoires, communautés ou princes, perdirent néanmoins leur immédiateté au cours de l’époque moderne – c’est ce qu’on appelle la médiatisation – que ce soit du fait de leur endettement comme Donauwörth en 1607, soumise au duc de Bavière, ou par leur occupation pure et simple au cours d’un conflit. Le système juridique et institutionnel de l’Empire était toutefois censé garantir l’intégrité de ces petits territoires.Notons enfin qu’il existe en fait une véritable ambiguïté sur l’objet même sur lequel l’immédiateté se rattache. Dans le cas général, elle est associée à un territoire que l’on dit immédiat. Mais les exceptions existent, et on parle parfois d’immédiateté individuelle (<emph>persönliche Reichsunmittelbarkeit</emph>), comme dans le cas des juges des deux hautes juridictions de l’Empire (cf. <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsgerichte">tribunaux d’Empire</ref>), sans que l’expression ne soit alors véritablement convaincante. En fait, une étude approfondie de la notion fait toujours défaut.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSREFORM</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsreform">
+        <form>
+          <orth xml:lang="deu">Reichsreform</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Réforme de l’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">La Réforme de l’Empire fut la vaste tentative, aux 15 et 16 siècles, de moderniser la structure et la constitution du Saint-Empire, notamment pour retrouver un nouvel équilibre face au clivage qui opposait, depuis la fin du Moyen Âge, l’Empereur et les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref> (attention : le terme « réforme » ne renvoie pas ici, dans un sens moderne, à une conception programmatique de l’avenir mais mobilise la notion <emph>reformatio</emph> qui  désigne d’abord la restauration du « bon vieil ordre »). Se situant entre les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diètes</ref> de Worms en 1495 et d’Augsbourg en 1555, les changements entrepris débouchèrent sur des résultats dont certains marquent l’histoire de l’Empire jusqu’à sa fin : en 1495 est promulguée la <ref target="http://saintempire.hypotheses.org/publications/glossaire/ewiger-landfrieden">Paix publique perpétuelle</ref> qui interdit à tous les états d’Empire de recourir en cas de conflit à la force armée ; la même année est également instaurée la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht">Chambre de justice Impériale</ref>, l’un des deux tribunaux impériaux (avec le <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichshofrat">Conseil impérial aulique</ref>, fondé en 1498) chargés de veiller au respect de la Paix et d’arbitrer les différends entre plusieurs états d’Empire ainsi qu’entre autorités et sujets. Cinq ans plus tard, lors de la Diète d’Augsbourg de 1500, sont créés les <ref target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">Cercles d’Empire</ref> (d’abord sans les principautés électorales qui y seront intégrées en 1521, à Worms). Censés d’abord exécuter les décisions des tribunaux impériaux, contrôler la frappe et la circulation des monnaies, organiser l’armée impériale et lever les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern">impôts d’Empire</ref>, les Cercles évoluent plus tard vers des structures de coopération interterritoriale importante notamment dans le domaine de la « <ref target="http://saintempire.hypotheses.org/publications/glossaire/gute-policey">bonne police</ref> ». Enfin, la promulgation d’une grande ordonnance sur l’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsexekution">Exécution d’Empire</ref> tente, en 1555, de confier de manière définitive aux Cercles la tâche de faire respecter la Paix perpétuelle et les décisions de la justice impériale.D’autres mesures, en revanche, restèrent inachevées ou furent vite contrecarrées par les multiples divisions qui marquaient la cohabitation politique complexe au sein du Saint-Empire. En font notamment partie la tentative d’instaurer un <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsregiment">gouvernement d’Empire</ref> composé à la fois de l’Empereur et des états d’Empire (1500-1502, 1521-1531) et l’introduction d’un impôt universel appliqué à tous, le <ref target="http://saintempire.hypotheses.org/publications/glossaire/gemeiner-pfennig">denier commun</ref> (1495-1499). Malgré ces échecs, la Réforme d’Empire est cependant considérée aujourd’hui comme une étape fondamentale ayant permis à l’Empire de s’adapter aux nouveaux rapports de force et de garantir ainsi sa propre survie pendant les trois siècles suivants.</def>
+          <note xml:lang="fra">Pour se conformer au terme allemand, qui rassemble toutes les mesures sous le toit d’une seule « Réforme de l’Empire », il convient de respecter le singulier (et donc de ne pas parler de « réformes de l’Empire ») et de mettre une majuscule.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

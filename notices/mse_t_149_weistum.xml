@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">WEISTUM</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="weistum">
+        <form>
+          <orth xml:lang="deu">Weistum</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">coutume locale</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">le terme désigne une source du droit transmise oralement, surtout dans le monde rural. Dérivé du verbe weisen (« désigner du doigt », comme dans l’expression den Weg weisen, « indiquer le chemin », mais aussi zurechtweisen, « faire des remontrances ») et du substantif Weise (celui qui peut désigner les choses parce qu’il les connaît, « sage »), il exprime le fait que ces sources énoncent un droit transmis par la mémoire et donc par ceux qui savent. Dans l’espace germanique, les Weistümer sont un élément central du droit coutumier qui s’appuie sur l’usage au sein d’une communauté urbaine ou rurale. Ils ont été d’abord récités par les anciens lors des réunions annuelles du tribunal, puis mis par écrit à partir du 14e siècle, afin de réduire la confusion juridique régnant dans un espace donné. Au niveau du contenu, ils étaient surtout appelés à régler les relations entre les seigneurs fonciers et leurs tenanciers ainsi qu’entre ces derniers. Souvent pensés comme « perpétuels », puisque reconduits de génération en génération, ils sont pourtant renouvelés par la pratique du droit (qui, en même temps, ne touche pas forcément aux textes transmis eux-mêmes). Au cours de l’époque moderne, ils perdent cependant peu à peu leur influence, concurrencés par une nouvelle législation écrite émanant des autorités politiques désireuses d’une réglementation plus souple et plus réactive face à l’esprit du temps, notamment dans le cadre de la <ref target="https://saintempire.hypotheses.org/publications/glossaire/gute-policey">gute Policey</ref>.</def>
+          <note xml:lang="fra">Pour ne pas confondre avec le <ref target="https://saintempire.hypotheses.org/publications/glossaire/herkommen">Herkommen</ref>, principe de droit plus général, il convient de traduire Weistum par le terme « coutume » en ajoutant l’adjectif « locale ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

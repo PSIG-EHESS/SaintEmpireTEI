@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSERZÄMTER</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Jean-Dominique Delle Luche</name>
+        </respStmt>
+        <author>Jean-Dominique Delle Luche</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reicherzamter">
+        <form>
+          <orth xml:lang="deu">Reichserzämter</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">archi-offices d’Empire</quote>
+          <quote type="variante">grands-offices d’Empire (définition peut-être plus large incluant les &lt;em&gt;Erbämter&lt;/em&gt;)</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Définition : Les archi-offices, dissous en 1806, sont strictement liés à la <ref target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst">dignité électorale</ref> à partir de la Bulle d’Or. Il n’est donc guère étonnant d’en dénombrer sept (dont trois offices d’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichserzkanzler">archichanceliers</ref> octroyés aux princes ecclésiastiques) pendant la majeure partie de l’histoire du Saint-Empire, avant de constater des changements liés à la question de la dignité électorale des comtes palatins pendant la guerre de Trente Ans, puis des huitième et neuvième voix des électeurs de Bavière au 17e siècle et de Hanovre (Brunswick-Lunebourg) au 18e siècle. Est ainsi créé en 1652 après la <ref target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden">paix de Westphalie</ref> l’office d’archi-trésorier au profit des comtes palatins, en compensation de la dignité perdue en 1623 d’archi-sénéchal. Après la disparition des quatre dignités électorales rhénanes en 1803, leurs archi-offices sont répartis (jusqu’à la dissolution de l’Empire) au profit des nouveaux électeurs : principauté épiscopale de Ratisbonne, duché de Wurtemberg, margraviat de Bade et landgraviat de Hesse-Cassel.Les archi-offices représentent les offices curiaux suprêmes, apparaissent dans la titulature et sont représentés dans l’héraldique par les insignes impériaux respectifs ; les offices sont accomplis rituellement dans les couronnements impériaux et les Diètes de l’Empire, par les représentants des titulaires, voire les représentants desdits représentants.Les archi-offices ne sont pas à confondre avec la dizaine des « grands offices héréditaires d’Empire » (<emph>Reichserbämter</emph>) portés par quelques princes de rang comtal ou ducal, le plus souvent d’Allemagne du Sud, et parfois devenus des titres héréditaires (ex. Marschall von Pappenheim, Schenk von Limburg, Truchsess von Waldburg). Certains Erbämter sont des lieutenances d’archi-offices conférées par les électeurs eux-mêmes. D’autres (trésorier, porte-étendard) accèdent tardivement au grade d’archi-office : les ducs de Wurtemberg perdent ainsi l’office de porte-étendard au profit du Hanovre en 1692. Bien d’autres (grand-veneur, maître des cuisines…) ne bénéficient pas de ce changement.Enfin, ces offices eux-mêmes sont à distinguer des offices curiaux hérités des princes médiévaux (les Schenck von Stauffenberg détenaient leur office des comtes de Zollern) et des électeurs.Liste et traduction des archi-offices :</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

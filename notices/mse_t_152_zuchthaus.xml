@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">ZUCHTHAUS</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="zuchthaus">
+        <form>
+          <orth xml:lang="deu">Zuchthaus</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">maison de discipline</quote>
+          <quote type="variante">maison de correction</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Ces établissements apparurent dans l’espace germanique au cours de la première partie du 17 siècle, d’abord dans les villes du Nord (Lubeck 1602, Brême 1608/09, Hambourg 1618) puis, à partir de 1670, dans presque tout le reste des <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoires</ref> du Saint-Empire.Il s’agit d’une large gamme d’institutions de différentes tailles, mises en place sous des noms divers (généralement un même établissement en portait plusieurs) : <emph>Zuchthaus</emph> (de <emph>Zucht</emph> pour « discipline », « élevage », « peine », etc. – terme le plus communément utilisé), <emph>Werkhaus</emph> (du mot nordique <emph>verk</emph> pour « travail »), <emph>Arbeitshaus</emph> (« maison de travail ») ou <emph>Armenhaus</emph> (« maison de pauvres »), mais aussi <emph>Tollhaus</emph> (de l’expression <emph>toll sein</emph> = « être insensé ») ou <emph>Waisenhaus</emph> (orphelinat). Comme l’indique cette variété, les <emph>Zuchthäuser</emph> furent des institutions combinées. Cette multifonctionnalité résulta de leur ancrage dans les programmes gouvernementaux de la <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/gute-policey">gute Policey</ref></emph>. Les Zuchthäuser incarnaient parfaitement la pluralité des objectifs de cette politique en se prêtant à la fois aux besoins d’une justice flexible et opérant avec des sanctions variables selon les circonstances des infractions, aux aspirations d’une politique sociale répressive et avide de discipliner, par le travail et l’éducation religieuse, toutes sortes de marginaux considérés comme menaçants pour l’ordre social et public et, enfin, aux espérances d’une assistance efficiente accordée aux plus nécessiteux. Par conséquent, ces établissements servirent à enfermer les laissés pour compte de tout genre : populations errantes (mendiants et vagabonds), autres fauteurs de trouble (prostituées, ivrognes, mauvais ménagers), mais aussi gens âgés, malades psychiques et physiques ou orphelins. Dès le départ, des condamnés en justice (souvent des petits voleurs, initialement condamnés à une peine de bannissement) firent également partie des populations internées.La plupart des <emph>Zuchthäuser</emph> modernes furent ouvertes par des villes ou des territoires seuls. Il arrivait pourtant que des territoires plus petits, incapables de construire ou d’entretenir une telle institution, fassent interner des sujets chez leurs voisins ; de même, certains <ref target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">Cercles</ref> (par exemple celui de Souabe, à Ravensburg et Buchloe) installèrent des <emph>Zuchthäuser</emph> communes. siècle pour rééduquer des mineurs délinquants.</def>
+          <note xml:lang="fra">La polysémie du mot « <emph>Zucht</emph> » en allemand (cf. plus haut) rend difficile de proposer une traduction satisfaisante et tenant notamment compte de la multifonctionnalité des <emph>Zuchthäuser</emph> modernes. Néanmoins, dans l’esprit des contemporains comme dans celui des historiens, la composante « discipline » l’ayant toujours emporté sur les autres objectifs de ces institutions, du moins dans les discours, traduire par « maison de discipline » semble être la solution la plus adaptée (et ceci d’autant plus que certains établissements modernes dans des régions francophones ont porté exactement ce nom, comme la “maison de Discipline” fondée en 1631 à Genève et rattachée à l’Hôpital général de la ville). Recourir au terme « correction » donnerait un aspect plus dynamique à l’activité des institutions mais comporterait le risque d’une confusion avec les établissements français du même nom et établis au 19</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

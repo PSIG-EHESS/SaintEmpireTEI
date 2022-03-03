@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSPUBLIZISTIK</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichspublizistik">
+        <form>
+          <orth xml:lang="deu">Reichspublizistik</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">publicistique d’Empire</quote>
+          <quote type="variante">discours savant du droit public impérial</quote>
+          <quote type="variante">science du droit public du Saint-Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le caractère politique et juridique du Saint-Empire est aujourd’hui aussi difficile à saisir pour les historiens qu’il l’était déjà pour ses contemporains. S. Pufendorf (<emph>De statu Imperii Germanici</emph>, 1667) l’a qualifié de « <emph>irregulare aliquod corpus et monstro simile </emph>» ; toutefois, la plupart des juristes de l’époque moderne ont cessé au 18e siècle de chercher à le définir pour s’efforcer plutôt de le décrire dans ses moindres détails. La vaste littérature issue de ces efforts est la « publicistique d’Empire », c’est-à-dire l’ensemble des écrits publiés dans le domaine du droit public impérial entre le début du 17e et la fin du 18e siècle. L’une des motivations principales de ces écrits a résidé dans les innombrables querelles sans fins entre l’Empereur et les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref> ou entre différents états d’Empire autour des droits et prérogatives des uns et des autres. Les représentants les plus importants (et souvent extérieurs aux universités, en pleine décrépitude après la Guerre de Trente Ans) de cette science politique avant la lettre sont, outre Pufendorf, D. Reinking (<emph>Tractatus de Regimine seculari et ecclesiastico</emph>, 1619), J. Limnaeus (<emph>Juris publici Imperii Romano-Germanici libri IX</emph>, 1629-1634), H. Conring (<emph>De origine iuris Germanici</emph>, 1643), G.W. Leibniz (<emph>De iure suprematus ac legationis principum Germaniae</emph>, 1677), J.P. von Ludewig (<emph>Entwurff der Reichs-Historie</emph>, 1707), J.J. Moser (<emph>Teutsches Staatsrecht</emph>, 50 vol., 1737-1754), J.S. Pütter (<emph>Elementa iuris publici Germanici</emph>, 1754) et G.W.F. Hegel (<emph>Verfassungsschrift</emph>, 1802/03). Au 18 siècle, les limites entre la « publicistique d’Empire » traitant du droit public et le discours scientifique autour de la « <ref target="http://saintempire.hypotheses.org/publications/glossaire/gute-policey">bonne police</ref> » qui constitue les racines du droit administratif allemand deviennent de plus en plus floues, l’une comme l’autre se donnant pour objectif de définir le bon ordre d’une société fondée sur le droit et la paix.</def>
+          <note xml:lang="fra">Le mot allemand <emph>Publizistik</emph> ­– qui est encore aujourd’hui d’un usage tout à fait courant pour designer l’ensemble des médias de masse (avec cependant un accent mis sur la presse imprimée) – est un dérivé du terme <emph>Publizist</emph> (« celui qui publie quelque chose »), lui-même emprunté au mot français « publiciste » avec lequel on nommait, autrefois, un essayiste ou un journaliste et qui, aujourd’hui, qualifie surtout un spécialiste du droit public. Pour garder cette double perspective de « publier » et de « droit public », nous proposons donc le néologisme « publicistique d’Empire » qui nous semble préférable à des développements explicatifs tels que « discours savant du droit public impérial » ou « science du droit public du Saint-Empire ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

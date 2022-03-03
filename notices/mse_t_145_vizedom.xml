@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">VIZEDOM</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Juliette Guilbaud</name>
+        </respStmt>
+        <author>Juliette Guilbaud</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="vizedom">
+        <form>
+          <orth xml:lang="deu">Vizedom</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">substitut du prince pour (la justice|les finances|etc.)</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">connu également sous la variante Vi(t)ztum, du latin vicedominus que l’on trouve aussi. Le Vizedom occupe dans le Saint-Empire des fonctions à l’échelon territorial dont la définition et l’étendue sont, à l’instar d’autres postes de l’administration des territoires, fluctuantes et marquées à la fois par des différences géographiques et des évolutions dans le temps.À l’origine tout au moins, le Vizedom est une sorte de substitut d’un <ref target="https://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum">prince territorial ecclésiastique</ref> (évêque, archevêque, abbé…) – plus rarement d’un prince territorial séculier (Bavière) –, chargé de garantir les droits séculiers afférents au territoire concerné (<ref target="https://saintempire.hypotheses.org/publications/glossaire/stift">Stift</ref>), d’assurer dans ce territoire la protection des sujets et le respect de leurs droits, voire de représenter le prince ecclésiastique dans l’exercice de la justice. À cet égard, il a pu endosser, selon les endroits et les époques, des fonctions d’administrateur-gestionnaire (Verwalter), de protecteur (advocatus), de gouverneur (Statthalter), de juge (Richter), de <ref target="https://saintempire.hypotheses.org/publications/glossaire/vogtei">bailli</ref> (Vogt) ou d’<ref target="https://saintempire.hypotheses.org/publications/glossaire/schultheiss">écoutète</ref> (Schultheiss). Certains territoires vastes et/ou morcelés, à l’image de la principauté-archevêché de Mayence, sont divisés en plusieurs Vizedomämter (ou Vitztumämter) : Mainz-Rheingau, Aschaffenburg, Eichsfeld, Hessen, Vizedomamt außer der Stadt Mainz. Il est aussi à noter que dès le Moyen Âge, certaines de ces circonscriptions se transforment en fiefs héréditaires, voire en sinécures.</def>
+          <note xml:lang="fra">il apparaît difficile de fournir une traduction unique réellement satisfaisante au terme de Vizedom, tant les compétences de ce dernier sont liées à un territoire et une époque donnés. En dépit d’une origine commune entre les deux termes, on évitera aussi de traduire Vizedom par « vidame » qui, dans la France moderne, est devenu un titre de noblesse héréditaire rattaché au fief sur lequel s’exerçaient autrefois des fonctions assez similaires à celles du Vizedom du Saint-Empire.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

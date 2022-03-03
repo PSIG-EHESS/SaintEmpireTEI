@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">RÖMERMONAT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="romermonat">
+        <form>
+          <orth xml:lang="deu">Römermonat</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">mois romains</quote>
+          <quote type="variante">mois des Romains</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Les mois romains constituent le mode traditionnel de répartition des prestations en hommes armés et en argent dans l’Empire. La <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsmatrikel">matricule d’Empire</ref> de 1521 fixe, pour chacun des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref> qui y figure, un certain nombre d’hommes à pied et à cheval par mois. Un mois romain correspond à l’origine à l’ensemble des hommes armés requis pour constituer le cortège chargé d’accompagner l’Empereur à Rome en vue de son couronnement. Le dernier Empereur à effectuer le voyage – non pas à Rome, mais à Bologne – fut Charles Quint en 1530. Le système de répartition par mois romains demeure néanmoins en usage après cette date. C’est la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref> qui décide, sur demande de l’Empereur, la levée d’un certain nombre de mois romains (d’un seul à plusieurs centaines) pour couvrir les besoins militaires ou financiers de l’Empereur et de l’Empire.Ces mois romains représentent donc au départ une prestation en hommes due au titre du lien de vassalité. Mais ils sont par la suite devenus l’échelle de référence de prestations monétarisées, sur la base d’une conversion. Toutefois, le lien maintenu avec des prestations en hommes armés n’est pas demeuré fictif et, jusqu’à la fin du 18e siècle, les états d’Empire contribuent à la fois à l’impôt sous forme monétarisée et au contingent militaire sous la forme d’hommes en armes. Cf. également <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern">impôts d’Empire</ref>.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>
