@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">FREIHERR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Sébastien Schick</name>
+        </respStmt>
+        <author>Sébastien Schick</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="freiherr">
+        <form>
+          <orth xml:lang="deu">Freiherr</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">baron</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">à l’époque moderne, il s’agit du rang le plus bas de la hiérarchie nobiliaire titrée. Si le terme rappelle que le porteur du titre est bien un seigneur (Herr), le terme de « freier Herr » se développe au cours du 12e siècle, pour désigner, dans le cadre de la société féodale, le groupe de ceux qui détiennent leur fief directement du roi, mais sans faire partie du rang des princes (<ref target="https://saintempire.hypotheses.org/publications/glossaire/furst">Fürst</ref>), à l’inverse des ducs (Herzog) ou de certains comtes (<ref target="https://saintempire.hypotheses.org/publications/glossaire/graf-reichsgraf">Graf</ref>).Dès lors, si l’étymologie du terme rappelle l’indépendance de celui qui porte ce titre – à l’instar du latin <emph>liber baro</emph> – il ne faudrait donc pas en déduire que le Freiherr disposait automatiquement de l’immédiateté d’Empire. Le titre était porté, à l’époque moderne, par une petite noblesse impériale dont la fonction et l’origine étaient finalement assez variées. Une partie des Freiherren appartient par exemple à la noblesse médiate de service qui peuplait, au cours de la seconde modernité, les conseils privés des grands princes d’Empire. Mais nombre d’entre eux étaient aussi des <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiats</ref>, qu’ils aient obtenu directement, des mains de l’empereur, une terre d’Empire (Reichsgut), ou qu’ils appartiennent au groupe des <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft">chevaliers immédiats d’Empire</ref> (Reichsritter). Ces barons immédiats avaient ainsi pris l’habitude de se faire appeler « Reichsfreiherren » afin de souligner leur statut, mais c’était là un usage qui visait à les distinguer, et non un titre légitime à part entière.</def>
+          <note xml:lang="fra">On pourra donc parfois, si la nécessité s’en fait sentir pour distinguer les statuts, préciser « baron d’Empire » ou « baron immédiat », et « baron médiat ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">HUSSITENSTEUER</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Juliette Guilbaud</name>
+        </respStmt>
+        <author>Juliette Guilbaud</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="hussitensteuer">
+        <form>
+          <orth xml:lang="deu">Hussitensteuer</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">impôt hussite</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">cet impôt, dont les modalités de prélèvement sont précisées par la Diète d’Empire dans l’Anschlag zur Hussitensteuer, le 2 décembre 1427, est la première tentative de <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichssteuern">fiscalité</ref> à l’échelle impériale, destinée à financer la guerre contre les Hussites (cf. <ref target="https://saintempire.hypotheses.org/publications/glossaire/gemeiner-pfennig">Gemeiner Pfennig</ref>, 1495). C’est un prélèvement censé être universel, puisque tous les individus de plus de quinze ans (à l’exception des princes-électeurs qui se disent prêts à contribuer volontairement), laïcs et ecclésiastiques, femmes et hommes, chrétiens et juifs, doivent y être soumis selon un barème préétabli qui prend en compte, selon les catégories d’individus, différents critères : biens, revenus, états, religion. Les sommes collectées localement doivent ensuite être transportées dans l’un des cinq dépôts centraux de Cologne, Erfurt, Salzbourg, Breslau et Nuremberg. C’est dans cette dernière ville enfin qu’est prévue la réunion d’une commission centrale, composée de représentants des princes-électeurs et des villes, pour décider de l’utilisation des fonds.La conjonction de plusieurs obstacles – difficultés de perception, contestation du rôle central de Nuremberg, etc. – qui empêche finalement la mise en œuvre de cette contribution ne doit pas masquer l’importance de cette première tentative d’impôt à l’échelle impériale.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

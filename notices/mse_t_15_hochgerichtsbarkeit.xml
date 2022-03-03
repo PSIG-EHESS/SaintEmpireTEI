@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">HOCHGERICHTSBARKEIT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="hochgerichtsbarkeit">
+        <form>
+          <orth xml:lang="deu">Hochgerichtsbarkeit</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">haute justice</quote>
+          <quote type="variante">justice pénale</quote>
+          <quote type="variante">justice criminelle</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">bien qu’elle procède, en théorie au moins, de la <ref target="https://saintempire.hypotheses.org/publications/glossaire/regalien-2">régale</ref> impériale, la haute justice n’est pas exercée directement par l’empereur. Elle constitue, au contraire, l’un des enjeux fondamentaux des rapports de pouvoir au sein du Saint-Empire. Dans d’autres monarchies européennes, elle est du ressort du roi qui est justicier suprême et peut déléguer ce droit à d’autres pouvoirs, sans pour autant le perdre. Dans le cas de l’empire, en revanche, la haute justice est essentiellement en possession des princes (laïcs et ecclésiastiques), et ceci depuis le <emph>Statutum in favorem principum</emph> de Frédéric II (1231). L’empereur ne l’exerce donc qu’en tant que prince territorial, dans ses propres territoires. Dans les villes d’Empire, les sentences sont prononcées et les peines exécutées en son nom (mais la procédure est entre les mains des autorités urbaines). Depuis la Diète d’Augsbourg de 1530, il était en outre interdit de faire appel en matière pénale aux <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsgerichte">tribunaux d’Empire</ref> (sauf dans quelques rares cas de figure, par exemple un déni de justice). Par conséquent, la haute justice est intimement liée, dans l’Empire, à la supériorité territoriale – bien qu’elle ne soit pas synonyme de celle-ci, contrairement à ce que suggèrent certains juristes modernes. Tout acte de haute justice – que ce soit l’exécution des peines, mais aussi l’arrestation d’un malfaiteur, l’enquête concernant un crime ou la levée d’un cadavre trouvé sur la chaussée – était donc aussi, et surtout, un acte performatif traduisant les prétentions politiques de celui au nom duquel il était accompli.Pour définir la haute justice au Moyen Âge, on recourt souvent aux <emph>vier hohe Fälle</emph>, « les quatre cas majeurs », dont la définition varie pourtant selon les régions (le plus souvent, il s’agit du vol, du meurtre, du viol ainsi que de l’incendie). D’autres la définissent davantage par les sanctions auxquelles elle condamne – et notamment les peines capitales et afflictives. D’où les termes <emph>Blutgerichtsbarkeit</emph> (« justice du sang ») ou <emph>Halsgerichtsbarkeit</emph> (se référant au cou, pour exprimer le fait qu’il s’agit d’une instance qui décide de la vie et de la mort). Dans beaucoup de régions de l’Empire, on trouve également le mot <emph>Malefizgerichtsbarkeit</emph> (du latin <emph>maleficium</emph>) ; d’autres notions sont géographiquement plus limitées, par exemple <ref target="https://saintempire.hypotheses.org/publications/glossaire/zent">Zent</ref> (au sud et à l’ouest) ou <ref target="https://saintempire.hypotheses.org/publications/glossaire/fraisch">Fraisch</ref> (au sud). Le mot de <emph>Criminalgerichtsbarkeit</emph> (du latin <emph>criminalis</emph>) s’impose à partir du 18e siècle. Enfin, le terme le plus fréquent à la fois dans les textes des juristes et dans les documents administratifs est celui de <emph>peinliche Gerichtsbarkeit</emph> (<emph>peinlich</emph> dérivant du latin <emph>poena</emph> et signifiant en ancien allemand ce qui produit de la peine, ce qui est atroce et douloureux).La haute justice englobe cependant aussi des cas de la justice civile, ceux dont l’enjeu dépasse une certaine somme d’argent, par exemple, ou ceux qui concernent la liberté d’une personne ou sa propriété. En outre, contrairement à l’image qui domine toujours la recherche en dehors du cercle plus restreint des spécialistes, la haute justice n’est pas, à l’époque moderne, synonyme d’exécutions et de mutilations. Le taux des peines de mort dépasse rarement, en un lieu donné, les 10 %, la plupart des criminels étant condamnés à d’autres sanctions : amende, bannissement, pilori, peine de prison… – ou relâchés.</def>
+          <note xml:lang="fra">à l’historien, la haute justice dans le Saint-Empire oppose deux écueils : d’une part la complexité déroutante des structures et institutions, à laquelle seule une étude précise de chaque cas peut remédier, et d’autre part la multiplicité des termes et notions qui en découle. Nous avons indiqué quelques-uns de ces termes, mais d’autres existent ici ou là. Ils peuvent également être combinés avec d’autres mots, comme par exemple <emph>peinliche Strafen</emph> (« peines qui causent de la peine », c’est-à-dire les peines capitales et corporelles), <emph>Hochgericht</emph> (mot qui désigne le lieu d’exécution ou bien l’échafaud) ou <emph>Blutrichter</emph> (« juge du sang »). De même, il existe une grande variété régionale et locale des noms du personnel de la haute justice, notamment du bourreau (<emph>Henker</emph> ou <emph>Hänger</emph>, <emph>Scharfrichter</emph>, <emph>Nachrichter</emph>, etc. – activité souvent exercée en combinaison avec celle de l’<emph>Abdecker</emph>, « équarrisseur », également appelé <emph>Schinder</emph>, <emph>Caviller</emph>, <emph>Wasenmeister</emph>, etc.) ou des forces auxiliaires (<emph>Stadtknecht</emph>, <emph>Fronbote</emph>, <emph>Büttel</emph>, <emph>Gassenvogt</emph>…). Attention à ne pas confondre <emph>Hochgerichtsbarkeit</emph> avec l’expression <emph>Höchstgerichtsbarkeit</emph> (« juridiction suprême »), qui désigne en fait la justice impériale, en particulier les tribunaux d’Empire.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

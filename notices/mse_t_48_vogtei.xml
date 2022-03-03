@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">VOGTEI</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="vogtei">
+        <form>
+          <orth xml:lang="deu">Vogtei</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">bailliage</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">La <emph>Vogtei</emph> désigne d’abord au Moyen Âge la circonscription sur laquelle s’exerce la domination d’un <emph>Vogt</emph> (bailli ; du moyen allemand <emph>voget</emph>, emprunté au latin <emph>advocatus</emph>), c’est-à-dire d’un officier, d’origine noble, représentant du pouvoir royal et exerçant ses fonctions notamment dans les domaines de la fiscalité, de la justice et de la défense militaire. Souvent, un tel bailliage était lié à un château fort depuis lequel était gouverné le pays environnant (dans ce cas, le <emph>Vogt</emph> est parfois appelé <emph>Burggraf</emph>). Dans un sens plus large, la notion désigne tout représentant d’une <ref target="http://saintempire.hypotheses.org/publications/glossaire/obrigkeit">autorité</ref> donnée dans un district circonscrit et exerçant des compétences larges. Dans le Saint-Empire, on distingue notamment :La <emph>Vogtei</emph> constitue les origines médiévales de nombre de phénomènes de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/herrschaft">domination</ref> à l’époque moderne. Dans les régions protestantes, elle fut en outre un facteur important du développement du <ref target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft">pouvoir territorial</ref>, en permettant aux seigneurs laïcs de s’emparer, après leur sécularisation, des domaines ecclésiastiques sur lesquelles ils avaient déjà exercé les droits de la <emph>Vogtei</emph>.Ajoutons enfin que le terme peut également désigner l’office du bailli ou le bâtiment dans lequel il exerce (voir son logement), de sorte que le mot est encore aujourd’hui relativement courant en servant de nom par exemple pour des hôtels ou restaurants à la campagne. siècle par le pouvoir royal en France, le bailliage correspond aux caractéristiques et fonctions de la <emph>Vogtei</emph> dans le Saint-Empire. C’est pourquoi nous proposons cette traduction, en la complétant éventuellement d’un ajout explicatif (« d’Empire » quand il s’agit du bailliage royal du Moyen Âge, « territorial » quand il s’agit d’un bailliage repris ou créé par le pouvoir territorial, que ce soit en maintenant le nom <emph>Vogtei</emph> ou en lui donnant une autre désignation comme <emph>Amt</emph>). On évitera en revanche de traduire par « avoué », terme certes également dérivé du latin <emph>advocatus</emph> mais réservé en France à un type précis de représentant devant la justice.</def>
+          <note xml:lang="fra">Circonscription administrative créée dès le 12</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">MANDATSPROZESS</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="mandatsprozess">
+        <form>
+          <orth xml:lang="deu">Mandatsprozess</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">mandement (procédure par)</quote>
+          <quote type="variante">mandat (procédure par)</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Il s’agit d’un terme de procédure concernant en particulier les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsgerichte">tribunaux d’Empire</ref> (Chambre de justice Impériale et Conseil impérial aulique). Ceux-ci avaient la réputation de mener des procès interminables – il est vrai que dans certains cas la sentence finale s’est fait attendre pendant plusieurs générations. Mais d’autres procédures étaient bien plus rapides, en particulier le mandement qui souvent, répondant à la saisine par le plaignant, visait à bloquer l’action qu’il contestait. On distingue par exemple le <emph>mandatum de non offendendo</emph> suspendant les menaces physiques contre le plaignant, ou le <emph>mandatum de non turbando</emph> interdisant toute action contre ses biens ou ses droits. Le mandement était soit <emph>cum clausula</emph> (ouvrant la possibilité d’une objection), soit plus rarement <emph>sine clausula</emph> (sans recours possible et mettant un terme à la procédure). L’efficacité d’un mandement dépend bien sûr de la capacité du tribunal à le faire exécuter. Toutefois, la majorité des justiciables, <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiats</ref> mais peu puissants, ont tout intérêt à respecter le tribunal et ses décisions et à ne pas s’exposer à des procédures de rétorsion coûteuses. Quant aux plus puissants <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref>, c’est leur réputation qui est en jeu s’ils contreviennent à la justice impériale. Si bien que, dans le détail des dizaines de milliers de procédures devant les tribunaux impériaux, les mandements, très fréquents, contribuent à figer les situations donnant lieu à contestation, à suspendre toute tentative de contester les prérogatives des autres – et donc parfois à faire durer ces procès où aucune des parties ne veut clarifier des droits acquis et ambigus (<emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/possessio">possessio</ref></emph>), mais où aucune également n’est en mesure d’imposer son point de vue par le recours à la force.</def>
+          <note xml:lang="fra">« Mandat » peut avoir en français un sens juridique comparable (mandat d’amener, mandat de dépôt…) mais c’est un terme très polysémique (mandat d’un élu, mandat postal etc.). Mandement n’est pas non plus sans ambiguïté (le mandement d’un évêque) mais s’inscrit dans un champ plus étroitement institutionnel. Enfin, procédure semble préférable à « procès » car le mandement n’interrompt pas nécessairement le procès.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

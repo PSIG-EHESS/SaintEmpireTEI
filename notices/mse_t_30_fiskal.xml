@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">FISKAL</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Juliette Guilbaud</name>
+        </respStmt>
+        <author>Juliette Guilbaud</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="fiskal">
+        <form>
+          <orth xml:lang="deu">Fiskal</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">procureur fiscal</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Par son étymologie relativement transparente (du latin <emph>fiscalis</emph>), le terme allemand renvoie à la première préoccupation de cet agent de la justice seigneuriale ou impériale : la perception des revenus dus au seigneur. Dans les faits, le <emph>Fiskal</emph> est chargé plus largement de poursuivre en justice les contrevenants aux droits seigneuriaux et représente, à cette occasion, les intérêts du <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft">Landesherr</ref></emph>. Selon les territoires, les procureurs fiscaux peuvent porter d’autres dénominations : <emph>Procuratores</emph>, <emph>Anwälte</emph>.Au-delà de l’échelon territorial, il existe aussi des procureurs fiscaux impériaux (<emph>Reichsfiskäle</emph> ou –<emph>fiskale</emph>) qui remplissent les fonctions de leurs homologues, mais à l’échelon impérial : devant la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht">Chambre de justice Impériale</ref> ou le <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichshofrat">Conseil impérial aulique</ref>, ils représentent les intérêts de l’empereur et requièrent en ce sens contre des contrevenants au droit d’Empire (par ex. : certains princes territoriaux peuvent être assignés par le procureur fiscal impérial de la Chambre de justice Impériale pour retard de paiement de leur contribution à l’entretien des tribunaux d’Empire).</def>
+          <note xml:lang="fra">Le terme ne revêt pas de difficulté de traduction particulière, une fois que l’on a compris que son sens ne se restreignait pas à une stricte dimension « fiscale ». La traduction proposée de « procureur fiscal » est par ailleurs utilisée par les juristes contemporains (cf. notamment S. Jacquet, Droit public d’Allemagne…, Strasbourg, 1782, t. III, p. 151).</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

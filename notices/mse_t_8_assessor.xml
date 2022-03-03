@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">ASSESSOR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="assessor">
+        <form>
+          <orth xml:lang="deu">Assessor</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">assesseur</quote>
+          <quote type="variante">juge-assesseur</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Outre le Juge de la Chambre (<emph>Kammerrichter</emph>) nommé par l’empereur parmi la haute noblesse immédiate et les deux puis quatre présidents, la <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichkammergericht">Chambre de justice impériale</ref> créée en 1495 comprend des assesseurs qui accomplissent l’essentiel du travail judiciaire. Il s’agit de juristes professionnels réservant au tribunal toute leur activité, une exclusivité encore rare au début de la période et consacrée par la première ordonnance de la Chambre de justice impériale (1495) qui leur fait obligation de renoncer à toute autre charge. Une <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsschluss">décision d’Empire</ref> de 1775 limite même leur production de livres scientifiques. Ils doivent en outre depuis 1566 servir au moins six ans. Ces dispositions servent de modèle à la professionnalisation de la justice dans l’Empire et le passage par la Chambre de justice impériale devient une étape dans des carrières de juristes de haut vol, formés dans les meilleures universités (au 18 siècle, Göttingen surtout, mais aussi Wurtzbourg, forment le plus d’assesseurs).Dès l’origine, les assesseurs sont présentés par l’empereur, les électeurs, les autres princes, selon des modalités disputées. En cela, la Chambre se distingue du Conseil impérial aulique, nommé par le seul empereur. Mais un assesseur n’est pas le représentant du prince qui le nomme et n’est pas payé par lui. Les assesseurs sont donc véritablement une incarnation de l’Empire en tant que tel. En 1521, les <ref target="https://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">Cercles d’Empire</ref> deviennent le cadre de répartition des présentations d’assesseurs. La <ref target="https://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden">paix de Westphalie</ref> fait passer leur nombre de 28 à 50 et, sauf pour les juges nommés par l’empereur, impose la parité confessionnelle (déjà requise depuis 1555 pour les procès touchant à la paix de religion). Ceci complique les alternances et les répartitions par lesquelles les états d’Empire de chaque Cercle se partagent leur droit de présentation, et contribue à empêcher des nominations. Les difficultés récurrentes du financement et les blocages des « visitations » et réformes par la Diète accentuent encore le déficit en effectif de la Chambre de justice impériale. En 1711, le nombre d’assesseurs est tombé à 5, il se stabilise toutefois à 16 en 1722. Le nombre théorique de 50 est réduit à 25 par la décision d’Empire de 1775, suivie d’efforts concertés pour amener le nombre effectif d’assesseurs à ce niveau en 1782.</def>
+          <note xml:lang="fra">« Assesseur » a bien en français le sens de juge assistant (comme les assesseurs de la Chambre de justice impériale assistent théoriquement le Juge de la Chambre) mais il revêt également d’autres acceptions (les assesseurs des bureaux de vote lors des élections par exemple). C’est pourquoi on pourra préférer, selon le contexte, l’expression « juge-assesseur ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

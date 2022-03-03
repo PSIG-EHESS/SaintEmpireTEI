@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">VERWEISUNG</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="verweisung">
+        <form>
+          <orth xml:lang="deu">Verweisung</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">bannissement</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Figurant parmi les sanctions les plus appliquées de la justice pénale dans le Saint-Empire moderne, le bannissement a deux origines : d’une part il remonte à la <emph>Friedlosigkeit</emph> ou <emph>Acht</emph> (<ref target="http://saintempire.hypotheses.org/publications/glossaire/acht-2">mise au ban</ref>) médiévale, c’est-à-dire à la perte de toute protection juridique suite à un acte criminel ; et d’autre part, il plonge ses racines dans le droit romain qui distinguait deux formes : la <emph>deportatio</emph> assignant au banni un lieu de résidence précis et la <emph>relegatio</emph> qui lui interdisait une zone géographique déterminée. C’est dans ce deuxième sens que le bannissement réussit à s’imposer comme une sanction pénale majeure dans l’Empire, d’abord sous la forme du <emph>Stadtverweis</emph> (bannissement urbain) pratiqué surtout dans les grandes villes qui surent se libérer de leur dépendance vassalique et obtenir la place d’espaces autonomes du droit ; lié à cette évolution, le champ d’application du bannissement s’élargit d’ailleurs, en n’atteignant plus seulement des criminels mais aussi toutes sortes de marginaux (mendiants, vagabonds, prostituées, etc.).Avec l’avènement du <ref target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft">pouvoir territorial</ref>, ce bannissement urbain fut complété par sa forme territoriale, le <emph>Landesverweis</emph> (bannissement territorial). Dans les ordonnances criminelles impériale et territoriales (cf. <ref target="http://saintempire.hypotheses.org/publications/glossaire/carolina">Caroline</ref>) publiées depuis le 15 siècle, de nombreux délits sont punis par cette sanction. De même, dans le cadre de la « <ref target="http://saintempire.hypotheses.org/publications/glossaire/gute-policey">bonne police</ref> » les règlements prévoient régulièrement l’expulsion de « tsiganes », juifs, « oisifs » (<emph>Müßiggänger</emph>) et d’autres laissés-pour-compte, sans que ceux-ci soient nécessairement accusés d’un crime précis. Par conséquent, les taux de fréquence de la peine sont importants : dans le cas des villes, il n’est pas rare de voir jusqu’à 50 % des individus jugés par un tribunal condamnés au bannissement, et même dans les moyens ou grands territoires de l’Empire, la part des bannis peut facilement se chiffrer à un cinquième ou plus. Cette importance quantitative s’explique par les nombreux avantages de la peine : peu couteuse, elle est avant l’arrivée massive de la prison la seule possibilité d’éloigner de manière durable un malfaiteur de la société sans le tuer ; en même temps, elle est en principe réversible, facile à doser (de quelques semaines jusqu’<emph>ad vitam eternam</emph>) et à associer à d’autres sanctions (amendes, confiscation des biens, peines afflictives et infamantes comme notamment le pilori et le <emph>Staupenschlag</emph> ou fustigation). Ses deux formes s’accompagnent généralement de la <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/urphede">Urphede</ref></emph>, c’est-à-dire d’un sermon du condamné de ne pas se venger et de respecter les termes de sa peine.En revanche, ces nombreuses avantages sont ternis par un inconvénient majeur : tout bannissement ne vaut que pour le ressort du tribunal qui l’a prononcé. Dans le cas des villes, ce sont surtout les limites de la juridiction municipale marquées par le <emph>Weichbild</emph> (de <emph>wik</emph>, ancien allemand pour ville comme encore aujourd’hui dans Brunswick, et d’une forme dérivée de bill pour droit) ; ailleurs, on a souvent recours à des événements géographiques (montages, fleuves) pour marquer les limites d’un bannissement. Avec la territorialisation grandissante de la haute justice, de telles dispositions peu précises sont peu à peu remplacées par la désignation concrète de <ref target="http://saintempire.hypotheses.org/publications/glossaire/grenze">frontières</ref> seigneuriales ou territoriales. Cela n’empêche pourtant pas que, dans la mosaïque territoriale qu’est le Saint-Empire, le contrôle de l’exécution effective d’un bannissement et de son respect par les condamnés forme un défi permanent. Dans les régions les plus fragmentées notamment, la peine peut ainsi revenir à s’éloigner seulement de quelques milles pour s’installer dans le territoire du seigneur voisin. De même, des contacts clandestins avec des proches dans la patrie abandonnée ou des retours illicites sont monnaie courante. Pour mieux s’armer contre ces pratiques subversives, villes et territoires s’efforcent dès le Moyen Âge de mieux coordonner leurs actions, d’échanger des informations sur les personnes bannies ou d’harmoniser les étendues des bannissements prononcés par les uns et les autres. En outre, dans le cadre de certains <ref target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">Cercles d’Empire</ref>, des mesures collectives sont prises (poursuites transfrontalières, patrouilles, au 18e siècle aussi fiches signalétiques et passeports).</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

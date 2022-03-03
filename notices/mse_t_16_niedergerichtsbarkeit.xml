@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">NIEDERGERICHTSBARKEIT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="niedergerichtsbarkeit">
+        <form>
+          <orth xml:lang="deu">Niedergerichtsbarkeit</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">basse justice</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">la basse justice, pour l’instant peu étudiée par l’historiographie, du moins dans le cas du Saint-Empire, dépasse, quant à la complexité de ses structures et institutions au niveau régional et local, celle, déjà impressionnante, de la haute justice. Bien que les matières judiciaires soient en principe réparties, depuis l’époque de Charlemagne, entre causes majeures (<emph>causae majores</emph>) et causes mineures (<emph>causae minores</emph>), la démarcation entre ces deux domaines n’a jamais été fondée sur une distinction claire au niveau du droit matériel. Souvent, les compétences de la basse justice découlent tout simplement d’une déduction négative de celles de la haute justice (en fonction de la hauteur des sommes en jeu, par exemple, ou du degré des blessures subies par la victime, telles que celles où le sang ne coule pas – ces définitions varient pourtant fortement, parfois même à l’intérieur d’un même territoire). Habituellement, on impute à la basse justice les actions en recouvrement de dettes, les conflits autour de la propriété mobilière, les délits mineurs et les affaires en diffamation. La torture (<emph>Folter</emph>) n’y est pas appliquée.À l’époque moderne, la basse justice est intrinsèquement liée à la seigneurie foncière. C’est pourquoi on parle également de « justice patrimoniale » (<emph>Patrimonialgerichtsbarkeit</emph>). L’office du juge est soit exercé par le seigneur lui-même, soit délégué à un membre de la communauté villageoise. Dans le cas où ce dernier a le droit de transmettre cette fonction à ses descendants, il s’agit d’un juge héréditaire (<emph>Erbrichter</emph>). Puisque l’office est souvent combiné avec le droit de brassage et une licence de vente de boissons alcoolisées, on trouve encore aujourd’hui, surtout à l’est de l’Allemagne, nombre d’auberges villageoises portant le nom d’<emph>Erbgericht</emph>. Celui qui tient l’office de juge en fief est <emph>Lehnrichter </emph>; si son fief est héréditaire, il s’agit d’un <emph>Erblehnrichter</emph>. Dans les autres cas, on parle d’un <emph>Setzrichter</emph>, juge instauré par le seigneur. Parfois, l’office tourne également entre tous les laboureurs. Dans le sud de l’Empire, où les bourgs portent souvent le nom de <emph>Markt</emph> (« marché »), le juge s’appelle <emph>Marktrichter</emph>.Le domaine de la basse justice connaît une multitude de formes différentes : en Saxe par exemple, les <emph>Dorfgerichte</emph> (« tribunaux villageois ») rivalisent longtemps avec les tribunaux des seigneurs (<emph>grundherrliche Gerichte</emph>). Ces derniers sont également appelés, selon les régions, <emph>Schulzengericht</emph> (de <emph>Schulze</emph>, dérivé de <emph>Schultheiß</emph>, « écoutète ») ou <emph>Vogteigericht</emph> (de <emph>Vogt</emph>, « bailli », surtout en Franconie et Souabe). Les termes <emph>Brüchten</emph>– ou <emph>Frevelgericht</emph>, en revanche, renvoient aux noms qu’on donne à des délits de moindre importance (<emph>Brüchten</emph> ou <emph>Brüche</emph>, aussi <emph>Frevel</emph>, « malices » ou « méchancetés »), punis habituellement au moyen d’amendes. En Westphalie, les fameux <emph>Femgerichte</emph> (de <emph>Verfemung</emph>, une sorte de proscription) – au Moyen Âge instances capitales de la haute justice qui rayonnent dans tout l’Empire – tombent à l’époque moderne au statut de simples tribunaux ruraux. En outre, on trouve des institutions compétentes pour un secteur limité seulement, par exemple les <emph>Wald- </emph>et<emph> Haingerichte</emph> (aussi <emph>Forstgerichte</emph>) qui arbitrent les conflits autour de l’usage des forêts et du bien communal.Il convient en outre de faire une distinction entre la basse justice, en principe entre les mains des autorités, et la <emph>Rügegerichtsbarkeit</emph> (de <emph>Rüge</emph>, « blâme, réprimande »), sorte de justice populaire, plus ou moins tolérée par le pouvoir public, et qui opère par des pratiques moqueuses ou déshonorantes. Un exemple parmi d’autres en est le <emph>Haberfeldttreiben</emph> en Bavière, sorte de <emph>charivari</emph> lors duquel la personne incriminée est encerclée dans sa maison et interpelée de manière très bruyante pour lui lire publiquement les récriminations dirigées contre elle.</def>
+          <note xml:lang="fra">Le terme lui-même ne pose aucun problème. En revanche, la traduction des différentes formes et institutions de la basse justice appelle à la plus grande prudence. Même si nous avons donné ici des propositions, il convient de vérifier dans chaque cas concret qu’elles correspondent bien au sens des termes utilisés dans les sources ou dans la littérature. Tout automatisme doit être évité.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

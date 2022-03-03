@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">AMT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="amt">
+        <form>
+          <orth xml:lang="deu">Amt</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">bailliage territorial</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">L’<emph>Amt</emph> constitue, dans de nombreuses principautés du Saint-Empire, l’échelon principal de l’organisation de l’administration territoriale au niveau local. En se substituant peu à peu à la <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/vogtei">Vogtei </ref></emph>(bailliage), plus ancienne, ces circonscriptions reflètent en effet les efforts entrepris depuis la fin du Moyen Âge par les autorités territoriales pour s’assigner les droits traditionnels attachés notamment à la <ref target="http://saintempire.hypotheses.org/publications/glossaire/herrschaft">seigneurie</ref> foncière (<emph>Grundherrschaft</emph>) afin de les réunir sous le chapeau d’un pouvoir central. Dans les différents territoires et régions du Saint-Empire, le bailliage territorial recouvre par conséquent des réalités variées correspondant au succès plus ou moins grand obtenu par les princes dans leur volonté de s’imposer aux pouvoirs intermédiaires (c’est-à-dire notamment aux villes ou aux grands seigneurs de la noblesse locale). En Saxe, par exemple, au début du 17e siècle presque toutes les parties du territoire furent rattachées, plus ou moins étroitement, à un bailliage. Les tâches et prérogatives concrètes de celui-ci étaient cependant fort différentes, en fonction du statut juridique de chaque lieu : dans les villages soumis de manière immédiate à l’autorité territoriale, le bailliage possédait ainsi tous les droits liés à la seigneurie, la haute et la basse justice et exécutait l’ensemble des droits liés au <ref target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft">pouvoir territorial</ref>. Dans les villages médiats, en revanche, il n’exerçait que ces derniers et possédait, parfois, la haute justice – tous les autres droits revenant à des seigneurs locaux. Cette distinction recouvrait d’ailleurs partiellement une autre, héritée du Moyen Âge, qui attribuait à certaines seigneuries et villes une position totalement indépendante des bailliages territoriaux : considérées comme <emph>schriftsässig</emph> (c’est-à-dire « seyant sur l’écriture de la chancellerie de notre seigneur »), elles recevaient alors leurs ordres directement de la chancellerie du prince territorial ; les seigneuries et villes considérées comme <emph>amtssässig</emph>, en revanche, furent d’emblée soumises à l’autorité d’un <emph>Amt</emph>. Aux 16e et 17e siècles, cette distinction se perdit dans les faits, mais fut maintenue symboliquement et notamment pour établir une hiérarchie des états lors des Diètes territoriales.Les <emph>Ämter</emph> formaient un important berceau de l’administration moderne. D’abord confié à un seul <emph>Amtmann</emph> ou <emph>Vogt</emph> (bailli) issu de la noblesse locale et assisté éventuellement par un <emph>Schösser</emph> (percepteur ; de <emph>Schoss</emph>, ancien terme pour impôt) issu de la bourgeoisie, ils deviendront peu à peu le pré carré d’un groupe ascendant d’acteurs formés dans les universités. Face au rôle grandissant de l’écrit, le <emph>Schösser</emph> gagne ainsi en importance à partir du 16 siècle et devient finalement lui-même <emph>Amtmann</emph>, son prédécesseur noble évoluant vers la fonction de l’<emph>Amtshauptmann</emph> (bailli général ou grand bailli ; à ne pas confondre avec le <emph>Landvogt</emph> ou <ref target="http://saintempire.hypotheses.org/publications/glossaire/landvogt">grand-bailli</ref>) censé exercer le contrôle sur plusieurs bailliages territoriaux (dans de nombreux cas, le titre devient cependant purement honorifique). D’autres personnels assurent désormais les charges subalternes : un greffier (<emph>Amtsschreiber</emph>) ou administrateur (<emph>Amtsverwalter</emph>), des <emph>Lands</emph>– ou <emph>Gerichtsknechte</emph> (sorte d’huissiers de justice chargés d’exécuter l’ensemble des tâches policières ; à ne pas confondre avec les « lansquenets », terme avec lequel le français moderne désigne les piquiers mercenaires d’origine allemande) et d’autres personnes employées à la chancellerie du bailliage.Pour représenter et exécuter le pouvoir territorial au niveau local, les bailliages territoriaux furent dans de nombreux territoires complétés par d’autres entités administratives. À Mayence, par exemple, la structure administrative connait également des <emph>Kellereien</emph> (« caves », soumises à la Chambre aulique, <emph>Hofkammer</emph>, et donc à l’administration fiscale), des <emph>Centen</emph> (du latin <emph>Centena</emph>, « une centaine », en Franconie ancien district soi-disant formé par une centaine de villages et dirigé par un <emph>Cent-Graf</emph> ou <emph>Cent-Amtmann</emph> dont les tâches sont notamment de nature juridique) et des <emph>Vizedomämter</emph> ou <emph>Viztume</emph> (du latin <emph>vicedominus</emph>, gouverneur et représentant d’un prince, auquel correspond en français un vidame ; leurs fonctions se situent surtout dans le domaine de la « bonne police »). Ces différentes structures ne correspondent cependant pas à une différenciation précise des tâches et fonctions de l’administration ; au contraire, très souvent les missions des uns et des autres se recoupent voire se contredisent, engendrant de nombreux blocages et dysfonctionnements qui constituent, au 18e siècle, un domaine particulier des réflexions menées au sein des sciences camérales.</def>
+          <note xml:lang="fra">La fonction de l’<emph>Amt</emph> dans l’administration territoriale du Saint-Empire correspondant fortement à celui des bailliages instaurés dans le royaume français, à la fin du Moyen Âge, pour renforcer la présence du pouvoir monarchique et réduire l’influence des justices seigneuriales, ecclésiastiques et municipales, il convient de recourir à ce terme, en lui rattachant cependant l’adjectif « territorial » afin de bien signaler qu’il ne s’agit pas d’une entité administrative attachée au pouvoir impérial. Signalons également, de manière plus générale, la triple signification du terme d’<emph>Amt</emph> qui, en allemand, désigne à la fois la circonscription administrative, la charge de l’officier qui y exerce l’autorité et l’office lui-même, c’est-à-dire le lieu concret où ce dernier opère.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

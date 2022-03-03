@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">KREIS (REICHS-, RITTER-, ETC.)</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="kreis-reichs-ritter-etc">
+        <form>
+          <orth xml:lang="deu">Kreis (Reichs-, Ritter-, etc.)</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Cercle (d’Empire|de la chevalerie|etc.)</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le mot « cercle » est omniprésent dans la vie politique du Saint-Empire, en renvoyant à plusieurs réalités différentes : d’abord à celle des Cercles d’Empire (<emph>Reichskreise</emph>), créés dans le cadre de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsreform">Réforme de l’Empire</ref> lors de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète</ref> d’Augsbourg en 1500. D’abord au nombre de six (Cercles de Bavière, de Souabe, du Haut-Rhin, du Bas-Rhin-Westphalie, de Franconie et de Basse-Saxe), ils furent complétés en 1512 par quatre autres (Cercles de Bourgogne, d’Autriche et de Haute-Saxe ainsi que le Cercle électoral du Rhin). Élément central de la constitution de l’Empire, les Cercles furent organisés selon le modèle des diètes (<emph>Kreistage</emph> – diètes de Cercle), en se réunissant dans des assemblées formées par les représentants des territoires et villes appartenant au Cercle concerné et convoquées par un « prince convoquant » (<emph>kreisausschreibender Fürst</emph>). Les compétences des Cercles étaient larges, allant de la levée des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern">impôts d’Empire</ref> à l’exécution des décisions des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsgerichte">tribunaux impériaux</ref> (Chambre de Justice Impériale, Conseil impérial aulique), de la garantie de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/ewiger-landfrieden">Paix publique perpétuelle</ref> et l’organisation de la défense de l’Empire (par la formation d’une armée propre à chaque Cercle) à un ensemble plus ou moins complet de mesures prises dans le cadre de la « <ref target="http://saintempire.hypotheses.org/publications/glossaire/gute-policey">bonne police</ref> » (construction des routes, politique monétaire, organisation du commerce, précautions en cas d’épidémies, lutte contre la criminalité et le vagabondage, etc.). Leur activité réelle pourtant fut, selon les régions, très différente : au sud et à l’ouest de l’Empire, donc dans ses parties les plus morcelées, les Cercles furent des acteurs d’une importance primordiale ; à l’est et au nord, en revanche, dominés par des territoires de taille plus conséquente (le Brandebourg, la Saxe) leurs actions se sont peu à peu éteintes au cours du 18e siècle. Enfin, certains territoires sont de tous les temps restés en dehors des Cercles : c’est notamment le cas de la Bohème et de ses fiefs (Silésie, Moravie, les deux Lusaces), mais aussi des membres de la Confédération helvétique, de l’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsitalien">Italie impériale</ref> et de l’ensemble des territoires de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft">chevalerie immédiate d’Empire</ref>.Des « cercles » existaient pourtant également à d’autres niveaux : la chevalerie immédiate, justement, était organisée depuis 1577 en des <emph>Ritterkreise</emph> (cercles chevaleresques). Enfin, certains découpages administratifs recouraient eux aussi à ce terme : ainsi, en Saxe électorale, les circonscriptions de l’administration intermédiaire (entre l’administration centrale et les <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/amt">Ämter</ref></emph>) furent appelées <emph>Kreise</emph>.</def>
+          <note xml:lang="fra">De même que pour le mot diète, on pourra adopter la convention réservant la majuscule aux Cercles d’Empire, et utilisant la minuscule pour tous les autres types de cercles. Pour les <emph>Reichskreise</emph>, on trouve parfois la traduction « cercle impérial » – expression qui risque cependant d’associer ces institutions trop étroitement au pouvoir impérial, alors qu’elles étaient d’abord des associations de territoires.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSDEPUTATION</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsdeputation">
+        <form>
+          <orth xml:lang="deu">Reichsdeputation</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">députation d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Les assemblées d’Empire ne se résument pas à la seule <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref>. Outre les diètes de <ref target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">Cercle</ref> et le concert des <ref target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst">princes-électeurs</ref>, des formes intermédiaires de réunion ont existé – conçues soit comme des émanations de la Diète, soit comme des formes pouvant s’y substituer.Le deuxième cas disparaît lorsque la Diète devient permanente en 1663. Auparavant, entre deux Diètes la députation d’Empire (comprenant les électeurs et un choix variable d’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref>) pouvait traiter des problèmes courants, assurer la coordination avec les cercles, voire prendre avec l’empereur des décisions importantes en se réunissant en diète de députation (<emph>Deputationstag</emph>). Ainsi, pendant la guerre de Trente Ans, c’est à la diète de députation de Francfort (1643-1645) que l’empereur a concédé aux états d’Empire le droit d’être présents lors des négociations de paix.Reste le premier cas : la députation s’apparente à une commission désignée pour régler un problème précis. L’exemple le plus célèbre de ce type de députation d’Empire est aussi le dernier. Après que la Diète d’Empire eut ratifiée en 1801 la paix de Lunéville, se posa la question des compensations à accorder aux princes possessionnés sur la rive gauche du Rhin qui venait d’être cédée à la France. La Diète hésita entre statuer elle-même, confier le problème à l’empereur (ce fut la première décision, mais l’Empereur refusa) ou le transmettre à une députation, solution encouragée par la Prusse et finalement adoptée. Cette députation d’Empire aboutit en 1803 à une décision, le « décret de la députation d’Empire » (<emph>Reichsdeputationshauptschluss</emph>) supprimant les <ref target="http://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum">principautés ecclésiastiques</ref> (sauf une, accordée au « prince-primat ») et la plupart des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes d’Empire</ref> afin d’accorder les compensations territoriales requises.Dans tous les cas de figure, la composition de la députation, ses modes de décision, l’étendue de ses pouvoirs, sont toujours contestés, illustrant les difficultés de l’Empire à prendre des décisions en commun – et le résultat de ses délibérations est soumis à l’approbation de l’empereur.</def>
+          <note xml:lang="fra">Ils concernent surtout <emph>Hauptschluss</emph>. Si l’on choisit ici « décret », c’est avant tout par souci de simplicité en distinguant ainsi le <emph>Hauptschluss</emph> du <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsabschied">recès</ref>, de l’avis d’Empire et de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsschluss">décision d’Empire</ref> de la Diète.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

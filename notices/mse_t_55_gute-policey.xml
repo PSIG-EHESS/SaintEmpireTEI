@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GUTE POLICEY</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="gute-policey">
+        <form>
+          <orth xml:lang="deu">gute Policey</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">bonne police</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme « police » vient du grec <emph>politeia</emph> (vie publique) et du latin <emph>politia</emph> (ordre étatique) et désigne à l’époque moderne – dans le Saint-Empire comme dans d’autres régions de l’Europe – le vaste champ des mesures prises par les autorités pour assurer le « bon ordre » de la société en s’appuyant sur deux éléments principaux : d’une part, une législation souple règlementant presque tous les domaines publics et privés de l’existence (de la religion à la construction des immeubles, en passant par la santé ou l’assistance aux nécessiteux, la réglementation du jeu et de la gastronomie, l’aménagement des marchés ou bien la fixation des prix du blé) et, d’autre part, une expansion des appareils administratifs et judiciaires (rationalisation de l’action gouvernementale, introduction d’une administration hiérarchisée, uniformisation du travail des tribunaux, création de nouvelles institutions comme les maisons de discipline ou <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/zuchthaus">Zuchthäuser</ref></emph>).Les premières tentatives dans ce domaine furent, au niveau impérial, les trois <emph>Reichspolizeiordnungen</emph> (ordonnances de police impériales) publiées en 1530, 1548 et 1577. On pourrait y ajouter, en ce qui concerne le droit pénal, fortement imbriqué avec le droit de police, la grande ordonnance criminelle de Charles Quint (la <ref target="http://saintempire.hypotheses.org/publications/glossaire/carolina">Caroline</ref>), promulguée en 1532. Ces textes fournirent le modèle d’un grand nombre de réglementations territoriales (par exemple au Brandebourg, en Hesse, en Bavière ou au Wurtemberg). Par la suite, l’essentiel de la législation de police fut édicté au niveau territorial : presque toutes les grandes principautés (cf. <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoire</ref>) se dotèrent au cours des 17 et 18 siècles (et souvent à répétition) d’importantes ordonnances territoriales (<emph>Landesordnungen</emph>), souvent accompagnées d’une multitude de prescriptions concernant des domaines plus restreints ; dans les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes d’Empire</ref> – où la « bonne police » plongeait ses racines les plus anciennes – les conseils municipaux firent de même. Dans certaines parties de l’Empire, et notamment au sud-ouest, une troisième source des normes de police fut fournie par le travail inter- et supraterritorial des <ref target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">Cercles</ref> d’Empire. Cette production normative n’était d’ailleurs pas seulement le fruit de la volonté des autorités de contrôler davantage la vie de leurs sujets ; elle résulta aussi régulièrement de suppliques émanant des populations et demandant de régler tel ou tel problème. siècle pour désigner les forces de l’ordre publiques) et la « <emph>Policey</emph> » (au sens qui vient d’être exposé dans la notice). En français, cette différence n’existe pas. Pour la faire ressortir, il est possible d’utiliser le terme allemand accompagné de la traduction « bonne police ».</def>
+          <note xml:lang="fra">La seule difficulté réside dans le fait que la langue allemande fait une différence entre la « <emph>Polizei</emph> » (terme s’imposant à partir du 19</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

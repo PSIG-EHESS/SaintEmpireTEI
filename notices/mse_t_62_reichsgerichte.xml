@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSGERICHTE</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsgerichte">
+        <form>
+          <orth xml:lang="deu">Reichsgerichte</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">tribunaux d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">On désigne par le terme « tribunaux d’Empire » les deux tribunaux suprêmes instaurés au cours de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsreform">Réforme de l’Empire</ref> après 1495, à savoir la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht">Chambre de justice Impériale</ref> et le <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichshofrat">Conseil impérial aulique</ref>. Ces deux institutions, portées à la fois par l’Empereur et les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref> (en tous cas en ce qui concerne la Chambre de justice Impériale, le Conseil impérial aulique restant plus proche de l’Empereur), sont à distinguer d’une justice impériale plus ancienne, héritière du Moyen Âge et issue de la juridiction aulique des Empereurs. De cette forme ne survit à l’époque moderne que le <emph>Kaiserliche Hofgericht</emph> Rottweil (Tribunal aulique de l’Empereur à Rottweil) dont les compétences se limitent à la justice civile. Il a deux concurrents : d’une part les juridictions territoriales qui se développent massivement depuis le 15e siècle, et d’autre part les autres tribunaux de l’Empereur (1235 <emph>Königliches Hofgericht</emph> – Tribunal aulique royal, 1415 <emph>Kammergericht</emph> – Chambre de justice, remplacé en 1495 par la Chambre de justice impériale). La place du tribunal de Rottweil est donc de plus en plus contestée, même s’il perdure jusqu’à la fin du Saint-Empire.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

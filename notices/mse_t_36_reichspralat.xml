@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSPRÄLAT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichspralat">
+        <form>
+          <orth xml:lang="deu">Reichsprälat</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">prélat d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le titre prélat d’Empire revenait à certains dignitaires de l’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichskirche">Église d’Empire</ref> (abbés et abbesses, <ref target="http://saintempire.hypotheses.org/publications/glossaire/propst">prévôts</ref> et prieurs) dirigeant un couvent ou une abbaye (<emph>Reichsabtei</emph>, abbaye d’Empire), une chartreuse, un chapitre cathédral ou un <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/stift">Stift</ref></emph> <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiats</ref> d’Empire. La <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsmatrikel">matricule d’Empire</ref> de 1521 en comptait 83 dont le nombre s’est cependant réduit, à la suite de nombreuses médiatisations, sécularisations et échanges territoriaux, mais aussi d’<ref target="http://saintempire.hypotheses.org/publications/glossaire/gefurstet">élévations au rang de prince</ref>, à 40 en 1792. La plupart d’entre eux n’avaient pas une <emph>Virilstimme</emph> (« voix virile », c’est-à-dire une voix unique par membre) à la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète</ref> mais étaient réunis dans deux curies votant chacune par une <emph>Kurialstimme</emph> (« voix curiale ») commune : le Collège des prélats d’Empire de Souabe (<emph>Schwäbisches Reichsprälatenkollegium</emph>) et le Collège des prélats d’Empire du Rhin (<emph>Rheinisches Reichsprälatenkollegium</emph>) dont le premier, notamment à cause d’une plus grande proximité géographique et d’une coopération plus étroite de ses membres, jouissait d’une influence plus élevée dans les instituions impériales (dès 1555, il envoie ainsi un représentant aux diètes de députation ; cf. <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsdeputation">députation d’Empire</ref>).D’un moindre poids et d’un rang inférieur, les prélats d’Empire sont donc à distinguer des archevêques-électeurs et princes-évêques à la tête d’une <ref target="http://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum">principauté ecclésiastique</ref>. Certains d’entre eux réussissent pourtant à siéger au Collège des princes d’Empire (cf. <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst">prince</ref>), par exemple les abbés de Fulda, de Corvey et de Kempten ou les prévôts d’Ellwangen et de Berchtesgaden. De même, les abbayes de Saint-Emmeran et de Saint-Gall ont le rang de principautés-abbayes (<emph>Fürstabteien</emph>).</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

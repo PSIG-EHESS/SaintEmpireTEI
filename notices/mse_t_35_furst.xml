@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">FÜRST</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Sébastien Schick</name>
+        </respStmt>
+        <author>Sébastien Schick</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="furst">
+        <form>
+          <orth xml:lang="deu">Fürst</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">prince</quote>
+          <quote type="variante">membre du collège des princes d’Empire.</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme vient du vieil allemand <emph>furisto</emph> qui signifie « le premier ». Il désigne donc à l’origine un titre nobiliaire, et en l’occurrence le plus élevé au sein du système nobiliaire impérial. Il peut être porté par des ducs, mais aussi par des <ref target="http://saintempire.hypotheses.org/publications/glossaire/markgrafschaft">margraves</ref>, des <ref target="http://saintempire.hypotheses.org/publications/glossaire/landgrafschaft">landgraves</ref> ou des comtes palatins. Le prince en question domine alors une principauté – <emph>Fürstentum</emph> – et détient inévitablement l’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiateté</ref> d’Empire – une qualité qui ne lui est cependant pas propre.Dans un sens plus strict, à l’époque moderne, <emph>Fürst</emph> désigne cependant aussi et plus spécifiquement les membres d’un ordre : celui de ceux ayant voix et siège dans le <emph>Fürstenrat</emph>, l’un des trois collèges de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref> (aux côtés de celui des <ref target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst">princes-électeurs</ref> et de celui des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes libres</ref>). L’ordre ainsi créé est celui du <emph>Reichsfürstenstand</emph>. Il peut alors parfois exister une certaine ambiguïté entre les deux sens du terme, même s’ils ne sont pas contradictoires. Ainsi la Ligue des Princes (<emph>Fürstenbund</emph>) de 1785 comptait-elle parmi ses membres des princes-électeurs (l’archevêque de Mayence et le roi de Prusse par exemple), et c’est donc bien au premier sens du terme que l’expression renvoie alors.Le groupe des princes ayant siège dans le <emph>Fürstenrat</emph> peut se subdiviser en deux parties : d’une part les <emph>weltliche Reichsfürsten</emph> – princes d’Empire laïcs – d’autre part les <emph>geistliche Reichsfürsten</emph> – les princes d’Empire ecclésiastiques (cf. <ref target="http://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum">principauté ecclésiastique</ref>) qui sont en fait la plupart du temps archevêques ou évêques, mais parmi lesquels on compte aussi les supérieurs de certains monastères et le Grand-maître de l’Ordre teutonique (cf. <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichspralat">prélat d’Empire</ref>). Le poids des deux sous-groupes s’inversa au cours du temps : les princes ecclésiastiques, majoritaires au début du 16 siècle (50 contre 24 laïcs), ne l’étaient plus à la fin du 17 siècle (33 contre 61). Ceci s’explique avant tout par les sécularisations d’évêché d’une part, par les accessions à la dignité princière pour des familles nobiliaires d’autre part (pensons à la famille des Thurn und Taxis en 1695 par exemple) qui furent d’autant plus nombreuses qu’il s’agissait là d’un moyen aisé, pour l’Empereur, de s’attacher de nouveaux clients dans l’Empire.</def>
+          <note xml:lang="fra">La traduction « prince » est trompeuse dès lors qu’il ne faut pas confondre le <emph>Fürst</emph> et le <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/prinz">Prinz</ref></emph> qui renvoient à deux réalités liées mais bien différentes.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

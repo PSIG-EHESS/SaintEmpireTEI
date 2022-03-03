@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GRAVAMINA</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Sébastien Schick</name>
+        </respStmt>
+        <author>Sébastien Schick</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="gravamina">
+        <form>
+          <orth xml:lang="deu">Gravamina</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">remontrances</quote>
+          <quote type="variante">doléances</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme vient du latin <emph>Gravamen</emph> qui signifie « incommodité » ou « qui oppresse ». De façon générale, et dans sa forme plurielle, le terme renvoie aux remontrances rédigées de manière collective et adressées à un souverain, un prince ou ses représentants. Dans le contexte de l’Empire de l’époque moderne, le terme est parfois utilisé dans ce sens pour désigner les plaintes adressées par les <ref target="http://saintempire.hypotheses.org/publications/glossaire/landtag">diètes territoriales</ref> à leur prince : la sémantique est ici décisive dès lors que les princes tentèrent, à partir du 17e siècle surtout, de remplacer le terme par celui de <emph>desideria</emph>, qui signifiait « souhait ».Le terme renvoie toutefois aussi à deux réalités spécifiques à l’Empire. La première concerne un cas particulier des négociations auxquelles donnaient lieu les <ref target="http://saintempire.hypotheses.org/publications/glossaire/wahlkapitulation">capitulations électorales</ref> avant chaque nouvelle élection impériale :  la capitulation ratifiée lors de l’élection précédente servait en effet toujours de base à la négociation, chacun des articles étant alors renégocié par les représentants des <ref target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst">princes-électeurs</ref>. Toute demande de modification de l’un ou l’autre article portait alors le nom de <emph>Monita</emph> – souhaits de modification. Lorsque la demande émanait cependant d’un membre extérieur au collège des princes-électeurs, on prit l’habitude, à partir du 17 siècle, de faire la différence entre les <emph>Monita</emph>, simples demandes d’ajout, et les <emph>Gravamina</emph> qui désignent alors une véritable demande de modification de la capitulation existante.Le terme renvoie cependant aussi à un objet et à un moment particulier de l’histoire impériale: celui des plaintes adressées par certains <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoires</ref> au Pape et à la curie romaine entre le milieu du 15 siècle et le début du 16 siècle. On parle alors plus exactement des <emph>Gravamina nationis germanicae</emph> qui furent discutées lors de <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diètes d’Empire</ref> successives, et qui prenaient leur source dans le mécontentement provoqué par le concordat de 1448 auquel n’avaient pas été associés les territoires. Ces <emph>gravamina</emph> sont alors souvent considérées comme un moment capital dans le chemin menant à la Réforme luthérienne.Le mot ressurgit enfin pour désigner les remontrances du Corps évangélique à la Diète contre ce qu’il considère comme des atteintes à la <ref target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden">paix de Westphalie</ref> (voir <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/itio-in-partes">itio in partes</ref></emph>). C’est à partir de l’extrême fin du 17 siècle que ces remontrances trouvent une expression collective et une importance politique nouvelle.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

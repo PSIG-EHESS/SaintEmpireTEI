@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">ALTGLÄUBIGE</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Marc Mudrak</name>
+        </respStmt>
+        <author>Marc Mudrak</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="altglaubige">
+        <form>
+          <orth xml:lang="deu">Altgläubige</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">« catholiques »</quote>
+          <quote type="variante">vieux-chrétiens</quote>
+          <quote type="variante">vieux-croyants</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme <emph>Altgläubige</emph> désigne, au début de la Réforme, la catégorie des chrétiens traditionnels qui ne sont plus des chrétiens médiévaux, mais qui n’ont pas encore des identités relatifs au catholicisme confessionalisé de la Contre-Réforme. Ainsi, les <emph>Altgläubige</emph> ne se distinguent pas seulement face aux groupes protestants de leur époque, mais également dans une perspective diachronique dans l’histoire de l’Église. Tandis que le mot <emph>Katholiken</emph> est utilisé, que vers 1600 pour désigner les anti-protestants, <emph>Altgläubige</emph> est un terme puisé des sources qui souligne l’auto-perception des vieux-croyants (traduction littérale) de vivre dans une culture religieuse inchangée et approuvée par l’histoire du salut. Dans un univers religieux en pleine mutation, ils se distinguent à travers un ensemble grandissant de représentations et de rituels, dont la messe, le culte des saints, les processions ainsi que la culture matérielle. Dès les premiers conflits confessionnels, les « catholiques » insistent qu’ils ne suivraient que les anciennes pratiques et l’ancienne foi, connues depuis des temps immémoriaux. Toutefois, il ne s’agit pas encore d’un groupe social fixe et clairement perçu par les contemporains. Car au début de la Réforme, on n’est pas « catholique », mais on le devient. On n’effectue généralement pas une pratique parce que l’on est <emph>altgläubig</emph>, mais un chrétien le devient en suivant certaines pratiques controversées qui varient encore considérablement. et 18 siècles. Pourtant, les traductions littérales d’<emph>Altgläubige</emph>, comme « vieux-chrétiens » et « vieux-croyants », poseraient encore plus de problèmes de définition et ne pourraient que difficilement s’intégrer dans le discours historiographique français. Le mot « catholique », utilisé avec la plus grande précaution ainsi que la souplesse nécessaire, permet donc de catégoriser plus aisément les groupes anti-luthériens du Saint-Empire au 16 siècle.</def>
+          <note xml:lang="fra">Le danger de l’anachronisme qui subsiste dans la traduction proposée exige des précisions à chaque fois que le terme est employé ainsi que, si possible, l’utilisation des guillemets pour signaler la différence avec les catholiques confessionalisés des 17</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

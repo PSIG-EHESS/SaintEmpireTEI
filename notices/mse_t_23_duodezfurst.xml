@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">DUODEZFÜRST</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="duodezfurst">
+        <form>
+          <orth xml:lang="deu">Duodezfürst</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">principicule</quote>
+          <quote type="variante">prince de poche</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme se réfère à l’origine au format <emph>in-duodecimo</emph> ou in-douze des livres, forme pour laquelle la feuille imprimée est pliée en douze. Ce format comptant parmi les plus petits de l’imprimerie, le mot a parfois été utilisé pour des choses menues, avec une connotation plutôt péjorative. C’est dans ce sens qu’il s’est reporté, dans l’historiographie des 19 et 20 siècles, aux monarques des plus petits États (eux-mêmes appelés <emph>Duodezstaat</emph>) de la Confédération allemande (notamment en Thuringe où à travers les siècles les nombreux partages au sein des différentes lignées de la dynastie des Wettin, mais aussi d’autres familles comme les Reuss, avaient débouché sur une multitude de mini- voire micro-territoires, très souvent imbriqués les uns aux autres par le jeu complexe des <ref target="http://saintempire.hypotheses.org/publications/glossaire/exklave-enklave">exclaves</ref> et enclaves). Dans la perspective d’une vision politique associant le poids d’un territoire ou d’un État au seul critère de sa taille et de son homogénéité spatiale, ces formes – en représentant par excellence le morcellement d’une nation en miettes – s’attiraient en particulier les foudres des partisans d’une unification allemande sous la houlette d’un pays grand et fort, la Prusse.Ce n’est donc pas une notion contemporaine, utilisée par les acteurs de l’époque moderne eux-mêmes, mais un terme dépréciatif et destiné à désigner ce que certains ont considéré rétrospectivement comme l’une des caractéristiques de la structure spatio-politique du Saint-Empire.</def>
+          <note xml:lang="fra">Avec « principicule » (ou « principule »), la langue française connaît un terme propre désignant le prince d’un petit État sans importance. Cette traduction est donc à privilégier sur toute traduction littérale (par exemple « prince-duodecimo »). Prince de poche (comme un livre de poche) est également envisageable.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

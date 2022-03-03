@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GEMEINER PFENNIG</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="gemeiner-pfennig">
+        <form>
+          <orth xml:lang="deu">Gemeiner Pfennig</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">denier commun</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le Denier commun est une tentative, à la faveur de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète</ref> de Worms en 1495, d’établir un nouveau mode de prélèvement de l’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern">impôt d’Empire</ref>, afin de financer les guerres contre les Turcs et contre la France. C’est un impôt universel, qui doit toucher l’ensemble des sujets de l’Empire âgés de plus de quinze ans, à l’inclusion des ecclésiastiques. Il prend selon les cas la forme d’une capitation, d’une imposition des revenus ou du patrimoine. Sa fonction politique est par ailleurs d’établir, par l’impôt, un lien direct entre l’Empereur et les simples sujets de l’Empire, en contournant l’intermédiaire des princes <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoriaux</ref>. Précisément pour cette raison, le Denier commun tombe rapidement en désuétude au bénéfice d’une répartition d’après la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsmatrikel">matricule d’Empire</ref>, car les <ref target="http://saintempire.hypotheses.org/publications/glossaire/romermonat">mois romains</ref> sont l’un des vecteurs qui permettent aux princes d’asseoir leur <ref target="http://saintempire.hypotheses.org/publications/glossaire/landeshoheit">supériorité territoriale</ref> sur leurs sujets.</def>
+          <note xml:lang="fra">Le denier est « commun » parce qu’il est universel ; quant à « denier », qui traduit Pfennig en français, il a également le double sens d’une monnaie et d’une contribution fiscale.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

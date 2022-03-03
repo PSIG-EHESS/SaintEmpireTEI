@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">ALLMENDE</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="allmende">
+        <form>
+          <orth xml:lang="deu">Allmende</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">communaux</quote>
+          <quote type="variante">communs</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">forme de propriété collective rurale ou urbaine, consistant en biens immeubles et / ou en droits d’usage (pêche, pâture, bois). Leur jouissance n’est pas destinée à l’administration ou aux finances collectives, mais laissée aux membres de la communauté. Elle consiste en terres de culture ou de pâture, en bois, en étangs ou rivières, en bâtiments collectifs (moulins, fours, etc.). Ces biens et droits sont soit ouverts à tous les membres de la communauté, soit à certains d’entre eux seulement. Comme ailleurs en Europe, la fin du 18e siècle et le début du 19e siècle voient émerger de nombreuses interrogations sur leur rentabilité, et débouchent sur leur suppression progressive.</def>
+          <note xml:lang="fra">aucun – mais notons l’existence d’un synonyme en allemand : Gemeinheiten.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

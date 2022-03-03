@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">EWIGER LANDFRIEDEN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="ewiger-landfrieden">
+        <form>
+          <orth xml:lang="deu">Ewiger Landfrieden</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Paix publique perpétuelle</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">L’une des principales dispositions du <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsabschied">recès</ref> clôturant la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref> de Worms, en 1495, reprend une loi de l’empereur Maximilien du 7 août 1495 qui établit la paix dans l’Empire et interdit la faide (<emph>Fehde</emph>, souvent incorrectement traduite par « guerre privée ») sous peine de <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsacht">mise au ban de l’Empire</ref>. Cette prescription, considérée a posteriori comme un élément essentiel de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsreform">Réforme de l’Empire</ref>, aurait pu rester un vœu pieux. La création puis le développement de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht">Chambre de justice Impériale</ref> en 1495 et du <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichshofrat">Conseil impérial aulique</ref> en 1498 la rendirent pourtant effective en favorisant une conversion juridique des conflits entre <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiats</ref>. En outre, la Paix publique perpétuelle constitua le cadre de référence explicite pour un règlement par le droit de la division confessionnelle dans l’Empire, d’abord en incluant le droit d’option religieuse dans les prérogatives des immédiats, protégées par la Paix publique perpétuelle (<emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/cujus-regio-ejus-religio">cujus regio ejus religio</ref></emph>), ensuite en soumettant les conflits en ce domaine aux mêmes instances juridiques impériales (<ref target="http://saintempire.hypotheses.org/publications/glossaire/augsburger-religionsfrieden">paix d’Augsbourg</ref>).Il y eut entre <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref>, après 1495, des conflits armés, soit confessionnels, soit liés à des guerres européennes. Pour autant, la Paix publique perpétuelle fut dans l’ensemble étonnamment respectée, empêchant les <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoires</ref> puissants de s’agrandir par la force aux dépens de leurs voisins plus faibles et respectant le maquis des prérogatives et l’émiettement territorial. Outre les garanties juridiques, le recours à la force dans l’Empire nuisait à la réputation d’un prince, accusé d’attenter à l’Empire lui-même. La plupart des états d’Empire ne disposaient d’ailleurs pas de forces armées dignes de ce nom. Au 18 siècle, plusieurs penseurs, en Allemagne et ailleurs, rêvèrent de faire de la Paix publique perpétuelle une référence pour un système international pacifié.</def>
+          <note xml:lang="fra">Le terme « public » constitue en partie une rétroprojection d’un concept juridique précisé plus tard. Mais, outre que l’usage est attesté chez les juristes français de l’époque moderne, toute autre solution plus proche du terme Land entretiendrait la confusion avec la notion de territoire.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

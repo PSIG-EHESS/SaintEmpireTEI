@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">HANSEGRAF</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Jean-Dominique Delle Luche</name>
+        </respStmt>
+        <author>Jean-Dominique Delle Luche</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="hansegraf">
+        <form>
+          <orth xml:lang="deu">Hansegraf</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">prévôt des marchands</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Graf n’est pas ici le titre de noblesse de comte, qu’il désigne presque exclusivement au Moyen Âge tardif, mais une fonction au service d’une seigneurie. Hans, Hanse ou Hand désignent généralement les affaires commerciales (d’où les mots Hantierungen ou Handel). Le mot hanse désigne dès le 12e siècle une association (universitas) de marchands, avant de désigner plus tard la ligue des villes hanséatiques.Comme Schultheiss (écoutète), le terme Hansegraf ou Hansgraf désigne des responsables institutionnels chargés de surveiller les activités marchandes à plusieurs échelles : le dictionnaire d’histoire du droit allemand (Deutsches Rechtswörterbuch) en recense six occurrences précises. à Ratisbonne, il désigne un fonctionnaire municipal chargé de la justice des marchands, tandis que dans les pays autrichiens, il s’agit d’un fonctionnaire seigneurial. A Brême, il s’agit de deux charges au sein du conseil municipal.</def>
+          <note xml:lang="fra">le terme n’a jamais été traduit en français à notre connaissance. Néanmoins, le rapprochement avec le prévôt des marchands qui dirigeait la hanse des marchands de l’eau parisiens est assez naturel, même si aucun Hansegraf, en quelque endroit du Saint-Empire, ne semble avoir joui du même prestige et pouvoir qu’Étienne Marcel.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

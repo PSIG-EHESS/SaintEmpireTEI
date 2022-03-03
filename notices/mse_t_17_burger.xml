@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">BÜRGER</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Vincent Demont</name>
+        </respStmt>
+        <author>Vincent Demont</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="burger">
+        <form>
+          <orth xml:lang="deu">Bürger</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">bourgeois</quote>
+          <quote type="variante">citoyen</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">le polycentrisme et l’hétérogénéité du réseau urbain du Saint-Empire rendent très variables les réalités associées au statut de bourgeois. Celui-ci peut être extrêmement simple à obtenir – c’est le cas, de manière presque tautologique, dans les nombreuses créations urbaines que connaît l’espace germanique à l’époque moderne. Dans des univers urbains plus établis, il tend au contraire à se fermer, quitte à connaître l’apparition de formes dégradées à travers divers statuts de résidents (Beisassen, <ref target="https://saintempire.hypotheses.org/publications/glossaire/hintersassen">Hintersassen</ref>). Si, sur le plan juridique, les droits de bourgeoisie de différentes villes peuvent rester comparables (voire être considérés comme équivalents du fait d’ententes réciproques sur le fonctionnement des tribunaux urbains), seule l’échelle locale permet de saisir leurs significations politiques effectives. Tout de même, l’air de ville rend moins libre à l’époque moderne qu’au Moyen Âge : le recul général des autonomies urbaines, l’affirmation des pouvoirs et supériorités territoriales sont des tendances qui ne peuvent être ignorées.Au cours de la seconde modernité, les significations du terme connaissent de fortes évolutions. Le déclin des républiques urbaines, et l’essor des capitales territoriales et villes de résidence donnent une connotation de plus en plus sociale au terme : dans les secondes, il ne fait pas de doute que les bourgeois soient des sujets du prince, mais ils constituent aussi, et de plus en plus, un milieu instruit dont les compétences nourrissent les administrations étatiques. Ce n’est pas un hasard si l’Allgemeines Landrecht prussien de 1794 utilise le terme Bürger pour regrouper tous les habitants qui, par leur naissance, ne peuvent être compris ni dans la paysannerie ni dans la noblesse.Comme ailleurs en Europe, ce groupe social de la bourgeoisie joue un rôle décisif dans le mouvement des Lumières. Le fait qu’en pays réformé ou évangélique luthérien, le clergé ne soit pas un ordre à part, mais puisse relever de ce groupe, n’est d’ailleurs pas pour rien dans la dimension confessionnelle de l’Aufklärung germanique. Le passage de la conception d’un groupe urbain à celui d’une société civique inspirée du modèle de la cité antique n’entraine cependant pas, en allemand, de rupture sémantique : citoyen s’y dit aussi Bürger (éventuellement Staatsbürger). Mais, en se chargeant de conceptions politiques (toutes éloignées que celles-ci soient de la réalité de l’exercice des pouvoirs), le terme glisse vers de nouveaux systèmes d’opposition : celui qui met face à face l’homme (Mensch) dans la sphère privée, et le citoyen (Bürger) dans la sphère publique, est fréquent au 18e siècle.</def>
+          <note xml:lang="fra">la polysémie du terme Bürger est plus grande encore que celle du français « bourgeois ». Sa double signification de bourgeois et de citoyen ouvre donc aux contemporains tout un répertoire d’ambiguïtés possibles : affirmer une citoyenneté urbaine revendiquant l’héritage antique n’implique nullement de renoncer à un vocable invoquant les droits médiévaux de la bourgeoisie. L’affirmation d’une « bourgeoisie des talents » (Bildungsbürgertum), au 19e siècle, peut d’ailleurs faire jouer l’ensemble de ces connotations, et se combiner à un patriotisme strictement local. Parfois, il faut donc non pas choisir, mais combiner les traductions possibles de Bürger.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">KALENDERSTREIT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="kalenderstreit">
+        <form>
+          <orth xml:lang="deu">Kalenderstreit</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">querelle du calendrier</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le calendrier réformé par Jules César (ou calendrier julien) a été utilisé dans tout l’Occident jusqu’à la fin du 16 siècle. Il est toutefois assez vite apparu que l’année calendaire (365 jours et 6 heures) durait environ 11 minutes de plus que la rotation complète de la terre autour du soleil. Le calendrier julien accumulait ainsi du retard sur l’année réelle. Or c’est l’équinoxe du calendrier, et non l’équinoxe réel, qui servait à calculer la date de Pâques (fixée, depuis le concile de Nicée en 325, au dimanche suivant la pleine lune consécutive à l’équinoxe). Donc, pour améliorer l’exactitude de la date de Pâques, le pape Grégoire XIII promulgua en 1582 une réforme du calendrier – le calendrier « grégorien », qui est toujours le nôtre. La suppression d’une année bissextile tous les siècles (en 1700, 1800, 1900…) sauf aux millésimes multiples de 400 (1600, 2000…) assurait pour l’avenir que l’année réelle et l’année calendaire avanceraient au même rythme ; quant au passé : la réforme supprimait dix jours (à Rome, le lendemain du 4 octobre 1582 fut par exemple le 15 octobre 1582) pour « recaler » le calendrier sur la réalité astronomique qui était la sienne au moment du concile de Nicée.Cette réforme, préparée par une commission d’astronomes, fut revêtue de l’autorité pontificale et proclamée par une bulle, <emph>Inter gravissimas</emph>. Les débats furent vifs dans l’Empire alors en proie à une nouvelle crispation des relations interconfessionnelles : le nouveau calendrier n’était pas introduit selon les procédures impériales requises et les luthériens pensaient ne pouvoir l’adopter sans paraître se soumettre à l’obédience du pape. À Augsbourg toutefois, le spectre d’un double calendrier, néfaste au grand commerce comme aux échanges avec les campagnes environnantes et majoritairement catholiques, conduisit en janvier 1583 le conseil de ville à décider d’introduire le calendrier grégorien dans cette cité d’Empire biconfessionnelle. Parmi les 19 conseillers protestants (sur 45), 15 soutinrent cette décision. Mais les quatre autres, associés au clergé luthérien de la ville, menèrent une vive résistance qui déclencha une violente controverse dans tout l’Empire et fut portée devant la <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichkammergericht">Chambre de justice impériale</ref>. Celle-ci rendit d’abord un <ref target="https://saintempire.hypotheses.org/publications/glossaire/mandatsprozess">mandement</ref> contre l’adoption du calendrier grégorien à Augsbourg, mais cassa cette décision en mai 1584, si bien qu’Augsbourg adopta définitivement le nouveau calendrier.Telle est la « querelle du calendrier » proprement dite. Elle est toutefois le point de cristallisation initiale d’une confrontation plus longue : la plupart des territoires protestants dans l’Empire conservèrent le calendrier julien et une différence de dix jours exista avec les territoires catholiques jusqu’à l’adoption (1699) et l’application (1700) du « calendrier julien réformé », identique au grégorien à l’exception de la méthode pour calculer la date de Pâques, si bien qu’en 1724 et 1748 les deux confessions fêtèrent, non sans conflits, Pâques à deux dates différentes. Ce n’est qu’en 1776 que tous se rallièrent officiellement au calendrier grégorien.</def>
+          <note xml:lang="fra">Aussi longtemps que perdura la différence des calendriers dans l’Empire, elle fut la cause ou, souvent, le prétexte à des disputes confessionnelles, souvent nommées <emph>Kalenderstreitigkeiten</emph>. On réservera pourtant, pour suivre l’usage de l’historiographie allemande, l’expression « querelle du calendrier » aux événements d’Augsbourg et à leurs échos dans l’Empire.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

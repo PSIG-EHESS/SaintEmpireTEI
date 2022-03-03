@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">FRAISCH</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="fraisch">
+        <form>
+          <orth xml:lang="deu">Fraisch</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">haute justice</quote>
+          <quote type="variante">pénal</quote>
+          <quote type="variante">criminel</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">le terme Fraisch, que l’on ne trouve que dans le sud du Saint-Empire, se réfère à la justice pénale. Dans sa forme originelle Fraiß, il signifiait « frayeur, peur, douleur » ou « danger ». Selon certains étymologistes, il serait apparenté avec « affreux » en français et <emph>afraid</emph> en anglais. Plus particulièrement, il désigne dans les régions où il est en usage la haute justice qui opère avec des peines capitales. On parle alors aussi de la <emph>Fraischgerichtsbarkeit</emph>. Le mot peut également s’appliquer au district dans lequel une personne est en possession de cette juridiction. En outre, il peut être combiné avec tout autre mot se référant à ce domaine : <emph>Fraischamt</emph> (tribunal exerçant la haute justice), <emph>Fraischbuch</emph> (registre ou livre qui sert à noter les actes de haute justice), <emph>Fraischfall</emph> (cas relevant de la haute justice), <emph>Fraischgrenze</emph> (frontière entre deux ressorts de la haute justice), <emph>Fraischherr</emph> (haut justicier), <emph>Fraischrecht</emph> (droit pénal), <emph>Fraischurteil</emph> (sentence criminelle). Parfois, on trouve également l’adjectif <emph>fraischlich</emph> (ou <emph>fraislich</emph>) qui signifie donc « criminel ».</def>
+          <note xml:lang="fra">le terme lui-même semble intraduisible. Il faut donc s’accommoder avec ses équivalents fonctionnels que sont « haute justice » (quand il s’agit du substantif seul) ou les adjectifs « criminel » ou « pénal » quand il s’agit d’un mot composé.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

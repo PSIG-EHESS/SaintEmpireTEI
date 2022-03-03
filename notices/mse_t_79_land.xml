@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">LAND</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="land">
+        <form>
+          <orth xml:lang="deu">Land</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">terre|pays|territoire|région</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme de Land est utilisé dans de nombreuses acceptions, et souvent en composition. Il désigne au départ la terre, au sens large, à la fois par opposition aux espaces maritimes et en tant qu’espace cultivable et qu’espace de juridiction ce qui, dans les deux derniers cas, renvoie à une forme d’appropriation.Dans son acception politique, il désigne une portion d’espace en tant qu’elle est soumise à la juridiction et au pouvoir (<emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/herrschaft">Herrschaft</ref></emph>) d’un puissant, puisque celle-ci se définit comme un « pouvoir sur les terres et les hommes » (<emph>Herrschaft über Land und Leute</emph>). Plus vague et plus englobant que le terme de <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoire</ref>, qui est aussi plus récent, il peut néanmoins fonctionner dans certains cas comme un quasi synonyme de ce dernier, en particulier dans un certain nombre de mots composés.</def>
+          <note xml:lang="fra">Étant donné son caractère englobant, déterminer a priori une traduction implique en français de choisir parmi les différentes acceptions, lesquelles ne peuvent être en réalité déterminées qu’en fonction du contexte.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

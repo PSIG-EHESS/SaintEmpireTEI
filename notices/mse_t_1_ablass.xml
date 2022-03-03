@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">ABLASS</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Juliette Guilbaud</name>
+        </respStmt>
+        <author>Juliette Guilbaud</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="ablass">
+        <form>
+          <orth xml:lang="deu">Ablass</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">indulgence</quote>
+          <quote type="variante">rémission</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">rencontré sous les formes Ablas, Ablass ou Ablaß (au pluriel Ablässe), le terme renvoie à la rémission, par l’Église de Rome, d’une peine temporelle infligée à la suite de la commission d’une faute ou péché (Sünde). Il s’agit bien de la rémission de la peine infligée, et non de celle de la faute elle-même. Cette rémission pouvant être totale ou partielle, on parle respectivement d’indulgence plénière (vollkommener ou völliger Ablass) ou partielle (Teilablass). L’indulgence, matérialisée par la délivrance de lettres spécifiques (Ablassbriefe), s’obtient théoriquement en contrepartie d’un acte de charité ou de piété (pèlerinage, prière, pénitence, etc.).Au cours du Moyen Âge cependant, cette pratique – censée permettre la réconciliation avec l’Église de fidèles condamnés – tend à se monnayer et devient une source de revenus pour l’Église, à tel point que ses détracteurs parlent de commerce, voire de trafic des indulgences (Ablasshandel, Ablasskrämerey). Au 15e siècle, c’est notamment le cas de Jean Hus, qui s’oppose à l’antipape Jean XXIII (1410-1415) dans sa <emph>Quaestio […] de indulgentiis</emph> (1412). La dénonciation de cette pratique connaît un point culminant au siècle suivant, en particulier dans la dispute fondatrice rédigée par Martin Luther, connue comme les « 95 Thèses » du Réformateur. Publié à Bâle en 1517 sous le titre <emph>Disputatio pro declaratione virtutis indulgentiarum</emph>, le texte est connu en allemand sous le titre <emph>Propositiones wider das Ablas</emph> (ou <emph>vom Ablas</emph>), notamment dans l’édition des œuvres luthériennes préfacée par Melanchthon (t. IX, Wittenberg, 1558).Par métonymie, le terme Ablass peut parfois désigner toute manifestation ou solennité dans le contexte desquelles sont délivrées des indulgences : marché, foire annuelle, fête paysanne, consécration d’église ou de chapelle, etc.</def>
+          <note xml:lang="fra">dans le champ religieux, on évitera autant que possible de traduire Ablass par « grâce » (qui peut, dans un sens courant, signifier « remise de peine »), que l’on réservera plutôt, pour éviter toute confusion, à « Gnade ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

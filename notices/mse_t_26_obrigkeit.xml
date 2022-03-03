@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">OBRIGKEIT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="obrigkeit">
+        <form>
+          <orth xml:lang="deu">Obrigkeit</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">autorité/s</quote>
+          <quote type="variante">supériorité</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Terme central dans le contexte de l’exercice de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/herrschaft">domination</ref>, l’<emph>Obrigkeit</emph> – mot dérivé du latin <emph>superioritas</emph> (la puissance supérieure) – désigne la position de supériorité politique qu’avaient notamment les <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref> et <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes d’Empire</ref> sur le territoire qui était le leur. Contrairement à la seigneurie, l’autorité ne se justifie plus par des titres de droit particuliers et précis, mais se légitime d’elle-même. Si, parfois, les sources parlent cependant d’<emph>Ortsobrigkeit</emph> (« autorité/s locales/s »), elles se réfèrent en fait généralement aux représentants locaux de l’administration territoriale. À l’instar du terme <emph>Herrschaft</emph>, la notion d’<emph>Obrigkeit</emph> peut désigner à la fois le rapport de pouvoir abstrait qu’elle instaure et ceux qui le portent (personnes ou institutions). Établi dans le langage politique et juridique dès le 15e siècle, son champ sémantique n’embrasse en outre pas uniquement le droit d’exercer la domination mais aussi le devoir de le faire en respectant un certain nombre de règles juridiques et éthiques réunies dans l’idée du bien commun (<emph>gemeiner Nutzen</emph>, plus tard aussi <emph>Gemeinwohl</emph>). Dans ce sens, la pratique de l’autorité fut étroitement liée aux normes et instruments de la « <ref target="http://saintempire.hypotheses.org/publications/glossaire/gute-policey">bonne police</ref> ».Considérée par la théorie politique moderne comme « donnée par Dieu » (une idée que la Reforme a encore renforcée), l’autorité constitue pour les sujets un rapport à vie qui est transmis de génération en génération (<emph>Erbuntertänigkeit</emph> = littéralement : « assujettissement héréditaire ») ; ce rapport doit cependant être régulièrement renouvelé symboliquement par le moyen d’un serment d’hommage (<emph>Huldigung</emph>) prêté collectivement au prince ou autre porteur du pouvoir. Contrairement à la supériorité territoriale, la notion d’« autorité » n’évoque pas nécessairement l’idée de la souveraineté (de sorte que beaucoup de comtes ou de petits princes dont les territoires en étaient restés à une <ref target="http://saintempire.hypotheses.org/publications/glossaire/staatlichkeit">étaticité</ref> incomplète pouvaient réclamer à bon droit la <emph>Landesobrigkeit</emph> dans leurs pays). Enfin, dans les interactions quotidiennes des acteurs, il faut distinguer les autorités ecclésiastiques (évêques, abbés, superintendants protestants, curés et pasteurs) des autorités laïques (Empereur, <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref>, seigneurs, conseils municipaux, etc.) – même si, notamment dans le cas des <ref target="http://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum">principautés ecclésiastiques</ref>, les unes pouvaient parfois être plus étroitement liées aux autres.</def>
+          <note xml:lang="fra">Souvent utilisé en allemand sous la forme d’un nom collectif, Obrigkeit ne peut pas toujours se traduire par un singulier en français. La <emph>Landesobrigkeit</emph> donnerait donc plutôt « les autorités territoriales », et la <emph>Stadtobrigkeit</emph> « les autorités municipales ». Quand il est question de l’autorité dans un sens plus abstrait (<emph>die höchste Obrigkeit</emph> = la plus haute autorité), il convient pourtant de recourir également en français au singulier ou d’utiliser le terme supériorité.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

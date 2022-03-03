@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">KÖTTER</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="kotter">
+        <form>
+          <orth xml:lang="deu">Kötter</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">manouvrier</quote>
+          <quote type="variante">petit paysan</quote>
+          <quote type="variante">masurier</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">De même que le terme <ref target="https://saintempire.hypotheses.org/publications/glossaire/bauer"><emph>Bauer</emph></ref>, <emph>Kötter</emph> renvoie aux hiérarchies sociales des communautés rurales, elles-mêmes liées aux formes variables de domination seigneuriale, de règlement successoral et de structure politique locale. <emph>Kötter</emph> désigne le « petit paysan », qui n’a pas hérité d’une tenure complète dans les régions où domine la succession inégalitaire. Toutefois, d’autres mots existent ; en Westphalie, on utilise ainsi <emph>Heuerleute</emph> pour désigner ceux qui en échange de petits terrains concédés à court terme sont prestataires de services et de redevances aux laboureurs titulaires d’une tenure entière ; en Thuringe, le <emph>Einmithling</emph> est opposé au <emph>Vollbauer</emph>. Et il existe enfin également des « petits paysans » en pays de division plus égalitaire de l’héritage. Le mot <emph>Kötter</emph> est dérivé de <emph>Kate</emph>, qui désigne une masure.</def>
+          <note xml:lang="fra">Comme <emph>Bauer</emph>, <emph>Kötter</emph> présente la difficulté d’être à la fois un mot utilisé par les contemporains dans des contextes spécifiques, et par les historiens à des fins d’analyse et de comparaison. Selon la manière de s’en servir, on pourra donc adopter une traduction du même ordre, mais à la signification tout aussi variable (« manouvrier »), une locution plus neutre mais guère plus précise (« petit paysan »), ou encore un néologisme qui tente de rendre la saveur et l’étymologie particulières du mot par « masurier ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

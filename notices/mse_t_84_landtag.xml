@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">LANDTAG</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Clarisse Roche</name>
+        </respStmt>
+        <author>Clarisse Roche</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="landtag">
+        <form>
+          <orth xml:lang="deu">Landtag</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">diète territoriale (dans le cadre de l’Empire)</quote>
+          <quote type="variante">diète provinciale dans le cadre des provinces dominées par les Habsbourg</quote>
+          <quote type="variante">attendu qu’un territoire peut être divisé en plusieurs provinces</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Caractéristiques des <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoires</ref> de l’Empire, les diètes territoriales sont au niveau territorial ce que la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref> est à l’échelle impériale. Tandis que la Diète réunit autour de l’Empereur ses vassaux directs (cf. <ref target="http://saintempire.hypotheses.org/publications/glossaire/lehnswesen">système féodal</ref>), les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiats</ref> d’Empire, à l’exception des <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft">chevaliers d’Empire</ref>, les diètes territoriales rassemblent autour du <ref target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft">prince territorial</ref> (<emph>Landesherr</emph> ; cf. également <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst">prince</ref>) leurs propres vassaux. Ces vassaux directs du prince territorial sont donc médiatisés (<emph>landsässig</emph>) par rapport à l’Empereur.La diète territoriale se réunit sur convocation du prince territorial adressée à tous ses vassaux. Aussi la diète se compose-t-elle des états du territoire (<emph>Landstände</emph>) qui sont l’expression politique du pays (<emph>Landschaft</emph>). Le nombre des états varie d’un territoire à l’autre. Il peut s’élever jusqu’à quatre selon la représentation sociale qui s’imposa au 15 siècle : l’état des seigneurs (<emph>Herrenstand</emph>), l’état des prélats (<emph>Prälatenstand</emph>), l’état des chevaliers (<emph>Ritterstand</emph>), enfin le quatrième état (<emph>Vierter Stand</emph>), celui des villes dites « libres » en tant qu’elles dépendaient directement du prince territorial.La diète territoriale se déroulait selon un usage précis durant les quelques semaines que durait l’assemblée. Le prince ou son représentant ouvrait la session, on procédait à la lecture de la « proposition » princière qu’il revenait aux ordres de discuter séparément. Ces débats aboutissaient à des contre-propositions à partir desquelles s’orientaient les négociations avec le prince territorial. Lors de ces diètes étaient discutées des questions de nature fiscale, militaire, religieuse voire des questions de <ref target="http://saintempire.hypotheses.org/publications/glossaire/gute-policey">bonne police</ref>. La conclusion (<emph>Landtagschluss</emph>) qui résultait des débats était sanctionnée par un décret princier.Souvent, les sessions de la diète territoriale avaient lieu dans le palais des états (<emph>Landhaus</emph>) qui pouvait également abriter l’administration du territoire.</def>
+          <note xml:lang="fra">Pour la Bohême, on traduit Landtag par « diète du royaume ». Afin de bien distinguer les diètes territoriales et/ou provinciales de la Diète d’Empire, on peut réserver la majuscule à cette dernière.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

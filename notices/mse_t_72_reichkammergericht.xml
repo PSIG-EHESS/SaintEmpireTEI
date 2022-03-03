@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSKAMMERGERICHT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichkammergericht">
+        <form>
+          <orth xml:lang="deu">Reichskammergericht</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Chambre de justice Impériale</quote>
+          <quote type="variante">Tribunal de la Chambre impériale</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Créé en 1495, ce tribunal joue un rôle majeur dans le maintien de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/ewiger-landfrieden">Paix publique perpétuelle</ref>. Le Juge de la Chambre (<emph>Kammerrichter</emph>) est nommé par l’Empereur, parmi les <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref> d’Empire, du moins jusqu’à la fin du 17e siècle. Les présidents et les assesseurs sont désignés par les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref>, selon une répartition complexe et variable. Le tribunal est compétent pour tous les conflits entre <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiats</ref>. Il est instance d’appel suprême dans les autres cas, sauf si les territoires concernés ont obtenu un <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/privilegium-de-non-appellando">privilegium de non appellando</ref></emph>. En 1555, la <ref target="http://saintempire.hypotheses.org/publications/glossaire/augsburger-religionsfrieden">paix d’Augsbourg</ref> confie également à la Chambre de justice Impériale le jugement des conflits confessionnels et introduit à cet effet la <ref target="http://saintempire.hypotheses.org/publications/glossaire/paritat">parité</ref> au sein de l’instance. Enfin, tout sujet de l’Empire peut saisir le tribunal s’il estime être victime d’un déni de justice de la part de son autorité territoriale (sauf  pour les affaires de justice pénale). La Chambre siège longtemps à Spire avant d’être transférée à Wetzlar en 1690.La Chambre de justice Impériale, composée de juristes de haut vol, juge uniquement sur pièces selon des procédures qui, au 16e siècle, modèlent l’évolution de toute la vie judiciaire dans l’Empire. En effet, chaque <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoire</ref>, pour obtenir le <emph>privilegium de non appellando</emph>, doit construire trois degrés d’instance et aligner en partie sa procédure. La compétence de la Chambre de justice Impériale est pour l’essentiel similaire à celle du <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichshofrat">Conseil impérial aulique</ref>. Cette concurrence contribue à compliquer des procès qui atteignent parfois une durée proverbiale. En outre, l’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsexekution">exécution</ref> des décisions du tribunal, confiée aux <ref target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc">Cercles d’Empire</ref>, dépend de la bonne volonté des territoires et est donc inégale. Enfin, les querelles sur le financement et sur la révision des procès par la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref>, ont fréquemment entraîné un déficit d’effectifs, voire des périodes d’inactivité. Malgré ces limites, l’activité de la Chambre de justice Impériale est très importante ; elle est une pièce maîtresse de la conversion juridique des conflits entre immédiats et contribue également à assurer pour tous un certain niveau de protection juridique.</def>
+          <note xml:lang="fra">« Chambre d’Empire » devrait s’imposer (voir <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/kaiser-kaiserlich-reichs-reichisch">Kaiser- kaiserlich, Reichs- reichisch</ref></emph>) ; mais « de justice » est nécessaire pour réduire la polysémie de « chambre » et interdit un enchaînement de « de ». On trouve toutefois des traductions alternatives dans la littérature, dont «tribunal de la Chambre impériale ». La majuscule d’« Impérial » signifie que c’est bien la Chambre qui, au nom de l’Empire, rend justice.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

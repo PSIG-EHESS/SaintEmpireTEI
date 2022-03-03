@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GEMEINDE</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Juliette Guilbaud</name>
+        </respStmt>
+        <author>Juliette Guilbaud</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="gemeinde">
+        <form>
+          <orth xml:lang="deu">Gemeinde</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">communauté d’habitants ou communauté paroissiale</quote>
+          <quote type="variante">commune</quote>
+          <quote type="variante">paroisse</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Comme l’indique son étymologie (l’adjectif <emph>gemein</emph>), la <emph>Gemeinde</emph> est au départ un regroupement d’individus qui partagent des intérêts communs, d’où la notion centrale de « communauté ». Le terme est utilisé dans deux principaux champs – l’un sociopolitique, l’autre religieux – qui confèrent à la communauté en question un périmètre particulier, pas nécessairement identique dans l’un et l’autre champ. Cette non-adéquation systématique des deux grands types de <emph>Gemeinde</emph> justifie que l’on propose pour une fois deux traductions pour le même terme allemand : le contexte doit permettre d’identifier le type de <emph>Gemeinde</emph> dont il s’agit, pour dès lors préciser la traduction en associant au terme « communauté » le qualificatif le plus éclairant selon le champ concerné.</def>
+          <note xml:lang="fra">Le caractère polysémique du mot <emph>Gemeinde</emph> le rend difficilement traduisible dans l’absolu, en dehors de tout contexte. Lors d’une première occurrence, traduire ce vocable par le seul terme « communauté » peut se révéler insuffisant, voire mener au contre-sens si l’on n’a pas déterminé de quel type de communauté il est précisément question. On évitera le terme « commune » qui, en français, renvoie à un statut juridique spécifique hérité du Moyen Âge et ne rend pas suffisamment la dimension sociale de la <emph>Gemeinde</emph>. De la même façon, le mot « paroisse » est ambigu car s’il peut effectivement s’employer pour l’ensemble des fidèles d’une église paroissiale, il peut également désigner la subdivision canonique dans laquelle le curé ou le pasteur exerce son ministère (<emph>Pfarre</emph>, <emph>Pfarrei</emph>).</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">DOCTOR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Anne Saada</name>
+        </respStmt>
+        <author>Anne Saada</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="doctor">
+        <form>
+          <orth xml:lang="deu">Doctor</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">docteur</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Les termes de « docteur », « licencié » (<emph>Licenciat</emph>), « maître » (<emph>Magister</emph>), désignent des dignités académiques. Du point de vue juridique, les dignités académiques faisaient partie des <ref target="https://saintempire.hypotheses.org/publications/glossaire/regalien-2">régales</ref> de l’empereur, c’est-à-dire du domaine des choses qui relevaient uniquement de sa grâce. Il existait trois voies pour obtenir les titres académiques, qui correspondaient chacune à une déclinaison de ces droits réservés.Le doctorat apparaît d’abord sur la liste des taxes de la <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichshofkanzlei">chancellerie impériale aulique</ref>, ce qui signifie que l’Empereur avait le pouvoir de créer des docteurs de son propre chef. Cependant, il n’existe pas d’exemple d’une telle pratique.Le passage par l’université était la voie la plus usuelle pour obtenir un titre académique. Jusqu’au début de l’époque moderne, la fondation d’une université exigeait un privilège pontifical, en vertu du principe de l’universalité des études. Sur ce plan aussi, la Réforme a marqué une rupture. La première université protestante a été fondée à Marbourg (1527) avec un privilège impérial. Désormais, la fondation d’une université ne nécessitait plus exclusivement un privilège pontifical, le privilège impérial pouvant suffire. Ce privilège, qui faisait lui-même partie des régales de l’empereur, donnait aux universités le pouvoir de conférer les dignités académiques de docteur, licencié, maître et bachelier, indépendamment du statut confessionnel.Conférer des titres académiques relevait en troisième lieu des prérogatives des <ref target="https://saintempire.hypotheses.org/publications/glossaire/kaiserlicher-hofpfalzgraf">comtes-palatins impériaux</ref>. La création des comtes-palatins impériaux faisait elle-même partie des régales de l’empereur. Il existait trois formes de palatinal impérial. Le « petit palatinat », accordé à une personne, le « grand palatinat », à une famille, et enfin, le palatinat lié à une fonction. Ainsi, Fichte et Wieland doivent leur titre de docteur au « petit palatinat » (à l’électeur Charles Théodore pour le premier et au comte Frédéric von Stadion-Warthausen pour le second). Concernant le palatinat institutionnel, le recteur de l’université de Helmstedt fut le premier à en bénéficier : indépendamment des changements de personne, celui qui occupait cette fonction était toujours comte palatin ; même chose pour le doyen de la faculté de droit de Rostock, etc. Lorsque les universités bénéficiaient du palatinat institutionnel, les professeurs ont exercé les prérogatives liées à cette dignité au nom de leur fonction. Mais ils en ont aussi été les détenteurs à titre personnel lorsque leur université ne disposait pas du palatinat institutionnel.Les titres académiques venaient en théorie sanctionner des compétences et ils étaient corrélés à des grades ou degrés universitaires. Le système des grades académiques de la période moderne est hérité de celui du Moyen Âge. En principe, il fallait avoir obtenu le degré de maître ès arts (<emph>magister artium</emph>) dans la faculté de philosophie (ou faculté des arts) pour commencer des études dans l’une des trois facultés supérieures, théologie, droit, médecine. Dans le Saint-Empire cependant, à partir du 16e siècle, le baccalauréat a été confié aux <emph>gymnasii</emph>, si bien que les degrés principaux conférés par les universités étaient la maîtrise, la licence et le doctorat.Les degrés académiques renvoyaient moins à des prescriptions normatives qu’à des pratiques, très diversifiées. Les exigences pour l’obtention des degrés variaient selon les universités. Elles étaient fixées dans les statuts de chacune. Les différences portaient sur la durée minimale d’études. Au cours du 18e siècle cependant, la tendance est allée vers une meilleure équivalence entre temps d’études et grade. Pour obtenir le degré de licence ou du doctorat, il fallait étudier deux ans et passer une série d’examens, le plus souvent sous la forme de disputes. Au terme de ces épreuves, le candidat obtenait la licence — si ce titre lui suffisait — ou le doctorat, s’il en faisait la demande et y mettait le prix. Dans les deux cas, le serment à prêter était le même. Le prix des diplômes était élevé. Le doctorat s’apparentait davantage à un rite de passage qu’à un examen. Avoir un titre académique était avant tout une question de prestige social et de privilèges.Dans l’empire, seul le titre de docteur eut tendance à être conservé, raison pour laquelle il a été donné plus souvent que dans les espaces voisins. Dans cet espace marqué par la distinction cependant, la noblesse se contenta parfois du titre de licencié, pour signifier qu’elle n’avait pas besoin du titre de docteur.</def>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">HAUS</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Guillaume Garner</name>
+        </respStmt>
+        <author>Guillaume Garner</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="haus">
+        <form>
+          <orth xml:lang="deu">Haus</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">maison</quote>
+          <quote type="variante">maisonnée (pour « Ganzes Haus »)</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">cette traduction rend compte des différentes significations du terme en français, qu’il s’agisse de la maison comme construction ou comme groupement humain dont la cohésion repose sur des relations de parenté ou d’alliance : ceci vaut pour les maisons nobles et pour les dynasties princières ou monarchiques (la maison Habsbourg). Cette traduction s’applique également à la maison de commerce (« Handelshaus »).</def>
+          <note xml:lang="fra">il convient de porter une attention particulière à la notion de « ganze Haus » qu’on traduira par « maisonnée ». Forgée au 19e siècle par Wilhelm Heinrich Riehl, cette notion a été reprise en 1956 dans un article d’Otto Brunner pour désigner la communauté domestique (y compris la domesticité) placée sous l’autorité du chef de famille (« Hausvater »). Cet article a suscité de nombreux débats faisant intervenir des spécialistes d’histoire de la famille, du droit et d’histoire agraire. L’analyse d’Otto Brunner a été critiquée à la fois parce qu’elle exagère l’autarcie de la maisonnée et qu’elle porte un regard nostalgique et conservateur sur la socialisation familiale et domestique à l’époque médiévale et moderne.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

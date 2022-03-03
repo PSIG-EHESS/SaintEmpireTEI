@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">PFANDHERRSCHAFT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="pfandherrschaft">
+        <form>
+          <orth xml:lang="deu">Pfandherrschaft</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">seigneurie gagée</quote>
+          <quote type="variante">pays gagé</quote>
+          <quote type="variante">seigneurie engagée</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Voilà un terme rétif à toute définition, non seulement parce qu’il renvoie à une réalité complexe et mouvante, mais aussi parce que sa définition suscite de nombreux conflits et procès qui ne permettent pas de conclure à une seule interprétation. Il s’agit d’une seigneurie ayant été confiée à un autre seigneur en gage – le plus souvent d’un prêt ou d’une obligation en argent. Cette « seigneurie » peut être de nature très diverse : d’un seul tenant ou disséminée ; comportant des terres, des droits, des prérogatives, des redevances – le tout combiné ou pas dans des configurations variables. Tout aussi controversée est l’étendue de ce qui est concédé en gage : peut-on par exemple gager la <ref target="http://saintempire.hypotheses.org/publications/glossaire/landeshoheit">supériorité territoriale</ref> ? Ou bien celle-ci demeure-t-elle en quelque sorte inaliénable ? Enfin : Le défaut de remboursement ou de prestation éteint-il toutes les prétentions du premier possesseur, ou celles-ci peuvent-elles au contraire perdurer ?Toutes les réponses possibles ont été données. La volonté de prouver l’engagement et ses limites – pour récupérer ou au contraire conserver une seigneurie gagée – mobilise tout l’arsenal de techniques et d’arguties qui caractérise l’importance du judiciaire dans les relations entre <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref> (voir <ref target="http://saintempire.hypotheses.org/publications/glossaire/ewiger-landfrieden">Paix publique perpétuelle</ref>). Sans oublier que le rapport de force, en définitive, décide souvent les conflits.Surtout, la « seigneurie gagée » attire l’attention sur une dimension importante du <ref target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft">pouvoir territorial</ref>. Il ne peut être ramené à un principe unique. Il est au contraire constitué de droits sur des hommes et des terres (souvent épars et coïncidant rarement), d’une collection de prérogatives relevant encore en partie d’une conception patrimoniale, et sa composante seigneuriale se distingue mal de ce qui relève en propre de la « supériorité territoriale ». Les conflits entre états d’Empire s’apparentent donc souvent à des querelles de créanciers et de débiteurs ou à des disputes d’héritage.</def>
+          <note xml:lang="fra">Les mots de cette famille (<emph>Pfand, verpfänden</emph>) sont délicats à manier. Les termes techniques (comme « nantissement ») sont trop précis, « garantie » est trop polysémique. Bien que le « gage » soit au sens strict un nantissement purement mobilier (par opposition à l’« antichrèse » immobilière), son usage plus large – celui de l’expression « donner en gage » – semble le mieux à même de rendre la diversité de ce que peut recouvrir <emph>Pfandherrschaft</emph> qui n’est jamais seulement mobilière, ou seulement immobilière.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

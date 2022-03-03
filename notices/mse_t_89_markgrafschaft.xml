@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">MARKGRAFSCHAFT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="markgrafschaft">
+        <form>
+          <orth xml:lang="deu">Markgrafschaft</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">margraviat</quote>
+          <quote type="variante">comté de la marche</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Dérivé de l’ancien allemand <emph>mark</emph> (marche), fief créé dans une zone frontalière, le margrave (littéralement : « comte de la marche » ; parfois les sources parlent également de <emph>Grenzgraf</emph>, « comte de la frontière ») fut d’abord, dans l’Empire carolingien, un dignitaire royal ou impérial ayant pour fonction de veiller à la sécurité des frontières extérieures de l’Empire, tâche potentiellement dangereuse qui fut liée à des prérogatives particulières et notamment le <emph>Heerbann</emph> (arrière-ban) et la haute justice. Dès le départ assimilée au titre de duc, cette dignité conférait à celui qui la portait le rang de <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst">prince</ref> et donc l’appartenance à la haute noblesse d’Empire. De nombreuses parties du Saint-Empire furent initialement des margraviats (par exemple la Bade, le Brandebourg, la Frise, le district de Meißen, la Moravie, la Haute et la Basse Lusace, la Styrie, Turin, le Montferrat…) et certaines d’entre elles figurent plus tard parmi les territoires les plus importants, notamment le Brandebourg (devenu électorat, et en 1701 en union dynastique avec le nouveau royaume de Prusse) et Meißen (devenu en 1423 duché et principauté-électorat de Saxe).</def>
+          <note xml:lang="fra">La langue française connaissant depuis longtemps les termes de « margraviat » et « margrave », versions francisées de <emph>Markgrafschaft</emph> et de <emph>Markgraf</emph>, il ne semble guère nécessaire d’en proposer d’autres traductions, notamment pour l’époque moderne où le gouvernement d’une marche n’a plus guère d’importance politique ou militaire, le titre étant devenu par conséquent une simple distinction par rapport à d’autres membres de la noblesse d’Empire (seigneurs, simples comtes, etc.). Dans les cas où, au contraire, la fonction d’une position frontalière doit être soulignée, on pourrait cependant également traduire par « comte de la marche ». L’équivalent français « marquis » ne peut être recommandé car il ne rend pas le rang princier du « margrave ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

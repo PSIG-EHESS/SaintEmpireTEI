@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">LANDVOGT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Jean-Dominique Delle Luche</name>
+        </respStmt>
+        <author>Jean-Dominique Delle Luche</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="landvogt">
+        <form>
+          <orth xml:lang="deu">Landvogt</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">grand-bailli</quote>
+          <quote type="variante">bailli régional</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Définition : Le <emph>Landvogt</emph> administre une circonscription territoriale appelée <emph>Landvogtei</emph>, sur laquelle il exerce un pouvoir administratif, fiscal, militaire et législatif conféré par le seigneur éminent (cf. également <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/vogtei">Vogtei</ref></emph>). Il s’agit le plus souvent de régions du domaine impérial réorganisées notamment par Rodolphe Ier de Habsbourg à la fin du 13 siècle, pour entraver la médiatisation progressive des terres d’Empire dans le Sud de l’Empire : sont ainsi constitués des grands-bailliages de Haute- et Basse-Alsace, de Brisgau, Ortenau, Souabe, Wetteravie qui ne sont pas nécessairement d’un seul tenant. Dans les faits, la distinction entre les grands-bailliages et les pays héréditaires de l’Autriche-Antérieure est souvent faible. Si certains disparaissent au cours du 15 siècle, de nombreux grands-bailliages demeurent importants à l’époque moderne : le grand-bailliage de Basse-Alsace, commandé depuis Haguenau, échoit à la France en 1648.En Suisse, dans les actuels cantons de Thurgovie et Argovie, le <emph>Landvogt</emph> administre les territoires tombés sous le contrôle des cantons confédérés entre le 14 et le 15 siècle, et administrés par un, plusieurs, ou l’ensemble des cantons. Là encore, la distinction entre <emph>Landvogt</emph> et <emph>Vogt</emph> s’amenuise au cours de l’époque moderne.</def>
+          <note xml:lang="fra">Traduire uniquement par « bailli » est une simplification trop forte, puisqu’on gomme la distinction avec les districts de moindre taille qui composent les principautés du Saint-Empire. L’adjectif « grand » suivi d’un trait d’union, sans être tout à fait transparent, permet de faire rapidement une distinction entre un « pays » et un district baillival. La traduction « gouverneur » est à éviter.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

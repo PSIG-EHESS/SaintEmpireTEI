@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">PROFESSOR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Anne Saada</name>
+        </respStmt>
+        <author>Anne Saada</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="professor">
+        <form>
+          <orth xml:lang="deu">Professor</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">professeur ordinaire (Ordentlicher Professor)|professeur extraordinaire (Ausserordentlicher Professor)|privat-docent (Privat-Dozent)</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">les catégories de professeur ordinaire, professeur extraordinaire et privat-docent renvoient à des différences de statut à l’intérieur du système universitaire. Le statut des professeurs d’universités s’est institutionnalisé dans le Saint-Empire avec la Réforme et la Contre-Réforme. Les différences entre professeur ordinaire et professeur extraordinaire ne résidaient pas tant dans une qualification, que dans la nature du contrat qui les liait à l’Université. Le professeur ordinaire percevait un salaire qui faisait partie du budget « ordinaire » de l’Université. Par opposition, le professeur extraordinaire ne touchait pas de salaire, mais pouvait être rémunéré par l’Université de façon « extraordinaire ».Le professeur ordinaire était titulaire d’une chaire universitaire et avait un certain nombre d’obligations, parmi lesquelles faire des cours publics et organiser des disputes. Il n’était pas nécessaire d’être <ref target="https://saintempire.hypotheses.org/publications/glossaire/doctor">docteur</ref> pour être professeur ordinaire. Les professeurs « extraordinaires » étaient payés directement par les étudiants. Bénéficier du statut d’extraordinaire leur permettait de porter le titre de professeur et constituait souvent la première étape dans la carrière universitaire.À la différence des professeurs ordinaire et extraordinaire, le privat-docent n’était pas engagé par l’université. Le terme désignait des docteurs qui avaient reçu l’autorisation d’enseigner de la part de l’Université. Le privat-docent ne pouvait proposer des cours que sous la responsabilité du doyen de la faculté ou du responsable des enseignements. Sur le plan symbolique, le nom du garant du privat-docent devait figurer en face de l’enseignement proposé.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

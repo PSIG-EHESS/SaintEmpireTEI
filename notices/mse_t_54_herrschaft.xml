@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">HERRSCHAFT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="herrschaft">
+        <form>
+          <orth xml:lang="deu">Herrschaft</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">cf. ci-dessous</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Définition : Le terme <emph>Herrschaft</emph> recouvre, en allemand, un vaste champ sémantique qui s’applique d’abord, dans un sens plus abstrait, aux rapports de pouvoir en général mais également, dans un sens plus concret, aux personnes ou institutions exerçant ce pouvoir et enfin, dans un sens spatial, au domaine auquel cet exercice se réfère. La langue française ne connaît pas de terme à même de reproduire cette polysémie ; c’est pourquoi il est nécessaire de recourir à un ensemble de mots – « pouvoir », « puissance », « autorité », « seigneurie »… – dont l’utilisation doit reposer à chaque fois sur une vérification précise de l’usage du terme dans son contexte d’origine.<emph>1. </emph>Herrschaft<emph> comme rapport de pouvoir :</emph> profondément marqué par la sociologie de M. Weber, l’usage du terme par les sciences sociales actuelles désigne une forme du pouvoir institutionnalisée et légitime, c’est-à-dire acceptée et reconnue par ceux qui lui sont soumis. Dans ce sens, le mot est désormais communément traduit par « domination », ce qui correspond au latin <emph>dominium</emph> (disposition personnelle sur des choses ou des personnes) et permet de ne pas évacuer (comme dans le cas du terme plus neutre « pouvoir », traduit en allemand par <emph>Macht</emph>) l’idée d’un assujettissement parfois involontaire et acquis par la force, ce qui correspond pourtant bien à la réalité des rapports politiques à l’époque moderne. Pour davantage souligner le caractère négocié et consensuel de ces rapports et pour se référer à l’idée non pas d’une « domination sur » mais d’une « domination avec », certains historiens parlent aujourd’hui, dans le cas du Saint-Empire et donc en incluant les difficultés notoires des pouvoirs territoriaux pour imposer leurs décisions aux sujets, d’une « domination désireuse d’être acceptée » (<emph>akzeptanzorientierte Herrschaft</emph>, S. Brakensiek), notamment pour tenir compte des objectifs du régime princier (qui devait répondre à de nombreuses normes religieuses, éthiques et juridiques excluant en principe le simple arbitraire) et de l’exercice concret du pouvoir s’appuyant sur une communication et une coopération régulières entre autorités et sujets.<emph>2. </emph>Herrschaft<emph> comme personne ou institution exerçant la domination :</emph> Le langage moderne allemand peut également désigner par le terme <emph>Herrschaft</emph> les personnes ou, plus abstraitement, les institutions qui exercent la domination, en l’utilisant comme un synonyme au terme <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/obrigkeit">Obrigkeit</ref></emph>. Il reprend ainsi la désignation plus personnelle du seigneur ou du maître (<emph>Herr</emph>) en l’élargissant aux personnes qui entourent ce dernier ou aux structures administratives sur lesquelles il s’appuie – dans ce sens large, il convient donc de traduire par « autorité » ou « autorités ». Bien qu’évoquant d’abord une qualité abstraite, la domination qu’exerce une personne est généralement liée à des droits très concrets : en font notamment partie la disposition sur le foncier (<emph>Grund und Boden</emph> ; <emph>Grundherrschaft</emph> = seigneurie foncière) et les personnes (<emph>Leibeigenschaft</emph> = <ref target="http://saintempire.hypotheses.org/publications/glossaire/leibeigenschaft">servage</ref> ; <emph>Fron</emph> = corvée), la justice (<emph>Gerichtsherrschaft</emph>) ou la <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/vogtei">Vogtei</ref></emph> (dans un sens plus ancien et plus général de la protection et du patronage ou parfois aussi celui, plus simple, de la basse justice). Si plusieurs de ces droits seigneuriaux et titres de propriétés sont réunis dans la main d’un seul en se répandant sur un espace plus étendu, la domination peut devenir <ref target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft">pouvoir territorial</ref> (<emph>Landesherrschaft</emph>), c’est-à-dire celle d’un prince sur un territoire.<emph>3. </emph>Herrschaft<emph> comme un domaine :</emph> plus facile à traduire, <emph>Herrschaft</emph> prend ici le sens de seigneurie, c’est-à-dire la propriété éminente (<emph>Grundherrschaft</emph>) ou réelle (<emph>Gutsherrschaft</emph>) d’un ensemble foncier et des droits sur la terre et les hommes qui s’y exercent dans les limites d’une circonscription qui n’est pas celle d’un <emph>Land</emph> (territoire). Dans la réalité, la différence nette entre une telle seigneurie comprise d’abord comme foncière et la <emph>Landesherrschaft</emph> est pourtant parfois difficile à tracer. Les seigneuries ont ainsi habituellement un caractère médiat, c’est-à-dire qu’elles sont soumises à l’autorité territoriale d’un prince. Certains seigneurs jouissent cependant de l’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiateté</ref> (ou la revendiquent), comme par exemple ceux de Reuss qui, sans pour autant arriver à développer une véritable <emph>Landesherrschaft</emph>, réussissent jusqu’à la fin de l’Empire à garder leur indépendance. La seigneurie est ici donc plus proche de la principauté (ce que de nombreux seigneurs arrivent d’ailleurs à faire attester en se faisant élever, plus tard, <ref target="http://saintempire.hypotheses.org/publications/glossaire/gefurstet">au rang de comte ou de prince</ref>). Conformément aux habitudes des juristes du 17 siècle, qui ont réservé à ces seigneuries immédiats (ainsi qu’aux membres les plus importants de la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft">chevalerie immédiate d’Empire</ref>) le terme <emph>baronia</emph>, on peut donc recourir dans ce cas à la traduction « baronnie ».</def>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

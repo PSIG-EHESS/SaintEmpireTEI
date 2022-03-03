@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSPOST</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichspost">
+        <form>
+          <orth xml:lang="deu">Reichspost</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Poste impériale</quote>
+          <quote type="variante">Poste de l’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Née comme poste des Habsbourg et transformée en institution d’Empire en 1597 par l’Empereur Rodolphe II, la Poste impériale fut une entreprise éminente d’organisation de la communication (par le transport de dépêches) et plus tard aussi de la mobilité (par le transport de personnes, à partir de la deuxième moitié du 17e siècle) au sein du Saint-Empire. Depuis 1615, l’office du <emph>Generalpostmeister</emph> (maître général des Postes) était – sous la forme d’un fief héréditaire – entre les mains de la famille des Thurn et Taxis qui exploiteront la Poste impériale jusqu’à la fin de l’Empire. Opérant d’abord depuis Bruxelles (ce qui montre l’attachement étroit de la Poste au domaine de pouvoir des Habsbourg), le siège de la Poste fut en 1702 transféré à Francfort puis à Ratisbonne en 1748, se rapprochant ainsi d’un réseau entre-temps devenu dense avec plusieurs nœuds établis dans les centres urbains les plus importants (Cologne, Hambourg, Leipzig, Nuremberg, mais tardivement à Ratisbonne où se réunissait depuis 1663 la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète</ref> permanente). S’appuyant sur un <emph>kaiserliches Postregal</emph> (<ref target="http://saintempire.hypotheses.org/publications/glossaire/regalien">droit régalien</ref> impérial de la Poste) que de nombreux <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref> ne reconnaissaient pas mais tolérèrent dans un premier temps, la Poste comptait parmi les institutions centrales du Saint-Empire et assurait, à travers le symbole de l’aigle bicéphale apposé sur ses diligences et stations, une présence impériale même dans les contrées qui avaient la réputation d’être les plus éloignées de l’Empire. Les parcours postaux arpentaient presque tous les territoires, en garantissant ainsi les liaisons entre différentes principautés ou, ce qui était plus important encore, par exemple pour l’organisation de l’administration locale, entre les différentes parties d’un <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium">territoire</ref> non clos.Dans le contexte des conflits confessionnels puis de la Guerre de Trente Ans (à partir de 1630, la Suède entreprend depuis la Poméranie l’organisation d’un nouveau réseau postal très efficace dans les territoires occupés), des entreprises postales concurrentes sont fondées dans les principaux territoires protestants (depuis 1640 dans le Brunswick-Lunebourg, depuis 1642 en Hesse-Cassel, depuis 1649 dans le Brandebourg et depuis 1651 en Saxe) ; en outre, dans les pays héréditaires des Habsbourg se développe depuis le début du 17e siècle une Poste propre, la <emph>österreichische Hofpost</emph> (Poste aulique autrichienne). Les rapports entre Poste impériale et Postes territoriales furent souvent conflictuels (le Brandebourg interdit ainsi pendant de longues années toute circulation des diligences du concurrent impérial dans son territoire), mais également marqués par des coopérations ponctuelles et destinées à proposer aux usagers le réseau de parcours le plus complet.</def>
+          <note xml:lang="fra">En raison de son ambiguïté, se référant à la fois à l’Empereur et aux états d’Empire, la traduction « impériale » convient le mieux ici. Pour marquer la différence d’avec les différentes Postes territoriales, l’on peut cependant aussi traduire par « Poste de l’Empire ». En aucun cas, en revanche, il est possible de parler de la « Poste de l’Empereur » car celui-ci dispose, en Autriche, de sa propre Poste elle aussi concurrente de la Poste impériale.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

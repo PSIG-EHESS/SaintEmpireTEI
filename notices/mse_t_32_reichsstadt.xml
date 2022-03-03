@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSSTADT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Vincent Demont</name>
+        </respStmt>
+        <author>Vincent Demont</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsstadt">
+        <form>
+          <orth xml:lang="deu">Reichsstadt</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">ville d’Empire</quote>
+          <quote type="variante">ville libre d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Les villes d’Empire, comme les autres <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar">immédiats</ref>, ne relèvent d’aucun autre seigneur que de l’Empereur lui-même ; c’est donc de la construction de l’édifice impérial bien plus que d’elles-mêmes qu’elles tirent leur spécificité. Celle-ci est longtemps mal définie : apparue en 1241 dans une liste fiscale, l’expression  « <emph>unsers und des reiches stede</emph> » (ville « de nous et de l’Empire ») ne recouvre guère de contenu juridique précis. Les villes d’Empire peuvent siéger à la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète d’Empire</ref>, mais leur présence n’y est d’abord qu’épisodique, avant de se stabiliser à la fin du 15e siècle. Ce sont en fait les paix de religion qui fixent leur statut. La <ref target="http://saintempire.hypotheses.org/publications/glossaire/augsburger-religionsfrieden">paix d’Augsbourg</ref> en fait des exceptions à la séparation religieuse, en même temps qu’elle y renforce le rôle de <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsgerichte">tribunaux d’Empire</ref> promus arbitres de la coexistence confessionnelle ; et les <ref target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden">traités de Westphalie</ref>, en mettant de facto fin à l’indépendance au moins partielle de nombreuses autres municipalités, fait des villes d’Empire les seules cités à jouir d’un important degré d’autonomie.Objets d’histoire institutionnelle et politique, les villes d’Empire ne constituent guère un ensemble cohérent pour l’histoire urbaine. Elles ne sont que quelques dizaines (entre 90 et 100 aux 14 et 15 siècles, 85 dans la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsmatrikel">matricule</ref> de 1521), et, quoique qu’elles aient une certaine importance au sud du Main (où elles sont pour l’essentiel situées), restent toujours très minoritaires parmi les villes allemandes. Surtout, elles forment un groupe incroyablement  hétérogène : de grandes métropoles marchandes (Augsbourg, Nuremberg, Cologne, Francfort, Lübeck et, à l’époque moderne, Hambourg), voisinent avec des sièges d’institutions impériales (Spire, Wetzlar, Ratisbonne) ainsi qu’avec de minuscules bourgades (telles ces cités souabes dont J. G. Schummel écrivait au 18 siècle qu’elles « rappelaient seulement la paix de Westphalie, et puis c’est tout »). Les conflits politiques, peut-être un peu mieux connus qu’ailleurs, y faisaient rapidement jouer tout le spectre des institutions de l’Empire –  à l’époque moderne, l’envoi de <ref target="http://saintempire.hypotheses.org/publications/glossaire/kaiserliche-kommission">commissions impériales</ref> y est un vrai classique. Peut-être la conscience de l’Empire y prenait-elle donc des traits particuliers, comme à Wetzlar où les habitants déclaraient être « <ref target="https://saintempire.hypotheses.org/publications/glossaire/burger">bourgeois</ref> de l’Empire et libres, n’ayant à obéir à personne » (1749) ?</def>
+          <note xml:lang="fra">À l’époque moderne, les expressions ville libre, ville libre d’Empire et villes d’Empire ne prêtent pas à confusion et peuvent être employées l’une pour l’autre. Il n’en va pas de même au Moyen Âge, où les villes libres désignent en théorie des villes émancipées d’une tutelle épiscopale, mais non soumises à l’Empereur. Il n’existe pas de terme bien défini pour les municipalités ayant préservé leur indépendance jusqu’en 1648 sans être villes d’Empire ; parfois, on parle de « villes autonomes ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

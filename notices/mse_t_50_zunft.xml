@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">ZUNFT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Jean-Dominique Delle Luche</name>
+        </respStmt>
+        <author>Jean-Dominique Delle Luche</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="zunft">
+        <form>
+          <orth xml:lang="deu">Zunft</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">tribu</quote>
+          <quote type="variante">corporation</quote>
+          <quote type="variante">guilde</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">La <emph>Zunft</emph> est, au sens strict, un rassemblement solidaire de bourgeois à caractère moins professionnel que social et politique. On trouve, selon les régions de l’Empire, des équivalents comme <emph>Innung</emph>, <emph>Gaffel</emph> ou <emph>Gilde</emph> ou tout simplement <emph>Gesellschaft</emph>. La ville contient en général une dizaine de corporations. Si les individus de même métier appartiennent en principe à la même corporation et qu’un métier peut la dominer, la tribu rassemble des professions parfois très hétérogènes. Au fur et à mesure de l’évolution du nombre total des tribus, certaines ont rassemblé des métiers orphelins pour combler les déséquilibres démographiques et politiques. Enfin, les maîtres de la tribu ne vivent pas nécessairement de leur métier : dans certaines villes, la pratique du <emph>Zunftzwang</emph> oblige tous les bourgeois, y compris les clercs, à s’inscrire dans une tribu, notamment pour des raisons de répartition des tâches dans les offices municipaux et la milice urbaine (acquisition et entretien des armes, garde des remparts, participation aux expéditions). Le lieu de sociabilité de la tribu est le poêle (<emph>Stube</emph>), qui peut donner son nom à la tribu ; il est cependant parfois possible d’avoir ses entrées dans deux poêles différents.Les tribus possèdent généralement un rôle non négligeable dans la vie politique du Moyen-Âge tardif avec, sinon la totalité, du moins un quota important des places au conseil et dans les échevinages (<emph>Schöppenstuhl</emph>) ; elles participent également aux grandes processions urbaines par ordre hiérarchique. Chaque ville dispose cependant d’une constitution différente, selon le résultat des conflits urbains des 14 et 15 siècles, conceptualisés par l’historiographie du 19 sous le nom de <emph>Zunftrevolutionen</emph>. Le système des tribus politiques est particulièrement présent dans les villes du Sud de l’Empire et de la Confédération helvétique. À Wurtzbourg, une des conséquences de la défaite des villes franconiennes contre l’évêque est la disparition du rôle politique des tribus dès 1400. La répression de Charles Quint contre les <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes d’Empire</ref> rebelles (1548) amène également à des changements de constitution et à la dissolution des tribus dans une vingtaine de cas : le modèle des tribus politiques, qui émerge à la fin du 14e siècle, disparaît à la fin du 16 siècle.</def>
+          <note xml:lang="fra">On préférera à la traduction classique « corporation », à déconseiller car entretenant une confusion possible avec la guilde ou le métier organisé (<emph>Handwerk</emph>), celle de tribu, plus précise, attestée dans l’historiographie alsacienne, et empruntée au latin tribus, l’équivalent strict de <emph>Zunft</emph> dans les sources. Dès lors qu’aucun rôle politique n’est plus attesté, mais qu’il s’agit de regroupements à caractère purement professionnel, on peut à nouveau employer sans hésitation le terme de « corporation ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

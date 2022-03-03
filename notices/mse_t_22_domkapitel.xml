@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">DOMKAPITEL</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="domkapitel">
+        <form>
+          <orth xml:lang="deu">Domkapitel</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">chapitre cathédral</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Depuis le 13 siècle, les chapitres cathédraux se sont progressivement imposés comme la seule instance de désignation des princes-évêques et archevêques-électeurs (cf. <ref target="http://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum">principautés ecclésiastiques</ref>), sous réserve toutefois de l’approbation pontificale, dont le Concordat de Vienne en 1448 a accru l’importance, et d’une acceptation impériale revivifiée au 18 siècle. Pour autant, la liberté de vote de ces chapitres est très grande. Elle leur permet d’imposer aux candidats des <ref target="http://saintempire.hypotheses.org/publications/glossaire/wahlkapitulation">capitulations électorales</ref> qui, entre autres, garantissent les privilèges du chapitre. À coté, ou parfois en remplacement des <ref target="http://saintempire.hypotheses.org/publications/glossaire/landtag">diètes territoriales</ref>, les chapitres cathédraux acquièrent donc une fonction de contrepoids et de contrôle du pouvoir princier. Mais ils y participent également, non seulement en assurant son intérim pendant les interrègnes, mais aussi en obtenant pour les chanoines un monopole sur les postes les plus importants du gouvernement des principautés ecclésiastiques, et en élisant de plus en plus souvent les évêques et archevêques parmi leurs membres. Enfin, les pouvoirs que les chapitres exercent sur les terres et les hommes qui relèvent directement d’eux sont protégés par leurs privilèges et à tel point séparés des prérogatives du prince-évêque qu’on a pu parler à leur propos de « quasi-<ref target="http://saintempire.hypotheses.org/publications/glossaire/landeshoheit">supériorité territoriale</ref> ».Les chapitres sont des communautés séculières composées de chanoines (<emph>Domherren</emph>) parmi lesquels on distingue entre les <emph>domicillares</emph> (<emph>Domizillare</emph>), intégrés souvent dès l’enfance, et les capitulaires (<emph>Kapitulare</emph>) qui seuls disposent du droit de vote. En leur sein sont élus les principaux dignitaires, en particulier le <ref target="http://saintempire.hypotheses.org/publications/glossaire/propst">prévôt</ref> (<emph>Propst</emph>) et le doyen (<emph>Dekan</emph>) qui souvent disposent de leur propre revenu – considérable. Les autres se partagent les revenus du chapitre, d’autant plus conséquents que les chanoines cumulent fréquemment des canonicats dans plusieurs chapitres. Le mode de recrutement, qui combine nomination individuelle et cooptation par l’ensemble, favorise une grande homogénéité sociale et, avec des variations selon les chapitres, ces assemblées sont dominées par la <ref target="http://saintempire.hypotheses.org/publications/glossaire/stiftsadel">noblesse chapitrable</ref> (<emph>Stiftsadel</emph>).</def>
+          <note xml:lang="fra">La seule difficulté consiste en la nécessité de réserver « chapitre cathédral » aux seuls chapitres des évêchés et archevêchés. Pour les autres principautés ecclésiastiques, il existe également des chapitres qui peuvent être d’ailleurs séculiers ou réguliers (dans le cas des abbayes d’Empire par exemple).</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

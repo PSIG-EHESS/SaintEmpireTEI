@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">PFRÜNDE</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="pfrunde">
+        <form>
+          <orth xml:lang="deu">Pfründe</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">prébende</quote>
+          <quote type="variante">mense</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Ce qui pose ici problème est moins la traduction que la particularité du contexte. En effet les prébendes de l’Église catholique en Allemagne ont une autre dimension que celles que l’on trouve par exemple en France. C’est particulièrement le cas lorsqu’il s’agit de « <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichskirche">l’Église d’Empire</ref> » : le fait que plusieurs archevêchés, la plupart des évêchés et de nombreuses abbayes, voire des prévôtés soient des <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsstand">états d’Empire</ref> immédiats donne évidemment aux prébendes des dignitaires ecclésiastiques un sens politique particulier, et réserve leur accès à des procédures particulières de sélection aristocratique apparentées à une cooptation au sein de la <ref target="https://saintempire.hypotheses.org/publications/glossaire/stiftsadel">noblesse chapitrable</ref>. C’est le cas en particulier des prébendes des <ref target="https://saintempire.hypotheses.org/publications/glossaire/domkapitel">chapitres cathédraux</ref>, allant de pair pour les chanoines non seulement avec le pouvoir d’élire le prince-prélat, mais également avec des pouvoirs propres qui ont pu être qualifiés de « quasi-souveraineté ». Enfin, la complexité des relations interconfessionnelles et des diverses paix de religion a fait subsister de véritables prébendes réservées aux protestants (certains chanoines du chapitre cathédral de Minden, par exemple). Là comme ailleurs, il est donc nécessaire d’inscrire dans un contexte et de préciser éventuellement la traduction.</def>
+          <note xml:lang="fra">Précisément parce que certaines prébendes sont liées non seulement à des revenus, mais également à des seigneuries réelles, à l’exercice de prérogatives de juridiction ou à des droits politiques dans le cadre impérial, il sera parfois utile, selon le contexte, de recourir au terme « mense ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">HANSE</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Vincent Demont</name>
+        </respStmt>
+        <author>Vincent Demont</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="hanse">
+        <form>
+          <orth xml:lang="deu">Hanse</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Hanse</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">la Hanse est un objet d’histoire européenne avant de relever de l’histoire de l’empire. Cette association entre marchands, puis entre villes (les premiers dominant fréquemment l’exercice du pouvoir dans les secondes), s’étendait en effet au-delà des limites du Saint-Empire, de la Livonie à l’est à l’embouchure du Rhin à l’ouest en passant, au nord, par le Gotland, et au sud par une ligne Cologne–Wroclaw/Breslau–Cracovie ; et le commerce hanséate, de la Méditerranée à la Moscovie, avait au début de l’époque moderne un périmètre plus large encore. Enfin, nombre de villes hanséates ont longtemps dédaigné participer aux affaires impériales : ainsi Lübeck n’envoie-t-elle de représentation qu’à 16 des 28 <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichstag">Diètes d’Empire</ref> réunies entre 1495 et 1545.C’est pourtant l’évolution interne du Saint-Empire, et la restriction progressive des autonomies urbaines qu’on y observe, qui expliquent en premier lieu le déclin politique de la Hanse au cours de la première modernité. Au 15e siècle, les diètes de la Hanse pouvaient réunir de 70 à 80 cités, sans compter la bonne centaine de communes gravitant dans l’orbite hanséate ; au début du 17e siècle, elles ne sont plus qu’une petite quinzaine de villes à fréquenter encore ces assemblées, pourtant au centre du fonctionnement de l’association. Et les <ref target="https://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden">traités de Westphalie</ref>, bien qu’ils soient les premiers traités impériaux à nommer officiellement la Hanse, mettent presque fin à celle-ci en interdisant toute alliance qui ne soit pas le fait de membres immédiats de l’empire. Seules les <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes libres</ref> – au premier rang desquelles Lübeck, Hambourg et Brême, réunies par un traité d’alliance en 1630 – peuvent donc continuer à faire vivre l’ancienne association. Après la réunion d’une dernière diète en 1669, le terme de Hanse n’est plus guère employé que pour ces trois villes, dites dès lors hanséatiques.Les principes généraux de fonctionnement de la Hanse – la réciprocité des avantages concédés par l’une ou l’autre ville à ses bourgeois, et l’interdiction du commerce d’étranger à étranger, qui garantissait aux marchands hanséates une place d’intermédiaire des échanges – dont l’application était déjà très souple au Moyen Âge, ne sont plus vraiment de mise à l’époque moderne : l’alliance des trois villes hanséatiques vise plutôt à établir des représentations communes auprès des États au sein desquels les marchands d’Allemagne du Nord font commerce. L’indéniable déclin politique de la Hanse n’induit pourtant pas de recul économique de ses anciens membres, ni des trois villes hanséatiques : l’effacement politique permet au contraire à celles-ci d’afficher une arrangeante neutralité commerciale, et de profiter ainsi à plein de l’expansion des échanges que connaît l’Europe du Nord-Ouest à l’époque moderne.</def>
+          <note xml:lang="fra">l’ambiguïté Hanse des marchands/Hanse des villes n’est plus de mise après le Moyen Âge ; pour le moderniste, le terme ne comporte donc pas de difficulté de traduction. Tout juste peut-on noter qu’il peut également, selon l’orthographe qu’on lui donne, évoquer les seules villes maritimes (<emph>An-See Städten</emph>) – ce dont les contemporains ne se privaient pas. Les adjectifs « hanséate » (<emph>hansisch</emph>) et « hanséatique » (<emph>hanseatisch</emph>) sont en revanche d’un usage nettement distinct dans l’historiographie allemande : le premier désigne la Hanse médiévale, le second est réservé à l’association des trois villes de Lübeck, Hambourg et Brême après 1630, et surtout 1669.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>
