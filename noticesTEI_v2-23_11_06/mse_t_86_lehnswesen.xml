@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">LEHNSWESEN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="lehnswesen">
+        <form>
+          <orth xml:lang="deu">Lehnswesen</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">système féodal</quote>
+          <quote type="variante">structure féodale</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le système féodal désigne l’ensemble des liens de suzeraineté et de vassalité qui tissent le réseau de liens interpersonnels formant l’un des soubassements du système juridique, politique et social impérial. Vivace jusqu’à la fin de l’Empire, il ne représente pas une simple survivance médiévale, mais s’est adapté aux besoins et aux évolutions propres à l’époque moderne. Il détermine en effet l’ensemble des liens personnels de domination à tous les niveaux du corps social, du <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst">prince</ref> d’Empire au simple sujet. Le discours de légitimation officiel du lien féodal repose en théorie sur un échange : tandis que le suzerain offre sa « protection » (<emph>Schutz und Schirm</emph>), le vassal doit « aide et conseil » (<emph>Rat und Hilfe</emph>). Si les termes de cet échange théorique demeurent les mêmes quel que soit l’endroit du monde social où l’on se situe, produisant ainsi l’illusion que se déclinent à tous les niveaux des obligations analogues, le contenu concret de la « protection », de l’« aide » et du « conseil » fournis se module de façon considérable selon le statut et le rang des parties impliquées et l’emploi de catégories englobantes ne doit pas faire illusion. Le système féodal, s’il structure l’ensemble de la vie sociale et politique impériale, se décline de façon très différenciée selon les types d’agents sociaux concernés.</def>
+          <note xml:lang="fra">Le terme de <emph>Wesen</emph> n’est que très imparfaitement rendu par celui de « système » qui le précise et le restreint. Mais <emph>Lehnswesen</emph> désignant l’ensemble des phénomènes ayant trait à la féodalité, et le français n’ayant pas de substantif suffisamment englobant, le terme de système paraît le mieux à même de rendre compte du caractère général du substantif allemand, et moins connoté épistémologiquement que le terme de « structure ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">PARITÄT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="paritat">
+        <form>
+          <orth xml:lang="deu">Parität</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">parité</quote>
+          <quote type="variante">égalité juridique</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le principe de parité est, avec celui de <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/possessio"
+                >possessio</ref></emph>, fondamental pour la mise en place, par des instruments
+            juridiques, de la coexistence des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/konfession"
+              >confessions</ref> dans le Saint-Empire moderne. Le problème à résoudre était
+            politique : les prérogatives des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiats</ref> en matière de religion devaient-elles être déterminées par la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref> selon le principe habituel de la majorité ? En ce cas, les catholiques
+            disposaient du plus grand nombre de voix. Les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref>
+            partisans de <persName>Luther</persName> contrèrent tout d’abord ce principe en
+            utilisant en 1529 la procédure de la <emph>protestatio</emph> qui permettait de réserver
+            les droits d’une minorité contre un vote majoritaire. Mais progressivement c’est un
+            autre principe qui prévalut : l’idée qu’en matière de religion les deux camps pesaient
+            le même poids et devaient soit s’entendre sur un compromis ou un partage, soit laisser
+            perdurer la dissension. C’est la « parité ». La <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/augsburger-religionsfrieden"
+              >paix d’Augsbourg</ref> de 1555 l’inscrit dans le fonctionnement de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht"
+              >Chambre de justice Impériale</ref> chargé de juger des conflits sur le droit à
+            déterminer et organiser la religion. La <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden"
+              >paix de Westphalie</ref> l’étend au fonctionnement de la Diète, prévoyant
+                l’<emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/itio-in-partes"
+                >itio in partes</ref></emph> (partage en deux « Corpus », catholique et protestant)
+            et la nécessité d’une <emph>amicabilis compositio </emph>entre eux pour tout conflit
+            confessionnel. La parité est également appliquée jusqu’aux moindres détails du
+            gouvernement urbain dans quelques <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes
+              d’Empire</ref> : <placeName>Augsbourg</placeName>, <placeName>Dinkelsbühl</placeName>,
+              <placeName>Biberach</placeName> et <placeName>Ravensburg</placeName>. Le principe de
+            parité des confessions dans l’Empire coexiste donc avec celui d’uniformité dans chaque
+              <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoire</ref> (voir <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/cujus-regio-ejus-religio"
+                >cujus regio ejus religio</ref></emph>) ; contradictoires, ces références s’avèrent
+            en réalité complémentaires et assurent (avec la clause de l’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/normaljahr">année
+              normative</ref> après 1648) aux minorités religieuses dans les territoires des
+            protections importantes.</def>
+          <note xml:lang="fra">Le traité d’<placeName>Osnabrück</placeName> de 1648 parle non de
+            parité mais, en latin, d’<emph>aequalitas exacta mutuaque</emph> et en allemand de
+              <emph>vollständige und gegenseitige Gleichheit</emph> (V-1). C’est pourquoi la notion
+            d’« égalité » peut sembler une meilleure traduction, à condition de l’assortir de
+            l’adjectif « juridique » car c’est en ce sens restreint que le mot « égalité » est
+            utilisé : pour les théologiens, toutes les confessions ne se valent pas. Désignant plus
+            exactement cette procédure juridique opposée à la notion de majorité, le terme de «
+            parité » s’est donc imposé dans l’historiographie, en particulier parmi les historiens
+            du droit.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

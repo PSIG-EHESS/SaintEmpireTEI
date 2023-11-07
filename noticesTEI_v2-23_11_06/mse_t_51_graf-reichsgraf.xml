@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GRAF, REICHSGRAF</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="graf-reichsgraf">
+        <form>
+          <orth xml:lang="deu">Graf, Reichsgraf</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">comte|comte d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Comme pour la plupart des titres de noblesse, la traduction découle de
+            l’origine carolingienne des titres et ne présente pas de difficultés majeures. La
+            définition en revanche comporte de nombreux éléments spécifiques au Saint-Empire. Le
+            premier est l’étagement des statuts au sein du groupe comtal. Une distinction forte
+            existe tout d’abord entre les comtes « médiats » qui reçoivent leur titre d’un prince
+            territorial et ne jouissent de ses prérogatives que dans les territoires de ce dernier,
+            et les « comtes d’Empire » qui, eux, font partie des immédiats d’Empire. Parmi eux, les
+            comtes immatriculés dans une des quatre corporations comtales (les comtes de
+              <placeName>Westphalie</placeName>, de <placeName>Franconie</placeName>, de
+              <placeName>Souabe</placeName> et du <placeName>Wetterau</placeName>) sont représentés
+            à la <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète d’Empire</ref>, dans le collège des princes, où ils disposent de quatre voix
+            collectives (« curiales »), une pour chacun de ces « bancs comtaux »
+              (<emph>Grafenbank</emph>). Toutefois, certains comtes d’Empire créés par l’empereur ne
+            disposent pas d’un comté d’Empire et n’ont pas été reçus dans l’un des « bancs ». Ils
+            relèvent d’un autre statut (c’est le cas par exemple pour un nombre croissant de <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft"
+              >chevaliers immédiats d’Empire</ref>) ; ils aspirent à rejoindre le statut « plein »
+            de comte d’Empire, mais leur corporation de départ s’y oppose, et les comtes d’Empire
+            anciens répugnent à réduire la distance entre eux et les nouveaux promus. De même, les
+            comtes d’Empire qui reçoivent le titre de princes d’Empire (voir : <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/gefurstet"
+                ><emph>gefürstet</emph></ref>) restent, statutairement, comtes, jusqu’à ce qu’ils
+            acquièrent une principauté et soient admis en son sein par le collège des princes, qui
+            ne s’y résout pas toujours volontiers. La seconde spécificité vaut pour tous les titres
+            de noblesse dans l’Empire : contrairement à ce qui se passe en France, tous les enfants
+            d’un comte portent le titre de comte, ou comtesse. Or, plus tardivement que les princes,
+            les comtes recourent progressivement à la primogéniture – si bien que s’établit, pour
+            les comtes d’Empire comme pour les princes d’Empire, une distinction entre tous les
+            comtes d’une famille, et le « comte régnant » (<emph>regierender Graf</emph>) qui
+            dispose effectivement du comté immédiat.</def>
+          <note xml:lang="fra">Ils tiennent principalement aux relations entre le terme et ses
+            composés. Si le « véritable » comte dans l’Empire est le <emph>Reichsgraf</emph>, comte
+            d’Empire, en revanche ni le <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/markgrafschaft"
+                ><emph>Markgraf</emph></ref>, ni le <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/landgrafschaft"
+                ><emph>Landgraf</emph>
+            </ref>ne sont des comtes d’Empire. <emph>Burggraf</emph> (« burgrave », ou comte de
+            forteresse) se maintient dans les titulatures mais ne correspond plus à un territoire ou
+            un statut défini. Il en est de même de <emph>Wild- und Rheingraf</emph> (« rhingrave »,
+            littéralement : comte des forêts sauvages et du <placeName>Rhin</placeName>) ou
+              <emph>Raugraf</emph> (« raugrave », littéralement : comte des terres incultes), plus
+            anecdotiques, qui sont autant de survivances ou résurgences n’entraînant pas de
+            conséquence statutaire dans le système politique impérial. Enfin, des composés de Graf
+            ne correspondent pas au titre de noblesse mais à d’autres fonctions :
+              <emph>Deichgraf</emph> sur les rives de la mer du Nord, <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/hansegraf"
+                ><emph>Hansegraf</emph></ref>, ou encore <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/kaiserlicher-hofpfalzgraf"
+                ><emph>kaiserlicher Hofpfalzgraf</emph></ref>.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

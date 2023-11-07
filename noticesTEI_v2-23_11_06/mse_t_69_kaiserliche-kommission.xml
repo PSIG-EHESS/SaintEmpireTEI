@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">KAISERLICHE KOMMISSION</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="kaiserliche-kommission">
+        <form>
+          <orth xml:lang="deu">Kaiserliche Kommission</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">commission impériale</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">La commission est une délégation d’autorité impériale qui recouvre de
+            nombreux cas de figure. Certaines investitures de <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/lehnswesen">fiefs
+              d’Empire</ref> sont ainsi conférées par un commissaire impérial ; le représentant de
+            l’Empereur à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref> est nommé le « commissaire principal » (<emph>Prinzipalkommissar</emph>)
+            ; les enquêtes visant à déterminer, après 1648, quelle était localement la situation
+            confessionnelle lors de l’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/normaljahr">année
+              normative</ref> ont également souvent été menées par commission impériale. Toutefois,
+            c’est avant tout dans le cadre des procédures de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht"
+              >Chambre de justice Impériale</ref> et du <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichshofrat">Conseil
+              impérial aulique</ref> que des commissions impériales sont chargées d’enquêter,
+            d’arbitrer ou de faire appliquer les décisions des tribunaux. Souvent confiée à des
+            pairs (princes et comtes), la commission entretient donc une parenté avec la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/austragalgerichtsbarkeit"
+              >juridiction d’austrégale</ref> ; d’autre part, le rôle des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc"
+              >Cercles</ref> dans l’exécution des sentences des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsgerichte"
+              >tribunaux d’Empire</ref> s’approche d’une sorte de commission permanente.
+            Concrètement, les commissions impériales acquièrent une importance singulière au 18e
+            siècle. Elles jouent alors (tout au moins dans le Sud et l’Ouest de l’Empire) un rôle de
+            premier plan dans le traitement, par les tribunaux d’Empire, des endettements excessifs
+            de comtes et princes d’Empire ainsi que des conflits financiers et constitutionnels au
+            sein des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes
+              d’Empire</ref>. Les commissions illustrent à la fois la persistance d’un pouvoir de
+            justice de l’empereur, puisqu’elles sont délivrées en son nom, la capacité normative
+            acquise par les grandes juridictions d’Empire, et l’importance des relations
+            inter-territoriales car elles sont en général exercées par un prince, ainsi mandaté pour
+            intervenir dans les problèmes d’un autre prince ou d’une ville. Le duc de
+              <placeName>Wurtemberg</placeName>, par exemple, a reçu 409 commissions impériales
+            entre 1648 et 1806 et, entretenant à cet effet une administration spécialisée, a pu
+            ainsi exercer son influence dans le Cercle de Souabe (dont il était le
+            prince-convoquant) et contribuer à l’amélioration administrative d’un grand nombre de
+            petits <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états
+              d’Empire</ref>.</def>
+          <note xml:lang="fra">« Impériale » (plutôt que « de l’Empereur ») convient bien ici en
+            raison de son ambiguïté, puisque les commissions, quoique supposées émaner de la
+            puissance du monarque, sont en fait encadrées par les procédures d’institutions qui sont
+            à la fois de l’Empire et de l’Empereur.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

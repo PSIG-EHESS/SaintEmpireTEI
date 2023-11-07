@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">AUGSBURGER RELIGIONSFRIEDEN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="augsburger-religionsfrieden">
+        <form>
+          <orth xml:lang="deu">Augsburger Religionsfrieden</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">paix d’Augsbourg</quote>
+          <quote type="variante">paix de religion d’Augsbourg</quote>
+          <quote type="variante">recès d’Augsbourg</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">La paix d’<placeName>Augsbourg</placeName> de 1555 est un texte majeur
+            pour le Saint-Empire moderne et la publicistique du 18e siècle en fait un des fondements
+            de la constitution d'Empire ; il propose un modèle diffusé et discuté en Europe au temps
+            des confrontations religieuses. Il formalise les solutions pragmatiques élaborées au fil
+            de plus de trente ans de conflits dans l’Empire. D’ordre purement juridique, ce
+            règlement est explicitement découplé des disputes et des tentatives de conciliation
+            théologiques. Il inscrit le droit d’option religieux (restreint au luthéranisme et au
+            catholicisme) dans les prérogatives des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiats</ref> : eux seuls ont le droit de choisir leur religion, mais leurs sujets
+            reçoivent quelques garanties (nul prince ne peut forcer les sujets d’un autre à se
+            convertir, chaque territoire doit permettre à ses sujets d’émigrer pour cause de
+            religion dans de bonnes conditions). Il soumet les conflits religieux à l’interdiction
+            de la guerre privée et à l’obligation d’un règlement judiciaire, c’est-à-dire qu’il les
+            inclut dans la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/ewiger-landfrieden"
+              >Paix publique perpétuelle</ref> et les renvoie devant la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht"
+              >Chambre de Justice Impériale</ref> où est introduit le principe de <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/paritat"
+            >parité</ref>. La Paix d’Augsbourg crée donc les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/konfession"
+              >confessions</ref> « légales » dans l’Empire. Certains conflits restent cependant
+            ouverts, comme celui qui porte sur le <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/geistlicher-vorbehalt"
+              >réservat ecclésiastique</ref> puis à partir des années 1560 sur la place à réserver
+            au calvinisme après que plusieurs princes (dont l’électeur
+              <placeName>Palatin</placeName>) s’y sont convertis. Enfin, le fonctionnement de la
+              <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref>, non réglé par la paix, se grippe au début du 17e siècle. Par bien des
+            aspects, la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden"
+              >paix de Westphalie</ref> de 1648 est le prolongement de la paix d’Augsbourg et
+            codifie les points litigieux qu’elle laissait ouverts.</def>
+          <note xml:lang="fra">La paix n’est pas un traité de paix (comme celui de
+              <placeName>Passau</placeName> en 1552 entre les princes protestants et l’Empereur).
+            C’est un <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsabschied">recès
+              d’Empire</ref> décidé par la Diète réunie à <placeName>Augsbourg</placeName>, sous
+            l'égide de l'archiduc et roi des Romains <persName>Ferdinand Ier</persName>. Certaines
+            de ses dispositions n’ont pas été acceptées par tous, d’autres (d’ailleurs contestées)
+            ont été prises en-dehors du cadre du recès. Il peut donc être fait référence au « recès
+            » <emph>stricto sensu</emph>. Mais l’expression « paix d’Augsbourg » s’est imposée pour
+            désigner cet édifice normatif qui a assuré la paix pendant plus de soixante ans et a
+            pour l’essentiel été repris jusqu’en 1806 – et en partie au-delà.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GEFÜRSTET</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="gefurstet">
+        <form>
+          <orth xml:lang="deu">gefürstet</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">élevé au rang de prince (ou de principauté)</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le rang de <emph>Fürst</emph> (<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/furst">prince</ref>)
+            désigne les membres de la très haute noblesse du Saint-Empire (avec, en son sein, des
+            différenciations supplémentaires, par exemple celle qui distingue les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst"
+              >princes-électeurs</ref> de l’ensemble des autres princes). Devenir prince était donc
+            le désir de la plupart des membres de la noblesse supérieure allemande. Deux voies
+            s’offraient : d’une part la réception en fief d’une principauté (soit d’un territoire
+            considéré depuis toujours comme <emph>Reichsfürstentum</emph> tels les margraviats de
+              <placeName>Brandebourg</placeName> et de <placeName>Meißen</placeName> ou bien le
+            comté palatin du <placeName>Rhin</placeName>, soit d’un territoire élevé lui-même au
+            rang de principauté, comme en 1719 lors de la réunion du comté de
+              <placeName>Vaduz</placeName> et de la seigneurie de
+              <placeName>Schellenberg</placeName> en une principauté de
+              <placeName>Liechtenstein</placeName>) ; d’autre part l’attribution personnelle du
+            titre de « prince » à un noble ou un dignitaire dont le fief gardait par ailleurs sa
+            qualité initiale (pour être reconnu comme membre à part entière de la hiérarchie
+            princière du Saint-Empire, il fallait cependant, si ce n’était pas déjà le cas, acquérir
+            également un <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoire</ref>
+            <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiat</ref>, cf. <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/titularfurst">prince
+              titulaire</ref>). C’est à cette deuxième possibilité que se réfère le terme «
+              <emph>gefürstet</emph> ». Il s’appliquait le plus souvent à des comtes ou des prélats
+            et abbés impériaux (cf. <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichspralat">abbaye
+              d’Empire</ref>) qui furent élevés au rang de prince, tout en restant à la tête d’un
+            territoire (ou d’une charge) dont le caractère n’avait pas changé. On parlait donc par
+            exemple d’un « <emph>gefürsteten Grafen</emph> » (comte élevé au rang de prince) ; de
+            même le nouveau titre se reportait au territoire qui s’appelait désormais «
+              <emph>gefürstete Grafschaft</emph> » (comté élevé au rang de principauté). Dans une
+            société parcourue de querelles de rang et de conflits de préséance, les intéressés
+            firent immédiatement usage de ce changement de statut pour se démarquer de leurs anciens
+            pairs ; en revanche, les princes de tradition plus ancienne refusaient de les
+            reconnaître comme leurs égaux, du moins dans un premier temps. À l’époque moderne les
+            élévations de rang furent un phénomène relativement fréquent – par exemple
+              <placeName>Henneberg</placeName> (1310, 1474), <placeName>Frise</placeName> orientale
+            (1662), <persName>Thurn und Taxis</persName> (1695), <persName>Schwarzbourg</persName>
+            (1697/1710), <persName>Waldeck</persName> (1712), <persName>Reuss</persName> (1778,
+            1790) – de sorte qu’un grand nombre de ceux qui étaient à la tête de territoires
+            immédiats revêtaient à la fin du Saint-Empire le rang de prince. Des exceptions existent
+            pourtant, par exemple la maison de <persName>Nassau</persName> qui, à plusieurs
+            reprises, essaya aux 17e et 18e siècles d’accéder à cette dignité, en vain.</def>
+          <note xml:lang="fra">Contrairement à l’allemand (« <emph>fürsten</emph> »), le français ne
+            connaît pas de verbe désignant l’élévation d’un noble de rang inférieur au rang de
+            prince. Il convient donc d’user d’une périphrase : « élevé au rang de prince (ou de
+            principauté) ». « Princifié » est en français trop péjoratif pour être retenu
+            ici.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

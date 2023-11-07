@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">AUSTRÄGALGERICHTSBARKEIT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="austragalgerichtsbarkeit">
+        <form>
+          <orth xml:lang="deu">Austrägalgerichtsbarkeit</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">juridiction d’austrégale</quote>
+          <quote type="variante">jugement par les pairs</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Bien que la juridiction d’austrégale trouve son origine au Moyen Âge,
+            c’est l’ordonnance créant en 1495 la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht"
+              >Chambre de justice Impériale</ref> qui précise ses contours et l’inscrit dans
+            l’édifice du droit d’Empire. Il s’agit de recourir non à un tribunal professionnel, mais
+            au jugement des pairs (austrègues). Le droit à une juridiction d’austrégale est réservé
+            à la noblesse d’Empire immédiate – c’est-à-dire moins que l’ensemble des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiats</ref>, puisque les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes
+              d’Empire</ref> n’en jouissent pas, mais plus que l’ensemble des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états
+              d’Empire</ref> puisque la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft"
+              >chevalerie immédiate d’Empire</ref> en bénéficie. Ce droit peut être octroyé, dans
+            tel domaine, par un privilège impérial mais pour l’essentiel c’est une juridiction
+            volontaire, établie par les justiciables eux-mêmes. De nombreux cas sont exclus de la
+            juridiction d’austrégale, comme par exemple les contestations de l’immédiateté, les
+            prétentions concurrentes sur telle terre ou tel droit, les infractions à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/ewiger-landfrieden"
+              >Paix publique perpétuelle</ref>. Après 1495, il est possible de faire appel des
+            décisions des juridictions d’austrégale devant les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsgerichte"
+              >tribunaux d’Empire</ref>, l’austrégale jouant le rôle de première instance pour les
+            procès entre immédiats. Ainsi, bien que procédant d’une démarche autonome, entre pairs,
+            les procès en juridiction d’austrégale sont intégrés dans la formalisation des
+            juridictions d’Empire et doivent respecter les mêmes règles de production de la preuve
+            et de procédure délibérative. Dans la pratique, l’austrégale est fréquemment mise en
+            place dans les contrats familiaux afin d’éviter le recours, long et coûteux, aux
+            tribunaux d’Empire. Elle joue un rôle important dans le règlement des problèmes de
+            succession et d’endettement de la noblesse d’Empire ; se traduisant souvent par la
+            nomination de « commissaires », à la fois arbitres et exécuteurs de l’arbitrage, cette
+            juridiction est similaire, fonctionnellement et formellement, aux <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kaiserliche-kommission"
+              >commissions impériales</ref> diligentées par les tribunaux d’Empire et souvent
+            confiées aussi à des pairs.</def>
+          <note xml:lang="fra">Le terme d’austrégale a l’inconvénient d’une certaine opacité et ne
+            peut être introduit sans un rappel de sa définition. Toutefois, une traduction
+            apparemment plus limpide comme « jugement par les pairs » s’éloignerait trop de l’aspect
+            formel d’une juridiction inscrite dans les instances et les règles juridiques de
+            l’Empire.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

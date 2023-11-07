@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GERICHTSBARKEIT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="gerichtsbarkeit">
+        <form>
+          <orth xml:lang="deu">Gerichtsbarkeit</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">juridiction ou justice</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">comme partout sous l’Ancien Régime, la justice fait partie, dans le
+            Saint-Empire, des domaines les plus centraux de la vie politique et sociale, tout en
+            étant un champ des plus complexe à cause notamment de l’extrême pluralité et variété
+            régionales (et souvent aussi locales) de ses formes, procédures et institutions. Depuis
+            l’Empire carolingien, les affaires juridiques étaient divisées dans l’espace germanique
+            en deux grandes catégories, les <emph>causae majores</emph> (ou causes majeures) et les
+              <emph>causae minores</emph> (causes mineures) qui ont donné lieu à un partage des
+            compétences entre haute justice (<ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/hochgerichtsbarkeit"
+                ><emph>Hochgerichtsbarkeit</emph></ref>) et basse justice (<ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/niedergerichtsbarkeit"
+                ><emph>Niedergerichtsbarkeit</emph></ref>) en vigueur pendant tout le Moyen Âge et
+            l’époque moderne. La justice relevait en outre des droits de domination les plus
+            importants. Elle s’étendait sur des personnes, mais aussi sur des lieux ou des
+            territoires et pouvait être dans les mains d’un seul potentat ou partagé entre plusieurs
+            d’entre eux. La justice moderne se caractérisait donc par une division au niveau des
+            matières, des espaces et des justiciers. Cette complexité était encore accrue par
+            l’existence d’une multitude de juridictions particulières –­ par exemple pour les clercs
+            et autres personnes ecclésiastiques (<emph>geistliche Gerichtsbarkeit</emph>), les
+            membres d’une université (<emph>akademische Gerichtsbarkeit</emph>), les armées
+              (<emph>Militärgerichtsbarkeit</emph>) ou les tribus
+            (<emph>Zunftgerichtsbarkeit</emph>). De même, certains secteurs de l’économie avaient
+            leur propre justice, par exemple les mines (<emph>Berggerichtsbarkeit</emph>). Si ce
+            véritable « capharnaüm » judiciaire n’était pas réservé au Saint-Empire, mais
+            caractéristique de toute société moderne, la justice se distinguait pourtant dans le cas
+            de l’Empire par ses rapports étroits aux trois échelles de l’action politique qui sont
+            les niveaux impérial, territorial et local. Les compétences de la juridiction d’Empire
+              (<emph>Reichsgerichtsbarkeit</emph>) – incarnée par la <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/reichkammergericht"
+                ><emph>Chambre de justice impériale</emph></ref> et le <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/reichshofrat"
+                ><emph>Conseil impérial aulique</emph></ref> – s’étendent surtout aux affaires
+            féodales, aux régales impériales, c’est-à-dire aux droits réservés conservés par
+            l’empereur, ainsi qu’aux conflits entre différents états d’Empire et entre ces derniers
+            et leurs sujets. Elle est donc le domaine de ce que l’on appellera plus tard le droit
+            public, tout en gardant un certain nombre de compétences dans celui de la justice
+            civile. Le niveau local, en revanche, est le ressort de la basse justice et des affaires
+            civiles de moindre importance. Celle-ci est exercée par des seigneurs, mais aussi par
+            des villes. Le niveau territorial, enfin, est le ressort de la haute justice, élément
+            clé de la supériorité territoriale et donc gardée, d’une part, comme la prunelle de
+            leurs yeux par les pouvoirs territoriaux, mais vendue ou prêtée aussi, à l’occasion, à
+            d’autres autorités, comme par exemple les villes, ce qui donne lieu à un nombre
+            considérable de querelles judiciaires.</def>
+          <note xml:lang="fra"><emph>Gerichtsbarkeit</emph> renvoie à la capacité concrète de rendre
+            justice. La polysémie du mot « justice » en français comprend certes cette acception
+            (par exemple « les justices seigneuriales » ou « haute justice » et « basse justice »),
+            mais il est plus précis de privilégier le terme « juridiction ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

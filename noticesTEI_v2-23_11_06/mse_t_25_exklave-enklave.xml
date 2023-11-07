@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">EXKLAVE / ENKLAVE</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="exklave-enklave">
+        <form>
+          <orth xml:lang="deu">Exklave / Enklave</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">exclave|enclave</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Les deux termes « exclave » et « enclave » désignent des
+            caractéristiques spatiales de la structure politique du Saint-Empire, en distinguant
+            deux situations singulières : une « exclave » est un morceau du territoire totalement
+            séparé de la partie principale ; une « enclave » en revanche est une portion d’espace
+            entourée complètement par un autre territoire auquel elle n’appartient pas. Le
+            Saint-Empire était littéralement truffé de ces phénomènes : au niveau impérial, c’était
+            par exemple le cas des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsitalien"
+              >parties italiennes de l’Empire</ref> (duchés de <placeName>Savoie</placeName>,
+              <placeName>Milan</placeName>, <placeName>Parme</placeName>,
+              <placeName>Modène</placeName>, Grand-duché de <placeName>Toscane</placeName>, les
+            villes « impériales » de <placeName>Lucques</placeName> et <placeName>Gênes</placeName>,
+            etc.) ou de <placeName>Montbéliard</placeName>, exclave à la fois impériale et du duché
+            de Wurtemberg. Mais c’est surtout au niveau territorial que les exclaves et enclaves
+            étaient pléthoriques ; événements spatiaux souvent ignorés par les cartes, elles étaient
+            présentes dans presque tous les territoires. Ce jeu se poursuivait souvent même aux
+            échelles inférieures, c’est-à-dire au niveau des découpages administratifs : ainsi, en
+              <placeName>Saxe</placeName> électorale, de nombreux <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/amt"
+              >Ämter</ref></emph> étaient imbriqués les uns aux autres de sorte que certains
+            villages étaient administrés par un <emph>Amt</emph> tout en se situant géographiquement
+            dans un autre. Élément significatif du <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+                >territorium non clausum</ref></emph>, l’existence des exclaves et enclaves
+            renforçait la structure morcelée des territoires de l’Empire, en mettant les
+            administrations devant de grands défis, par exemple pour assurer une communication
+            efficace et donc organiser une administration rationnelle entre les différentes parties
+            d’une principauté. Ce défi fut en partie relevé par la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichspost">Poste
+              impériale</ref> dont les itinéraires suivaient souvent des tracés reliant les
+            différents morceaux d’un territoire. En outre, la présence massive d’exclaves et
+            d’enclaves participait à la souplesse et la porosité des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/grenze">frontières
+              territoriales</ref>. Enfin, elle conférait souvent aux populations locales une
+            autonomie relativement grande, ne serait-ce que par la distance géographique parfois
+            importante envers les centres administratifs. Ces marges de manœuvre se sont maintenues
+            même après le ralliement d’une portion d’espace à un autre territoire : en 1744 par
+            exemple, lors du rattachement à la <placeName>Prusse</placeName> de la
+              <placeName>Frise</placeName>, la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landtag">diète
+              régionale</ref> de cette dernière garda par la suite la quasi-totalité de ses
+            prérogatives.</def>
+          <note xml:lang="fra">Le terme « enclave » ne pose aucun problème particulier de traduction
+            puisqu’il fait partie de la langue française. Celui d’« exclave », en revanche,
+            constitue un néologisme ; il semble cependant parfaitement compréhensible, notamment
+            quand il est utilisé en même temps que le mot « enclave ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

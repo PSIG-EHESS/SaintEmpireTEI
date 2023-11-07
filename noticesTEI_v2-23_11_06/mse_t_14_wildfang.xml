@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">WILDFANG</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Luca Scholz</name>
+        </respStmt>
+        <author>Luca Scholz</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="wildfang">
+        <form>
+          <orth xml:lang="deu">Wildfang</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">&lt;em&gt;Wildfang&lt;/em&gt;</quote>
+          <quote type="variante">droit d’aubaine</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/regalien">droit
+              régalien</ref> du <emph>Wildfang</emph> permettait aux comtes Palatins du Rhin de
+            réduire au servage certaines personnes s’établissant dans la région palatine après un an
+            et un jour de résidence. Outre un serment de fidélité à l’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst"
+              >électeur</ref> palatin, cette forme de servage comportait de nombreuses obligations
+            pécuniaires, comme des droits de prise (<emph>Fanggulden</emph>), de chevage
+              (<emph>Leibzins</emph>), de formariage (<emph>Ungenossen</emph>), de mainmorte
+              (<emph>Besthaupt</emph> ou <emph>Watmal</emph>), ou de détraction
+              (<emph>Nachsteuer</emph>) ainsi que des corvées. Étaient susceptibles d’être pris pour
+              <emph>Wildfang</emph> tous les étrangers, bâtards et hommes âgés non mariés
+              (<emph>Hagestolze</emph>) s’installant dans la zone d’influence des baillis palatins
+            dans les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoires</ref> avoisinant le <placeName>Palatinat</placeName>. En pratique,
+            pourtant, les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/vogtei">baillis</ref>
+            laissaient souvent carte blanche à leurs agents qui à leur tour asservissaient des
+            villages entiers pour en extorquer des redevances. En principe, une telle pratique
+            n’avait rien d’insolite dans l’Europe moderne. Alors qu’en France le droit d’aubaine,
+            comparable au <emph>Wildfang</emph>, était toujours resté une prérogative royale, dans
+            le Saint-Empire les étrangers étaient souvent assermentés par les officiers des
+            territoires. Ce qui rendait la pratique du <emph>Wildfang</emph> des électeurs palatins
+            si problématique était son étendue spatiale. Il ne s’appliquait pas seulement au
+            territoire palatin – où le <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/leibeigenschaft"
+              >servage</ref> était pratiquement lettre morte au 17e siècle – mais à un espace bien
+            plus grand, défiant ainsi les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft"
+              >seigneurs territoriaux</ref> voisins. Quand le droit fut renouvelé après la guerre de
+            Trente Ans pour des raisons fiscales et politiques, les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états
+              d’Empire</ref> voisins s’y opposèrent avec un acharnement croissant. Réunis dans une
+            alliance, ils essayèrent d’abord de se défendre au moyen de démarches diplomatiques
+            auprès de l’Empereur et de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète
+              d’Empire</ref>, ensuite par une bataille de plumes et enfin, en 1665, par les armes.
+            Une sentence arbitrale prononcée en 1667 par des envoyés des rois de
+              <placeName>France</placeName> et de <placeName>Suède</placeName> ne fit pas beaucoup
+            d’effet. Les baillis continuaient à importuner les serfs comme avant. Bien que moins
+            virulents, les différends liés au <emph>Wildfang</emph> se prolongèrent ainsi jusqu’à la
+            fin du 18e siècle. L’importance de la querelle du <emph>Wildfang</emph> pour l’histoire
+            générale nous semble résider cependant moins dans sa dimension politique que dans le
+            fait qu’elle présente une des très rares occasions où le servage a fait l’objet d’un
+            débat public à l’échelle du Saint-Empire.</def>
+          <note xml:lang="fra">Traduisible à la fois par « prise de la chasse » et par l’activité
+            même de la chasse au gibier, le terme pose des problèmes de traduction considérables.
+            Puisque aucune de ces traductions n’est satisfaisante, nous proposons d’utiliser le
+            terme allemand. Une traduction par « droit d’aubaine » est envisageable, mais risque
+            d’offusquer l’affinité de ce droit avec le servage.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

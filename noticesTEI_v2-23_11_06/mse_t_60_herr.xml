@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">HERR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="herr">
+        <form>
+          <orth xml:lang="deu">Herr</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">seigneur</quote>
+          <quote type="variante">maître</quote>
+          <quote type="variante">prince</quote>
+          <quote type="variante">monsieur</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">le <emph>Herr</emph> allemand recouvre un ensemble de positions de
+            domination qui se disent en français sous divers termes, seigneur étant sans doute celui
+            qui recouvre le plus de possibilités. Le seigneur est ainsi une fonction dont le contenu
+            concret dépend de la nature du pouvoir exercé, de l’objet sur lequel ce pouvoir est
+            exercé et de la relation entretenue avec l’objet de la domination. Il s’oppose à
+            l’origine au valet et à l’esclave (<emph>Knecht</emph>). Dieu est seigneur de tous les
+            hommes, l’Empereur est le seigneur de tous les membres de l’Empire, mais l’on peut être
+            également <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/herrschaft">seigneur
+              foncier</ref> (<emph>Grundherr</emph>), <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/landesherrschaft"
+              >prince territorial</ref> (<emph>Landesherr</emph>), ou encore suzerain
+              (<emph>Lehnsherr</emph>) ; dans le cadre domestique de la « <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/haus">maison</ref> »
+              (<emph>Haus</emph>), le <emph>Herr</emph> ou <emph>Hausherr </emph>est le chef de
+            famille, et s’oppose en tant que tel à la fois à la femme (<emph>Frau</emph>), à la
+            domesticité, et aux enfants. Le <emph>Herr</emph> est ainsi celui qui exerce une forme
+            d’autorité politique, juridique et sociale, et constitue la catégorie générique dans
+            laquelle se dit la domination et l’exercice d’un pouvoir depuis le gouvernant jusqu’au
+            père de famille. Sa déclinaison dans un nombre important de catégories particulières
+            rappelle que les relations de pouvoir sont pensées comme découlant toutes d’une matrice
+            identique. Une même personne est ainsi souvent <emph>Herr</emph> à plusieurs de ces
+            titres.Aujourd’hui, <emph>Herr</emph> est le titre de civilité par lequel on s’adresse à
+            un homme, équivalent du français « Monsieur ».</def>
+          <note xml:lang="fra">dans certains contextes, on préférera à seigneur d’autres
+            traductions. L’usage veut ainsi que l’on traduise <emph>Landesherr</emph> par <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/landesherrschaft">«
+              prince » territorial</ref>, y compris lorsque celui-ci n’a pas le titre nobiliaire de
+            prince, ou par souverain (voir <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/landeshoheit"
+                ><emph>Landeshoheit</emph></ref>). Enfin, il est également d’usage de traduire
+              <emph>Freiherr</emph> par <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/freiherr"
+              >baron</ref>. Ces difficultés de traduction se retrouvent à l’identique dans la
+            multiplicité des traductions du substantif dérivé, <emph>Herrschaft</emph>.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

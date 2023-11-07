@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">KAISERLICHER HOFPFALZGRAF</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Vincent Demont</name>
+        </respStmt>
+        <author>Vincent Demont</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="kaiserlicher-hofpfalzgraf">
+        <form>
+          <orth xml:lang="deu">Kaiserlicher Hofpfalzgraf</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">comte-palatin impérial</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">la dignité de comte-palatin impérial renvoie à l’exercice de la <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/regalien-2"
+              >régale</ref> impériale, dont une partie (jamais la totalité) peut être déléguée
+            moyennant finances. Réplique des <emph>missi dominici</emph> carolingiens, quoique
+            privés de fonctions judiciaires, cette dignité bénéficie d’abord à quelques grandes
+            familles italiennes ; c’est au 14e siècle, sous <persName>Charles IV</persName>, qu’on
+            rencontre pour la première fois des comtes-palatins impériaux au Nord des
+              <placeName>Alpes</placeName>. Au 16e et surtout au 17e siècle, l’octroi de la dignité
+            par la chancellerie impériale se fait plus fréquent, avec des attributions de plus en
+            plus importantes ; dans la seconde moitié du 18e siècle en revanche, les protestations
+            des <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsstand"
+              >états d’Empire</ref> semblent entraîner son déclin. Le périmètre des droits
+            qu’obtiennent les comtes-palatins impériaux varie fortement suivant le bénéficiaire et
+            l’époque considérée. Nomination des <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/kaiserlicher-notar"
+              >notaires impériaux</ref> ou légitimation des bâtards, confirmation d’adoptions ou
+            d’émancipations, mais aussi droit d’attribuer les dignités académiques, de nommer les «
+            poètes couronnés par l’empereur », voire d’octroyer des <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/wappenbrief">lettres
+              d’armes</ref> ou même d’anoblir, peuvent ou non en faire partie, sans qu’il n’y ait
+            ici de règle stricte. Jusqu’à l’empereur <persName>Matthias</persName> (1612-1619), ces
+            prérogatives sont le plus souvent accordées à une personne, à titre viager ; par la
+            suite, on voit apparaître la possibilité de leur transmission héréditaire. À partir de
+            cette époque, cela conduit à distinguer un « petit » et un « grand » palatinat
+              (<emph>kleines und grosses Palatinat</emph>), auxquels s’ajoute un palatinat
+            institutionnel dont bénéficiaient nombre d’universités, plusieurs abbayes ou chapitres
+            cathédraux bénédictins, mais aussi certains conseils de ville. On estime que la <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/reichshofkanzlei"
+              >chancellerie impériale aulique</ref> a, jusqu’à sa disparition en 1806, créé de 2 000
+            à 2 500 comtes palatins. Mais les bénéficiaires du grand palatinat (au nombre d’une
+            centaine pour l’époque moderne) pouvaient à leur tour créer de « petits » comtes
+            palatins, si bien qu’il faut peut-être, pour mesurer la diffusion de cette dignité,
+            doubler cette première estimation. Le cercle des individus directement concernés était
+            plus large encore : de 1575 à 1806, 172 professeurs exercent ainsi les prérogatives «
+            palatines » de l’université d’Helmstedt. Octroyée d’abord à des juristes (ceux-ci
+            représentent les quatre cinquièmes des bénéficiaires du « petit » palatinat), la dignité
+            de comte-palatin impérial est ensuite conférée de plus en plus largement. Au 18e siècle,
+            il n’est pas rare qu’elle soit dénoncée sous les termes d’« épicerie à diplômes » ou de
+            « fabrique de notaires ». Cela n’empêche pas nombre d’employés de la chancellerie de
+            l’Empire, de juges et d’avocats à la <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/reichkammergericht"
+              >Chambre de justice impériale</ref>, voire de diplomates allemands ou étrangers, de la
+            convoiter – elle et les revenus qui lui étaient associés. La nomination de
+            comtes-palatins impériaux permettait donc à l’empereur de construire des cercles
+            d’influence allant au-delà du rôle qui lui était institutionnellement réservé.</def>
+          <note xml:lang="fra"><emph>kaiserlicher Hofpfalzgraf</emph> est déjà une traduction de
+              <emph>comes palatii regis.</emph> Comme l’allemand <emph>Graf</emph>, le terme de
+            comte prête à confusion : ici, il ne s’agit pas nécessairement de noblesse, mais plutôt
+            de « compagnonnage » avec l’empereur dans l’exercice des droits qui lui appartiennent en
+            propre ; le tiret est quant à lui nécessaire pour distinguer les comtes-palatins
+            impériaux du comte palatin du Rhin. À partir du 17e siècle, on peut aussi employer les
+            expressions de « grand » et « petit » palatinat, bien que cela implique d’omettre le
+            terme à traduire pour qualifier le phénomène qu’il révèle.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

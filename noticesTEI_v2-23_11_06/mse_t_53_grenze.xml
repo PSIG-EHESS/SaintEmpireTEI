@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GRENZE</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="grenze">
+        <form>
+          <orth xml:lang="deu">Grenze</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">frontière</quote>
+          <quote type="variante">limite</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Comme en France – où le mot « frontière » ne s’est substitué qu’à la
+            fin du Moyen Âge au terme « confins » pour désigner les limites d’abord floues entre
+            deux zones géographiques et/ou politiques – la notion de <emph>Grenze</emph> a pris, en
+            allemand, la succession du terme plus ancien <emph>Mark</emph> qui caractérisait une
+            partie de l’espace située à la marge (et que l’on retrouve toujours à l’époque moderne
+            dans le terme <emph>Markgrafschaft</emph>, <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/markgrafschaft"
+              >margraviat</ref>). D’origine slave, le mot s’est peu à peu imposé à partir du 16e
+            siècle avec l’idée (et l’objectif politique) d’un <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoire</ref> circonscrit par des limites linéaires, clairement définies par les
+            autorités et respectées par les sujets. La réalité du Saint-Empire était marquée par une
+            multitude de frontières. D’abord les frontières de l’Empire lui-même qui sont longtemps
+            restées assez imprécises, ce qui tint entre autres au caractère flou de l’appartenance
+            impériale de certaines régions (les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsitalien"
+              >parties italiennes</ref> par exemple, mais aussi les cantons
+              <placeName>suisses</placeName> ou la <placeName>Lorraine</placeName>). En outre, les
+            populations locales des deux côtés vivaient de nombreuses interrelations de sorte que se
+            formait une seule société frontalière faite d’abord de pratiques partagées. Évidemment,
+            cela valait encore davantage pour les frontières entre les territoires : omniprésentes
+            au point que le juriste <persName>Justus Möser</persName> écrivit en 1770 que chaque
+            territoire de l’Empire ne serait en fait « que frontières », les limites territoriales
+            constituaient un élément structurant de première importance. Souvent à peine marquées
+            par des bornes, mais parfois aussi par des dispositifs plus importants appelés
+              <emph>Landwehr</emph> ou <emph>Landheeg</emph> (sortes de remblais parcourant le
+            paysage), elles reliaient autant qu’elles séparaient. D’une part, leur intégrité –
+            conçue comme l’un des marqueurs de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landeshoheit"
+              >supériorité territoriale</ref> – était défendue par les autorités avec persévérance
+            (ce qui donna lieu à une multitude de conflits frontaliers) ; d’autre part, elles
+            formaient des zones de contact entre les populations locales et étaient aisées à
+            franchir, grâce au droit accordé à tous les sujets de se déplacer librement à
+            l’intérieur de l’Empire (cf.<emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/jus-emigrandi"> jus
+                emigrandi</ref></emph>). Les frontières territoriales se recoupaient avec une
+            abondance d’autres frontières : confessionnelles (les territoires ne coïncidant que
+            partiellement avec les ressorts des confessions, cf. <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/cujus-regio-ejus-religio"
+                >cujus regio, ejus religio</ref></emph>) et ecclésiastiques, seigneuriales,
+            juridiques (par exemple le <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/verweisung"
+                >Weichbild</ref></emph> délimitant le ressort d’un tribunal urbain) et
+            administratives, économiques (douanes, <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/geleit">droit
+              d’escorte</ref>) et monétaires ; en revanche, elles n’étaient que rarement des
+            frontières linguistiques.</def>
+          <note xml:lang="fra">Le mot « frontière » évoquant facilement une démarcation linéaire et
+            incontestée, contrôlée par les autorités, le terme « limite » se prêterait davantage à
+            une conception plus souple des délimitations extérieures et intérieures du Saint-Empire.
+            En menant cette logique à son terme, il conviendrait même de parler de « lisières ».
+            Toutefois, les contemporains autant que les historiens parlent habituellement de
+              <emph>Grenze</emph> en allemand, et il semble donc approprié de traduire tout
+            simplement par « frontière ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

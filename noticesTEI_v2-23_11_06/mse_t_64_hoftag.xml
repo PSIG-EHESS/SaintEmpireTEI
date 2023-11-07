@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">HOFTAG</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Jean-Dominique Delle Luche</name>
+        </respStmt>
+        <author>Jean-Dominique Delle Luche</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="hoftag">
+        <form>
+          <orth xml:lang="deu">Hoftag</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">diète de cour</quote>
+          <quote type="variante">voir ci-dessous</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">cette traduction est usitée et retenue notamment par le Dictionnaire
+            historique de la Suisse. Néanmoins, la difficulté du terme repose moins dans sa
+            traduction, relativement évidente, que dans ses usages historiographiques en ce qui
+            concerne les rassemblements d’Empire, d’autant que les termes attestés dans la
+            documentation sont non spécifiques (<emph>colloquium</emph>, <emph>conventus</emph>,
+              <emph>tag</emph>, <emph>hove</emph>). Il conviendra de se référer à l’historiographie
+            la plus récente et de retenir l’appellation proposée par les historiens germanophones.
+            La recherche sur le développement du <emph>Hoftag</emph> en <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Reichstag</ref> est en grande partie due aux travaux de <persName>Peter
+              Moraw</persName>, dans la perspective de la densification organisationnelle
+              (<emph>gestaltete Verdichtung</emph>), et a trouvé une forme quasi-définitive dans
+            l’ouvrage de <persName>Gabriele Annas</persName> en 2004. Le concept de
+              <emph>Hoftag</emph> est appliqué seulement pour la période médiévale du Saint-Empire.
+            Néanmoins, pour les 14e et 15e siècles, <persName>Gabriele Annas</persName> distingue
+            plusieurs catégories d’assemblées d’Empire : le <emph>Hoftag</emph>, le <emph>Gemeiner
+              Tag</emph> (assemblée commune) ou le <emph>Reichstag</emph> (Diète d’Empire), affinant
+            ainsi l’historiographie ancienne qui attribuait généreusement le terme de
+              <emph>Reichstag</emph> à des rassemblements des 14e et 15e siècle, et restreignait
+              <emph>Hoftag</emph> aux périodes antérieures. L’utilisation du terme de
+              <emph>Reichstag</emph> pour les périodes antérieures au 16e siècle, attesté dans
+            l’historiographie ancienne, est désormais rejetée. Gabriele Annas, pour la période entre
+            1314 à 1495, énumère 28 « diètes de cour royale ou impériale » (<emph>königlicher /
+              kaiserlicher Hoftag</emph>) selon que le souverain est roi des Romains ou empereur)
+            avant de qualifier les rassemblements postérieurs à 1378 de « diète royale »
+              (<emph>königlicher Tag</emph>). Seule la diète de <placeName>Worms</placeName> de 1495
+            est qualifiée de <emph>Reichstag</emph>. Donc : <emph>Hoftag</emph> certainement avant
+            1376, « diète royale et impériale » entre 1376 et 1495, Diète d’Empire pour la première
+            modernité. Le lieu des diètes dépend de l’itinéraire et des préoccupations du roi des
+            Romains/de l’empereur. Dans la mesure où les princes sont rarement présents
+            simultanément hors des jours d’élection et de couronnement, les assemblées d’Empire sont
+            des dates marquantes des règnes des souverains – et des interrègnes de l’Empire. On
+            distingue néanmoins les « assemblées sans roi » (<emph>königsloser Tag</emph>,
+            expression de la recherche récente) de la diète de cour. Cette absence du souverain, due
+            aux circonstances exceptionnelles ou à son non consentement, peut être vue, dans
+            certains cas, comme une « rencontre d’électeurs » (<emph>Kurfürstentag</emph>). Les «
+            diètes urbaines », quant à elles, désignent les rassemblements de délégations de villes
+            d’Empire préalables aux rassemblements formels des grands états. Ici, dans ces
+            rassemblements informels, peut se poser la question de la traduction systématique de
+              <emph>Tag</emph> par « diète », terme qui suggère une forme de solennité qui ne
+            correspond pas nécessairement à la réalité de certaines rencontres. Précisons ainsi le
+            sens que l’on peut proposer pour <emph>Hoftag</emph>. La « diète de cour » est une
+            assemblée relativement informelle de princes d’Empire à l’initiative de l’empereur. Le
+            rassemblement est justifié par le devoir d’assistance et conseil (<emph>consilium</emph>
+            et <emph>auxilium</emph>) que l’empereur élu peut attendre de ses sujets immédiats :
+            princes laïcs et ecclésiastiques – mais aussi, à partir du milieu du 13e siècle, villes
+            d’Empire. La diète de cour est néanmoins aussi le théâtre où les princes monnaient leur
+            soutien et négocient des privilèges. <persName>Gabriele Annas</persName> voit dans
+            l’évolution des assemblées d’Empire une transition entre le <emph>Hoftag</emph>
+            (assemblées de personnes, de vassaux autour de leur souverain) et le
+              <emph>Reichstag</emph> (assemblées des états et organisation des délibérations en
+            curies). Le <emph>Gemeiner Tag</emph>, à partir des années 1420-1430, marquerait une
+            forme intermédiaire, insistant sur le rassemblement d’un grand nombre d’acteurs, sans
+            représenter néanmoins l’Empire comme somme de toutes ses parties.</def>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

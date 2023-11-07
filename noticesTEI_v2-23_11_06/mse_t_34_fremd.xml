@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">FREMD</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Guillaume Garner</name>
+        </respStmt>
+        <author>Guillaume Garner</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="fremd">
+        <form>
+          <orth xml:lang="deu">Fremd</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">étranger.</quote>
+          <quote type="variante">aubain.</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">la traduction par « étranger » a l’avantage de convenir à la fois à la
+            forme nominale et à la forme adjectivale du terme. Le terme « fremd » peut également
+            être traduit par « aubain », comme c’est le cas dans le composé « droit d’aubaine »
+              (<emph>Fremdlingsrecht</emph>, ou encore <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/wildfang"
+              >Wildfang</ref>).</def>
+          <note xml:lang="fra">le choix du terme « étranger » implique cependant quelques
+            précautions en raison de la polysémie du terme. D’une part, l’extranéité se rapporte à
+            des entités et à des échelles différentes, qu’il s’agisse de la ville, d’une seigneurie
+            ou d’un territoire de l’Empire. Cette polysémie du terme se retrouve dans de nombreux
+            pays de l’Europe moderne mais elle est accrue par le morcellement politique et
+            territorial de l’Empire à l’époque moderne : elle explique que l’étranger soit parfois
+            désigné par son extériorité (<emph>auswärtig</emph>, <emph>ausländisch</emph>) alors
+            qu’étymologiquement le terme de <emph>fremd</emph> renvoie à l’éloignement. D’autre
+            part, le terme peut être employé pour désigner des personnes ou des groupes qui sont,
+            notamment en milieu urbain, caractérisés par une certaine marginalité, soit en raison de
+            leur appartenance confessionnelle, soit en raison de leur statut juridique (quand ils ne
+            détiennent pas le droit de bourgeoisie).</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

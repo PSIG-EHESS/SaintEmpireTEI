@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">LANDGRAFSCHAFT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="landgrafschaft">
+        <form>
+          <orth xml:lang="deu">Landgrafschaft</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">landgraviat</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Comme le margrave (cf. <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/markgrafschaft"
+              >margraviat</ref>), qui domine une partie frontalière de l’Empire, le landgrave
+            (littéralement traduit : « comte du pays ») est un haut dignitaire royal ou impérial
+            exerçant, au Moyen Âge, le droit de justice dans une circonscription particulière qu’il
+            a reçue comme fief. Initialement installés par le pouvoir impérial pour réduire la
+            puissance des anciens ducs des tribus germaniques, les landgraves possédèrent souvent
+            d’autres droits régaliens plus importants qui réduisirent ainsi le poids de la dignité
+            dans l’exercice du pouvoir de ceux qui la détenaient (c’est notamment le cas des
+            nombreux landgraviats en <placeName>Lorraine</placeName>, en
+              <placeName>Souabe</placeName> ou en <placeName>Suisse</placeName>). Deux exceptions à
+            cette règle existent pourtant : les landgraviats de <placeName>Thuringe</placeName> et
+            de <placeName>Hesse</placeName>, donnés en fiefs au 12e siècle aux
+              <persName>Ludowinger</persName>. Disposant de nombreux autres droits seigneuriaux et
+            comtaux, ceux-ci réussirent par la suite à se servir du rang pour asseoir leur pouvoir
+            dans ces régions situées à l’extérieur de leurs possessions initiales, et pour s’imposer
+            face aux nobles locaux qui, finalement, durent reconnaître leurs droits quasi ducaux et
+            correspondant au rang d’un <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/furst">prince</ref>
+            d’Empire. Ici, le titre de « landgrave » devança donc en fait tous les autres titres et
+            dignités pour exprimer une supériorité face aux autres comtes et seigneurs de la région.
+            Obtenu en 1264 par les <persName>Wettins</persName>, le titre de landgrave de
+              <placeName>Thuringe</placeName> sera cependant peu à peu relégué au second plan au
+            profit du titre plus important de duc de <placeName>Saxe</placeName> (à partir de 1423).
+            En <placeName>Hesse</placeName>, en revanche, le prince territorial le portera jusqu’au
+            19e siècle.</def>
+          <note xml:lang="fra">La langue française connaissant depuis longtemps les termes de «
+            landgraviat » et « landgrave », versions francisées de <emph>Landgrafschaft</emph> et de
+              <emph>Landgraf</emph>, il ne semble guère nécessaire d’en proposer d’autres
+            traductions.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

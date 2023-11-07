@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">NORMALJAHR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="normaljahr">
+        <form>
+          <orth xml:lang="deu">Normaljahr</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">année normative</quote>
+          <quote type="variante">année normale</quote>
+          <quote type="variante">année décrétale</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Lors des longues négociations de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden"
+              >paix de Westphalie</ref>, l’idée d’une année de référence servant de critère pour
+            établir définitivement la répartition géographique des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/konfession"
+              >confessions</ref> dans l’Empire s’est progressivement imposée. Choisir cette date fut
+            délicat, car au cours de la guerre de Trente Ans les uns et les autres avaient favorisé
+            leur confession au gré de leurs succès militaires. On s’accorda finalement sur la
+            situation au 1er janvier 1624, qui devint ainsi l’« année normative ». Jusqu’à la fin de
+            l’Empire, cette référence joua un rôle majeur dans tous les conflits confessionnels ;
+            elle n’empêcha pas pour autant qu’ils surviennent, puisqu’il était souvent difficile
+            d’établir exactement quelle était la situation de telle institution, tel village etc. en
+            1624 et puisque la réalité confessionnelle (à la suite de migrations par exemple) ne
+            cessait d’évoluer. La clause de l’année normative marque la victoire du principe
+            juridique de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/possessio"
+              >possessio</ref> dans la définition des rapports confessionnels. Elle réduit en
+            revanche le pouvoir des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiats</ref> de déterminer la religion de leurs sujets. D’une part, en effet, la
+            clause de l’année normative donne aux minorités religieuses qui possédaient l’exercice
+            public au sein d’un <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoire</ref> en 1624 le droit de le continuer. D’autre part, la répartition est
+            désormais intangible, si bien que les conversions de <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref>,
+            nombreuses après 1648, n’eurent plus d’effets importants sur la religion de leurs sujets
+            : au milieu du 18e siècle, l’électorat de <placeName>Saxe</placeName>, l’électorat du
+              <placeName>Palatinat</placeName>, le duché de <placeName>Wurtemberg</placeName> et le
+            landgraviat de <placeName>Hesse-Kassel</placeName> ont par exemple des princes
+            catholiques mais restent des territoires luthériens ou calvinistes; le
+              <placeName>Brandebourg</placeName> est quant à lui un territoire luthérien avec une
+            dynastie calviniste. Les territoires propres des <persName>Habsbourg</persName> sont
+            exemptés de la clause de l’Année normative.</def>
+          <note xml:lang="fra">La traduction de <emph>Normaljahr</emph> par « année normale » semble
+            s’imposer et se rencontre fréquemment. Elle semble toutefois manquer de précision,
+            d’autant que l’on peut en français parler d’« année normale » dans de nombreux domaines
+            (par exemple pour les récoltes) alors que le mot composé allemand
+              <emph>Normaljahr</emph> (et non <emph>normales Jahr</emph>) est plus spécifique et
+            renvoie davantage à la norme qu’à la normalité. C’est pourquoi la traduction « Année
+            normative », adoptée par certains auteurs anciens, paraît préférable.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

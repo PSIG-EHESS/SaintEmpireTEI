@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">KIRCHENREGIMENT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="kirchenregiment">
+        <form>
+          <orth xml:lang="deu">Kirchenregiment</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">régence de l’Église</quote>
+          <quote type="variante">gouvernement de l’Église</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Il serait beaucoup trop long d’expliquer ici la genèse (liée à
+            l’émergence de la Réforme luthérienne dans l’Empire) et les modalités des droits que les
+            immédiats (en l’occurrence surtout les électeurs et princes) exercent sur les biens, les
+            juridictions et les institutions ecclésiastiques, en particulier en matière de gestion
+            des actions caritatives et éducatives, de discipline et de formation des clergés,
+            d’unité dogmatique et de discipline des pratiques religieuses des populations. On se
+            contentera de rappeler trois éléments. D’abord, ces droits ont été initialement définis
+            par défaut (suspension du <emph>jus episcopale</emph> en particulier) avant d’être
+            tardivement réunis sous l’expression <emph>jus reformandi</emph>, qui n’apparaît dans un
+            texte normatif qu’avec la <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden"
+              >paix de Westphalie</ref> en 1648 ; liés au règlement progressif de la coexistence
+            confessionnelle par le droit, ils présentent une configuration spécifique à l’Empire et
+            ne se comprennent que dans ce cadre (et non uniquement dans le cadre de telle ou telle
+            principauté où ils s’exercent). D’autre part, la condition de possibilité de ces droits
+            est aussi une constante difficulté, pour les contemporains comme pour nous : ils jouent
+            sur une distinction entre droits politiques et droits religieux peu claire,
+            conflictuelle et évolutive (pour ne prendre qu’un exemple : un prince doit veiller au
+            respect du dogme, mais il n’est pas libre de définir le dogme, inscrit dans le cadre des
+            confessions reconnues en droit d’Empire). Enfin, si la définition d’une « régence de
+            l’Église » est d’abord une manière d’intégrer le protestantisme dans l’Empire, le
+              <emph>jus reformandi</emph> est aussi reconnu aux princes catholiques (par exemple en
+              <placeName>Bavière</placeName>, où la régence ecclésiastique des électeurs est très
+            importante dans un territoire partagé entre un grand nombre d’évêchés « extérieurs ») ;
+            en outre, la clause de l’<ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/normaljahr">Année
+              normative</ref> après 1648 maintient la régence de l’Église dans les mains des princes
+            convertis, alors même qu’ils ne professent plus la confession de l’Église dont ils sont
+            princes – en pratique, ce sont des institutions spécifiques qui exercent ce droit, dans
+            une grande méfiance envers leur prince, mais dans le cadre des appareils gouvernementaux
+            princiers (l'exemple paradigmatique est ici celui de la <placeName>Saxe</placeName> du
+            18e siècle, après que les électeurs se sont convertis au catholicisme; le
+              <placeName>Wurtemberg</placeName> présente une situation similaire et parfois
+            conflictuelle).</def>
+          <note xml:lang="fra">Il existe en allemand de nombreuses façons de dire
+              <emph>Kirchenregiment</emph>. Choisir « régence » fait signe vers le fait que, au
+            départ du moins, les droits sont conçus comme des suspensions du droit canon et des
+            délégations de droits épiscopaux « empêchés ». On évite ainsi également le terme «
+            gouvernement » qui peut avoir une tournure trop contemporaine. Celui-ci étant toutefois
+            la traduction de <emph>Reichsregiment</emph>, on pourra par clarté le préférer.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

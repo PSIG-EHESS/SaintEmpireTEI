@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">LEIBEIGENSCHAFT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Luca Scholz</name>
+        </respStmt>
+        <author>Luca Scholz</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="leibeigenschaft">
+        <form>
+          <orth xml:lang="deu">Leibeigenschaft</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">servage</quote>
+          <quote type="variante">servitude</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le servage désignait une pluralité de statuts impliquant la dépendance
+            permanente, héréditaire et plus ou moins étroite vis-à-vis d’un seigneur. Dans la
+            plupart des cas, cette dépendance personnelle comportait des restrictions apportées à la
+            liberté de circulation et de mariage ainsi que des obligations de service et des charges
+            particulières. Cependant, dans son usage médiéval et moderne, le concept de servage
+            était marqué par une grande indétermination sémantique. Dans l’espace germanophone,
+            l’adjectif <emph>leibeigen</emph> était employé avec des acceptions très différentes qui
+            pouvaient considérablement varier même d’un village à l’autre. Il faut d’ailleurs
+            prendre en compte de fortes différences régionales. Dans les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoires</ref> du sud-ouest de l’Empire, dès le 16e siècle, le servage avait perdu
+            son importance comme instrument de pouvoir seigneurial et économique. En
+              <placeName>Bade</placeName> et en <placeName>Wurtemberg</placeName>, par exemple, le
+            serf s’était progressivement mué en sujet et le servage observé tout au plus comme un à
+            côté symbolique. Pourtant, dans certains territoires au long du
+              <placeName>Rhin</placeName> supérieur (<emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/wildfang"
+                >Wildfang</ref></emph>), cette institution constituait encore l’instrument d’un
+            politique visant à l’arrondissement et à l’expansion territoriale. Par ailleurs, sur les
+            grandes propriétés foncières à l’est de l’<placeName>Elbe</placeName>, la condition
+            servile des paysans conserva son importance sociale et économique jusqu’au 19e siècle.
+            Pour pouvoir juger des images évoquées par le terme parmi les contemporains, il importe
+            de savoir que – contrairement à son acception en haut-allemand contemporain – le
+            haut-allemand de l’époque moderne ne désigne pas par <emph>leib</emph> uniquement le
+            corps matériel, mais aussi la vie, ou bien le fait d’être vivant. Alors que la valeur
+            émotionnelle attribuée au terme de <emph>Leibeigener</emph> dépendait toujours de chaque
+            contexte, on sait que le terme était souvent connoté d’émotions très fortes. C’est
+            surtout à la suite de la guerre des Paysans allemands que le terme a fait de plus en
+            plus l’objet de polémiques d’ordre politique et sociale. Afin de pouvoir traiter de ces
+            questions en langue latine, les praticiens du droit avaient depuis le 16e siècle
+            revalorisé les mots romains de la dépendance, en les employant comme des miroirs où
+            refléter les différents concepts qu’avait développés le langage juridique médiéval.
+            Indépendamment des similitudes ou des différences que les juristes trouvaient entre ces
+            concepts, les catégories romaines étaient ainsi devenues une référence majeure pour
+            l’ensemble de la littérature juridique au sujet du servage. Cependant, plutôt que par le
+            droit des esclaves, la romanisation du servage allemand s’est faite sur la base du droit
+            du colonat, car, pour la majorité des commentateurs, la liberté sous conditions des
+            colons romains (<emph>ascriptii, censiti</emph>) semblait beaucoup mieux correspondre
+            aux serfs modernes que le statut de dépendance absolu du <emph>servus</emph>
+            romain.</def>
+          <note xml:lang="fra">Nous proposons de traduire <emph>Leibeigenschaft</emph> par « servage
+            », le terme communément employé dans l’historiographie. Une traduction par « servitude »
+            est envisageable là où les sources emploient <emph>Leibeigenschaft</emph> de façon
+            polémique ou dénonciatrice.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

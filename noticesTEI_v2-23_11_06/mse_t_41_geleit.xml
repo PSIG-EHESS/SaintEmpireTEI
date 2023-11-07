@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GELEIT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Luca Scholz</name>
+        </respStmt>
+        <author>Luca Scholz</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="geleit">
+        <form>
+          <orth xml:lang="deu">Geleit</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">droit d’escorte</quote>
+          <quote type="variante">escorte</quote>
+          <quote type="variante">sauf conduit</quote>
+          <quote type="variante">droit de conduit</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Répandu sous différentes formes dans l’ensemble du monde moderne, le
+            droit d’escorte a acquis dans le Saint-Empire une importance singulière, étroitement
+            liée à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territorialité</ref> complexe de cette région. Il s’agit d’abord d’une pratique,
+            celle d’escorter les marchands et les personnes de qualité pour les protéger et pour
+            leur rendre honneur. Pourtant, à l’époque moderne, cette pratique devient pour les
+            seigneurs territoriaux surtout un moyen d’affirmer leurs prérogatives territoriales.
+            L’exercice du <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/regalien">droit
+              régalien</ref> d’escorte était particulièrement important quand plusieurs seigneurs
+            contestaient entre eux le contrôle d’un même espace. Le relais des escortes devenait
+            ainsi une occasion importante pour établir, contester et négocier la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/grenze"
+              >frontière</ref>. Souvent, les seigneurs territoriaux n’adjoignaient pas d’escorte
+            armée aux voyageurs communs et leur donnaient leur sauf conduit sous forme d’un papier.
+            Ainsi, les marchands qui se rendaient vers les grandes foires recevaient des lettres de
+            sauf conduit leur assurant la protection du seigneur et l’indemnisation pour tous les
+            dommages subis dans le territoire de ce dernier. En pratique, pourtant, peu de seigneurs
+            se montraient disposés à payer ces indemnisations et ils utilisaient les lettres et
+            billets de sauf-conduit plutôt comme de simples quittances pour contrôler le paiement
+            des droits de douane et canaliser la circulation des biens. On donnait des lettres de
+            sauf-conduit aussi aux juifs, aux débiteurs insolvables et aux personnes accusées par un
+            tribunal. Des lettres de sauf-conduit étaient également délivrées aux envoyés et aux
+            représentants d’états étrangers, surtout quand ceux-ci étaient en conflit ou quand les
+            représentants exerçaient des actes relevant de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landeshoheit"
+              >supériorité territoriale</ref>, tels que le transport de prisonniers.Le droit
+            d’escorte est aussi un concept abstrait sous lequel les juristes du 17e siècle
+            essayaient de systématiser les phénomènes hétérogènes désignés par le mot
+              <emph>Geleit</emph>. Ils produisirent ainsi une riche littérature théorisant l’emprise
+            des seigneurs territoriaux sur les mouvements des biens et des personnes à travers les
+            territoires. Dans le Saint-Empire, le <emph>jus</emph>
+            <emph>conducendi</emph> devint ainsi un lieu intellectuel pour les débats et les
+            controverses sur la nature juridique des voies publiques, sur la fonction protectrice du
+            seigneur territorial et sur la liberté de circulation à travers les territoires.</def>
+          <note xml:lang="fra">Pour satisfaire aux multiples significations de ce concept
+              (<emph>Geleit, Geleitrecht, Geleitregal, Geleitherrlichkeit</emph>), nous proposons de
+            le traduire par « droit d’escorte ». Si l’accent est mis sur l’escorte physique ou sur
+            la protection (abstraite ou matérialisée dans la lettre) « escorte » et « sauf-conduit »
+            sont également possibles. « Droit de conduit » est envisageable comme alternative à «
+            droit d’escorte ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

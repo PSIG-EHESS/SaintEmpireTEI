@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GEMEINER NUTZEN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="gemeiner-nutzen">
+        <form>
+          <orth xml:lang="deu">Gemeiner Nutzen</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">utilité publique</quote>
+          <quote type="variante">bien commun</quote>
+          <quote type="variante">utilité commune</quote>
+          <quote type="variante">profit commun</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">importé de la philosophie antique et de <persName>Thomas
+              d’Aquin</persName>, le concept de « bien commun » (<emph>bonum comune</emph>) ou d’«
+            utilité publique » (<emph>utilitas publica</emph>) est l’horizon du bon gouvernement et
+            s’oppose à l’intérêt particulier (<emph>Eigennutz</emph>). On l’utilise aussi bien dans
+            la sphère économique que politique ou morale : il est <emph>in fine</emph> presque
+            toujours l’horizon de légitimation de l’action politique au sens général de l’action
+            touchant au collectif. La communauté (<ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/gemeinde"
+              >Gemeinde</ref>), à toutes les échelles, peut en être le support, mais l’autorité
+            politique doit en être le garant. Le terme est très fréquemment utilisé pour légitimer
+            ou, à l’inverse, critiquer les mesures économiques et la « bonne police » (<ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/gute-policey">Gute
+              Policey</ref>) dans les territoires. La notion connaît donc plusieurs remaniements au
+            cours du temps, et fait partie de ces lieux communs dans lesquels se dit la légitimité
+            politique, laissant la voie libre à de multiples investissements sémantiques, parfois
+            contradictoires. Au-delà du fait que l’utilité publique garantit l’intérêt général au
+            détriment des intérêts particuliers, le contenu concret du concept et, plus encore, les
+            moyens d’y parvenir, font l’objet d’âpres conflits.</def>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

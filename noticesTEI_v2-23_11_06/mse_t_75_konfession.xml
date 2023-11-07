@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">KONFESSION</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="konfession">
+        <form>
+          <orth xml:lang="deu">Konfession</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">confession</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Central pour comprendre et désigner le règlement particulier des
+            scissions au sein du christianisme dans l’Empire, ce terme est d’un usage redoutable
+            tant sa polysémie est l’héritière même de son histoire. Une confession, c’est d’abord un
+            texte – la <emph>Confessio Augustana</emph> (Confession
+              d’<placeName>Augsbourg</placeName>) par laquelle en 1530 les théologiens proches de
+              <persName>Luther</persName> résumèrent leurs positions, dans un esprit de
+            conciliation, pour qu’elles soient présentées à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref> et à l’Empereur. Les catholiques et les luthériens (profession de foi
+            tridentine, et catéchisme de <placeName>Heidelberg</placeName>) adoptèrent également ces
+            textes permettant, par le biais du serment, d’obliger un personnage public à se
+            conformer à la bonne doctrine. Une confession est aussi d’emblée une figure juridique :
+            la <emph>Confessio Augustana</emph> devient par exemple en 1555 le texte permettant à
+            ceux qui s’en réclament de bénéficier des droits accordés, dans l’Empire, aux luthériens
+            ; les autres protestants en sont exclus. Plus généralement, la « confession » désigne
+            chacune des religions légales et les droits qu’elle possède dans l’Empire.
+            Progressivement enfin, la « confession » recouvre une réalité multiforme, faite de
+            spécificités religieuses, de définitions juridiques, de distinctions culturelles et
+            sociales. Dans tous les cas de figure, le terme fait référence au contexte spécifique de
+            l’Empire, renvoie à cette intersection entre le politique, le juridique, le religieux et
+            le social, et ne prend tout son sens qu’au regard de la coexistence entre deux, puis
+            trois confessions égales en droit. Une confession n’existe que par rapport aux autres et
+            dans les cadres juridiques particuliers de leur coexistence (distinction exercice
+            public/liberté de conscience, importance de la <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/possessio"
+                >possessio</ref></emph>, <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/paritat"
+            >parité</ref>, etc.) ; c’est par exemple dans ce cadre qu’il est obligatoire de leur
+            donner leur nom légal (catholiques romains ; tenants de la Confession
+              d’<placeName>Augsbourg</placeName>) et non de parler d’hérétiques ou de papistes. Il
+            n’est donc pas nécessaire de l’utiliser partout (une partie de l’activité théologique et
+            pastorale, dont les paix de religion ne parlent pas et qui a interdiction de commenter
+            la paix, n’est pas à proprement parler « confessionnelle ») ni pour tous (les
+            communautés juives ne forment pas une « confession » dans l’Empire) et il est délicat de
+            l’appliquer sans examen à d’autres contextes, comme la France.</def>
+          <note xml:lang="fra">Ils découlent ici de l’apparente limpidité du mot, qui peut sembler
+            gommer son inscription précise et complexe dans le contexte du Saint-Empire.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

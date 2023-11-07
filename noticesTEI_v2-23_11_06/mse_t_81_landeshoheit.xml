@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">LANDESHOHEIT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="landeshoheit">
+        <form>
+          <orth xml:lang="deu">Landeshoheit</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">supériorité territoriale</quote>
+          <quote type="variante">souveraineté</quote>
+          <quote type="variante">autorité territoriale</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Souvent définie comme l’équivalent germanique de la « souveraineté » à
+            la française, la supériorité territoriale s’en distingue par ceci, d’une part, que ceux
+            qui l’exercent demeurent soumis aux lois de l’Empire, mais aussi, d’autre part, par la
+            variété des formes qu’elle peut prendre et qui sont liées au fait qu’elle s’incarne
+            différemment selon les lieux. Elle désigne donc des prérogatives exercées par un <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft"
+              >prince territorial</ref> (<emph>Landesherr</emph>) sur son <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoire</ref> et représente un concept adapté aux singularités de l’exercice du
+            pouvoir dans le Saint Empire. Développé à partir du 14e siècle, le concept de
+            supériorité territoriale vient s’adjoindre, sans s’y substituer, à celui de pouvoir
+            territorial (<emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft"
+                >Landesherrschaft</ref></emph>). Si elle est, selon <persName>Johann Jacob
+              Moser</persName> « d’une seule sorte, au regard de l’Empereur et de l’Empire », « au
+            contraire, au regard des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états
+              d’Empire</ref> entre eux, elle est différenciée » : au plus loin d’une souveraineté
+            indivisible exercée par une puissance transcendant les autres, elle peut être
+            individuelle ou collective, détenue dans son intégralité ou partagée, et consiste dans
+            un nombre fluctuant de droits régaliens. Délimiter le contenu concret de la supériorité
+            territoriale relève donc de la gageure, tant ses formes sont modelées par le contexte
+            local. Ce caractère différencié de la supériorité territoriale est l’expression à la
+            fois de la fragmentation des territoires de l’Empire et du partage des prérogatives
+            entre l’Empereur, l’Empire et les états d’Empire, conséquemment, elle reflète
+            merveilleusement la concurrence des normes et la lutte de définition permanente
+            engendrée par cette situation. <persName>Johann Jacob Moser</persName> la définit comme
+            : « un droit par lequel celui qui le détient est fondé à ordonner, interdire et
+            promulguer, à faire et à faire faire dans son pays et ses domaines tout ce qui incombe à
+            un gouvernant d’après les droits de Dieu, de la Nature et des gens, pour autant que ses
+            mains ne sont pas liées par les lois de l’Empire, ses coutumes, les contrats conclus
+            avec les états et les sujets, ou par les libertés et coutumes ancestrales et bien
+            établies. » (<emph>Grund-Riss der heutigen Staatsverfassung</emph>…,
+              <placeName>Tübingen</placeName>, 1754) (cf. également <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/regalien">droits
+              régaliens</ref>). Cette puissance s’exerce, depuis la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden"
+              >paix de Westphalie</ref>, non pas au nom de l’Empereur ou par délégation, mais les
+            états d’Empire qui la détiennent l’exercent en principe en leur nom propre. Elle
+            appartient aux terres (<emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/land"
+              >Land</ref></emph>) d’un état d’Empire, mais la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/herkommen"
+              >coutume</ref> ou des contrats particuliers peuvent faire que l’un possède la terre,
+            et qu’un autre dispose de l’exercice de la supériorité territoriale, de sorte qu’elle
+            peut devenir l’attribut d’une personne. Sa détention est en principe le seul fait des
+            princes territoriaux, mais des cas de disjonction existent et contrairement aux
+            corrélations parfois trop vite établies, y compris par les contemporains eux-mêmes, sa
+            détention ne présage pas non plus de l’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiateté</ref> d’Empire.</def>
+          <note xml:lang="fra">La traduction littérale, par « supériorité territoriale », a
+            l’inconvénient de n’être pas immédiatement compréhensible pour qui n’est pas au fait des
+            modalités de l’exercice du pouvoir dans le Saint Empire. Mais précisément pour cette
+            raison aussi, elle permet d’éviter de rabattre abusivement l’inconnu sur le connu et, en
+            conservant au terme son étrangeté, on préserve aussi la radicale hétérogénéité de la «
+            supériorité territoriale » par rapport à la souveraineté. Les deux termes de
+              <emph>Landeshoheit</emph> et de <emph>Territorialhoheit</emph> fonctionnent par
+            ailleurs comme synonymes : ce glissement est révélateur avant tout de la conception du «
+            territoire » qui s’élabore durant la seconde modernité.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

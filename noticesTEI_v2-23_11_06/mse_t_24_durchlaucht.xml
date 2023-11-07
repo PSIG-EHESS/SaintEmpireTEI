@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">DURCHLAUCHT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Sébastien Schick</name>
+        </respStmt>
+        <author>Sébastien Schick</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="durchlaucht">
+        <form>
+          <orth xml:lang="deu">Durchlaucht</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Altesse sérénissime</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">il s’agit d’un prédicat nobiliaire, utilisé sous forme d’adjectif ou
+            de substantif et réservé, dans le cadre de la société nobiliaire impériale, à la haute
+            noblesse. Parce que son usage était symptomatique d’un rang, il était l’objet de
+            contestations et de revendications : dans une société hiérarchisée comme l’était celle
+            de l’Ancien Régime et, surtout, une société impériale où les statuts et les rangs de
+            chacun dépendent de nombreux facteurs – empereur, <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/kurfurst"
+              >princes-électeurs</ref>, <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/furst">princes
+              d’Empire</ref> ; ducs, <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/markgrafschaft"
+              >margraves</ref>, <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/graf-reichsgraf"
+              >comtes</ref> ; noblesse <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiate</ref> ou noblesse médiate, etc. – et font l’objets de conflits et de
+            négociations symboliques, se faire appeler <emph>Durchlaucht</emph> devient évidemment
+            un enjeu tout à fait central. Réservé aux monarques durant le Moyen-âge central, les
+            princes-électeurs obtiennent le droit de faire leur ce terme en 1375, avant que l’usage
+            se répande au sein de la hiérarchie nobiliaire – les ducs, quand bien même ils ne sont
+            que princes d’Empire, font accepter l’emploi du prédicat au cours du 17e siècle, avant
+            d’être rejoints par les comtes détenant l’immédiateté d’Empire. À la fin du 18e siècle,
+            seule la petite noblesse (les <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/freiherr"
+              >barons</ref>, les chevaliers) utilise le prédicat de <emph>Wohlgeboren</emph>, qui
+            revenait précisément, au début de l’époque moderne, aux familles comtales. Cette «
+            dévaluation sociale » de l’usage du <emph>Durchlaucht</emph> conduisit, selon une
+            logique classique de l’époque moderne, à une nouvelle tentative de distinction : les
+            princes-électeurs et l’archiduc d’<placeName>Autriche</placeName> emploient de plus en
+            plus, à partir de la seconde moitié du 17e siècle, le superlatif
+              <emph>Durchlauchtigst</emph> (altesse la plus sérénissime), avant qu’au 18e siècle ce
+            dernier usage se généralise également aux plus anciennes maisons ducales, tandis que les
+            plus récentes se contenteront toujours du simple <emph>Durchlaucht</emph>. Par
+            l’histoire de l’usage d’un prédicat, c’est ainsi toute l’importance des conflits
+            symboliques de préséance à l’intérieur de la structure hiérarchique impériale qui
+            apparaît.</def>
+          <note xml:lang="fra">le feuilleté complexe des titres et prédicats dans le Saint-Empire
+            est difficile à rendre en français. On réservera « Altesse » (tout court, ou plutôt
+            suivi de « royale » ou « impériale ») au terme <emph>Hoheit</emph>.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

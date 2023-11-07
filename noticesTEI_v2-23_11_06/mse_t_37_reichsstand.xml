@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSSTAND</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsstand">
+        <form>
+          <orth xml:lang="deu">Reichsstand</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">état d’Empire</quote>
+          <quote type="variante">qualité d’état d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Pour jouir de la qualité d’état d’Empire, il fallait en principe
+            remplir deux conditions : être un vassal <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiat</ref> de l’Empereur et avoir siège et voix à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref> d’Empire. C’est donc un critère de la plus haute importance pour définir
+            la composition de l’Empire dans sa totalité (même s’il ne suffit pas, les membres de la
+              <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft"
+              >chevalerie immédiate</ref> d’Empire par exemple n’étant pas représentés à la Diète,
+            tout en appartenant indéniablement à l’ensemble impérial ; de même, le roi de Bohème ne
+            participe jusqu’au 18e siècle à aucune institution impériale, hors l’élection d’un
+            nouvel Empereur, sans que personne ne mette en doute qu’il fasse partie de l’Empire). La
+            liste exacte de tous les états fut longtemps incertaine, jusqu’à ce que, en 1521, à
+            Worms, la Diète se mette d’accord sur l’établissement de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsmatrikel"
+              >matricule d’Empire</ref> dont les nombreuses imprécisions (volontaires et
+            involontaires) placent pourtant l’historien dans l’impossibilité de donner un chiffre
+            précis de ceux qui, à un moment donné, ont pu être considérés comme revêtant à bon droit
+            la qualité d’état d’Empire. On parle aujourd’hui d’entre 300 et 350 principautés et
+            autres <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoires</ref> pouvant prétendre à cette dignité. À partir du 17e siècle, celle-ci
+            était nécessairement liée à la possession d’un territoire immédiat (afin de ne pas
+            rester un simple <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/titularfurst">prince
+              titulaire</ref>), à l’accord des autres membres de la Diète, à l’appartenance à un
+              <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc"
+              >Cercle d’Empire</ref> et à l’acquittement des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern">impôts
+              d’Empire</ref> (même si, notamment en ce qui concerne les deux derniers critères, des
+            exceptions existent). Les états d’Empire sont classés selon leur statut et le prestige
+            qui en découle en plusieurs catégories : d’abord les états ecclésiastiques avec les
+            archevêques-électeurs puis les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum"
+              >principautés ecclésiastiques</ref>, enfin les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichspralat">prélats
+              d’Empire</ref> et les Grands-maîtres des ordres (Ordre teutonique, Ordre de
+            Saint-Jean…) ; d’autre part les états laïcs avec à leur tête les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst"
+              >princes-électeurs</ref> laïcs, les autres <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref>,
+            comtes et seigneurs immédiats et enfin les villes libres et <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes
+              libres d’Empire</ref>. Depuis 1489, les états se regroupent lors des Diètes en trois
+            Collèges : celui des princes-électeurs (<emph>Kurfürstenrat</emph>), celui des princes
+              (<emph>Fürstenrat</emph>) et celui des villes d’Empire. Les comtes d’Empire n’y
+            avaient pas de voix individuelles (<emph>Virilstimme</emph>) comme les autres mais se
+            réunissaient sur deux puis quatre « bancs » (<emph>Grafenbänke</emph> : de
+              <placeName>Wetterau</placeName>, de <placeName>Westphalie</placeName>, de
+              <placeName>Souabe</placeName> et de <placeName>Franconie</placeName>) qui disposaient
+            chacun d’une « voix curiale » (<emph>Kurialstimme</emph>). Les prélats d’Empire étaient
+            soumis à la même règle. Comme l’exprime la formule célèbre « <emph>Kaiser und
+              Reich</emph> » (« Empereur et Empire »), les états d’Empire, malgré la concurrence
+            d’intérêts qui les opposait régulièrement à l’Empereur, étaient nécessaires à toute
+            décision et à toute action concernant l’Empire dans son ensemble. Autrement dit : ni
+            l’Empereur ni les états n’étaient capables d’agir l’un sans l’autre au nom de l’Empire –
+            une interdépendance qui était au cœur de la complexité constitutionnelle marquant en
+            profondeur la réalité politique du Saint-Empire à l’époque moderne.</def>
+          <note xml:lang="fra">Afin d’éviter toute confusion avec la notion d’« État » et pour
+            garder une proximité conceptuelle avec les états généraux de la France d’Ancien régime,
+            forme institutionnelle la plus proche et la plus comparable, il convient d’écrire «
+            états » avec un « é » minuscule.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

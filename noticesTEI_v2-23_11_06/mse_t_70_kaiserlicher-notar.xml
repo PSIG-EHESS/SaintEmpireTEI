@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">KAISERLICHER NOTAR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Vincent Demont</name>
+        </respStmt>
+        <author>Vincent Demont</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="kaiserlicher-notar">
+        <form>
+          <orth xml:lang="deu">Kaiserlicher Notar</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">notaire impérial</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">bien que rédigée sur l’arrière-plan de la <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/reichsreform"
+              >Réforme de l’Empire</ref>, l’« ordonnance impériale pour l’instruction des notaires
+            publics » (1512) a davantage les traits d’une compilation de pratiques que ceux d’une
+            refondation du notariat : les réalités de celui-ci, qui puisent aussi bien aux sources
+            antiques que dans les usages médiévaux, sont donc d’emblée très diverses – d’autant plus
+            que la réception du droit romain dans un espace impérial allant du Nord de
+              l’<placeName>Italie</placeName> aux rives de la <placeName>Baltique</placeName> est
+            encore loin d’être achevée au début de l’époque moderne, et que l’usage d’authentifier
+            par le sceau y reste très vivace. Les notaires impériaux font donc partie des personnels
+            dont les écrits font foi, mais voisinent ici avec d’autres catégories (notaires
+            apostoliques, divers tabellions ou greffiers légitimés par les autorités seigneuriales
+            et/ou urbaines, etc.). L’investiture impériale permet à leurs écrits de valoir dans tout
+            l’empire, et devant les tribunaux de celui-ci ; son principe relève de l’avis général de
+            la <ref target="https://saintempire.hypotheses.org/publications/glossaire/regalien-2"
+              >régale</ref> de l’empereur (qui promulgue donc seul l’ordonnance de 1512). Elle est
+            cependant de moins en moins contrôlée. Dès le Moyen Âge tardif, la chancellerie
+            impériale délègue sa compétence en la matière aux comtes palatins impériaux, qui
+            n’hésitent pas à en faire commerce. Le qualificatif « impérial » ne signifie donc pas
+            que le notaire ait été investi par l’empereur, mais en vertu et bien souvent grâce au
+            commerce des droits de celui-ci. Sans surprise, mais sans succès, les états d’Empire
+            cherchent à limiter les effets de cette vénalité. Le fonctionnement concret de celle-ci
+            dessine, au sein de l’Empire, des aires d’influence : le plus souvent, les notaires
+            impériaux <placeName>mecklembourgeois</placeName> tiennent leur titre de l’université de
+              <placeName>Rostock</placeName>, ceux de <placeName>Hambourg</placeName> de
+              <placeName>Helmstedt</placeName> ou de <placeName>Göttingen</placeName>, ceux de
+              <placeName>Poméranie</placeName> de <placeName>Greifswald</placeName> – mais ceux de
+              <placeName>Brême</placeName> du conseil de leur ville. Bien que la concurrence entre
+            les différents types de notaires, et partant les autorités qui les légitiment, reste mal
+            connue, il n’est guère étonnant de voir de grands territoires comme la
+              <placeName>Bavière</placeName> (1753) et la <placeName>Prusse</placeName> (1781)
+            définir leurs propres règles en matière de fonctionnement du notariat ; mais c’est aussi
+            ce que font certaines villes d’Empire comme <placeName>Francfort</placeName>.
+            L’occupation napoléonienne unifie (pour un temps) le notariat, mais sa grande diversité
+            tout au long de l’époque moderne explique le mauvais état de conservation, et le poids
+            comparativement très faible des archives notariales dans l’historiographie
+            germanique.</def>
+          <note xml:lang="fra">le <emph>Deutsch- und französisches Titularbuch</emph> (Vienne, 1781)
+            propose « notaire public impérial », mais le terme « public » n’apparaît pas
+            indispensable.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

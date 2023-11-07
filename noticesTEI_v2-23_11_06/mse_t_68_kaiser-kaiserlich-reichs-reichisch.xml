@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">KAISER-, KAISERLICH / REICHS-, REICHISCH</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="kaiser-kaiserlich-reichs-reichisch">
+        <form>
+          <orth xml:lang="deu">Kaiser-, kaiserlich / Reichs-, reichisch</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">impérial|de l’empereur|de l’Empire|d’Empire – selon les circonstances</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">La répartition entre ce qui relève de l’Empereur et ce qui relève de
+            l’Empire renvoie à la complexité même du système impérial, <emph>irregulare aliquod
+              corpus et monstro simile</emph>, selon <persName>Pufendorf</persName>, précisément
+            parce qu’il ne peut être rangé dans les catégories « monarchie » ou « oligarchie ». Les
+            traits monarchiques seraient ainsi « de l’Empereur », les traits oligarchiques (ou
+            corporatifs voire, selon certaines interprétations, fédératifs) seraient « de l’Empire
+            ». Mais aucune institution émanant des seuls territoires n’a pu vraiment s’imposer (voir
+              <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsregiment"
+              >gouvernement d’Empire</ref>) et l’Empereur ne peut pas grand-chose sans l’Empire, à
+            quelques prérogatives près, comme la faculté d’anoblir. Ce qui est de l’Empereur seul
+            découle souvent de sa position propre de prince <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territorial</ref>, introduisant une confusion supplémentaire entre la dignité
+            impériale et la dynastie qui la revêt pendant l’époque moderne à une exception près
+            (1742-1745) : les <persName>Habsbourg</persName>. Si bien que la dénomination « d’Empire
+            » ou « de l’Empereur » recouvre toujours un rapport de force aussi discuté et contesté
+            par les contemporains que par les historiens. Telle n’est pourtant pas, pour un
+            français, la seule difficulté.</def>
+          <note xml:lang="fra">L’adjectif français « impérial », qui se rapporte aussi bien à «
+            Empire » qu’à « empereur », redouble le problème – c’est pourquoi on préférera souvent «
+            d’Empire » ou « de l’Empereur », pourtant moins faciles à manier, sauf lorsque
+            l’ambiguïté d’« impérial » devient soudain un atout, ou n’est plus apparente (« dignité
+            impériale » ; mais « couronne impériale » est en allemand <emph>Reichskrone</emph>…).
+            Quant à <emph>reichisch</emph> qui désigne les aspects impériaux dans le Saint-Empire
+            par opposition à ce qui relève des territoires, voire, surtout dans le contexte du «
+            dualisme austro-prussien » après 1740, la partie du Saint-Empire qui se situe le plus
+            fortement dans l’orbite des institutions d’Empire et de l’Empereur, il ne peut souvent
+            être rendu que par une périphrase. Et que faire d’expressions comme celle qui désigne la
+              <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichspost"
+              >Poste</ref> après 1597 : <emph>kaiserliche Reichspost</emph> ? Rencontre entre une
+            organisation <persName>Habsbourg</persName> et son intégration dans les institutions
+            d’Empire, cette expression (« Poste impériale de l’Empire » ? « Poste d’Empire de
+            l’Empereur » ?) illustre les limites de la traduction.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

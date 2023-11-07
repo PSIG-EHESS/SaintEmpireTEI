@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">CAROLINA</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="carolina">
+        <form>
+          <orth xml:lang="deu">Carolina</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Caroline</quote>
+          <quote type="variante">grande ordonnance criminelle de l’empereur Charles Quint</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Appelée de son nom complet <emph>Peinliche Halsgerichtsordnung Kaiser
+              Karls V.</emph> (de <emph>peinlich</emph>, du latin <emph>poena</emph> pour peine, et
+            de <emph>Halsgericht</emph>, « tribunal qui décide sur le cou », c’est-à-dire de la vie
+            et de la mort, tribunal criminel) ou, plus brièvement, <emph>Carolina</emph>, en
+            abrégeant la version latine <emph>Constitutio Criminalis Carolina</emph>, cette grande
+            ordonnance criminelle publiée en 1532 à l’initiative de l’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kaiser-kaiserlich-reichs-reichisch"
+              >Empereur</ref>
+            <persName>Charles Quint</persName> fut, jusqu’à la fin de l’Empire, la seule législation
+            dans le domaine du droit pénal au niveau impérial. Complétée par une clause salvatrice,
+            qui limitait son application aux territoires n’ayant pas eux-mêmes promulgué des normes
+            en matière de droit pénal, son influence fut néanmoins importante dans presque toutes
+            les parties du Saint-Empire. La Caroline reposait d’abord elle-même sur une législation
+            territoriale, en s’appuyant notamment sur la <emph>Halsgerichtsordnung</emph> ou
+            ordonnance criminelle publiée en 1507 dans la principauté-évêché de
+              <placeName>Bamberg</placeName> (<emph>Bambergensis</emph>) avec laquelle elle partage
+            l’objectif d’une harmonisation et d’une professionnalisation de la pratique judiciaire
+            par la réception du droit romain. En outre, fixant de manière exemplaire les délits et
+            les peines ainsi que les règles de la procédure criminelle, l’ordonnance jouait le rôle
+            d’un modèle sur lequel la plupart des législations territoriales (par exemple les
+              <emph>Halsgerichtsordnungen</emph> de <placeName>Hesse</placeName> en 1535 et de
+              <placeName>Bavière</placeName> en 1544 ou les <emph>Constitutionen des peinlichen
+              Process</emph> de <placeName>Saxe</placeName> en 1572, mais aussi les grandes
+              <emph>Landesordnungen</emph> ou ordonnances territoriales qui touchent régulièrement
+            aussi le domaine du pénal) se sont alignées par la suite. Cet effet unifiant s’est
+            notamment fait sentir dans le domaine de la torture dont la pratique est désormais
+            encadrée par des conditions précises. De surcroît, la Caroline lie la procédure
+            criminelle au principe de l’écrit et à une théorie érudite de la preuve. Enfin, les
+            juges locaux, souvent des non-professionnels insuffisamment formés en droit, sont
+            obligés par cette ordonnance – et par les nombreuses lois territoriales qui la suivent –
+            d’envoyer les pièces d’une enquête à des instances compétentes, généralement les
+            facultés de droit des universités ou les <ref
+              target="https://saintempire.hypotheses.org/schoppenstuhl"
+              ><emph>Schöppenstühle</emph></ref> (collèges de jurisconsultes) liées à ces mêmes
+            facultés, pour demander conseil. Appelée <emph>Aktenversendung</emph> (« transmission
+            des dossiers », <emph>transmissio actorum</emph> en latin), cette pratique revient en
+            fait à ce que toutes les sentences et décisions intermédiaires (par exemple concernant
+            la torture) soient prises par des juges professionnels, ce qui a comme effet secondaire
+            un renforcement du pouvoir territorial grâce à l’impact qu’ont désormais les instances
+            juridiques centrales au détriment des tribunaux locaux. Avec les trois grandes
+            ordonnances impériales en matière de police (<emph>Reichspoliceyordnungen</emph> de
+            1530, 1548 et 1577), lois-cadres dans le domaine de la « <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/gute-policey">bonne
+              police</ref> », la Caroline forme un ensemble cohérent de réglementations pour le
+            droit pénal, en l’inscrivant dans un champ plus vaste de dispositions juridiques
+            destinées à organiser la quasi-totalité de la vie publique. Contrairement à ce que l’on
+            entend parfois dire d’un droit de l’Empire s’appuyant essentiellement sur la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/herkommen"
+              >coutume</ref>, la Caroline est donc un bon exemple pour la capacité qu’avait le
+            niveau impérial de créer activement des normes nouvelles.</def>
+          <note xml:lang="fra">Afin de tenir compte du terme allemand <emph>peinlich</emph>, il
+            conviendrait de traduire par « ordonnance pénale ». Cette expression correspond
+            cependant, dans le droit pénal français actuel, à une procédure simplifiée de jugement
+            prévue par le Code de la procédure pénale. C’est pourquoi nous proposons de recourir à
+            la traduction « ordonnance criminelle », utilisée également pour les grands codes de la
+            procédure pénale dans la France moderne (<placeName>Villers-Cotterêts</placeName> en
+            1539 ou <placeName>Saint-Germain-en-Laye</placeName> en 1670).</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

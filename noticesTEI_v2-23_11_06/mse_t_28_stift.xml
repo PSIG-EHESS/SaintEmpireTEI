@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">STIFT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="stift">
+        <form>
+          <orth xml:lang="deu">Stift</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">&lt;em&gt;Stift&lt;/em&gt; (avec une explication selon les contextes : ressort temporel|principauté ecclésiastique|collégiale…)</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme <emph>Stift</emph> est polysémique. Le seul point commun à
+            toutes les significations est de relier une institution ecclésiastique à l’exercice
+            d’une domination temporelle. On parle donc de <emph>Stift</emph> (aussi
+              <emph>Hochstift</emph> ou <emph>Erzstift</emph>) pour désigner le ressort temporel
+            d’un évêque ou archevêque du Saint-Empire qui, outre sa qualité de dignitaire de
+            l’Église catholique, est toujours aussi vassal de l’Empereur et donc prince à la tête
+            d’une <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum"
+              >principauté ecclésiastique</ref>. Mais le terme désigne aussi de riches institutions
+            ecclésiastiques, immédiates ou non, disposant de droits seigneuriaux importants. C’est
+            le cas pour de nombreuses collégiales (souvent issus de couvents transformés, en
+            particulier au 15e siècle, en communautés de séculiers), par exemple la collégiale
+            Saint-Barthélémy (<emph>Bartholomäusstift</emph>) qui dessert dans la protestante
+              <placeName>Francfort</placeName> l’église catholique où sont couronnés les Empereurs.
+            Les chapitres de ces collégiales, ainsi que les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/domkapitel">chapitres
+              cathédraux</ref> des principautés-évêchés et archevêchés-électorats, sont dans la
+            majorité des cas peuplés de nobles chanoines défendant jalousement leur exclusivisme –
+            voir <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/stiftsadel"
+                >Stiftsadel</ref></emph>, noblesse chapitrable. Ce lien entre institution
+            ecclésiastique et domination temporelle a pu perdurer après le passage à la Réforme, et
+            il y a donc des <emph>Stifte</emph> protestants : soit qu’ils aient conservé à la fois
+            leur statut ecclésiastique et leur statut d’immédiateté et même d’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">état
+              d’Empire</ref> (ils sont dans ce cas appelé <emph>Reichsstift</emph> =
+              <emph>Stift</emph> d’Empire), comme la principauté-abbaye de chanoinesses de
+              <placeName>Quedlinburg</placeName> ou la principauté-évêché de
+              <placeName>Lübeck</placeName>, soit qu’ils aient été médiatisés et conjoints à des
+            principautés laïques mais aient parfois conservé leur dénomination de
+            <emph>Stift</emph>, comme <placeName>Minden</placeName> (à l’électeur de
+              <placeName>Brandebourg</placeName>). La <placeName>Saxe</placeName> électorale,
+            berceau de la Réforme, compte également encore au 18e siècle plusieurs
+              <emph>Stifte</emph> (<placeName>Merseburg</placeName>,
+            <placeName>Naumburg</placeName>, <placeName>Wurzen</placeName>,
+              <placeName>Meißen</placeName>) qui ne circonscrivent pourtant plus que des parties
+            territoriales ayant gardé une certaine autonomie politique et institutionnelle et qui
+            sont d’ailleurs en partie gouvernés, pendant plusieurs décennies, en tant que <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/sekundogenitur"
+              >secundogénitures</ref>, par des princes issus de lignées collatérales de la famille
+            régnante des <persName>Wettins</persName>.</def>
+          <note xml:lang="fra">Dans la France d’Ancien régime, aucune forme politique n’existe qui
+            correspondrait au caractère constitutionnel et à la fonction d’un <emph>Stift</emph>.
+            C’est pourquoi nous proposons de laisser ce terme non traduit, en lui rajoutant pourtant
+            l’explication correspondant au contexte de son emploi.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

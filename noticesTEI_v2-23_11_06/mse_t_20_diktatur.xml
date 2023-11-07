@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">DIKTATUR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="diktatur">
+        <form>
+          <orth xml:lang="deu">Diktatur</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">dictée publique</quote>
+          <quote type="variante">dictature</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">La dictée publique est la principale fonction exercée à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète
+              d’Empire</ref> par l’archevêque-électeur de <placeName>Mayence</placeName> en tant
+              qu’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichserzkanzler"
+              >archichancelier d’Empire</ref>. Il revient en effet à Mayence, ou plutôt à son
+            représentant, de dicter aux envoyés des autres <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états
+              d’Empire</ref> tous les textes nécessaires à la bonne marche des débats de la Diète, y
+            compris les propositions ou mandats de l’Empereur, mais aussi les mémoires ou
+            informations que les différents immédiats jugent nécessaires d’adresser à l’assemblée.
+            Cette dictée publique (au sens strict : l’envoyé de Mayence lit à haute voix et les
+            autres copient) est censée assurer l’authenticité des textes et, officiellement, seuls
+            les textes dictés peuvent ensuite être expédiés dans tout l’Empire, aux mandants des
+            envoyés à la Diète. Jusque dans les années 1670, même les textes imprimés sont dictés ;
+            ensuite, il est admis qu’une distribution vaut dictée publique. L’archichancelier est
+            tenu à l’impartialité, il lui est difficile de refuser de dicter, mais il peut retarder
+            cette procédure en particulier pour des problèmes de forme (non respect des titulatures,
+            expressions contraires au droit d’Empire, etc.). Parfois, ce sont même des documents
+            provenant de l’Empereur ou de son commissaire principal à la Diète qui ont ainsi du être
+            revus avant de pouvoir être dictés. L’archivage des documents par l’archichancellerie va
+            de pair avec la dictée publique.Le droit de dictée est donc essentiel au bon
+            fonctionnement de la Diète et lui assure un rôle, en partie informel, de « bourse aux
+            informations » dans l’Empire. Il existe d’autres dictées publiques partielles (par
+            exemple par la <placeName>Saxe</placeName> au sein du <emph>Corpus Evangelicorum</emph>)
+            dont Mayence s’emploie à limiter l’ampleur, la légitimité et les effets.</def>
+          <note xml:lang="fra">Bien que « dictature » semble constituer la traduction la plus
+            évidente, la polysémie du terme (qui existe également en allemand) dissuade de la
+            proposer ici, d’autant qu’elle donnerait une image exagéré du rôle de l'électeur de
+            Mayence à la Diète. D’un autre côté, dictée est un mot un peu faible, qui semble
+            suggérer un simple procédé, et non une procédure. Une solution est d’employer ici «
+            dictée publique » selon le nom latin de <emph>dictatura publica</emph>.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

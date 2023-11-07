@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GEISTLICHES FÜRSTENTUM</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="geistliches-furstentum">
+        <form>
+          <orth xml:lang="deu">Geistliches Fürstentum</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">principauté ecclésiastique</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Une principauté ecclésiastique ressemble, quant aux prérogatives
+            politiques et juridiques qui lui sont associées, à un <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoire</ref> laïc du Saint-Empire, à cette différence près qu’elle est gouvernée
+            par un dignitaire ecclésiastique issu de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/stiftsadel">noblesse
+              chapitrable</ref> et ayant obtenu sa charge non pas par héritage mais par élection.
+            L’origine des principautés ecclésiastiques remonte à l’époque carolingienne et à
+            l’attribution de pouvoirs temporels à certains représentants de l’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichskirche">Église
+              d’Empire</ref>. Ce sont donc des ressorts temporels qui, d’ailleurs, ne coïncident que
+            partiellement avec les ressorts spirituels des prélats qui se trouvent à leur tête. De
+            nombreux princes-évêques ne sont ainsi pas les princes de la ville qui est le siège de
+            leur évêché et qui a obtenu l’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiateté</ref> à la fin du Moyen Âge. Par exemple, le siège archiépiscopal de
+              <placeName>Cologne</placeName> est bien dans la ville éponyme, mais la résidence de
+            l’archevêque-électeur se situe à <placeName>Bonn</placeName> ; de même le prince-évêque
+              d’<placeName>Augsbourg</placeName> a pris sa résidence à
+              <placeName>Dillingen</placeName> et celui de <placeName>Spire</placeName> à
+              <placeName>Bruchsal</placeName>. En revanche, <placeName>Mayence</placeName>,
+              <placeName>Wurtzbourg</placeName> ou <placeName>Bamberg</placeName> sont bien des
+            villes médiates soumises à leur archevêque ou évêque et prince. En allemand, ces
+            principautés sont également appelées <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/stift"
+              >Stift</ref></emph> ou <emph>Hochstift</emph>, pour faire la différence entre le
+            ressort temporel et le ressort spirituel (<emph>Bistum</emph> = évêché) d’un évêque. On
+            en trouve à tous les niveaux de la structure du Saint-Empire : trois archevêques font
+            partie des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst">princes
+              électeurs</ref> (ceux de <placeName>Mayence</placeName>,
+              <placeName>Cologne</placeName> et <placeName>Trèves</placeName>) – leurs territoires
+            sont donc des archevêchés-électorats (<emph>Kurerzbistümer</emph>) (attention : il n’y a
+            pas de terme pour désigner ces nobles, si ce n’est <emph>Kurfürst-Erzbischof</emph>,
+            soit: archevêque-électeur ; le seul <emph>Fürsterzbischof</emph> ou prince-archevêque
+            est celui de <placeName>Salzbourg</placeName> qui, lui, n’est pas électeur). De nombreux
+            évêques (mais pas tous) sont princes-évêques (<emph>Fürstbischöfe</emph>) gouvernant un
+              <emph>Fürstbistum</emph>. Font également partie des principautés ecclésiastiques les
+            nombreuses <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichspralat">abbayes
+              d’Empire</ref> ainsi que certains prévôts (notamment <placeName>Ellwangen</placeName>
+            et <placeName>Kempten</placeName>). De même, quelques institutions ecclésiastiques
+            jouissant de l’immédiateté d’Empire ont conservé ce statut après leur passage à la
+            Réforme : c’est par exemple le cas des communautés féminines luthériennes de
+              <placeName>Gandersheim</placeName> ou de <placeName>Quedlinburg</placeName> qui sont
+            dirigées par des princesses-abbesses (<emph>Fürstäbtissinnen</emph>). Représentant un
+            huitième de la population de l’Empire environ, les principautés ecclésiastiques en
+            forment une composante essentielle. Menacées constamment de sécularisation de leurs
+            terres par leurs voisins laïcs (ce qui sera chose faite après 1803), leurs princes
+            montrent généralement un attachement particulier à l’Empire, en contribuant à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref> et aux <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsgerichte"
+              >tribunaux d’Empire</ref>.</def>
+          <note xml:lang="fra">Le terme allemand « <emph>geistlich</emph> » étant habituellement
+            traduit en français par « clérical », on pourrait céder à la tentation de traduire par «
+            principauté cléricale ». Il ne s’agit pourtant pas de territoires de l’Église mais de
+            composantes de l’Empire gouvernées par des ecclésiastiques. C’est pourquoi nous
+            privilégions l’expression « principauté ecclésiastique ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

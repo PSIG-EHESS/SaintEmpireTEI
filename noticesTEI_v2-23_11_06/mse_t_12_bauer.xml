@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">BAUER</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="bauer">
+        <form>
+          <orth xml:lang="deu">Bauer</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">laboureur</quote>
+          <quote type="variante">(gros) paysan</quote>
+          <quote type="variante">tenancier</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Comme dans toute l’Europe d’Ancien Régime, le fonctionnement des
+            communautés rurales et les règles successorales sont très variables dans le Saint-Empire
+            – comme le sont aussi les formes et le poids de la seigneurie. Dans les régions
+            d’héritage non partagé (qui sont souvent également des zones de seigneurie forte) les
+              <emph>Bauer</emph> sont les titulaires d’une censive « entière » (d’où le terme qui se
+            rencontre également de <emph>Vollbauer</emph>, « tenancier entier »), par opposition aux
+            petits exploitants ou aux paysans sans terre, si bien qu’à la faveur de la hausse
+            démographique du 18e siècle ils deviennent parfois minoritaires. Mais ils continuent à
+            être les seuls membres de plein droit de la communauté villageoise. Le terme
+              <emph>Bauer</emph> renvoie donc à une combinaison, variable, entre la dimension et
+            l’autosuffisance de l’exploitation, le statut au sein de la communauté et par rapport à
+            la seigneurie, l’inégalité successorale et la position sociale. La traduction «
+            laboureur » propose non un équivalent exact, mais un parallélisme tenant compte de ces
+            différentes dimensions – et a l’avantage d’éviter la traduction qui s’impose avec une
+            évidence trompeuse : « paysan ».</def>
+          <note xml:lang="fra">Il n’en reste pas moins que la traduction « paysan » correspond à des
+            usages plus récents ainsi qu’à une rétroprojection (à l’époque nationale-socialiste) du
+            modèle de l’exploitation indivisible à l’ensemble de la « paysannerie ». Il faut en
+            outre souligner que tout l’Empire n’obéissait pas au modèle successoral inégalitaire et
+            que le mot <emph>Bauer</emph> peut donc y prendre un autre sens (celui par exemple,
+            consacré par l’usage, qui apparaît dans <emph>Bauernkrieg</emph>, « guerre des paysans
+            »). Par ailleurs, dans les régions de seigneurie très forte dont il s’agit de décrire
+            les rapports différenciés de domination, le terme de « tenancier » ne doit pas être
+            exclu afin de traduire <emph>Bauer</emph>. Pour ce terme polysémique, recouvrant des
+            réalités variables dans l’espace et charriant les cendres d’usages différenciés dans le
+            temps, une attention toute particulière doit donc être accordée au contexte dans lequel
+            on le rencontre. Une chose est sûre : le <emph>Bauer</emph> n’est jamais exactement « le
+            paysan », de même que la communauté villageoise dans l’Empire est en règle générale plus
+            inégalitaire, et la seigneurie plus structurante (y compris pour le système politique
+            global). <emph>Bauer</emph> est donc l’exemple type d’un terme pour lequel la traduction
+            ne vaut jamais explication.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

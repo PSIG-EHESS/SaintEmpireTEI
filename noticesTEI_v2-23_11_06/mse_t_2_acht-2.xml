@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">ACHT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Marie-Noëlle Drion</name>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Marie-Noëlle Drion</author>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="acht-2">
+        <form>
+          <orth xml:lang="deu">Acht</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">mise au ban</quote>
+          <quote type="variante">proscription</quote>
+          <quote type="variante">bannissement</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">La mise au ban (<emph>Acht</emph>, de l’ancien allemand
+              <emph>aht</emph> ou <emph>ohte</emph>) plonge ses racines dans une justice médiévale
+            incapable de garantir l’exécution effective d’une peine prononcée ou de s’assurer de
+            l’auteur présumé d’un crime. Elle revient principalement à déclarer le prévenu «
+            hors-la-loi » (<emph>rechtlos</emph>) afin de le contraindre à comparaître devant le
+            tribunal ou de remplacer une sanction que ce dernier est dans l’impossibilité
+            d’appliquer à l’encontre d’un condamné absent (dans ce cas, la mise au ban revient donc
+            à une condamnation par contumace). La mise au ban est par conséquent un acte important
+            de communication entre un justicier et ses justiciables, le premier demandant aux
+            seconds de lui livrer la personne recherchée ou de la mettre eux-mêmes hors d’état de
+            nuire. Au terme d’un an, l’<emph>Acht</emph> peut devenir <emph>Ober</emph>– ou
+              <emph>Aberacht</emph>. À la <emph>Rechtlosigkeit</emph> s’associe alors la
+              <emph>Friedlosigkeit</emph>, c’est-à-dire la perte de toute protection qu’offre la
+            paix (le terme est surtout attesté dans les pays du nord au moment des grandes paix
+            publiques – <emph>Landfrieden</emph>, entre les 13e et 15e siècles ; parfois les sources
+            parlent aussi de « <emph>vogelfrei</emph> » – littéralement « libre comme un oiseau »,
+            ce qui renvoie à la double idée de quelqu’un qui est sans protection comme les oiseaux
+            et qui est livré, mort, aux animaux sauvages). Dans ce sens, la mise au ban fait
+            précéder la mort civile à la mort physique, en déclarant la personne concernée ennemi du
+            roi et du peuple et en la laissant au bon vouloir des persécuteurs. Au sein d’une
+            société où l’appartenance à la communauté est vitale, la sanction peut ainsi être
+            considérée comme une peine de proscription, c’est-à-dire une exclusion définitive qui
+            fait passer le condamné comme mort aux yeux de ceux qui étaient autrefois les siens. Aux
+            débuts de l’époque moderne – et face à une territorialisation de la justice pénale qui
+            va de pair avec une efficacité croissante dans la lutte contre les déviances – cette
+            figure du droit médiéval perd de son importance. Elle disparaît des ordonnances
+            criminelles publiées aux niveaux impérial et territorial (cf. <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/carolina"
+              >Caroline</ref>) et ne survit finalement que sous deux formes : d’une part celle de la
+              <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsacht">mise
+              au ban de l’Empire</ref>, mesure fondamentale pour garantir le respect de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/ewiger-landfrieden"
+              >Paix publique perpétuelle</ref>, et d’autre part celle du bannissement qui garde
+            parfois dans certaines parties de l’Empire, et notamment en
+              <placeName>Alsace</placeName> et dans la région du <placeName>Rhin</placeName>, le nom
+              d’<emph>Acht</emph>. Ici, elle revêt désormais les mêmes caractéristiques que la
+            sanction qu’on appelle ailleurs <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/verweisung"
+                >Stadt</ref></emph><ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/verweisung">– ou
+                <emph>Landesverweis</emph></ref>. Elle est modulable en fonction de l’espace (d’une
+            ville à un <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoire</ref> et même à l’Empire, par exemple dans le cas alsacien) et de la durée
+            (selon un temps déterminé ou pour toujours). Publié à l’origine à son de trompe, le
+            bannissement au-delà de neuf ans ou à perpétuité peut entraîner la perte des droits
+            civils, la destruction de la maison et la confiscation des biens. Dans l’espace rhénan,
+            la matérialisation physique du territoire sur lequel le banni est proscrit, est
+            symbolisée par des croix de bannis (<emph>Aechtercreutze</emph>). La levée du
+            bannissement est possible mais limitée. Il peut être levé contre l’acquittement d’une
+            amende, grâce à une lettre de rémission si le condamné se repent et obtient grâce auprès
+            d’un seigneur, lors d’une entrée royale ou princière, ou en intégrant le service
+            militaire. Des peines sévères, comme la noyade ou la pendaison, frappent le banni s’il
+            commet l’imprudence de revenir dans la ville ou le territoire proscrits avant qu’il ait
+            purgé sa peine. Pour mieux contrôler le respect des bannissements qu’elles prononcent,
+            les villes se constituent souvent en réseaux, jetant ainsi les fondements du contrôle de
+            l’identité « moderne ». Après l’intégration de l’<placeName>Alsace</placeName> à la
+              <placeName>France</placeName>, la peine se rapproche davantage des sanctions
+            pratiquées dans le royaume français. Depuis une déclaration royale de 1682, les bannis
+            qui enfreignent leur mise au ban sont en effet condamnés aux galères, à temps limité ou
+            perpétuel, même sans avoir commis de nouveaux crimes. Ils peuvent également être envoyés
+            au combat. Cette peine ne s’appliquant qu’aux hommes, une seconde déclaration du roi de
+            1687 condamne les femmes et les filles en rupture de ban à être enfermées dans les
+            hôpitaux généraux, à temps limité ou perpétuel, selon les jugements.</def>
+          <note xml:lang="fra">Toute traduction du terme <emph>Acht</emph> – qui revêt un champ
+            sémantique très large – doit s’assurer de bien saisir le contexte dans lequel le mot est
+            utilisé. D’une manière générale, on privilégiera la traduction « mise au ban » pour
+            l’époque médiévale, alors qu’à l’époque moderne (hormis le cas de la
+              <emph>Reichsacht</emph>), il s’agira très probablement d’une variante de la peine du
+            bannissement qui s’inscrit dans la même généalogie pénale que l’<emph>Acht</emph>
+            médiévale, mais n’est pas identique à celle-ci.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

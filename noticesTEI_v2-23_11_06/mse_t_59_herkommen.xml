@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">HERKOMMEN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="herkommen">
+        <form>
+          <orth xml:lang="deu">Herkommen</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">coutume</quote>
+          <quote type="variante">observance</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le <emph>Herkommen</emph> ou <emph>alter</emph>
+            <emph>Brauch</emph> (« usage ancien ») est un terme fondamental du langage politique et
+            juridique de l’époque moderne. Il désigne un droit ou un usage local ayant force de loi,
+            sans forcément s’appuyer sur une justification légale mais seulement sur une pratique en
+            cours depuis très longtemps (<emph>seit unvordenklichen Zeiten</emph> – « depuis les
+            temps immémoriaux »). Le <emph>Reichsherkommen</emph> (« coutume d’Empire ») définit
+            ainsi tous les droits revenant au niveau impérial et reconnus comme inaliénables à une
+            autre puissance, sans pourtant forcement être fixés dans un texte constitutionnel.
+            Présent à tous les niveaux, le <emph>Herkommen</emph> sert souvent d’argument central
+            dans toutes sortes de conflits, allant des très fréquentes querelles frontalières
+            jusqu’aux affrontements entre un seigneur et ses sujets, par exemple autour de la
+            corvée. Pour être reconnue, que ce soit par l’adversaire ou par les tribunaux auxquels
+            l’un des rivaux a éventuellement fait appel, une coutume doit cependant respecter
+            quelques critères : ceux qui la revendiquent doivent notamment justifier de son usage
+            continu et ininterrompu, régulier et commun. Pour attester une telle pratique, les
+            acteurs ont fréquemment recours aux témoignages d’anciens, mais aussi à des objets (en
+            1698 par exemple, les habitants de <placeName>Berkach</placeName> revendiquent face au
+            prince-évêque de <placeName>Wurtzbourg</placeName> l’autonomie communale pour leur
+            village, c’est-à-dire le statut d’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiateté</ref> symbolisée pour eux par un sceptre judiciaire en forme de main
+            qu’ils présentent comme celle de l’Empereur lui-même) ou à des parchemins (qui se
+            trouvent souvent être des faux). Quand un <emph>Herkommen</emph> se transforme en un
+            droit acquis en fait et, éventuellement, attesté par une décision de justice, il devient
+                <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/possessio"
+                >possessio</ref></emph> (ou, en allemand : <emph>Posseß</emph> ou
+              <emph>Posseßion</emph>).</def>
+          <note xml:lang="fra">Se distinguant de la simple tradition ou des mœurs en cours dans
+            telle ou telle région ou localité, le <emph>Herkommen</emph> implique toujours un
+            caractère de droit, c’est-à-dire qu’il marque un usage consacré non seulement par une
+            longue et commune pratique, mais sanctionné également par la jurisprudence. En cela, il
+            correspond parfaitement au terme français « coutume » – même si, contrairement aux «
+            Grands Coutumiers » régionaux de la France d’Ancien régime, le <emph>Herkommen</emph>
+            est rarement codifié dans le Saint-Empire moderne. Pour afficher cette différence, le
+            simple terme « usage » peut être une alternative ; renvoyant à la même idée d’une
+            pratique répétée et s’inscrivant dans la longue durée, il manque cependant de toute
+            dimension juridique. En revanche, quand il s’agit précisément d’un usage qui s’appuie
+            sur une décision de justice, l’on pourrait également traduire par « observance », le
+            terme <emph>Observantz</emph> ayant été employé, dans ce sens précis, comme synonyme de
+              <emph>Herkommen</emph> dans le langage du 18e siècle.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

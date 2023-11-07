@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">LANDESREGIERUNG</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="landesregierung">
+        <form>
+          <orth xml:lang="deu">Landesregierung</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">instance gouvernementale chargée de …</quote>
+          <quote type="variante">« gouvernement territorial »</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">le terme <emph>Landesregierung</emph> ne pose à première vue aucune
+            difficulté : composé de <emph>Regierung</emph> (« gouvernement ») et du génitif du mot
+              <emph>Land</emph> (« territoire ») il indique apparemment l’instance politique
+            centrale chargée du gouvernement d’une principauté (ou d’un autre type territorial au
+            sein du Saint-Empire). Cela correspond effectivement à la réalité du 16e siècle quand,
+            dans la plupart des états d’Empire, une administration centrale voit le jour, souvent en
+            prenant la suite d’autres instances plus anciennes (par exemple un <emph>Hofrat</emph>,
+            « conseil aulique », ou une <emph>Hofkanzlei</emph>, « chancellerie aulique »).
+            Notamment dans les contrées orientales de l’Empire, en <placeName>Saxe</placeName>
+            électorale, par exemple, ou dans les principautés des <persName>Schwarzburg</persName>
+            ou les duchés saxons en <placeName>Thuringe</placeName>, la <emph>Landesregierung</emph>
+            forme alors l’autorité centrale chargée des affaires de justice, de féodalité et de
+            police. Cependant, elle ne constitue pas un gouvernement au sens moderne du terme,
+            c’est-à-dire le lieu où s’exerce le pouvoir exécutif, de toute façon entre les mains du
+            prince. En fait, elle est rarement l’unique instance de décision politique. D’abord,
+            dans de nombreuses principautés, les <emph>Landesregierungen</emph> apparues au 16e
+            siècle sont peu à peu complétées, voire supplantées par d’autres instances, souvent plus
+            proches du potentat (<emph>Kammer</emph>, « chambre », <emph>Geheimer Rat</emph>, «
+            conseil secret », etc.). Elles ne forment donc plus qu’une partie d’un gouvernement
+            fragmenté entre plusieurs institutions distinctes et souvent mises en concurrence. En
+            outre, lors des fréquents partages de territoires, chacune des nouvelles parties peut
+            créer un gouvernement territorial propre ; mais il arrive aussi, comme par exemple dans
+            les seigneuries des <persName>Schönburg</persName>, que les différentes branches d’une
+            maison partagée restent liées entre elles par un gouvernement commun, appelé
+              <emph>Gesamtregierung</emph> (« gouvernement général ») et chargé, par exemple, de
+            représenter la maison face aux instances impériales.Au 18e siècle, les
+              <emph>Landesregierungen</emph>, qui ont souvent maintenu leurs fonctions initiales,
+            évoluent vers une sorte de ministère de l’intérieur et de la justice combiné, exprimant
+            ainsi le fait que la justice et l’administration resteront réunies dans l’ensemble des
+            territoires du Saint-Empire jusqu’à la fin de celui-ci (et parfois même au-delà : en
+              <placeName>Saxe</placeName>, elles ne sont séparées que par les réformes politiques
+            des années 1830).</def>
+          <note xml:lang="fra">on l’aura compris : traduire <emph>Landesregierung</emph> par «
+            gouvernement » ou « gouvernement territorial » ne conviendrait que dans certains cas.
+            Dans tous les autres, il convient de bien se renseigner sur les tâches lui incombant et
+            de traduire par conséquent « instance gouvernementale chargée de … » (par exemple « des
+            affaires de justice et de police »), de telle sorte que soit établie la distinction
+            entre le nom et la fonction. Afin de ne pas alourdir un texte inutilement, on peut
+            également traduire une première fois, puis recourir au terme original.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

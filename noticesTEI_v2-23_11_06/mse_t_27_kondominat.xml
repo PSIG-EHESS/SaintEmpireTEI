@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">KONDOMINAT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="kondominat">
+        <form>
+          <orth xml:lang="deu">Kondominat</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">condominat</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">La répartition des droits formant la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landeshoheit"
+              >supériorité territoriale</ref> est rarement univoque, si bien que les juridictions
+            sur un même lieu peuvent être réparties entre plusieurs <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiats</ref>. Le condominat constitue une forme particulière de ces partages :
+            plusieurs <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst"
+              >princes</ref>, comtes, <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes
+              d’Empire</ref>, <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft"
+              >chevaliers immédiats</ref>, etc., y exercent ensemble le pouvoir et la juridiction.
+            Les modalités de ce partage sont d’une grande diversité. Parfois coexistent une
+            répartition par zone et le maintien d’un gouvernement commun, par exemple pour les
+            relations avec l’Empire. Parfois, toutes les prérogatives territoriales sont entre les
+            mains d’une instance collective où sont représentés tous les ayants-droits. Parfois,
+            c’est par roulement, selon un <emph>turnus</emph> fixé à l’avance, que les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoires</ref> concernés exercent leurs prérogatives sur l’ensemble du condominat
+            – une année chacun par exemple. Encore n’envisage-t-on ici que le cas des condominats
+            territoriaux, et non seigneuriaux (médiats), les deux étant d’ailleurs parfois
+            difficiles à distinguer. Les conséquences pour l’exercice de la justice, la perception
+            des impôts, ou la situation confessionnelle sont complexes, variées, et laissent souvent
+            aux sujets une marge de manœuvre considérable. L’effet conservateur du droit et des
+            juridictions d’Empire est illustré par le maintien de nombreux condominats jusqu’à la
+            fin de l’Empire. Les raisons qui ont conduit à l’existence de condominats sont elles
+            aussi fort variées. L’héritage, longtemps partagé parmi l’aristocratie d’Empire (la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/sekundogenitur"
+              >primogéniture</ref> ne s’est vraiment imposée qu’au 17e siècle), en est souvent la
+            cause. C’est lui qui suscite des formes particulières de condominats, comme le
+            ganerbinat (<emph>Ganerbschaft</emph>) où tous les héritiers de celui qui l’a instauré
+            se partagent la juridiction, ou le pacte de confraternité
+            (<emph>Erbverbrüderung</emph>), prioritairement destiné à assurer l’héritage à celui des
+            deux lignages s’y engageant qui survivrait à l’autre, mais pouvant déboucher <emph>de
+              facto</emph> sur des formes particulières de condominat.</def>
+          <note xml:lang="fra">Souvent issues d’un retour aux racines latines de ces termes et tôt
+            mises en place par la littérature technique des juristes, ces traductions ne posent pas
+            de problèmes majeurs mais demandent en revanche à être accompagnés d’une
+            explication.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">NAHRUNG</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Guillaume Garner</name>
+        </respStmt>
+        <author>Guillaume Garner</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="nahrung">
+        <form>
+          <orth xml:lang="deu">Nahrung</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">1. Subsistance|alimentation|besoins de première nécessité 2. gagne-pain|activité économique</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">le terme de <emph>Nahrung</emph> apparaît fréquemment dans les sources
+            de l’époque moderne. La traduction du terme est compliquée par le fait qu’il a durant
+            l’époque moderne une polysémie plus affirmée qu’actuellement. Par conséquent, deux
+            traductions sont possibles. D’une part, le terme désigne l’alimentation ou la nourriture
+            et par extension un ensemble (variable selon les contextes) de besoins considérés comme
+            élémentaires : le terme est alors quasiment synonyme de la <emph>Notdurft</emph> qui
+            désigne les besoins de première nécessité. <emph>Lato sensu</emph>, on choisira donc de
+            traduire <emph>Nahrung</emph> par « subsistance ». Utilisé dans des pétitions ou des
+            suppliques par des artisans, des boutiquiers ou des habitants, le terme a un fort
+            potentiel de légitimation de revendications car quand elle est rapportée à la
+            collectivité ou à la communauté, la « subsistance » renvoie à un bien commun dont
+            l’importance est reconnue par tous, y compris par les autorités. D’autre part, le terme
+            désigne également les activités qui permettent d’assurer aux individus leur subsistance
+            : la <emph>Nahrung</emph> désigne dans ce cadre le gagne-pain et, de manière plus
+            générale, l’activité économique. C’est cette signification qu’a le terme quand il
+            apparaît dans de nombreux mots composés tels que <emph>Nahrungsgeschäfte</emph>,
+              <emph>Nahrungszweig</emph>,<emph>Nahrungseingriff</emph>, etc. La notion de « Nahrung
+            » connaît une certaine vogue au début du 20e siècle, chez <persName>Max Weber</persName>
+            et surtout chez <persName>Werner Sombart</persName> : pour ce dernier, le
+              <emph>Nahrungsprinzip</emph> (principe de subsistance), par opposition à la recherche
+            du profit, permet de rendre compte des pratiques économiques médiévales et modernes
+            comme étant tournées vers la satisfaction de besoins stables et non vers la recherche de
+            l’enrichissement. Souvent reprise jusque dans les années 1980 (notamment dans l’histoire
+            des métiers artisanaux), cette conception a été réfutée par une historiographie qui
+            insiste sur la polysémie du terme de <emph>Nahrung</emph> et sur sa compatibilité avec
+            des activités marchandes et la recherche de revenus monétaires.</def>
+          <note xml:lang="fra">ils résident essentiellement dans la polysémie du terme.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

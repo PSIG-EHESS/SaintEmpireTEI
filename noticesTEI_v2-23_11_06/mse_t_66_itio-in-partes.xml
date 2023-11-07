@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">ITIO IN PARTES</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="itio-in-partes">
+        <form>
+          <orth xml:lang="deu">itio in partes</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">&lt;em&gt; itio in partes&lt;/em&gt;</quote>
+          <quote type="variante">séparation des Corps</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">L’<emph>Itio in partes</emph> est instaurée par la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden"
+              >paix de Westphalie</ref> et inscrit le principe de <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/paritat">parité</ref>
+            dans les procédures de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète
+              d’Empire</ref>. En matière confessionnelle, catholiques et protestants devront se
+            séparer en deux « Corps », le <emph>Corpus Catholicorum</emph> et le <emph>Corpus
+              Evangelicorum</emph> réputés d’égale puissance, et parvenir à un compromis, une
+              <emph>amicabilis compositio</emph>. La contestation, par les protestants, du principe
+            majoritaire à la Diète (où les catholiques comptèrent toujours un nombre supérieur
+              d’<ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand"
+              >états d’Empire</ref>) a une longue histoire, scandée par la <emph>Protestatio</emph>
+            de 1529 refusant les sanctions votées à la majorité contre <persName>Luther</persName>,
+            et par la Diète de <placeName>Ratisbonne</placeName> de 1613 qu’ils quittèrent sans <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsschluss"
+              >recès</ref> pour s’opposer à une nouvelle tentative catholique pour appliquer le
+            principe majoritaire à propos de conflits confessionnels. Toutefois, l’application de
+              l’<emph>itio in partes</emph> reste longtemps théorique. L’Empereur, et dans une
+            certaine mesure les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst"
+              >princes-électeurs</ref>, s’opposent à une procédure qui contredit l’ordonnancement
+            hiérarchique des trois collèges de la Diète. En outre, l’unité du camp protestant est
+            faible, ne serait-ce que parce que leur <emph>Corpus</emph> doit faire cohabiter
+            luthériens et calvinistes, deux confessions légales après 1648 mais souvent opposées. Ce
+            n’est qu’à l’extrême fin du 17e siècle que le <emph>Corpus Evangelicorum</emph> parvient
+            à se constituer en réalité politique. Réuni en « conférences » (<emph>Konferenz</emph>)
+            régulières, il prétend au droit de présenter les plaintes (<emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/gravamina"
+                >gravamina</ref></emph>) de tous les protestants, voire d’employer la force pour y
+            mettre bon ordre. Contestées par l’Empereur, ces entreprises ont un effet surtout
+            politique : elles contribuent, par moments, à souder les protestants autour de la
+              <placeName>Prusse</placeName> et donc à donner au sein de la Diète une traduction
+            institutionnelle, sous une forme confessionnelle, au « dualisme » qui oppose de plus en
+            plus les <persName>Hohenzollern</persName> aux <persName>Habsbourg</persName>.</def>
+          <note xml:lang="fra">Il semble préférable de conserver (comme pour le <emph>Corpus
+              Evangelicorum</emph>) les termes latins, utilisés par les contemporains, et qui
+            fournissent un degré suffisant à la fois de compréhension, et de spécificité (alors que
+            « séparation des Corps » n’échapperait pas à une certaine ambiguïté).</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">ALTES REICH</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="altes-reich">
+        <form>
+          <orth xml:lang="deu">Altes Reich</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">Saint-Empire moderne</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Il s’agit d’une expression d’historienne ou d’historien : personne
+            dans le Saint-Empire à l’époque moderne n’a parlé d’<emph>Altes Reich</emph>, de même
+            que personne sous l’Ancien Régime n’a parlé d’« Ancien Régime ». Dans les deux cas
+            l’expression est une rétroprojection : l’<emph>Altes Reich</emph> n’est vieux qu’au
+            regard du «jeune» empire bismarckien, sans parler du Troisième Reich. Pour autant, cette
+            expression est probablement la plus répandue, dans les titres et les ouvrages consacrés
+            au Saint-Empire à l’époque moderne (de la Réforme de l’Empire en 1495 à la fin du
+            Saint-Empire en 1806). Pour désigner la période 16e-18e siècles, l’allemand utilise
+              <emph>Frühe Neuzeit</emph>, voire, directement en français, «Ancien Régime». Pour
+            désigner l’objet institutionnel et politique qu’est le Saint-Empire, <emph>das
+              Reich</emph> (l’Empire) se rencontre plus fréquemment que la titulature complète
+            existant depuis la fin du 15e siècle (Saint Empire romain germanique, <emph>Heiliges
+              Römisches Reich Deutscher Nation</emph>), et la version courte la plus utilisée par
+            les collègues allemands est «Empire romain» (<emph>Römisches Reich</emph>) mais jamais
+            «saint Empire». La spécificité de <emph>Altes Reich</emph> est donc de désigner à la
+            fois la période et l’objet.</def>
+          <note xml:lang="fra">Une traduction littérale est impossible : l’« ancien Empire » dans
+            l’historiographie française renvoie aux débuts de l’<placeName>Égypte</placeName> des
+            pharaons – en allemand aussi d’ailleurs, mais le risque de confusion y est manifestement
+            moins grand. « L’Empire » tout court éveille avant tout des échos napoléoniens. L’usage
+            s’est imposé dans l’historiographie moderniste française d’utiliser « Saint-Empire » (le
+            trait d’union visant, par parallélisme avec la toponymie française, à bien indiquer que
+            « saint » n’est pas ici un qualificatif !) et de préciser, quand il le faut, « moderne »
+            puisque c’est bien de la période moderne qu’il s’agit. <persName>Napoléon</persName>
+            étant plus loin d’eux, les médiévistes utilisent davantage « l’Empire » tout court.
+            Aussi bien est-il le seul en Europe jusqu’en 1804 – ce qui permet de rappeler que parler
+            d’« Empire d’<placeName>Autriche</placeName> » avant 1804 et d'”Empire austro-hongrois”
+            avant 1867 est un anachronisme total.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

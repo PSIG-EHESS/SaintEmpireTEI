@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">KURFÜRST</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="kurfurst">
+        <form>
+          <orth xml:lang="deu">Kurfürst</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">prince-électeur</quote>
+          <quote type="variante">électeur</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">L’Empire est une monarchie élective – bien que tous les titulaires de
+            la dignité impériale à l’époque moderne, à une exception près (de 1742 à 1745), aient
+            appartenu à la seule dynastie des <persName>Habsbourg</persName>. Le nombre et la
+            fonction des princes-électeurs sont fixés en 1356 par la Bulle d’Or. Ils élisent
+            l’Empereur selon un rituel immuable. La principauté qui supporte la dignité (rarement
+            tous les pays d’un électeur) est indivisible et donc soumise à la primogéniture, qui ne
+            devient commune pour les autres principautés qu’au 17e siècle. Le nombre des électeurs,
+            dans la Bulle d’Or, est de sept, revêtant les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reicherzamter"
+              >archi-offices</ref> d’Empire : trois ecclésiastiques, les archevêques de
+              <placeName>Mayence</placeName>, de <placeName>Cologne</placeName> et de
+              <placeName>Trèves</placeName> ; quatre laïques, le roi de
+              <placeName>Bohême</placeName>, le comte palatin (le <placeName>Palatinat</placeName>),
+            le duc de <placeName>Saxe</placeName> et le <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/markgrafschaft"
+              >margrave</ref> de <placeName>Brandebourg</placeName> (l’archiduché
+              d’<placeName>Autriche</placeName> n’est pas un électorat). À l’époque moderne
+            toutefois le nombre varie. La <placeName>Bohême</placeName> n’exerce pas sa prérogative
+            avant le début du 18e siècle, la <placeName>Bavière</placeName> obtient l’électorat en
+            1623 en substitution du <placeName>Palatinat</placeName> et le conserve quand le
+            Palatinat recouvre sa dignité en 1648. Le <placeName>Brunswick-Lunebourg</placeName> (ou
+              <placeName>Hanovre</placeName>) devient électorat en 1692 – et le prince-primat puis
+            le duché sécularisé de <placeName>Salzbourg</placeName>, la
+              <placeName>Hesse-Cassel</placeName>, la <placeName>Bade</placeName> et le
+              <placeName>Wurtemberg</placeName> acquièrent la dignité électorale
+              (<emph>Kurwürde</emph>) en 1803 à la suite du décret de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsdeputation"
+              >députation d’Empire</ref>, portant le nombre à dix jusqu’à la fin de l’Empire en
+            1806. Les princes-électeurs occupent une place éminente dans l’Empire. Réunis avec
+            l’Empereur, ils forment la <emph>majestas imperialis</emph>. À la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref>, ils constituent le premier des trois collèges. Il arrive que l’Empereur
+            les réunisse seuls, en une diète électorale (<emph>Kurfürstentag</emph>), par exemple
+            pendant la guerre de Trente Ans. Lorsqu’ils parviennent à unir leurs intérêts et que
+            l’Empereur s’appuie sur eux, les électeurs ne sont pas loin d’incarner l’Empire. Mais
+            les princes contestent leur prééminence, surtout après la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden"
+              >paix de Westphalie</ref>, en particulier à la Diète. Eux-mêmes sont divisés par la
+            différence confessionnelle autant que par leurs intérêts politiques centrifuges
+            (l’électeur de <placeName>Saxe</placeName> est roi de <placeName>Pologne</placeName> de
+            1697 à 1763, l’électeur de <placeName>Brandebourg</placeName> est roi en
+              <placeName>Prusse</placeName> après 1701, celui de <placeName>Hanovre</placeName>
+            règne au <placeName>Royaume-Uni</placeName> après 1714) et ils comptent de moins en
+            moins, en tant que corps collectif, sur la scène politique impériale.</def>
+          <note xml:lang="fra">On évitera le terme d’« électeur » seul – sauf après avoir parlé de «
+            prince-électeur » et pour éviter la répétition. On emploie « électorat »
+              (<emph>Kurfürstentum</emph>) pour le territoire d’un électeur, mais aussi parfois pour
+            la dignité elle-même. La forme courte <emph>Kursachsen</emph> se traduit par « la
+              <placeName>Saxe</placeName> électorale » (distinguée des autres duchés saxons) ; pour
+            les autres on conserve <emph>Kurmainz</emph> = « l’électorat de
+              <placeName>Mayence</placeName> ». S’agissant des ecclésiastiques l’usage est d’écrire
+            « l’archevêque-électeur de <placeName>Cologne</placeName> ». L’adjectif « électoral » se
+            rapporte au prince-électeur pour autant que le contexte en réduise la polysémie.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

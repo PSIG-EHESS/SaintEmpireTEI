@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GEMEINER MANN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="gemeiner-mann">
+        <form>
+          <orth xml:lang="deu">Gemeiner Mann</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">homme du commun</quote>
+          <quote type="variante">homme ordinaire</quote>
+          <quote type="variante">homme commun</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">le concept de <emph>Gemeiner Mann</emph> est à la fois un mot des
+            sources et un concept historiographique. Dans les sources, l’apogée de son utilisation
+            se situe entre la fin du 15e et la fin du 16e siècle. L’homme du commun désigne tantôt
+            le membre de plein droit de la communauté urbaine ou rurale, qui jouit de tous les
+            droits conférés par ce statut, tantôt plus largement l’homme ordinaire du commun, le
+            petit peuple, la plèbe, y compris dans sa dimension péjorative. Le concept a été érigé
+            par l’historien <persName>Peter Blickle</persName> en catégorie centrale
+            d’interprétation de la Guerre des Paysans (1525), contre l’interprétation marxiste qui
+            en faisait une révolution « proto-bourgeoise ». Ce concept lui permet également
+            d’affirmer qu’il existe dans l’histoire allemande une tradition « communaliste », dans
+            une sorte d’anticipation de la démocratie. Selon <persName>Peter Blickle</persName>, le
+            concept cède le pas au 17e siècle à celui de sujet (<emph>Untertan</emph>), et au 18e
+            siècle à celui de « <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/burger">citoyen/
+              bourgeois</ref> » (<emph>Bürger</emph>). Pour <persName>Peter Blickle</persName>,
+            l’homme du commun est une notion avant tout politique qui caractérise ceux qui sont
+            extérieurs à la seigneurie – qu’il oppose comme un élément extérieur à la <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/gemeinde"
+              >communauté</ref> (<emph>Gemeinde</emph>). Cette communauté d’hommes du commun est
+            fondée sur l’unité de base qu’est la « maisonnée » (<ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/haus"
+                ><emph>Haus</emph></ref>) et orientée vers l’utilité publique (<ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/gemeiner-nutzen"
+                ><emph>Gemeiner Nutzen</emph></ref>). Ces vues ont été critiquées, dans et hors
+            d’Allemagne. On a souligné le caractère très réifié du concept d’homme du commun, qui
+            substantialise un état et n’est pas pensé de manière relationnelle. Certains ont relevé,
+            corollairement, qu’il contribuait à invisibiliser les relations de pouvoir, en
+            particulier seigneuriales. Plusieurs historiens ont enfin reproché au concept d’homme du
+            commun d’apparaître comme une forme anachronique du citoyen démocratique, et à la
+            conception de la communauté portée par <persName>Blickle</persName> de s’apparenter à
+            une rétroprojection sur le passé des formes politiques démocratiques modernes. Enfin,
+            l’homme du commun est une catégorie politique, mais le terme soulève tout de même la
+            question de ses frontières socioéconomiques, qui demeurent indécises.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>
