@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSPATRIOTISMUS</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Sébastien Schick</name>
+        </respStmt>
+        <author>Sébastien Schick</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichspatriotismus">
+        <form>
+          <orth xml:lang="deu">Reichspatriotismus</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">patriotisme d’Empire</quote>
+          <quote type="variante">patriotisme impérial</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Aussi étonnant que cela puisse paraître, et alors même que les
+            contemporains l’emploient eux-mêmes, il est extrêmement difficile de définir ce terme
+            dès lors que l’objet même du patriotisme fait question. On pourrait proposer comme
+            définition de départ celle d’un sentiment d’appartenance des membres de l’Empire, et
+            d’attachement à cet Empire lui-même. Mais cette définition pose d’emblée plusieurs
+            questions auxquelles il n’est pas aisé de répondre. Quel est en effet précisément
+            l’objet de ce patriotisme : la constitution de l’Empire, la personne de l’Empereur
+            lui-même ? Par ailleurs, s’agit-il là véritablement d’un sentiment d’appartenance – ce
+            dont on peut en fait largement douter – ou plutôt d’une volonté, celle de défendre son
+            système politique et juridique, peut-être même dès lors d’un « choix politique », celui
+            de la protection de la constitution impériale et des libertés qu’elle garantit ? Plus
+            qu’un sentiment uniforme et homogène, le patriotisme d’Empire apparaît davantage comme
+            un ensemble protéiforme de convictions et de sentiments, changeant dans le temps et
+            selon les acteurs qui s’en réclament, comme une sorte de « mot d’ordre » pour la
+            défense, l’unité ou la survie de l’Empire. Le patriotisme d’Empire des feuilles volantes
+            de la fin du 17e siècle qui louent l’action de l’Empereur et du <persName>Prince
+              Eugène</persName> contre les <placeName>Turcs</placeName> n’est sans doute pas celui
+            de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichspublizistik"
+              >publicistique d’Empire</ref> du 18e siècle, très attachée à la constitution de
+            l’Empire. Un autre point qui fait débat est celui de la vigueur de ce sentiment, et
+            surtout de sa transformation dans le temps : plus qu’une lente mais constante décadence
+            qui aurait vu une substitution à ce patriotisme d’Empire d'un sentiment d’appartenance
+            aux différents <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoires</ref> (la <placeName>Prusse</placeName>, la
+              <placeName>Bavière</placeName>, la <placeName>Saxe</placeName> etc…), puis même à un
+            sentiment « national » allemand, les historiens insistent désormais plutôt sur
+            l’existence d’une succession de crises et de périodes de grande vitalité de ce
+            patriotisme : ainsi apparaît-il particulièrement vigoureux au tournant des 15e et 16e
+            siècles, durant la Guerre de Trente Ans, ou à la fin du 17e siècle. <persName>M.
+              Wrede</persName> a souligné, quant à lui, l’importance de la menace « extérieure »
+            (suédoise, puis surtout française et turque) dans la solidité de ce patriotisme.</def>
+          <note xml:lang="fra">Le terme « patriotisme d’Empire » est bien une traduction littérale
+            du terme allemand, il garde dès lors toutes ses ambiguïtés : quel est, en effet, l’objet
+            même de ce patriotisme dont il est question ?</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

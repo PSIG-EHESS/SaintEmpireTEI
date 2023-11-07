@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">SCHÖPPENSTUHL</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="schoppenstuhl">
+        <form>
+          <orth xml:lang="deu">Schöppenstuhl</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">collège de jurisconsultes</quote>
+          <quote type="variante">collège d’échevins</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">le terme <emph>Schöppenstuhl</emph> revêt plusieurs significations :
+            il désigne à l’origine un tribunal collectif formé par des <emph>Schöppen</emph> (ou
+              <emph>Schöffen</emph>, échevins), c’est-à-dire des personnes chargées d’exercer la
+            justice, sans forcément avoir fait des études de droit. Dans certaines régions, on
+            trouve également les expressions <emph>Schöppenbank</emph> (« banc d’échevins ») ou
+              <emph>Schöppenstube</emph> (« chambre d’échevins ») qui se réfèrent à la même réalité.
+            Dans le Saint-Empire moderne, le terme revêt pourtant un sens différent et désigne un
+            élément central de l’organisation de la justice et notamment de la procédure : des
+            institutions collégiales composées de juges professionnels, adossées souvent aux
+            facultés de droit des universités et chargées d’appliquer le droit aux affaires qui leur
+            sont soumises (notamment dans le cadre de l’<emph>Aktenversendung</emph>), mais aussi de
+            donner des avis et des conseils, que ce soit à des particuliers ou aux pouvoirs publics.
+            En cela, ils se distinguent donc d’un tribunal au sens plus étroit qui émet des
+            sentences et les exécute. Historiquement, cette pratique remonte aux temps médiévaux et
+            la formation de différentes « familles » de droit municipal
+              (<placeName>Magdebourg</placeName>, <placeName>Lubeck</placeName>,
+              <placeName>Cologne</placeName>, <placeName>Nuremberg</placeName>…). L’adoption d’un
+            droit municipal par une nouvelle ville signifie généralement que celle-ci accepte la
+            ville dont est originaire ce droit comme lieu où sont décidées toutes les questions
+            juridiques ouvertes. L’instance compétente pour ces décisions est alors le collège de
+            jurisconsultes de la ville-mère.</def>
+          <note xml:lang="fra">par analogie avec l’expression <emph>Heiliger Stuhl</emph> («
+            Saint-Siège »), on pourrait traduire littéralement « siège d’échevins », au risque
+            pourtant de ne pas être compris. Le terme « siège » ne se référant à aucune institution
+            juridique particulière et celui d’« échevins » renvoyant à des réalités très diverses
+            (juges non professionnels chargés de la police et de la justice seigneuriale, magistrats
+            communaux dans le nord de la France, assesseurs du prévôt des marchands de
+              <placeName>Paris</placeName>…), cette solution est donc à rejeter. S’agissant en fait
+            d’une institution ne formulant pas des sentences, mais des avis et conseils émis après
+            une délibération collective, le terme de « collège » semble mieux convenir, de même que
+            celui de « jurisconsultes », en ce que ces derniers sont dans la tradition française des
+            spécialistes d’affaires juridiques donnant des consultations sur des questions de droit.
+            À ne pas confondre avec <emph>Schöppengericht</emph>, terme qui désigne un tribunal
+            urbain ou villageois, composé de juges non professionnels, et qu’il conviendrait de
+            traduire par « tribunal échevinal ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

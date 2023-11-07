@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REGALIEN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="regalien">
+        <form>
+          <orth xml:lang="deu">Regalien</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">régales</quote>
+          <quote type="variante">droits régaliens</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">notion juridique dérivée du latin <emph>jura regalia</emph>, les
+              <emph>Regalien</emph> désignent d’abord l’ensemble des droits et biens appartenant au
+            roi, recouvrant ainsi depuis le 12e siècle un large spectre de domaines : les routes et
+            les rivières ainsi que les péages qui leur étaient associés, la frappe des monnaies
+              (<emph>Münzregal</emph> = régale monétaire) et les mines d’argent
+              (<emph>Bergregal</emph> = régale des mines), plus tard aussi la chasse et la pêche ou
+            la production du sel. En outre, de nombreux revenus liés à la mobilité et l’activité
+            économique (droits de douane ou de sauf-conduit), mais aussi la protection des Juifs et
+            les bénéfices qui en découlaient, furent considérés comme régaliens, c’est-à-dire comme
+            revenant à la puissance laïque suprême. À l’époque carolingienne, le terme se rapportait
+            aux droits donnés par l’Empereur en fief à des dignitaires ecclésiastiques (cf.
+            principautés ecclésiastiques), avant de devenir, au Moyen Âge tardif et à l’époque
+            moderne, synonyme de l’ensemble des droits donnés en fief ou cédés, comme ceux
+            transférés aux princes-électeurs par la Bulle d’or en 1356, aux différents princes de
+            l’Empire qui en firent par la suite le cœur de leurs aspirations à la
+              <emph>Landeshoheit</emph> ou supériorité territoriale dans leurs possessions
+            respectives. Au cours des siècles s’y ajoutèrent en outre des droits nouvellement créés
+            comme celui de définir la confession de ses sujets (cf. <emph>cujus regio, ejus
+              religio</emph>), celui d’organiser une Poste (<emph>Postregal</emph>) ou celui
+            d’entretenir des archives (de sorte que, au 18e siècle, le droit public allemand était
+            en fait incapable de dresser une liste exhaustive de ce qui faisait alors partie, ou
+            non, des droits régaliens). Les régales devinrent dans le Saint-Empire des éléments à
+            double visage : d’un côté, elles sont jalousement revendiquées, de l’autre, elles
+            servent facilement de monnaie d’échange pour leurs détenteurs selon les besoins et les
+            occasions. Ainsi, de nombreux princes cédèrent le droit de haute justice – l’une des
+            régales les plus importantes – à des villes situées dans leur territoire, contre de
+            fortes sommes d’argent. De même, l’exploitation des mines, mais aussi d’autres
+            prérogatives comme la chasse ou la gestion des forêts (<emph>Forstregal</emph> = régale
+            des forêts), furent régulièrement vendues ou données en gage à des personnes privées.
+            Quelques droits régaliens, cependant, restèrent toujours réservés aux empereurs, par
+            exemple celui d’anoblir ou de créer une foire, et étaient exercés (ou délégués) par
+            exemple par la <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/reichshofkanzlei"
+              >chancellerie impériale aulique</ref> ou par le biais de l’institution des <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/kaiserlicher-hofpfalzgraf"
+              >comtes-palatins impériaux</ref> ; et d’autres ne pouvaient être exercés que par
+            l’empereur joint aux princes-électeurs, comme par exemple, depuis 1519, celui de
+            convoquer une Diète.</def>
+          <note xml:lang="fra">bien que largement hors d’usage et remplacé, dans la littérature
+            historiographique, par l’expression « droits régaliens », le terme « régales »
+            (singulier « régale ») correspond exactement à la notion de <emph>Regalien</emph> en
+            allemand, tandis que « droits régaliens », en français, fait signe vers les droits
+            spécifiques du roi.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

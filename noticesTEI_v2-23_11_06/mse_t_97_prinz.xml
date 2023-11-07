@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">PRINZ</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Sébastien Schick</name>
+        </respStmt>
+        <author>Sébastien Schick</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="prinz">
+        <form>
+          <orth xml:lang="deu">Prinz</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">prince</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme est étroitement lié à celui de <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/furst"
+              >Fürst</ref></emph>, mais il désigne une réalité bien différente : en effet, dans le
+            cadre du Saint-Empire, on désigne le plus souvent ainsi (ou par son équivalent féminin
+              <emph>Prinzessin</emph>), tout descendant d’une maison princière
+              (<emph>Fürstenhaus</emph>) ne régnant pas (ou pas encore), mais disposant de la même
+            dignité nobiliaire que le régnant. Il ne s’agit donc pas, dans ce sens précis, d’un
+            titre nobiliaire – à l’inverse de <emph>Fürst</emph> – mais bien d’une position dans une
+            Maison. Celui qui suit dans l’ordre de succession est alors appelé
+              <emph>Kronprinz</emph> (littéralement prince de la couronne) ou parfois
+              <emph>königlicher Prinz</emph> (prince royal) s’il peut espérer une couronne royale –
+            ce qui est le cas surtout des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst"
+              >princes-électeurs</ref> de <placeName>Saxe</placeName>, de
+              <placeName>Brandebourg</placeName> et de <placeName>Brunswick-Lunebourg</placeName>,
+            respectivement à partir de 1697, 1701 et 1714 – de <emph>Kurprinz</emph> dans le cas des
+            principautés-électorales, et enfin de <emph>Erbprinz</emph> pour les simples
+            principautés. Il persiste toutefois une ambiguïté dans le terme qui peut parfois aussi
+            renvoyer à un véritable titre de noblesse, celui que pouvait porter une Maison détenant
+            un <ref target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoire</ref> ayant le statut de principauté, et qui était alors souverain. Le
+            plus célèbre exemple, dans le contexte de l’Empire, est sans doute celui du prince
+              <persName>Eugène de Savoie</persName> qui est bien appelé « Prinz Eugen » en référence
+            à son appartenance à la Maison de Savoie, qui détient alors la principauté de
+              <placeName>Piémont</placeName>. En droit, les deux acceptions du terme sont toutefois
+            bien différentes et à distinguer l’une de l’autre dès lors que, dans le cas du titre de
+            noblesse, le souverain lui-même se fait appeler prince.</def>
+          <note xml:lang="fra">Le terme "prince" peut également servir à traduire l’allemand
+              <emph>Fürst</emph>, qui ne renvoie pourtant pas à la même réalité.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

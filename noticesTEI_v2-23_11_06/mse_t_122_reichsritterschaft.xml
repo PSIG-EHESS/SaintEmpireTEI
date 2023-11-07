@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSRITTERSCHAFT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsritterschaft">
+        <form>
+          <orth xml:lang="deu">Reichsritterschaft</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">chevalerie immédiate d’Empire</quote>
+          <quote type="variante">chevalerie d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Un certain nombre (environ 300) de familles de petite noblesse
+            ancienne parvinrent au cours du 16e siècle, avec l’appui de l'empereur, à échapper à la
+            domination des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft"
+              >princes territoriaux</ref> dans les régions les plus morcelées de l’Empire (la
+              <placeName>Rhénanie</placeName>, la <placeName>Souabe</placeName> et la
+              <placeName>Franconie</placeName>) et à obtenir la reconnaissance de leur <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiateté</ref>. Ces chevaliers étaient donc dépendants de l’Empereur seul, bien
+            qu’ils fussent souvent vassaux des princes leurs voisins. Cette immédiateté est en
+            particulier sanctionnée par la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/augsburger-religionsfrieden"
+              >paix d’Augsbourg</ref> de 1555 qui leur confère le droit de choisir leur <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/konfession"
+              >confession</ref>. Elle diffère toutefois fortement de l’immédiateté d’un prince : les
+            chevaliers ne sont pas représentés à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète
+              d’Empire</ref>, ils ne paient pas les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern">impôts
+              d’Empire</ref> (<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/romermonat">mois
+              romains</ref>), ils ne participent pas à la désignation des juges de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht"
+              >Chambre de Justice Impériale</ref>, ils ne sont pas inclus dans les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc"
+              >Cercles d’Empire</ref>. En revanche, ils versent directement à l’Empereur une
+            contribution financière non négligeable, les « subsides caritatifs »
+              (<emph>Karitativsubsidien</emph>). Ils forment également dans la seconde moitié du 16e
+            siècle leur propre organisation corporative, se répartissant en « cantons »
+              (<emph>Ritterkanton</emph> ou <emph>Ritterort</emph>) eux-mêmes réunis en trois «
+            cercles de chevalerie » (<emph>Ritterkreis</emph>) : celui de
+              <placeName>Franconie</placeName>, celui de <placeName>Souabe</placeName> et celui de
+              <placeName>Rhénanie</placeName>, qui se réunissent parfois dans des réunions générales
+              (<emph>Generalkorrespondenztage</emph>). Certains des cantons sont paritaires, les
+            chevaliers étant partagés entre protestants et catholiques. Ces derniers, peuplant une
+            partie des chapitres cathédraux, connaissent parfois un grand succès en fournissant de
+            nombreux princes et électeurs ecclésiastiques (les <persName>Schönborn</persName>
+            surtout, mais aussi les <persName>Eltz</persName>, les <persName>Metternich</persName>,
+            les <persName>Greiffenclau</persName>, les <persName>Kämmerer von Worms getitelt von
+              Dalberg</persName>, ou les <persName>Erthal</persName> par exemple). L’accession des
+            familles les plus prestigieuses au titre de comte d’Empire, menaçant la corporation
+            d’une perte de substance, crée de nombreux conflits. La chevalerie immédiate d’Empire se
+            résout à accepter de nouveaux membres, souvent choisis parmi les juristes de la Chambre
+            de Justice Impériale où la chevalerie a progressivement trouvé (alors qu’elle se refuse
+            à financer cette instance) le meilleur rempart de son étrange statut.</def>
+          <note xml:lang="fra">L’expression « chevalerie immédiate d’Empire » est préférable
+            puisqu’elle souligne la particularité du groupe (alors qu’il existe bien d’autres
+              <emph>Ritter</emph> qui ne sont pas immédiats).</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

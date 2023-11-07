@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSSTEUERN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichssteuern">
+        <form>
+          <orth xml:lang="deu">Reichssteuern</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">impôts d’Empire</quote>
+          <quote type="variante">subsides d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Les « impôts d’Empire » désignent un ensemble de prestations
+            effectuées par les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états
+              d’Empire</ref>. Ces impôts sont réclamés par l’Empereur auprès de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diète
+              d’Empire</ref> au nom du « bien commun ». Certains impôts d’Empire sont dits «
+            ordinaires » – c’est-à-dire qu’ils sont prélevés régulièrement : c’est le cas
+            principalement des deniers levés pour l’entretien de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht"
+              >Chambre de justice Impériale</ref>. Mais dans leur grande majorité, les impôts
+            d’Empire demeurent « extraordinaires », c’est-à-dire qu’ils sont réclamés et levés dans
+            des circonstances exceptionnelles où l’urgence et la nécessité requièrent une mise à
+            contribution de l’ensemble de l’Empire. C’est le cas de la plupart des guerres d’Empire,
+            mais aussi de certaines guerres intra-impériales.À l’échelle de l’Empire, il existe deux
+            grands modes de prélèvement : le <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/gemeiner-pfennig"
+              >denier Commun</ref>, qui est une forme de capitation, et qui a constitué une
+            tentative d’établir un lien fiscal direct entre l’Empereur et les sujets de l’Empire.
+            Mais précisément pour cette raison, il suscite progressivement l’opposition croissante
+            des états d’Empire, qui lui préfèrent le système des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/romermonat">mois
+              romains</ref>. Celui-ci leur permet en effet d’imposer eux-mêmes leurs sujets, ce qui
+            renforce leur pouvoir sur ces derniers, et il s’impose comme unique mode de prélèvement
+            au cours du 16e siècle. Jusqu’en 1648, seuls les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst"
+              >princes-électeurs</ref> consentent à l’impôt. Après cette date, l’ensemble des
+            collèges de la Diète prend part à la décision. L’impôt est justifié par la « sauvegarde
+            du bien commun », l’« urgence » et la « nécessité » mais, loin d’être établies une fois
+            pour toutes, ces circonstances doivent être chaque fois déterminées par le contexte, ce
+            qui débouche sur de nombreuses luttes de définition dans le cadre des Diètes. Ce système
+            entraîne enfin une disjonction entre ceux qui consentent à l’impôt – les états d’Empire
+            – et ceux qui les paient – les sujets vivant sous l’autorité de ces états d’Empire et
+            qui, eux, n’ont aucun droit de consentement sur la fiscalité d’Empire. Les états
+            d’Empire sont donc chargés de collecter l’impôt sur leurs sujets selon une assiette qui
+            est laissée à leur libre appréciation, et de verser ensuite le montant dû aux diverses
+            institutions de l’Empire chargées de les administrer. Ces instances sont nombreuses et
+            fluctuantes, de sorte qu’il n’existe pas de chemin institutionnel fixe, ni d’appareil
+            administratif spécialisé. Les deux maîtres du Denier d’Empire
+              (<emph>Reichspfennigmeister</emph>) prennent en charge une grande partie de
+            l’organisation logistique de la fiscalité d’Empire jusqu’au milieu du 17e siècle, date à
+            laquelle leur office tombe en relative désuétude. Les princes convoquants des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc"
+              >Cercles d’Empire</ref> prennent alors le relais, mais il arrive fréquemment qu’ils
+            soient contournés par les états d’Empire soucieux de verser leurs impôts directement
+            auprès des institutions impériales, à <placeName>Vienne</placeName>,
+              <placeName>Ratisbonne</placeName> ou <placeName>Francfort</placeName>. Enfin, le geste
+            du versement de l’impôt n’a pas la même signification pour tous les états d’Empire. Pour
+            les plus petits, dont l’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiateté</ref> d’Empire est souvent contestée, se joue dans le versement de
+            l’impôt la manifestation publique d’une soumission à l’Empereur qui est le symbole de
+            leur supériorité sociale, de sorte qu’ils sont relativement bons payeurs. Les états
+            puissants, au contraire, ne paient que très partiellement et très sporadiquement, pour
+            manifester leur indépendance vis-à-vis de l’Empereur.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

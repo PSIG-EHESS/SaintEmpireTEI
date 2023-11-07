@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSMATRIKEL</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsmatrikel">
+        <form>
+          <orth xml:lang="deu">Reichsmatrikel</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">matricule d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Il s’agit de la liste des membres <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiats</ref> de l’Empire – liste nécessaire pour savoir qui est convoqué à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref>, ou surtout qui est censé fournir à l’Empereur l’aide militaire et
+            financière qu’il est en droit d’exiger, primitivement pour aller se faire couronner à
+              <placeName>Rome</placeName> (<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/romermonat">mois
+              romains</ref>) puis pour défendre l’Empire, en particulier contre les Turcs. Il
+            semblerait qu’établir cette liste soit une pure formalité. Il n’en est rien. D’une part,
+            certaines représentations symboliques de la composition de l’Empire, fondées sur un bel
+            équilibre hiérarchique de ses membres (illustré par l’image du <emph>Quadernion</emph>)
+            et en partie fictives, conservent longtemps leur prestige. D’autre part, les frontières
+            de l’Empire demeurent des marches assez floues où le maintien de prétentions historiques
+            et la réalité des obédiences créent des situations très ambiguës. En outre, le statut
+            d’immédiateté est parfois controversé, certains territoires, bien que placés sous la
+            suzeraineté d’un de leurs voisins, revendiquant cette dignité : des conflits à ce sujet
+            perdurent jusqu’à la fin de l’Empire. Les aléas dynastiques compliquent encore la chose
+            : une principauté divisée entre plusieurs héritiers devient-elle automatiquement autant
+            de principautés autonomes, toutes inscrites sur la liste ? Que devient un territoire
+            échu par héritage à une autre dynastie, est-il incorporé dans la principauté de cette
+            dernière, ou a-t-il encore toute sa place sur la matricule ? Toutes ces difficultés sont
+            avivées par les intérêts contradictoires des intéressés : pour l’éminence du statut et
+            pour faire valoir ses intérêts à la Diète, il faut en être. Pour ne pas payer les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern">impôts
+              d’Empire</ref>, il est bon de ne pas y figurer. On ne parvint donc qu’une fois à
+            s’accorder sur une matricule : en 1521, à la Diète de <placeName>Worms</placeName>.
+            Encore comportait-elle de nombreuses pommes de discorde. Par la suite, toute tentative
+            de révision sérieuse échoua. La matricule d’Empire est donc un excellent exemple de
+            fiction juridique, la réalité du nombre des immédiats évoluant en fonction des
+            circonstances, des intérêts de chacun et des listes établies au cas par cas.</def>
+          <note xml:lang="fra">il doit être bien noté que matricule est ici au féminin.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

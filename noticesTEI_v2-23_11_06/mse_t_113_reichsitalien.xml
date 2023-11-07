@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSITALIEN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsitalien">
+        <form>
+          <orth xml:lang="deu">Reichsitalien</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal"><placeName>Italie</placeName> impériale</quote>
+          <quote type="variante">parties italiennes du Saint-Empire</quote>
+          <quote type="variante">réseau vassalique de l’Empire en Italie</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Bien qu’héritière du <emph>Regnum Italiae</emph> (dont l’Empereur
+              <persName>Charles Quint</persName> fut le dernier à être couronné roi par le pape en
+            1530), l’Italie impériale faisait partie ­– comme la <placeName>Lorraine</placeName>,
+            les <placeName>Pays-Bas</placeName> espagnols, les pays de la Couronne de
+              <placeName>Bohème</placeName> ou la <placeName>Suisse</placeName> – des zones
+            marginales de l’Empire qui, tout en appartenant au même réseau vassalique d’origine
+            médiévale, ne furent qu’imparfaitement (voire pas du tout) intégrées dans les
+            institutions impériales mises en place après la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsreform">Réforme
+              de l’Empire</ref> à la fin du 15e et au début du 16e siècles. À l’exception de la
+              <placeName>Savoie</placeName>, qui appartenait à un <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc"
+              >Cercle</ref> d’Empire (celui du <placeName>Rhin</placeName>-Supérieur) et conférait
+            même à ses princes le droit de siéger et de voter à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref>, la plupart des potentats du nord de la péninsule italienne n’étaient
+            ainsi liés à l’Empire que dans la mesure où ils avaient reçu leur territoire ou une
+            partie de celui-ci en fief de l’Empereur et de l’Empire. Ces liens parfois très faibles
+            ont pour conséquence qu’il est difficile de définir avec certitude qui parmi ces princes
+            et villes fut effectivement soumis à la vassalité impériale. Il y a quelques cas
+            certains : outre la <placeName>Savoie</placeName>, les duchés de
+              <placeName>Milan</placeName>, de <placeName>Mantoue</placeName> et de
+              <placeName>Montferrat</placeName>, la ville de <placeName>Sienne</placeName> et les
+            possessions des <persName>Este</persName> à <placeName>Modène</placeName>,
+              <placeName>Ferrare</placeName> et <placeName>Reggio di Emilia</placeName>. De même,
+              <placeName>Lucques</placeName> et la république de <placeName>Gênes</placeName> furent
+            considérées par beaucoup de juristes modernes comme <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes
+              d’Empire</ref> – même si cette qualité, notamment dans le cas génois, fut contestée
+            par d’autres. Le cas de <placeName>Florence</placeName> est encore plus compliqué : les
+            diplômes par lesquels, dans les années 1530, <persName>Charles Quint</persName> en fait
+            un duché pour les <persName>Médicis</persName> parlent certes d’une vague suzeraineté
+            impériale ; celle-ci fut pourtant rapidement mise en question par l’élévation du duc au
+            rang de grand-duc par le pape en 1569. Néanmoins, <placeName>Florence</placeName>
+            retrouve régulièrement une proximité relative avec l’Empire (sorti définitivement de
+            l’orbite impériale en 1737, le duché de <placeName>Toscane</placeName> devient ainsi
+            très proche de l’Empereur, son prince <persName>François de Lorraine</persName>, époux
+            de l'archiduchesse <persName>Marie-Thérèse</persName>, revêtant la dignité impériale de
+            1745 à 1765). Enfin, le duché de <placeName>Parme</placeName> et de
+              <placeName>Plaisance</placeName> était d’une part issu du duché de
+              <placeName>Milan</placeName> (incontestablement un fief impérial) mais, d’autre part,
+            créé en 1512 comme principauté héréditaire par le pape <persName>Jules II</persName>
+            <persName>Farnèse</persName> au bénéfice de sa propre famille. Après d’interminables
+            disputes entre juristes impériaux et pontificaux, sa suzeraineté impériale ne fut
+            finalement reconnue qu’en 1718. Mais, outre ces territoires relativement grands,
+            l’Italie impériale était surtout formée par une quantité importante de micro-territoires
+            (on parle de 250 à 300 fiefs possédés par 50 à 70 familles, par exemple <placeName>Campo
+              Fredo</placeName>, <placeName>San Remo</placeName> ou <placeName>San
+              Stefano</placeName>) se situant souvent dans les régions montagneuses et peuplés de
+            quelques milliers d’habitants seulement. Nombre d’entre eux étaient de surcroît des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kondominat"
+              >condominats</ref>. Constamment menacées de médiation par leurs voisins plus
+            puissants, ces petites seigneuries ressemblaient beaucoup aux possessions, elles aussi
+            souvent minuscules, des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft"
+              >chevaliers immédiats d’Empire</ref>. Pour les uns comme pour les autres, les liens
+            avec l’Empire (qui s’exprimèrent par exemple par un usage fréquent et massif des
+            tribunaux impériaux) furent par conséquent vitaux. L’instauration d’un plénipotentiaire
+            impérial, au 18e siècle, facilita la communication entre ces lopins féodaux et les
+            centres de l’Empire à <placeName>Vienne</placeName>, <placeName>Ratisbonne</placeName>,
+              <placeName>Spire</placeName> ou <placeName>Wetzlar</placeName> – ce qui montre
+            d’ailleurs bien que l’appartenance impériale n’est finalement pas une question théorique
+            et juridique mais celle d’un réseau relationnel mis en action et réactualisé constamment
+            par les acteurs qui le constituent. Notons enfin que certaines parties de
+              l’<placeName>Italie</placeName> du nord n’ont jamais appartenu à l’Empire (c’est
+            notamment le cas de <placeName>Venise</placeName> et des <placeName>États
+              pontificaux</placeName>) et que l’Italie impériale n’est pas synonyme de l’Italie «
+            autrichienne » (composée notamment, selon les périodes, du royaume de
+              <placeName>Naples</placeName> et du grand-duché de
+            <placeName>Toscane</placeName>).</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

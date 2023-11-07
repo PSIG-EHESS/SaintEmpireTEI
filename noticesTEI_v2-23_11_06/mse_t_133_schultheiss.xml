@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">SCHULTHEISS</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Jean-Dominique Delle Luche</name>
+        </respStmt>
+        <author>Jean-Dominique Delle Luche</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="schultheiss">
+        <form>
+          <orth xml:lang="deu">Schultheiss</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">écoutète</quote>
+          <quote type="variante">avoyer</quote>
+          <quote type="variante">bâtonnier (pour &lt;em&gt;Stabhalter&lt;/em&gt;)</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Définition : Le mot <emph>Schultheiss</emph> (<emph>Schulz, Scholz,
+              scultetus</emph> en latin), dérive du mot <emph>Schuld</emph> (dette). L’écoutète est
+            au départ le chef d’une juridiction, employé par une autorité territoriale pour diriger
+            les populations soumises à cette juridiction (qui généralement se réfère à la basse
+            justice*, alors que la haute justice* est confiée au <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/vogtei"
+              >Vogt</ref></emph>). Dans les campagnes, le <emph>Schultheiss</emph> est le
+            responsable au plus bas échelon communal (<emph>Fleck</emph>, <emph>Markt</emph>,
+              <emph>Dorf</emph>). Les lettres produites par les villages sont ainsi généralement
+            signées par un « <emph>Schultheiss und Gericht</emph> », pendant rural du «
+              <emph>Bürgermeister und Rat</emph> ». Outre les pouvoirs de basse justice, il possède
+            souvent, à son échelle, également des fonctions politiques et économiques. Le terme
+            d’écoutète n’est cependant pas circonscrit aux bourgades sans droit urbain, mais existe
+            également dans des grandes villes comme <placeName>Strasbourg</placeName>,
+              <placeName>Francfort</placeName> ou <placeName>Schwäbisch Hall</placeName> ainsi qu’en
+              <placeName>Suisse</placeName>. Il correspond à une juridiction ancienne, héritée de
+            l’ancien seigneur épiscopal notamment mais pas exclusivement. À
+              <placeName>Strasbourg</placeName>, les « bourgeois de l’écoutète » sont sous la
+            protection de celui-ci, qui relève encore de l’évêque, et ils ne bénéficient pas des
+            mêmes droits que les bourgeois « de la ville ». La ville de
+              <placeName>Francfort</placeName> fait quant à elle le choix d’acheter en 1373
+            l’écoutétat (<emph>Schultheissamt</emph>) au lieu de supprimer la fonction ; un membre
+            de la ville occupe ainsi cette fonction. Selon les villes, le <emph>Schultheiss</emph>
+            est un des grands personnages de la vie politique, ou occupe au contraire une fonction
+            anecdotique et honorifique.</def>
+          <note xml:lang="fra">La difficulté principale d’une traduction différente d’écoutète
+            (comme « maire » « prévôt » ou « bailli ») est la confusion possible avec les autres
+            termes – <emph>Vogt, <ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/propst"
+                >Probst</ref>, Bürgermeister, Ammann, Stettmeister.</emph>.. – qui peuvent parfois
+            être de simples variantes régionales, ou indiquer une autre fonction. Dans le doute, il
+            est ainsi préférable soit de garder le mot original (<emph>Schultheiss</emph>), soit
+            d’utiliser le calque francisé, certes rare, mais disponible, et doté des mêmes
+            ambivalences que sa forme allemande, et de garder les traductions possibles et avérées
+            de bailli pour <emph>Vogt</emph>, de prévôt pour <emph>Probst</emph>, de bourgmestre,
+            stettmestre et ammestre. Le mot <emph>Ammann</emph> reste en revanche difficile à
+            traduire. Il existe cependant une traduction concurrente avec le terme d’avoyer, utilisé
+            en <placeName>Suisse</placeName> francophone pour traduire <emph>Schultheiss</emph> (qui
+            désignait jusqu’en 2007 l’actuel <emph>Regierungspräsident</emph> du canton de
+              <placeName>Lucerne</placeName> et qui est une forme francisée
+              d’advocatus/<emph>Vogt</emph>) : faut-il maintenir la double traduction (et perpétuer
+            la frontière historiographique entre Suisse et Empire) ou faire la promotion d’un seul
+            terme, là est la question… L’office, le <emph>Schultheissenamt</emph>, est traduit par «
+            écoutétat » mais est quasiment inusité.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

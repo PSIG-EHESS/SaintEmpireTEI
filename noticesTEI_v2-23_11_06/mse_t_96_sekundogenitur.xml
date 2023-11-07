@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">SEKUNDOGENITUR</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="sekundogenitur">
+        <form>
+          <orth xml:lang="deu">Sekundogenitur</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">secundogéniture</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Spécifique aux conditions dynastiques au sein du Saint-Empire, la
+            secundogéniture (du latin <emph>secundus</emph> = second et <emph>genitus</emph> = né)
+            désigne une forme particulière de réglementation de la succession qui n’est ni le
+            transfert du pouvoir et du patrimoine aristocratique au seul premier né
+              (<emph>Primogenitur</emph>, primogéniture) ni le partage de l’ensemble des titres,
+            droits et possessions entre tous les enfants. Le but était d’accorder aux puinés exclus
+            dans certains cas de la succession plus d’avantages matériels et, surtout, de prestige
+            qu’avec un simple apanage. Généralement, les territoires ainsi créés sont d’une moindre
+            taille et d’un moindre rang que les pays restant dans les mains de la ligne principale ;
+            de même, ils gardent une certaine dépendance par rapport à cette dernière et ne peuvent
+            par exemple pas prétendre à une <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landeshoheit"
+              >supériorité territoriale</ref> pleine. Les exemples les plus connus de
+            secundogénitures dans le Saint-Empire sont les trois duchés (et, en partie, anciens
+                <emph><ref target="http://saintempire.hypotheses.org/publications/glossaire/stift"
+                >Stifte</ref></emph>) de <placeName>Saxe-Weißenfels</placeName>,
+              <placeName>Saxe-Zeitz</placeName> et <placeName>Saxe-Merseburg</placeName> créés en
+            1657. Mais, la primogéniture ne s’imposant que très lentement dans nombre de territoires
+            – pour les terres directement associés à la dignité électorale, elle est fixée par la
+            Bulle d’Or de 1356, mais ne s’applique alors pas forcément également aux autres
+            possessions des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst"
+              >princes-électeurs</ref> ; d’autres <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états
+              d’Empire</ref> l’introduisent parfois beaucoup plus tardivement (par exemple le
+              <placeName>Mecklembourg</placeName> en 1701) – la secundogéniture reste également dans
+            d’autres cas une alternative aux innombrables partages (qui renforcent le caractère
+            souvent parcellaire de nombreuses principautés et leur caractère de <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+                >territorium non clausum</ref></emph>), par exemple en <placeName>Hesse</placeName>
+            (en 1622 création de la <placeName>Hesse-Homburg</placeName>) ou dans le
+              <placeName>Wurtemberg</placeName> (en 1553 et 1617, création de la ligne collatérale
+            de Wurtemberg-<placeName>Mömpelgard/Montbéliard</placeName>). </def>
+          <note xml:lang="fra">Le français connaît le terme « primogéniture » pour désigner les
+            droits de succession du premier-né (qui est la règle depuis le 10e siècle pour le trône
+            de <placeName>France</placeName>). Des dérogations comme dans le Saint-Empire n’y ont
+            donc jamais existé et aucun terme approprié n’a donc été créé – celui d’ « apanage », en
+            tout cas pour l’époque moderne, n’implique pas des droits aussi développés que ceux
+            accordés à une secundogéniture. À cause de sa proximité avec le mot « primogéniture » et
+            ses racines latines, qui la rendent facilement compréhensible en français, nous
+            proposons donc de traduire la notion par « secundogéniture », terme complété
+            éventuellement par une courte explication.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

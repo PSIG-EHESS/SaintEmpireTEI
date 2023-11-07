@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">URPHEDE</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Marie-Noëlle Drion</name>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Marie-Noëlle Drion</author>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="urphede">
+        <form>
+          <orth xml:lang="deu">Urphede</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">serment (avec une spécification)</quote>
+          <quote type="variante">caution juratoire</quote>
+          <quote type="variante">asseurement</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">le terme désigne trois pratiques plus ou moins différentes qui se
+            succèdent chronologiquement. Composé du préfixe germanique <emph>Ur</emph>- pour
+            signaler une négation et du mot <emph>Fehde</emph> (« faide ») désignant l’institution
+            juridique médiévale destinée à régler des conflits entre des partis particuliers, sans
+            recourir à un tiers (par exemple un pouvoir public), il signifie d’abord le serment
+            prêté par les opposants pour mettre un terme à cette vengeance privée et rétablir la
+            paix. Il peut dans ce cas se traduire par « serment de renonciation à la vengeance » ou
+            « serment de garder la paix ». Il est ensuite utilisé dans le cadre de la justice pénale
+            urbaine au Moyen âge tardif pour désigner l’engagement que prend un prisonnier libéré de
+            ne pas se venger contre la ville, ses représentants ou ses habitants pour la détention
+            subie et l’enquête judiciaire qui a été à son origine, ressenties toutes les deux
+            potentiellement comme une atteinte à l’honneur et donc susceptibles de déclencher une
+            vindicte se rapprochant de la faide. Dans ce cas également, le terme peut être traduit
+            par « serment de renonciation à la vengeance ». Enfin, le mot prend un nouveau sens avec
+            la propagation des peines de bannissement (<ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/verweisung"
+              >Verweisung</ref>), d’abord dans les centres urbains, puis, à partir du 15e siècle,
+            aussi dans les territoires du Saint-Empire. Au moment de leur départ, les bannis étaient
+            alors obligés de jurer non seulement de renoncer à toute vengeance contre ceux qui les
+            avaient condamnés, mais aussi de ne pas revenir dans la ville ou le territoire qu’on
+            leur demandait de quitter. On peut alors traduire par « serment de renoncer à la
+            vengeance et de respecter son bannissement ». Si nécessaire on peut également raccourcir
+            et utiliser tout simplement « serment de bannissement ». Aux 17e et 18e siècles,
+            l’engagement de ne pas revenir devient dominant, de sorte qu’on peut parler d’un «
+            serment d’interdiction de séjour ».</def>
+          <note xml:lang="fra">bien que simple au niveau de la composition lexicale, le terme se
+            révèle réfractaire à toute tentative de traduction. La traduction littérale « non-faide
+            » pourrait éventuellement se prêter à la première signification, tout en étant peu
+            élégante et incompatible avec les deux autres. Nous proposons donc de traduire par «
+            serment » (traduction qui se trouve déjà dans les dictionnaires de l’époque), en
+            rajoutant à chaque fois une spécification. Une telle traduction n’est toutefois pas
+            pratique dans les textes plus longs ; afin de ne pas les alourdir inutilement, on
+            pourrait alors, après une première traduction longue expliquant bien le sens du terme,
+            la remplacer par des expressions plus maniables, par exemple « caution juratoire »
+            (terme qui désigne le serment fait par quelqu’un pour s’obliger à la justice) ou «
+            asseurement » (terme qui, au Moyen Âge, signale une promesse faite sous serment de ne
+            pas accomplir d’actes de violence contre autrui). Cette deuxième solution ne s’applique
+            pourtant pas s’il est question d’un serment de bannissement.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

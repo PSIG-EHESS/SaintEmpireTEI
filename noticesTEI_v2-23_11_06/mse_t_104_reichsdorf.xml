@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSDORF</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsdorf">
+        <form>
+          <orth xml:lang="deu">Reichsdorf</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">village d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Derniers résidus des anciens domaines des rois germaniques, les
+            villages d’Empire sont de petites communes prétendant à l’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiateté</ref> d’Empire, tout en n’ayant ni siège ni voix à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref> et donc pas la qualité d’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">état
+              d’Empire</ref>. Leurs habitants jouissent d’un certain nombre de privilèges (ils ne
+            sont ni soumis au <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/leibeigenschaft"
+              >servage</ref> ni tributaire de la corvée) et doivent s’acquitter uniquement des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern">impôts
+              d’Empire</ref>. Les communautés villageoises possèdent en outre certaines autonomies
+            dans les domaines de la religion, de l’éducation et de l’administration locale : ils
+            élisent leurs <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/schultheiss"
+              >écoutètes</ref> et juges (exerçant la basse et parfois même la haute justice) et
+            peuvent se donner des règlements ruraux (<emph>Dorfordnungen</emph>) propres. Une
+            variante aux droits des villages d’Empire sont les hameaux d’Empire
+              (<emph>Reichsweiler</emph>). De la centaine de villages et de hameaux d’Empire qui
+            existent encore au début de l’époque moderne (dont une quarantaine en
+              <placeName>Alsace</placeName>), seule une poignée survivra jusqu’à la fin du
+            Saint-Empire : <placeName>Gochsheim</placeName>, <placeName>Sennfeld</placeName>,
+              <placeName>Sulzbach</placeName>, <placeName>Soden</placeName> et la
+              <placeName>Leutkircher Heide</placeName>.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

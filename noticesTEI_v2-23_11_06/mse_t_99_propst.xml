@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">PROPST</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Juliette Guilbaud</name>
+        </respStmt>
+        <author>Juliette Guilbaud</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="propst">
+        <form>
+          <orth xml:lang="deu">Propst</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">prévôt</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Dans le champ religieux, le <emph>Propst</emph> (du latin
+              <emph>praepositus</emph>) désigne à l’origine le prévôt, c’est-à-dire le représentant
+            de l’abbé dans une communauté religieuse – notamment chez les bénédictins – ou, dans
+            certains ordres (ex. : Prémontré, chanoines réguliers), le religieux à la tête d’un
+            monastère. De la même façon en français et en allemand, l’emploi du terme s’est étendu à
+            l’église séculière. Le prévôt est alors – avec le doyen (<emph>Dekan</emph>) – l’un des
+            deux dignitaires à la tête d’un <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/domkapitel">chapitre
+              cathédral</ref> ou collégial (<emph>Dom</emph>– ou <emph>Stiftskapitel</emph>) de
+            chanoines. On parle alors respectivement de prévôt cathédral ou collégial
+              (<emph>Dom</emph>– ou <emph>Stiftspropst</emph>). À l’origine, le prévôt était plus
+            particulièrement en charge du temporel du chapitre, tandis que le doyen était
+            responsable de la discipline et du fonctionnement interne du chapitre. Le prévôt était
+            généralement considéré comme le premier dignitaire du chapitre et possédait souvent
+            d’autres titres ou fonctions (ex. : évêque auxiliaire) en plus de la dignité
+            prévôtale.Le Saint-Empire médiéval et moderne connaît ces figures de prévôts communes à
+            l’ensemble du champ religieux catholique. Mais comme souvent, le cadre impérial possède
+            en la matière quelques spécificités: de rares chapitres catholiques ont en effet à leur
+            tête un <emph>Fürstpropst</emph>, un prince-prévôt. À l'image d'autres princes
+            ecclésiastiques comme les princes-évêques (<emph>Fürstbischof</emph>) ou les
+            princes-abbés (<emph>Fürstabt</emph>), les princes-prévôts sont à la fois prévôts,
+            c'est-à-dire chefs de leur chapitre (<emph>Fürstkapitel</emph>, chapitre princier) et
+            princes d'Empire (ils peuvent notamment siéger à la Diète d'Empire), c'est-à-dire à la
+            tête d'un territoire appelé "principauté-prévôté" (<emph>Fürstpropstei</emph>). Citons
+            par exemple les principautés-prévôtés de <placeName>Berchtesgaden</placeName> (chanoines
+            réguliers de Saint-Augustin) et d'<placeName>Ellwangen</placeName> (ancienne abbaye
+            bénédictine devenue chapitre collégial de chanoines au 15e siècle). Dans un contexte
+            luthérien tardif, on pourra également rencontrer le terme de
+              <emph>Propst</emph>/<emph>Pröpstin</emph> (prévôt/prévôte) pour désigner un pasteur ou
+            une pasteure de rang et de responsabilité supérieurs, dans un ensemble de paroisses
+            formant une prévôté (<emph>Propstei</emph>). Ces prévôts luthériens peuvent également
+            être désignés sous les termes de <emph>Kreispfarrer</emph>, <emph>Praepositi</emph>,
+              <emph>Inspectores</emph>, <emph>Superintendenten</emph> voire -- attention ! --
+              <emph>Dekane</emph></def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

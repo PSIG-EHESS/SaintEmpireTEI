@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSTALER</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Vincent Demont</name>
+        </respStmt>
+        <author>Vincent Demont</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichstaler">
+        <form>
+          <orth xml:lang="deu">Reichstaler</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">thaler d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le thaler naît du double mouvement qui ajoute aux fines monnaies
+            médiévales les lourdes espèces de l’âge moderne, et qui conduit à l’essor des monnaies
+            d’argent à côté des pièces d’or. Entre 1450 et 1530, la production argentifère des mines
+            d’Europe centrale quintuple, et les techniques de frappe se modernisent au cours du 16e
+            siècle : c’est dans ce contexte qu’apparaissent dans le <placeName>Tyrol</placeName>,
+            puis en <placeName>Saxe</placeName> et ailleurs, les « florins d’argent », grosses
+            monnaies d’argent dont la valeur est de l’ordre de plusieurs jours de salaire. Et c’est
+            en 1517 qu’ils sont si massivement copiés dans la petite ville de
+              <placeName>Joachimsthal</placeName> (le val – Tal ou Thal selon l’ancien orthographe –
+            de Joachim) qu’ils y prennent le nom de thalers. Le vaste mouvement de <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsreform">Réforme
+              de l’Empire</ref> définit la monnaie impériale à partir de cette monnaie d’argent. Les
+            discussions, extrêmement techniques, sont menées au début du 16e siècle par une série
+            d’instances : <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag">Diètes
+              d’Empire</ref> bien sûr, mais aussi d’étonnantes diètes des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc"
+              >Cercles</ref> d’Empire – ceux-ci, créés en 1500, disposant avec la compétence
+            monétaire d’une expertise aussi rare qu’indispensable. En 1566, le thaler d’Empire est
+            créé : il reprend le titre et le poids du « florin d’argent » saxon de 1500 (soit 9
+            pièces par marc d’argent) et assure sa valeur dans l’ensemble de l’Empire. Mais en se
+            concentrant sur le thaler, la politique monétaire impériale délaisse les autres métaux.
+            On trouve là l’une des explications de la grande dépréciation monétaire du début du 17e
+            siècle (ou crise du <emph>Kipper und Wipper</emph>) : les territoires, laissés libres de
+            frapper les petites espèces monétaires, auraient exagérément multiplié celles-ci en
+            particulier pour financer les entreprises guerrières de la Guerre de Trente ans. De
+            même, les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoires</ref> sont libres de frapper des subdivisons du thaler d’Empire : c’est
+            ainsi que plusieurs d’entre eux frappent, après les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden"
+              >traités de Westphalie</ref>, des thalers au titre d’argent plus faible (mais qui,
+            présentés comme des portions de thalers, ne contredisent pas l’ordonnance impériale de
+            1566), ou que la <placeName>Prusse</placeName>, en 1750, invente un thaler d’Empire dont
+            on frappe 14 pièces par marc d’argent qui, bien après la fin de l’Empire en 1806, sera
+            repris comme unité monétaire du <emph>Zollverein</emph>. Monnaie réelle, le thaler
+            d’Empire est aussi une monnaie de compte, unité utilisée par les marchands dans leurs
+            livres sans qu’elle corresponde directement à des espèces métalliques. Tout comme le
+            thaler réel, cette monnaie de compte ne jouit d’aucun monopole : dans leurs écritures,
+            les négociants peuvent tout aussi bien utiliser la livre flamande ou le marc de
+              <placeName>Lübeck</placeName>, par exemple.</def>
+          <note xml:lang="fra">Guère de problème de traduction mais (comme souvent en matière
+            monétaire à l’époque moderne) de très gros problèmes d’identification. S’agit-il de
+            monnaie de compte ou de monnaie réelle ? Et, s’il s’agit de monnaie réelle, est-on bien
+            en présence de thalers d’Empire, ou bien de l’une des innombrables pièces qui le copient
+            ou le contrefont, que ce soit dans ou hors de l’Empire ? La rixdale, par exemple,
+            renvoie au <emph>Rijksdaalder</emph> néerlandais (même si celui-ci s’inspire
+            effectivement du thaler) ; le dollar, autre dérivé connu du thaler, renvoie lui d’abord
+            à des pièces espagnoles… et la circulation des monnaies contribue aussi à la confusion :
+            ainsi, dans les trésors hauts-allemands du 16e siècle, un thaler sur deux est en fait
+            originaire des Pays-Bas.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

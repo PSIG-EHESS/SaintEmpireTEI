@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSREGIMENT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Jean-Dominique Delle Luche</name>
+        </respStmt>
+        <author>Jean-Dominique Delle Luche</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsregiment">
+        <form>
+          <orth xml:lang="deu">Reichsregiment</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">gouvernement d’Empire</quote>
+          <quote type="variante">régence</quote>
+          <quote type="variante">conseil d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le <emph>Reichsregiment</emph> (terme rarement traduit) désigne deux
+            brèves tentatives d’introduction d’une instance permanente de gouvernement dans l’Empire
+            (1500-1502, 1521-1531). Ces projets prennent place dans le contexte de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsreform">Réforme
+              de l’Empire</ref> et de la définition respective du pouvoir de l’Empereur, des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref>
+            et des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc"
+              >Cercles</ref>. Ils peuvent également être compris dans la dynamique de la création
+            des assemblées d’états sous la forme de <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landtag">diètes
+              territoriales</ref> (<emph>Landtage</emph>) dans les grandes principautés au tournant
+            du 16e siècle. Enfin, l’éloignement géographique des <persName>Habsbourg</persName> est
+            l’occasion de réactiver certains usages comme le vicariat d’Empire*. Le premier
+              <emph>Reichsregiment</emph> est imposé par les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états
+              d’Empire</ref> à <persName>Maximilien Ier</persName> pour leur garantir le contrôle de
+            l’Empire après les grandes réformes : il s’agit de créer une instance de gouvernement
+            chargée de gérer le <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/gemeiner-pfennig"
+              >denier commun</ref> (<emph>Gemeiner Pfennig</emph>) établi par la Diète de
+              <placeName>Worms</placeName> en 1495. Le <emph>Reichsregiment</emph>, prôné par
+            l’archevêque de <placeName>Mayence</placeName>
+            <persName>Berthold de Henneberg</persName>, est fondé à la Diète
+              d’<placeName>Augsbourg</placeName> en 1500 et s’établit à
+              <placeName>Nuremberg</placeName>, tout comme la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht"
+              >Chambre de Justice Impériale</ref>. Il associe une vingtaine de membres,
+            princes-électeurs, <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes
+              libres</ref> et princes des six premiers <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kreis-reichs-ritter-etc"
+              >Cercles d’Empire</ref> (<emph>Reichskreise</emph>) créés à cette occasion et qui lui
+            survivront. Il est cependant dissout dès 1502 par <persName>Maximilien</persName>, qui
+            restait opposé à cette instance. Le deuxième gouvernement est arraché par les princes à
+              <persName>Charles Quint</persName> pour monnayer leur appui à son élection au titre
+            impérial, puis celle (de longue haleine) de son frère <persName>Ferdinand</persName>
+            comme roi des Romains*. Promis en 1519 par <persName>Charles Quint</persName> dans sa
+              <emph>Wahlkapitulation</emph> (<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/wahlkapitulation"
+              >capitulation électorale</ref>), créé à la Diète de <placeName>Worms</placeName> en
+            1521, le <emph>Reichsregiment</emph> s’installe à <placeName>Nuremberg</placeName> en
+            1522 et se déplace en 1524 à <placeName>Esslingen</placeName> puis à
+              <placeName>Spire</placeName> en 1526, selon le même itinéraire que la Chambre de
+            Justice Impériale. Le gouvernement est dominé par l’archiduc <persName>Ferdinand de
+              Habsbourg</persName>, mais également par le lieutenant (<emph>Statthalter</emph>)
+              <persName>Friedrich (II) de Wittelsbach</persName>, régent du Haut-Palatinat et futur
+            électeur palatin. Le gouvernement, composé de nombreux juristes représentants leurs <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoires</ref>, intervient dans les affaires féodales, dans la politique de
+            défense contre les Ottomans, de maintien de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/ewiger-landfrieden"
+              >Paix publique perpétuelle</ref> et dans les affaires religieuses, mais perd en 1524
+            la compétence à dire le droit au profit de la Chambre de Justice Impériale. Il rencontre
+            cependant dès 1523 de graves difficultés suscitées par l’opposition des états d’Empire
+            et de la Ligue de Souabe en particulier. Il est dissout en 1531 une fois
+              <persName>Ferdinand</persName> élu roi des Romains. Les deux gouvernements disposaient
+            d’une <emph>Regimentsordnung</emph> (« ordonnance de gouvernement ») signée par
+            l’Empereur, respectivement aux Diètes d’<placeName>Augsbourg</placeName> (1500) et de
+              <placeName>Worms</placeName> (1521).</def>
+          <note xml:lang="fra">Il faut éviter la traduction « gouvernement impérial ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

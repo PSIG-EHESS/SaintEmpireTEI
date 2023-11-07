@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">RÖMISCHER KÖNIG</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Sébastien Schick</name>
+        </respStmt>
+        <author>Sébastien Schick</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="romischer-konig">
+        <form>
+          <orth xml:lang="deu">Römischer König</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">roi des Romains</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">contrairement à une idée répandue, les princes-électeurs n’avaient pas
+            le pouvoir d’élire l’empereur; c’est un roi des Romains qu’ils élisaient, seul son
+            couronnement faisant de lui un empereur à part entière. Le titre rappelle que l’empereur
+            se considérait comme le successeur direct des empereurs romains, conformément à la
+            théorie de la <emph>translatio imperii</emph> selon laquelle une seule et même dignité
+            impériale aurait été transférée de <placeName>Rome</placeName> à
+              <placeName>Byzance</placeName> puis à <placeName>Aix-la-Chapelle</placeName>, en l’an
+            800. Or, alors qu’on assiste, au cours du Moyen-Âge, à une «germanisation» <emph>de
+              facto</emph> de l’Empire et de ses princes (dès le 12e siècle, on voit apparaître le
+            terme de <emph>regnum Teutonicum</emph>), il s’agit de souligner la romanité de la
+            dignité, qui seule permet de revendiquer la supériorité de cette dernière sur celle de
+            tous les monarques d’Europe. Depuis qu’à partir de 1562 le couronnement impérial avait
+            lieu non plus à <placeName>Aix-la-Chapelle</placeName>, comme le prévoyait la Bulle
+            d’or, mais à <placeName>Francfort-sur-le Main</placeName>, lieu de l’élection même, le
+            roi des Romains ne l’était guère longtemps: il n’avait plus qu’à parcourir les quelques
+            centaines de mètres qui séparent l’hôtel de ville de Francfort, où avait lieu l’élection
+            (d’où son nom de Römer), de la cathédrale, pour devenir empereur de plein droit. En
+            1508, <persName>Maximilien Ier</persName> avait du reste déjà obtenu du pape
+              <persName>Jules II</persName> l’autorisation de se faire appeler «empereur romain élu»
+            durant la période qui séparait l’élection et le couronnement. Dès lors, durant la
+            majeure partie de l’époque moderne, le titre de roi des Romains est utilisé dans les cas
+            – assez fréquents – d’une élection ayant lieu du vivant de l’empereur – dite
+              <emph>vivente imperatore</emph> – et qui avait pour but, pour les
+              <persName>Habsbourg</persName>, de sécuriser la succession impériale, et de trouver
+            ainsi une réponse à l’instabilité inhérente au système électif. Le roi des Romains
+            devenait ainsi une sorte de prince héritier impérial, le titre pouvant également lui
+            conférer une légitimité politique parfois fort utile. <persName>Ferdinand
+            Ier</persName>, qui portait le titre depuis 1531, prit par exemple en charge les
+            affaires de l’Empire dans les périodes très fréquentes d’absence de son frère,
+            l’empereur <persName>Charles Quint</persName>.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

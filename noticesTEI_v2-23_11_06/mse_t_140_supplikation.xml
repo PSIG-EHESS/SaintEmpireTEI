@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">SUPPLIKATION</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Jean-Dominique Delle Luche</name>
+        </respStmt>
+        <author>Jean-Dominique Delle Luche</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="supplikation">
+        <form>
+          <orth xml:lang="deu">Supplikation</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">supplique</quote>
+          <quote type="variante">requête</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">La supplique est un texte remis par un suppliant à une <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/obrigkeit"
+              >autorité</ref> et quémandant une faveur de sa part. Le terme de supplique, originaire
+            de la chancellerie pontificale, apparaît sous la forme de « <emph>supplik</emph> » ou «
+              <emph>supplikation</emph> » dans les sources, et est un type de document
+            particulièrement important dans les derniers siècles de l’Empire et qui éclaire les
+            rapports entre gouvernants et gouvernés (cf. <emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/herrschaft"
+                >Herrschaft</ref></emph>), entre le normatif et le gouvernement par la grâce. À
+            travers une rhétorique formelle mélangeant une représentation semi-fictive du requérant
+            et un ensemble de formules et titulatures transmis par les chancelleries et les
+            notaires, le suppliant requiert une grâce, dans le cadre d’une procédure judiciaire qui
+            le concerne, d’une subvention financière ou de l’octroi d’une place. Il peut s’agir
+            d’infléchir une loi ou d’obtenir une exception. On retrouve ainsi la supplique à toutes
+            les échelles : de la ville, du tribunal, des autorités <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoriales</ref>. Les suppliants peuvent être des individus ou une collectivité
+            (corporation, groupe d’intérêts, village ou ville).</def>
+          <note xml:lang="fra">Il ne semble pas y avoir lieu d’utiliser la traduction « supplication
+            » qui désigne finalement une manière d’évoquer la requête, alors que la supplique
+            désigne avec plus de bonheur tant la procédure que le document. Il faut également éviter
+            les traductions de « doléances » et « pétition » qui renvoient à d’autres procédures et
+            d’autres terminologies.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

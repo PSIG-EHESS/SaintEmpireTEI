@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TERRITORIUM</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="territorium">
+        <form>
+          <orth xml:lang="deu">Territorium</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">territoire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Pour décrire les rapports complexes entre les différents acteurs
+            politiques au sein du Saint-Empire et pour éviter d’employer le terme « État », les
+            historiens parlent fréquemment des deux niveaux impérial et territorial qui constituent
+            ensemble l’Empire en tant que réseau de relations et d’actions. Or, si le premier de ces
+            niveaux est relativement facile à définir par les institutions qui le composent
+            (l’Empereur, la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref>, les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsgerichte"
+              >tribunaux d’Empire</ref>…), le second est plus difficile à saisir, à cause de la
+            pluralité des formes qui le caractérisent au-delà d’un seul point commun : celui d’être
+            toutes des vassaux de l’Empereur. La notion de « territoire » ne se limite d’abord pas
+            aux seules <ref target="http://saintempire.hypotheses.org/publications/glossaire/furst"
+              >principautés</ref> car nombre d’entre eux n’ont pas cette qualité. Il y en a par
+            conséquent des grands, des moyens et des petits – et même des minuscules comme les
+            territoires de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft"
+              >chevalerie immédiate d’Empire</ref> ou des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichspralat">prélats
+              d’Empire</ref>. Ces différences de taille ont des conséquences lourdes, notamment en
+            ce qui concernent tous les éléments se référant à l’« <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/staatlichkeit"
+              >étaticité</ref> » (force financière, capacité à avoir une politique autonome, à
+            développer une politique étrangère ou une armée, etc.). En outre, elles correspondent à
+            une large variété de statuts : dans la monarchie qu’est l’Empire, la plupart des
+            territoires constituent eux-mêmes des monarchies, avec un roi, un prince, un duc, un
+              <ref target="http://saintempire.hypotheses.org/publications/glossaire/markgrafschaft"
+              >margrave</ref> ou <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landgrafschaft"
+              >landgrave</ref>, un comte ou un baron, voire un simple seigneur (cf. <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/herrschaft"
+              >seigneurie</ref>) héréditaire à leur tête. Certains sont pourtant, comme l’Empire
+            lui-même, des monarchies électives (c’est notamment le cas des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum"
+              >principautés ecclésiastiques</ref>). Mais il y a aussi des petites républiques
+            urbaines, dominées par des oligarchies : les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstadt">villes
+              libres d’Empire</ref> qui, à leur tour, gouvernent souvent aussi un petit territoire
+            qui les entoure. Ensuite, pour définir le territoire, il ne suffit pas de se référer au
+            critère de la <emph>Reichsstandschaft</emph> (<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">qualité
+              d’état d’Empire</ref>) ou à celui de la participation aux institutions impériales : le
+            roi de <placeName>Bohème</placeName> par exemple, indéniablement l’un des territoires
+            les plus importants de l’Empire, est certes le premier des électeurs laïcs, mais ne
+            participe longtemps qu’aux élections et à aucune autre institution impériale (Diète,
+              <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichssteuern"
+              >impôts impériaux</ref>, etc.). De même, les membres de la chevalerie immédiate et les
+            villages d’Empire ne sont pas représentés à la Diète, et les comtes ou les prélats
+            d’Empire n’y figurent qu’au travers de voix collectives (ou <emph>Kurialstimmen</emph>,
+            « voix curiales »). Enfin, nulle part dans l’Empire, le « territoire » ne correspond à
+            un petit « État nation » en formation qui, peu à peu, germerait autour d’un espace
+            cohérent. Ce sont au contraire essentiellement des collections de droits féodaux et
+            juridiques qui, presque jusqu’à la fin, ne suivent pas le principe de la continuité
+            géographique mais celui d’un patrimoine aristocratique fait et défait au rythme des
+            mariages, héritages, partages ou <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/pfandherrschaft"
+              >gages</ref>. Ce jeu des divisions et recompositions permanentes débouche sur
+            d’apparentes bizarreries comme les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kondominat"
+              >condominats</ref>, mais aussi sur la persistance d’un grand nombre d’espaces qui,
+            bien qu’ils aient été intégrés <emph>de jure</emph> dans un autre territoire, gardent
+              <emph>de facto</emph> une large autonomie politique et institutionnelle. Les plus
+            grands des territoires (l’<placeName>Autriche</placeName>, la
+              <placeName>Prusse</placeName>, la <placeName>Saxe</placeName>, la
+              <placeName>Bavière</placeName>, le <placeName>Hanovre</placeName>, etc.) ne sont ainsi
+            souvent que des « monarchies composées », c’est-à-dire des réunions de plusieurs
+            territoires sous une même couronne (en <placeName>Saxe</placeName> par exemple, on
+            compte encore au 18e siècle treize régimes constitutionnels différents correspondant aux
+            différentes parties territoriales acquises par les princes-électeurs au cours du temps,
+            tout en conservant souvent un statut particulier). La coexistence de grands et petits
+            territoires et le caractère composite de la plupart des territoires ont eu pour
+            conséquence une omniprésence des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/grenze"
+              >frontières</ref> dont le nombre a encore été multiplié par le jeu complexe des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/exklave-enklave"
+              >exclaves et enclaves</ref>. La forme typique est donc celle du « territoire non clos
+            » (<emph>territorium non clausum</emph>), c’est-à-dire l’enchevêtrement des espaces,
+            l’irrégularité des frontières et l’absence d’une cohésion spatiale correspondant à une
+            souveraineté entière.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

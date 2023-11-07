@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSVERBAND</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsverband">
+        <form>
+          <orth xml:lang="deu">Reichsverband</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">ensemble impérial</quote>
+          <quote type="variante">édifice impérial</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Ce terme n’est pas une notion contemporaine au Saint-Empire (on parle
+            alors plutôt de <emph>systema imperii</emph>), mais un néologisme forgé par les
+            historiens pour mieux exprimer le fait que l’action politique s’y opérait à plusieurs
+            échelles. Pour distinguer ces différents niveaux, on différencie habituellement celui de
+            l’Empereur et des institutions impériales (Diète, tribunaux impériaux…) et celui des
+            territoires, de sorte que le « niveau impérial » apparaît vite comme une couche plus ou
+            moins indépendante du « niveau territorial ». Or, ce fractionnement est en grande partie
+            artificiel, en ce qu’il masque les nombreux liens d’interdépendance qui les unissent.
+            Pour nommer dans sa totalité la structure constitutionnelle formée par ces deux niveaux,
+            on peut donc recourir à l’expression « ensemble impérial » qui met l’accent sur les
+            multiples relations, de quelque nature qu’elles soient, entre tous les maillons de
+            l’Empire. Elle exprime le fait que le Saint-Empire était une structure au sein de
+            laquelle le tout comptait autant que ses composantes et chacune des composantes, du
+            moins quant à la garantie de son existence par le droit d’Empire, autant que le
+            tout.</def>
+          <note xml:lang="fra">Le terme <emph>Verband</emph>, introduit en sociologie par
+              <persName>Max Weber</persName> et <persName>Ferdinand Tönnies</persName>, est
+            généralement traduit en français par « organisation » ou « association ». Dans le
+            contexte qui est le nôtre, et même combinés avec l’adjectif « impérial », ces deux
+            termes ne produisent pourtant pas le sens voulu. C’est pourquoi nous proposons de
+            recourir au substantif « ensemble », plus général et suffisamment neutre pour exprimer à
+            la fois les formes de coopération et de concurrence qui caractérisent la coexistence au
+            sein de l’Empire. On peut aussi traduire par « édifice impérial », terme imagé qui
+            renvoie à une construction complexe et structurée offrant un abri à plusieurs membres
+            distincts et dont on ne peut enlever une partie sans faire vaciller le tout.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

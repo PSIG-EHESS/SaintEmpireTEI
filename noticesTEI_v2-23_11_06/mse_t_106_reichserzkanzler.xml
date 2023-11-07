@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSERZKANZLER</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichserzkanzler">
+        <form>
+          <orth xml:lang="deu">Reichserzkanzler</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">archi-chancelier d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Il s’agit de l’un des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reicherzamter"
+              >archi-offices d’Empire</ref> liés à la dignité de <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst"
+              >prince-électeur</ref>. Les trois archevêques-électeurs étaient archichanceliers :
+            celui de <placeName>Cologne</placeName> pour l’<placeName>Italie</placeName>, celui de
+              <placeName>Trèves</placeName> pour la « <placeName>Bourgogne</placeName> »
+              (<placeName>Arélat</placeName>), celui de <placeName>Mayence</placeName> pour
+              l’<placeName>Allemagne</placeName>. Seule de ces trois offices (et d’ailleurs de tous
+            les archi-offices), l’archichancellerie mayençaise conserve à l’époque moderne une
+            signification autre que symbolique et honorifique. C’est pourquoi l’expression
+            d’archichancellerie « d’Empire » s’est imposée, réservée au seul prélat de
+              <placeName>Mayence</placeName>, primat d’<placeName>Allemagne</placeName>, premier des
+            électeurs et parfois désigné comme « le second homme de l’Empire ». Les fonctions de
+            l’archichancelier sont principalement liées à son rôle d’animateur et de régulateur de
+            la <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète d’Empire</ref>. L’institutionnalisation, puis la pérennisation de la Diète, la
+            place croissante qu’y occupent l’écrit et les procédures, renforcent le rôle de
+            l’électeur de <placeName>Mayence</placeName>. Il dispose du droit de <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/diktatur">dictée
+              publique</ref> qui lui confère une influence sur les débats, il est chargé d’en tenir
+            les archives et d’en publier les résultats. Au-delà de cette stature officielle, et de
+            la Diète elle-même, l’archichancelier exerce une fonction d’animateur et de médiateur
+            politique qui, jusqu’à la Ligue du <placeName>Rhin</placeName> de 1658, le pose souvent
+            en représentant de l’Empire face à (voire contre) l’Empereur. Ensuite, il s’inscrit
+            généralement dans l’alliance et la clientèle de l’Empereur. L’archichancelier participe
+            à la nomination du vice-chancelier d’Empire (<emph>Reichsvizekanzler</emph>) qui, à la
+            résidence de l’empereur et au sein de ses instances gouvernementales, est chargé des
+            affaires de l’Empire. Le vice-chancelier a parfois une influence non négligeable à
+              <placeName>Vienne</placeName>, formant un relais privilégié de la politique
+            mayençaise. Au total, la fonction d’archichancelier assure à l’électeur de
+              <placeName>Mayence</placeName> un poids sans commune mesure avec les ressources
+            limitées de son électorat et avec son origine sociale – les archevêques de
+              <placeName>Mayence</placeName> étant après le milieu du 16e siècle presque tous issus
+            de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsritterschaft"
+              >chevalerie immédiate d’Empire</ref>.</def>
+          <note xml:lang="fra">Il a existé en français un archichancelier (Cambacérès, sous
+            Napoléon), mais « de l’empire » et non « d’Empire ». Le risque de confusion est donc
+            mince et c’est le seul problème que pourrait poser cette traduction – le « archi » pour
+              <emph>Erz</emph>- étant par ailleurs attesté par « archiduc », « archevêque » et
+            "archi-ennemi" (<emph>Erzfeind</emph>).</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

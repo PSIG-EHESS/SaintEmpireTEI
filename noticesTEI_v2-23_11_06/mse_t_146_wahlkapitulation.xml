@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">WAHLKAPITULATION</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="wahlkapitulation">
+        <form>
+          <orth xml:lang="deu">Wahlkapitulation</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">capitulation électorale</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le terme renvoie aux articles des négociations effectuées entre un
+            corps disposant du pouvoir d’élire et celui (ou celle) qui est élu. Ce corps y consigne
+            le maintien de ses propres privilèges ainsi que divers engagements sur les sujets qui
+            lui tiennent à cœur. Ceux qui élisent ont tout intérêt à négocier avant l’élection avec
+            les candidats ; ceux-ci tiennent à ne s’engager qu’après leur élection. La procédure
+            d’élaboration de ce genre de textes, et le moment où l’élu prête serment de les
+            respecter sont donc variables et controversés. On utilise principalement ce terme dans
+            deux contextes. Le premier est celui des <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/geistliches-furstentum"
+              >principautés ecclésiastiques</ref> (archevêchés-électorats, principautés-évêchés,
+            principautés-abbayes etc.) où le <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/domkapitel">chapitre
+              cathédral</ref>, ou canonial, élit le <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/furst">prince</ref>,
+            sous réserve d’une confirmation pontificale et impériale. Les capitulations fixent et
+            accroissent les privilèges politiques considérables que possèdent ces chapitres qui dans
+            certains cas ont remplacé la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landtag">diète
+              territoriale</ref> et qui se réservent un grand nombre des positions les plus
+            éminentes dans l’appareil gouvernemental. Leur vocabulaire évolue à la fin de l’Ancien
+            Régime jusqu’à adopter des accents « éclairés » faisant des chapitres des « corps
+            intermédiaires » à la <persName>Montesquieu</persName>. Le second contexte, le plus
+            important, est celui de l’élection de l’Empereur par les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/kurfurst"
+              >princes-électeurs</ref>. Eux aussi établissent des capitulations électorales qui ont
+            rang de textes constitutionnels et qui garantissent les éminents privilèges par lesquels
+            ils aspirent à être des co-régents de l’Empire. Une revendication récurrente des princes
+            d’Empire qui ne sont pas électeurs est de participer à la rédaction de ces capitulations
+            et d’en faire un texte qui soit proprement une constitution de l’Empire et qui soit
+            perpétuel, supprimant ainsi le libre arbitre de l’Empereur, réputé accepter librement
+            les capitulations après son élection. Cette revendication est particulièrement forte au
+            milieu du 17e siècle, mais elle n’aboutit pas, avant tout en raison de l’opposition
+            décidée des princes-électeurs, soucieux de conserver leur position particulière.</def>
+          <note xml:lang="fra">Moins usité en français, le terme y existe toutefois avec un sens
+            fort similaire et ne présente donc pas de problèmes particuliers.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

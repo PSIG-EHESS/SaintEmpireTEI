@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSHOFKANZLEI</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par Vincent Demont</resp>
+        </respStmt>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichshofkanzlei">
+        <form>
+          <orth xml:lang="deu">Reichshofkanzlei</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">chancellerie impériale aulique</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">la chancellerie impériale aulique naît sous le règne de
+              <persName>Ferdinand Ier</persName>, après la <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/reichsreform"
+              >Réforme de l’Empire</ref> et la <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/augsburger-religionsfrieden"
+              >paix d’Augsbourg</ref>, pour prendre en charge les échanges écrits entre l’empereur
+            et l’Empire ; dans son fonctionnement, elle n’est pas sans lien avec le conseil impérial
+            aulique, qui connaît d’ailleurs une réorganisation à cette même période. La chancellerie
+            impériale aulique, par exemple, n’est financée ni par l’empereur ni par l’empire : sa
+            bonne marche repose donc sur la perception des taxes, dont celles dues par les
+            bénéficiaires de la <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/regalien-2"
+              >régale</ref> impériale administrée par ce conseil, et dont les états d’Empire
+            prétendent régulièrement pouvoir définir les montants. Sous l’autorité théorique de
+              l<ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/reichserzkanzler"
+              >’archichancelier d’Empire</ref>, la chancellerie impériale aulique est dans les faits
+            dominée par le vice-chancelier ; sise à <placeName>Vienne</placeName>, elle peut
+            toutefois suivre l’empereur dans ses déplacements, par exemple à
+              <placeName>Prague</placeName> (1578-1612), <placeName>Munich</placeName> ou à
+              <placeName>Francfort-sur-le-Main</placeName> (1742-1745). Son histoire interne –
+            jusqu’au nombre de ses employés – est mal connue, mais il est certain qu’elle est
+            traversée de grands conflits : l’opposition entre l’archichancelier d’Empire et
+            l’empereur, bien sûr, mais aussi la tension résultant de la confusion des affaires de
+            l’empire et de celle des <persName>Habsbourg</persName>. Les compétences de la
+            chancellerie impériale aulique connaissent donc une longue série de restrictions, toutes
+            longuement disputées tant elles touchent de plein fouet le financement de cette
+            administration. En 1620 est créée une chancellerie « autrichienne » séparée
+              (<emph>österreichische Hofkanzlei</emph>), compétente en principe pour les pays
+            germaniques de la monarchie des <persName>Habsbourg</persName>. Suivent d’autres
+            subdivisions, avec l’apparition de chancelleries pour la Haute et la
+              Basse-<placeName>Autriche</placeName>, l’Autriche intérieure, pour les pays de
+              <placeName>Bohême</placeName> ou hongrois, puis, après la guerre de succession
+            d’Espagne, pour les affaires d'<placeName>Italie</placeName> et des
+              <placeName>Pays-Bas</placeName>. Le flou des lignes de démarcations (théoriques comme
+            personnelles) entre ces différents organismes conduit parfois à parler d’une véritable «
+            jungle administrative » viennoise, simplifiée seulement par la création, en 1742, d’une
+            chancellerie « nationale » (<emph>Staatskanzlei</emph>) dédiée aux affaires étrangères.
+            Perdant progressivement en compétences, la chancellerie impériale aulique est réputée
+            sombrer peu à peu dans l’insignifiance ; mais elle conserve assez d’importance pour que
+            les armées napoléoniennes saisissent et envoient à <placeName>Paris</placeName> ses
+            archives, qui ne seront retournées à <placeName>Vienne</placeName> qu’après 1815.</def>
+          <note xml:lang="fra">aucun, mais de grandes difficultés de définition et de
+            délimitation.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

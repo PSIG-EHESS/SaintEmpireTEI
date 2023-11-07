@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">RESTITUTIO IN INTEGRUM</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="restitutio-in-integrum">
+        <form>
+          <orth xml:lang="deu">Restitutio in integrum</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">rétablissement intégral</quote>
+          <quote type="variante">&lt;em&gt;restitutio in integrum&lt;/em&gt;</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Cette locution empruntée au droit romain continue d’être utilisée de nos jours, surtout en droit privé où il s’agit donc principalement de « restitution » après l’annulation d’un contrat par exemple. Dans le cadre du droit d’Empire et de la juridiction des <ref target="https://saintempire.hypotheses.org/publications/glossaire/reichsgerichte">tribunaux d’Empire</ref> (où le rétablissement intégral est susceptible de faire l’objet d’une procédure par <ref target="https://saintempire.hypotheses.org/publications/glossaire/mandatsprozess">mandement</ref>), il peut s’agir tout aussi bien de droits ou de prérogatives. C’est pourquoi on préfèrera le terme plus large de « rétablissement » (comme : rétablir quelqu’un dans ses droits). En ce sens, le « rétablissement intégral » s’inscrit dans le contexte plus général d’un droit conservateur des prérogatives acquises et favorable au principe de <ref target="https://saintempire.hypotheses.org/publications/glossaire/possessio"><emph>possessio</emph></ref>.</def>
+          <note xml:lang="fra">La variété des traductions actuellement proposées par les juristes montre que la traduction choisie n’est qu’un choix, justement. À vrai dire, il s’agit ici d’un cas où l’utilisation directe de l’expression latine peut se défendre – d’autant qu’elle est, pour un français, d’une compréhension assez directe.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

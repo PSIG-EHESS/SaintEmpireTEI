@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">POSSESSIO</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="possessio">
+        <form>
+          <orth xml:lang="deu">possessio</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">&lt;em&gt;possessio&lt;/em&gt;</quote>
+          <quote type="variante">&lt;em&gt;possession&lt;/em&gt;</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Terme de droit romain appliqué aux choses matérielles, la
+              <emph>possessio</emph> a été élargie en droit canon aux choses immatérielles. Elle
+            désigne un pouvoir ou un droit de disposer d’un objet, fondé sur un usage ininterrompu,
+            et non sur un titre. En droit d’Empire, la <emph>possessio</emph> protège tout droit
+            acquis en fait, aussi longtemps qu’un titre authentique ne peut lui être opposé. La
+            multitude de titres concurrents ou douteux et les lacunes de l’archivage assurent à la
+              <emph>possessio</emph> une force juridique certaine ; l’établissement d’un titre par
+            une sentence est long et difficile malgré le développement de l’érudition, tandis que
+            les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/mandatsprozess"
+              >mandements</ref> de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht"
+              >Chambre de justice Impériale</ref> et du <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichshofrat">Conseil
+              impérial aulique</ref> viennent fréquemment, dès le début des procédures, figer le
+            statu quo. La <emph>possessio</emph> est donc la forme juridique du caractère
+            conservatoire du système impérial favorisant le maintien de tous les privilèges et
+            prérogatives, quelle que soit la fragmentation à laquelle ils aboutissent – maintien
+            réaffirmé par exemple dans la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden"
+              >paix de Westphalie</ref>. La <emph>possessio vel quasi</emph>, prétention de
+            possession non soutenue par l’attestation d’un usage constant et faisant porter la
+            charge de la preuve sur la partie adverse, renforce cette puissance juridique de l’état
+            de fait. La <emph>possessio</emph> joue un rôle majeur dans les innombrables conflits
+            frontaliers, où elle prévaut sur d’autres principes que certains acteurs veulent faire
+            valoir, comme celui de la continuité territoriale (<emph><ref
+                target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+                >territorium clausum</ref></emph>). Dans le domaine confessionnel, en l’absence d’un
+            droit de la diversité ou de la tolérance, elle est l’instrument principal pour résoudre
+            dans la paix les problèmes de répartition entre catholiques et protestants, en les
+            ramenant à certaines prérogatives concrètes formant « l’exercice public » de la
+            religion. Cette importance confessionnelle de la <emph>possessio</emph> atteint son acmé
+            avec la clause de l’<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/normaljahr">année
+              normative</ref>.</def>
+          <note xml:lang="fra">En langage juridique français, la « possession », distinguée de la
+            propriété, fournit une traduction adéquate, équivalant à la distinction allemande entre
+              <emph>Besitz</emph> et <emph>Eigentum</emph>. Mais la jurisprudence en droit d’Empire
+            emploie le mot latin que l’on préfère conserver ici puisque, tout en marquant la
+            spécificité du contexte, il est compréhensible et puisqu’il signale la précision
+            juridique du terme davantage que le mot français « possession », plus flou dans l’usage
+            courant.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

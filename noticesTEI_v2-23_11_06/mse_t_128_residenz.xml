@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">RESIDENZ</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Nathanaël Valdman</name>
+        </respStmt>
+        <author>Nathanaël Valdman</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="residenz">
+        <form>
+          <orth xml:lang="deu">Residenz</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">résidence (princière|royale|etc.)|ville-résidence.</quote>
+          <quote type="variante">ville de résidence.</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">la <emph>Residenz</emph> désigne à l’époque moderne le lieu de séjour
+            régulier d’un prince et de sa cour, et, par extension, la ville qui l’entoure. Les
+            résidences princières se constituent dans le Saint-Empire à la fin du Moyen Âge, lorsque
+            les grands aristocrates quittent leurs châteaux fortifiés (<emph>Burg</emph>) pour
+            installer leur demeure et leur administration dans les villes, et s’imposent à l’époque
+            moderne comme les principaux centres du pouvoir de la haute aristocratie allemande et de
+            la sociabilité entre princes. La résidence constitue le lieu central d’une dynastie,
+            dont l’importance se lit à travers sa place privilégiée dans les itinéraires de la cour,
+            qui y séjourne plus longuement qu’ailleurs, la présence permanente d’une partie ou de la
+            totalité de l’administration du prince et l’aménagement de grands ensembles monumentaux.
+            Elle abrite généralement plusieurs éléments architecturaux caractéristiques comme la
+            nécropole familiale, le portail, la grande salle, les cabinets de curiosités et les
+            jardins. Les fonctions d’administration et de représentation peuvent être concentrées
+            dans un seul lieu ou bien réparties entre plusieurs villes, auxquelles il faut ajouter
+            d’autres résidences, secondaires, intermittentes, de chasse ou d’été. On observe ainsi
+            l’émergence de régions de résidence (<emph>Residenzenlandschaft</emph>), où les princes
+            et leurs cours se déplacent régulièrement de château en château, comme en
+              <placeName>Saxe</placeName> ou au <placeName>Brandebourg</placeName>. La résidence
+            princière entretient des relations étroites avec la ville où loge une partie de la cour
+            et où se concentrent les ressources nécessaires à l’entretien du prince et de son
+            entourage. Les rapports entre la cour et la population des bourgeois sont parfois
+            parcourus de tensions, les princes cherchant à étendre la domination de la résidence sur
+            l’ensemble de l’espace urbain en limitant les prérogatives des autorités municipales. La
+            ville-résidence (<emph>Residenzstadt</emph>) constitue ainsi un type particulier de
+            ville, où les mondes des bourgeois et de la cour sont intégrés ensemble, mais conservent
+            une identité distincte. Les fonctions de pouvoir et l’économie de la cour contribuent au
+            dynamisme des villes de résidence allemandes à l’époque moderne, qui polarisent les
+            richesses et les élites des territoires, mettent en scène la magnificence du prince et
+            jouent un rôle majeur au sein des transferts culturels dans le Saint-Empire. Alors que
+            la hiérarchie urbaine de l’espace germanique est dominée par les villes d’Empire au 16e
+            siècle, ce sont, deux siècles plus tard, les villes de résidence des principaux
+            territoires, comme <placeName>Vienne</placeName>, <placeName>Berlin</placeName>,
+              <placeName>Dresde</placeName> et <placeName>Munich</placeName>, qui s’imposent par
+            leur croissance démographique et leur activité économique. Dans plusieurs cas, la
+            fondation de la résidence par le prince contribue au développement d’une nouvelle ville,
+            organisée autour du château, comme à <placeName>Wolfenbüttel</placeName>,
+              <placeName>Mannheim</placeName>, ou de manière plus spectaculaire encore à
+              <placeName>Karlsruhe</placeName>.</def>
+          <note xml:lang="fra">Contrairement au français qui désigne par « résidence » uniquement le
+            lieu de séjour d’un particulier ou d’un officiel, la <emph>Residenz</emph> désigne en
+            allemand aussi bien le château du prince que la ville dans laquelle il se situe. Nous
+            proposons par conséquent de privilégier le terme de « résidence » pour qualifier le
+            complexe monumental où séjourne la cour princière. Pour l’ensemble de la ville et de son
+            château résidentiel, on parlera plus volontiers de « ville de résidence » ou encore de «
+            ville-résidence ». On rendra ainsi <emph>die Residenz Dresden</emph> par « la
+            ville-résidence de Dresde » plutôt que par « la résidence de Dresde ». L’expression de «
+            ville-résidence » semble également la plus appropriée pour traduire la notion de
+              <emph>Residenzstadt</emph> comme catégorie de ville spécifique.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

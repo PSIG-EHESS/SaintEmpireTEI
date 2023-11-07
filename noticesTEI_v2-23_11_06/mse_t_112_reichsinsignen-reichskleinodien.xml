@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">REICHSINSIGNEN, REICHSKLEINODIEN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="reichsinsignen-reichskleinodien">
+        <form>
+          <orth xml:lang="deu">Reichsinsignen, Reichskleinodien</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">insignes d’Empire|joyaux d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Les insignes et joyaux d’Empire sont les symboles matériels de la
+            dignité impériale. Ils sont inscrits dans la constitution et le droit d’Empire, d’une
+            part parce que le règlement du couronnement est un élément essentiel d’un texte
+            constitutionnel majeur du Saint-Empire, la Bulle d’or de 1356, d’autre part parce que la
+            conservation et le maniement des insignes et joyaux d’Empire sont le socle de nombreux
+            droits, rangs et dignités dans l’Empire. Les archi-offices d’Empire dont sont titulaires
+            les princes-électeurs s’incarnent en particulier dans un ballet bien réglé de
+            circulation d’objets le jour du couronnement, et les villes d’Empire
+              d’<placeName>Aix-la-Chapelle</placeName> et <placeName>Nuremberg</placeName> se
+            disputent sans cesse leurs droits respectifs à conserver et apporter au couronnement
+            insignes et joyaux d’Empire. Ceux-ci sont donc assez nombreux pour satisfaire à toutes
+            ces prérogatives et comprennent également un évangéliaire, un crucifix et d’insignes
+            reliques, comme celles de saint Étienne conservées à
+              <placeName>Aix-la-Chapelle</placeName> ou celles de la sainte lance conservées à
+              <placeName>Nuremberg</placeName>. Quoique l’antiquité carolingienne de ces objets soit
+            de plus en plus mise en doute par l’érudition de l’époque moderne, elle demeure une
+            fiction efficace en affirmant la continuité de l’Empire. La couronne impériale en
+            particulier, datant du règne d’<persName>Otton Ier</persName>, est inchangée depuis le
+            9e siècle. Les 144 grosses perles qui ornent la couronne octogonale et fermée, renvoyant
+            aux 12 portes de la Jérusalem céleste, symbolisent la dimension universelle et
+            eschatologique de l’Empire. Le sceptre, l’épée, le globe – mais aussi les gants, le
+            manteau, la dalmatique, les chaussures – forment un appareil qui fait du nouvel
+            empereur, selon l’expression de <persName>Goethe</persName>, un « fantôme de
+              <persName>Charlemagne</persName> », même s’il est pour beaucoup un reflet de la
+              <placeName>Palerme</placeName> des 12e et 13e siècles.</def>
+          <note xml:lang="fra">Comme toujours, il n’est pas aisé de trancher l’alternative entre
+              <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/kaiser-kaiserlich-reichs-reichisch"
+              >« d’Empire » et « impériaux »</ref>. Ici, on préfère « d’Empire » car les insignes et
+            les joyaux utilisés lors du couronnement sont liés dans la même séquence cérémonielle à
+            l’élection, et ne sont pas conservés par l’empereur. Leur transfert à
+              <placeName>Vienne</placeName> s’effectue après la fin du Saint-Empire. Cette
+            distinction entre joyaux dynastiques des <persName>Habsbourg</persName> et joyaux
+            d’Empire n’est toutefois pas étanche : la couronne dynastique de
+              <persName>Rodolphe</persName> (1602), devenue après 1804 la couronne de l’Empire
+              d’<placeName>Autriche</placeName>, fait par exemple dès l’époque moderne partie de
+            l’arsenal symbolique de représentation du Saint-Empire.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

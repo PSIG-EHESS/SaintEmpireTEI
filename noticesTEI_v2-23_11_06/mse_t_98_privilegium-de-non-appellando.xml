@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">PRIVILEGIUM DE NON APPELLANDO</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="privilegium-de-non-appellando">
+        <form>
+          <orth xml:lang="deu">Privilegium de non appellando</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">&lt;em&gt;privilegium&lt;/em&gt; (ou : privilège) &lt;em&gt;de non appelando&lt;/em&gt;</quote>
+          <quote type="variante">privilège donné à un état d’Empire d’interdire à ses sujets de faire appel auprès des tribunaux d’Empire</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Le droit d’appellation et d’évocation (<emph>Appellations- und
+              Evokationsrecht</emph> ; <emph>jus appelando et jus evocando</emph>) désigne le droit
+            de l’Empereur, juge suprême dans l’Empire, de s’emparer et de décider de tout litige au
+            détriment d’autres pouvoirs juridiques. Dans le contexte d’une opposition grandissante
+            avec les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsstand">états
+              d’Empire</ref>, ce droit fut de plus en plus contesté par les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft"
+              >pouvoirs territoriaux</ref> qui obtinrent finalement que certains procès ne puissent
+            plus – ou seulement sous des conditions particulières – être transférés devant les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichsgerichte"
+              >tribunaux d’Empire</ref>. La plupart des princes les plus puissants obtiennent
+            d’abord des <emph>privilegia de non evocando</emph>
+              (<emph>Nichtevokationsprivilegien</emph>, privilèges de ne pas être soumis au droit
+            d’évocation), parfois dès le 14e siècle (pour les trois électeurs ecclésiastiques et le
+            roi de <placeName>Bohème</placeName> dans la première moitié du siècle, pour les autres
+            princes-électeurs avec la Bulle d’Or en 1356). Dans certains cas, ces privilèges furent
+            complétés par le droit d’interdire aux sujets de se tourner vers les tribunaux d’un
+            autre territoire (<emph>Gerichtsstandprivilegium</emph>, privilège de la compétence
+            judiciaire). Avec l’instauration de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichkammergericht"
+              >Chambre de justice Impériale</ref> en 1495, ces deux privilèges perdirent pourtant
+            leur sens car le règlement du nouveau tribunal stipulait clairement que chaque sujet ne
+            devait être soumis en première instance qu’à la juridiction de son <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/landesherrschaft"
+              >prince territorial</ref>. L’instrument de l’appellation (du latin
+              <emph>appellare</emph>) donnait aux sujets le droit de faire appel auprès des
+            tribunaux d’Empire contre une décision de la justice territoriale à laquelle ils étaient
+            soumis. Il ne s’impose dans l’Empire qu’au cours du 15e siècle et avec la réception du
+            droit romain. Pour contrer ce nouveau rôle de la justice impériale, celui d’une instance
+            de contrôle par rapport aux juridictions territoriales, la plupart des états d’Empire
+            tentent d’obtenir des exceptions à cette règle, les <emph>privilegia de non
+              appellando</emph> (privilèges d’interdire aux sujets de faire appel auprès des
+            tribunaux d’Empire). Ces privilèges pouvaient être illimités (dans ce cas, tout appel
+            était interdit, sauf pour des procès refusés ou délibérément retardés – ce droit
+            supposait généralement l’existence d’une justice territoriale à plusieurs niveaux et
+            donc la possibilité de faire appel auprès d’une cour supérieure de justice territoriale)
+            ou limités (dans ce cas, l’appel était possible pour certaines sortes de conflits ou à
+            partir d’une valeur fixée du litige). Pour faire respecter ces privilèges, dans la salle
+            d’audience de la Chambre de justice impériale, un panneau était fixé au mur avec la
+            liste de tous les états d’Empire qui en jouissaient.</def>
+          <note xml:lang="fra">Le langage juridique allemand de l’époque moderne se référant
+            généralement aux formes latines, il est préférable de ne pas traduire cette formule (ou
+            de traduire seulement le mot <emph>privilegium</emph> = privilège). Si une traduction
+            paraît pourtant inévitable, il ne sera pas possible de recourir à une simple translation
+            littérale (« privilège de ne pas faire appel »), trop imprécise (privilège donné à qui
+            ?, appel par et à qui ?). Il faudrait donc procéder à une explication complète en
+            mettant « privilège donné à un état d’Empire d’interdire à ses sujets de faire appel
+            auprès des tribunaux d’Empire ».</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

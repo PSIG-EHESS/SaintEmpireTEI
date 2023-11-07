@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">UNTERTAN</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Rachel Renault</name>
+        </respStmt>
+        <author>Rachel Renault</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="untertan">
+        <form>
+          <orth xml:lang="deu">Untertan</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">sujet</quote>
+          <quote type="variante">dépendant</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">comme son équivalent latin <emph>subjectus</emph>, « sujet » désigne
+            la personne qui est « placée sous » la dépendance juridique et politique, sociale d’une
+            autorité (<ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/obrigkeit"
+                ><emph>Obrigkeit</emph></ref>, <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/herrschaft"
+                ><emph>Herrschaft</emph></ref>) – seigneuriale, princière ou impériale. Le terme dit
+            donc avant tout la soumission, l’infériorité et la dépendance – là où, à l’inverse, les
+            catégories d’<ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/stand">état</ref>
+              (<emph>Stand</emph>), ou de <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/burger"
+              >bourgeois</ref> (<emph>Bürger</emph>) désignent un groupe défini par l’exercice
+            collectif de droits politiques et de prérogatives. Il revient également à désigner la
+            population d’un territoire ou d’un État à travers son appartenance politique et sa
+            relation aux gouvernants, compte non tenu de l’ensemble des statuts juridiques,
+            politiques, privilèges qui créent au sein du groupe des « sujets » un entrelacs de
+            différences statutaires. Le sujet doit obéissance, fidélité et service (en argent ou en
+            travail) à l’autorité dont il relève, de sorte que leur relation est indissociablement
+            politique et sociale. L’autorité en échange doit au sujet protection. Celle-ci s’entend
+            non seulement comme protection militaire contre les dangers venus de l’extérieur, mais
+            également comme une protection judiciaire – les sujets peuvent pétitionner, transmettre
+            des suppliques et recourir en justice – et comme une protection juridique – l’autorité
+            est garante des coutumes du pays et des privilèges. Le sujet jouit donc de droits
+            politiques, qui sont moindres que ceux du bourgeois ou des états, mais supérieurs à ceux
+            de l’étranger de passage.</def>
+          <note xml:lang="fra">1/ La polysémie très forte du terme « sujet » en français peut, dans
+            certains contextes, prêter à confusion, et conduire à privilégier d’autres traductions
+            qui appuieront la dimension politique et sociale du terme (dépendant, habitant). 2/ Si
+            le substantif est utilisé uniquement pour désigner « <ref
+              target="https://saintempire.hypotheses.org/publications/glossaire/gemeiner-mann"
+              >l’homme du commun</ref> » (<emph>Gemeiner Mann</emph>), l’adjectif correspondant,
+              <emph>untertänig</emph>, est utilisé pour qualifier des rapports sociaux de soumission
+            qui s’étendent bien au-delà des « simples sujets ». On traduit alors ordinairement par «
+            humble », « très humble » (<emph>untertänigst</emph>).</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

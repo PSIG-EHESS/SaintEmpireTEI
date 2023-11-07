@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">TITULARFÜRST</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Falk Bretschneider</name>
+        </respStmt>
+        <author>Falk Bretschneider</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="titularfurst">
+        <form>
+          <orth xml:lang="deu">Titularfürst</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">prince titulaire</quote>
+          <quote type="variante">prince à titre personnel</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">Pour trouver une reconnaissance adéquate au sein de la hiérarchie
+            nobiliaire du Saint-Empire, être <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/gefurstet">élevé au
+              rang de prince</ref> ne suffisait pas ; il fallait également acquérir un <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoire</ref>
+            <ref target="http://saintempire.hypotheses.org/publications/glossaire/reichsunmittelbar"
+              >immédiat</ref>, du moins pour ceux qui n’en avaient pas encore. Autrement dit : sans
+            une telle acquisition, l’élévation de rang restait purement honorifique et son
+            bénéficiaire donc un prince titulaire. Il fallait encore se faire « admettre » parmi les
+            princes à la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichstag"
+              >Diète</ref>, ce qui là encore n’allait pas de soi, les princes plus anciens renâclant
+            à accueillir les nouveaux venus. L’exemple le plus connu de princes titulaires au sein
+            du Saint-Empire est certainement la famille des <persName>Thurn et Taxis</persName>, en
+            possession du fief de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/reichspost">Poste
+              impériale</ref>. Dès 1512, les frères François et Jean Baptiste obtiennent le simple
+            diplôme de noblesse. En 1608, la famille est élevée au rang héréditaire de
+              <emph>Reichsfreiherren</emph> (barons d’Empire), en 1624 à celui de
+              <emph>Reichsgrafen</emph> (comtes d’Empire). Enfin, en 1695, la famille obtient le
+            titre de <emph>Reichsfürsten</emph> (<ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/furst">princes</ref>
+            d’Empire) – mais ce n’est qu’en 1786 que le prince Charles Anselme réussit à acquérir le
+            comté de <placeName>Friedberg</placeName> en <placeName>Souabe</placeName> et donc un
+            territoire propre qui lui permit enfin de cesser d’être simple prince titulaire et de se
+            faire reconnaître comme membre à part entière de la haute noblesse d’Empire.</def>
+          <note xml:lang="fra">/</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

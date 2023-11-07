@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">WAPPENBRIEF</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Jean-Dominique Delle Luche</name>
+        </respStmt>
+        <author>Jean-Dominique Delle Luche</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="wappenbrief">
+        <form>
+          <orth xml:lang="deu">Wappenbrief</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">lettre d’armes</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">lettre patente par laquelle le souverain impérial octroie des armes à
+            un individu ou à une communauté, avec création d’un blason (constitution) et sa
+            description (blasonnement). Ces documents sont généralement manuscrits et illustrés. Les
+            premières lettres d'armes connues pour l’Empire datent du second tiers du 14e
+            siècle.</def>
+          <note xml:lang="fra">la lettre d’armes n’est pas le strict équivalent d’une lettre
+            d’anoblissement, puisqu’elle peut s’appliquer à des communautés urbaines comme à des
+            corporations. Néanmoins, l’anoblissement (sanctionné au moyen d’une réelle lettre
+            d’anoblissement, <emph>Adelsbrief</emph>) ou l’élévation du titre aristocratique (par
+            exemple lorsque les comtes de <placeName>Wurtemberg</placeName> deviennent ducs en 1495)
+            s’accompagne d’une lettre d’armes.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>

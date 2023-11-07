@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="../schemaTEI/02032022/tei_mse.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">GEISTLICHER VORBEHALT</title>
+        <respStmt>
+          <resp xml:lang="fra">Notice originalement rédigée par </resp>
+          <name>Christophe Duhamelle</name>
+        </respStmt>
+        <author>Christophe Duhamelle</author>
+        <respStmt>
+          <resp xml:lang="fra">Notice revisée et éditée par </resp>
+          <name>FB ou CD</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>Ecole des hautes études en sciences sociales</distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC-BY-SA-NC)</licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p xml:lang="fra">Glossaire Les mots du Saint Empire</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"/>
+        <language ident="deu"/>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <list>
+        <item xml:lang="fra">2021-2022: extraction et encodage en TEI automatiques à partir du site https://saintempire.hypotheses.org/publications/glossaire/les-mots-du-saint-empire-liste-des-notices</item>
+        <item xml:lang="fra">2022: relecture et revision des notices</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <entry xml:id="geistlicher-vorbehalt">
+        <form>
+          <orth xml:lang="deu">Geistlicher Vorbehalt</orth>
+        </form>
+        <cit type="translation" xml:lang="fra">
+          <quote type="ppal">réservat ecclésiastique</quote>
+        </cit>
+        <sense>
+          <def xml:lang="fra">L’une des sources les plus abondantes de conflits entre les
+            confessions fut le sort des principautés ecclésiastiques. Bien que la
+              <placeName>Prusse</placeName> fût située hors de l’Empire, la façon dont le dernier
+            Grand-Maître de l’Ordre Teutonique se convertit au luthéranisme et sécularisa en 1525
+            son territoire, le transformant en principauté héréditaire au bénéfice de sa propre
+            dynastie (les <persName>Hohenzollern</persName>) constitua pour les catholiques un
+            exemple répulsif. Les juristes catholiques développèrent donc l’idée qu’un évêque, un
+            abbé etc., élu et non héréditaire, ne possédait pas sa principauté et n’avait donc pas
+            le pouvoir d’y imposer le luthéranisme (puis le calvinisme) ; il devait au contraire
+            abdiquer – c’est le principe du « Réservat ecclésiastique ». Nombreux furent les
+            protestants à professer l’opinion contraire, d’autant que la pénétration des idées
+            luthériennes dans les groupes aristocratiques peuplant les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/domkapitel">chapitres
+              cathédraux</ref> (élisant les évêques) semblait promettre de nombreuses conquêtes pour
+            le camp luthérien. Lors des négociations de la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/augsburger-religionsfrieden"
+              >paix d’Augsbourg</ref> en 1555, ce point constitua une pierre d’achoppement.
+            L’archiduc <persName>Ferdinand</persName> l’inclut dans la paix de sa propre initiative,
+            sans l’accord des protestants. La conversion au protestantisme de deux
+            archevêques-électeurs successifs de <placeName>Cologne</placeName> aiguisa le conflit :
+            la guerre de <placeName>Cologne</placeName>, au cours de laquelle l’électeur
+              <persName>Gebhard Truchsess von Waldburg</persName> fut contraint en 1583 à la fuite
+            et fut remplacé par un prince de la Maison de <placeName>Bavière</placeName> forme ainsi
+            un tournant dans la période postérieure à la Paix et marque le retour au conflit ouvert
+            et aux interventions étrangères (Espagnols). Finalement, la <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/westfalischer-frieden"
+              >paix de Westphalie</ref> sanctionna définitivement la validité du réservat
+            ecclésiastique – qui fut d’ailleurs en quelque sorte étendu à tous les <ref
+              target="http://saintempire.hypotheses.org/publications/glossaire/territorium"
+              >territoires</ref> par la clause de l’<ref
+              target="http://saintempire.hypotheses.org/publications-2/glossaire/normaljahr">année
+              normative</ref>.</def>
+          <note xml:lang="fra">Il est difficile ici d’éviter une traduction un peu absconse, mais
+            sanctionnée par l’usage, car il n’existe pas à proprement parler d’équivalent français.
+            Choisir une autre expression (comme « exception ecclésiastique ») serait donc
+            contre-productif en gommant cette spécificité. Il s’agit donc d’un des nombreux termes
+            où la traduction française ne dispense pas d’une petite explication du sens du
+            mot.</note>
+        </sense>
+      </entry>
+    </body>
+  </text>
+</TEI>
